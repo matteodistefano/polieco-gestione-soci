@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="VwRicercaAziende" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VwRicercaAziende">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="RagioneSociale" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="CodFormaGiuridica" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="CodStato" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="CodInfoStato" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="CodTipoIscrizione" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Associazione" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Indirizzo" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Cap" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Localita" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Provincia" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Regione" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Telefono1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Telefono2" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="UsatoPerSpedizione" msdata:ReadOnly="true" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PartitaIva" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="CodiceFiscale" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="LegaleRappresentante" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="CodCategoria" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="DataInizioAttivita" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DataAdesione" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DataVersamentoUnaTantum" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DataPassaggioCda" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DataAssemblea" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AllegaBilancio" msdata:ReadOnly="true" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DocumentazioneCciaa" msdata:ReadOnly="true" type="xs:boolean" minOccurs="0" />
+              <xs:element name="StatoDichiarazione" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="StatoPagamenti" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="QuotaAdesione" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DescrTelefoni" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="CatAttivitaPrincipale" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="CatAttivitaSecondaria" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="DatiEvento" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

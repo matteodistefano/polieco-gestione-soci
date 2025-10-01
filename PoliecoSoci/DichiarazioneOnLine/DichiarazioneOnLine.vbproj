@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE0D04A0-949E-4CC3-9B56-3057079691DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DichiarazioneOnLine</RootNamespace>
+    <AssemblyName>DichiarazioneOnLine</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DichiarazioneOnLine.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DichiarazioneOnLine.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SD.LLBLGen.Pro.ORMSupportClasses, Version=5.9.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Solutions Design\LLBLGen Pro v5.9\Frameworks\LLBLGen Pro\RuntimeLibraries\CompiledRuntimeLibraries\SD.LLBLGen.Pro.ORMSupportClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Compression.Base, Version=15.3460.0.26, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.XlsIO.Base, Version=15.3460.0.26, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.XlsIO.Windows, Version=15.3460.0.26, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dlgAcquisisciAllegato.Designer.vb">
+      <DependentUpon>dlgAcquisisciAllegato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgAcquisisciAllegato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgElencoAllegato.Designer.vb">
+      <DependentUpon>dlgElencoAllegato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgElencoAllegato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FDichiarazione.Designer.vb">
+      <DependentUpon>FDichiarazione.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FDichiarazione.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dlgAcquisisciAllegato.resx">
+      <DependentUpon>dlgAcquisisciAllegato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgElencoAllegato.resx">
+      <DependentUpon>dlgElencoAllegato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FDichiarazione.resx">
+      <DependentUpon>FDichiarazione.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\mdsUIControls\mdsUIControls.vbproj">
+      <Project>{a31d3d2f-d093-4fb4-860e-e27007672f4b}</Project>
+      <Name>mdsUIControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\mdsUtility\mdsUtility.vbproj">
+      <Project>{e3aa64ad-1785-4049-a663-b9aa54fa0c44}</Project>
+      <Name>mdsUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DAL\DatabaseGeneric\DAL.vbproj">
+      <Project>{3264f300-e7bf-4e15-9954-17bcebe6b232}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK 16 d g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SE Arrow 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SE Arrow 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SE Arrow 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database Check In 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tile Vertically 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tile Vertically 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tile Vertically 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office Block 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office Block 24 h g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office Block 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office Block 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Delete 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Delete 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Delete 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save Blue 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save Blue 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save Blue 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Checkmark 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Checkmark 32 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Checkmark 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert or Warning 1 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert or Warning 1 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert or Warning 2 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invoice 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options 1 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options 1 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options 1 32 n g.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

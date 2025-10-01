@@ -1,0 +1,2459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.0 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.0" TargetFrameworkName="LLBLGen Pro Runtime Framework">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="CleanUpVsNetProjects" Value="true" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="ConnectionString.{$ProviderName}" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="false" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="Matteo Di Stefano" />
+    <Property Name="ProjectName" Value="PoliecoSoci" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value=".\" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="VB.NET" />
+        <PlatformName Value=".NET 4.0" />
+        <PresetName Value="SD.Presets.Adapter.General" />
+        <RootNamespace Value="DAL" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Deprecated" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.NET40" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.SqlServerSpecific" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <EntityModel>
+    <ValueTypeDefinitions />
+    <EntityDefinitions>
+      <EntityDefinition Name="Attivita" ObjectID="509c4cb8-db36-4ab7-97fa-b91826745e79">
+        <Fields>
+          <Field Name="AnnoCorrente" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="AnnoPrecedente" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="CodCategoria" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="CodiceAteco" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="CodTipoAttivita" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="DataFinale" Type="datetime" IsOptional="true" />
+          <Field Name="DataIniziale" Type="datetime" IsOptional="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAzienda" Type="int" Precision="10" />
+          <Field Name="QuantitaAnnoCorrente" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="QuantitaAnnoPrecedente" Type="single" IsOptional="true" Precision="24" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="AttrezzaturaAttivita" ObjectID="6f1e1ce9-c64e-4543-bec4-e97ac60e44ae">
+        <Fields>
+          <Field Name="Altezza" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="CodAttrezzatura" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAttivita" Type="int" Precision="10" />
+          <Field Name="Larghezza" Type="single" IsOptional="true" Precision="24" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Audit" ObjectID="eec88b84-3bbe-417d-ae88-2fa0ceabccea">
+        <Fields>
+          <Field Name="Data" Type="datetime" />
+          <Field Name="Dati" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Ip" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Operazione" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Target" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Username" Type="string" MaxLength="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Azienda" ObjectID="3ebfc2ca-bbe9-4a19-a8b6-a178d44597e2">
+        <Fields>
+          <Field Name="AllegaBilancio" Type="bool" />
+          <Field Name="Associazione" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Cap" Type="string" IsOptional="true" MaxLength="5" />
+          <Field Name="CodCategoria" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="CodFormaGiuridica" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="CodiceFiscale" Type="string" IsOptional="true" MaxLength="16" />
+          <Field Name="CodInfoStato" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="CodStato" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="CodTipoIscrizione" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="DataAdesione" Type="datetime" IsOptional="true" />
+          <Field Name="DataAssemblea" Type="datetime" IsOptional="true" />
+          <Field Name="DataInizioAttivita" Type="datetime" IsOptional="true" />
+          <Field Name="DataPassaggioCda" Type="datetime" IsOptional="true" />
+          <Field Name="DataVersamentoUnaTantum" Type="datetime" IsOptional="true" />
+          <Field Name="DocumentazioneCciaa" Type="bool" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Fax" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Indirizzo" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="LegaleRappresentante" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Localita" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="PartitaIva" Type="string" IsOptional="true" MaxLength="16" />
+          <Field Name="Pec" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Provincia" Type="string" IsOptional="true" MaxLength="5" />
+          <Field Name="QuotaAdesione" Type="decimal" IsOptional="true" Precision="19" Scale="4" />
+          <Field Name="RagioneSociale" Type="string" MaxLength="200" />
+          <Field Name="RagSocPrecedenti" Type="string" IsOptional="true" MaxLength="4000" />
+          <Field Name="Regione" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="SitoWeb" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="StatoDichiarazione" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="StatoPagamenti" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="Telefono1" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Telefono2" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="UsatoPerSpedizione" Type="bool" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="AziendaProdotto" ObjectID="40987ef1-342e-490b-af4e-203f76ebf33c">
+        <Fields>
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAzienda" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="IdProdotto" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="TipoUtilizzo" Type="string" IsOptional="true" MaxLength="1" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Comune" ObjectID="c5e44291-d2fb-4457-9c02-c5471d7d0bfe">
+        <Fields>
+          <Field Name="Cap" Type="string" IsOptional="true" MaxLength="6" />
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="CodProvincia" Type="string" IsOptional="true" MaxLength="3" />
+          <Field Name="Descrizione" Type="string" MaxLength="255" />
+          <Field Name="Estera" Type="bool" IsOptional="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Contatto" ObjectID="d1a4ca83-454b-4025-ae51-436307b53e7d">
+        <Fields>
+          <Field Name="Cellulare" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="CodRuolo" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="CodTitolo" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Fax" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAzienda" Type="int" Precision="10" />
+          <Field Name="Nominativo" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="Telefono" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Ufficio" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Dichiarazione" ObjectID="50ed7d9b-1cb9-40fc-9092-b1b08b1f7470">
+        <Fields>
+          <Field Name="Anno" Type="int" Precision="10" />
+          <Field Name="CodCategoria" Type="string" MaxLength="10" />
+          <Field Name="Codice" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="CodStatoDichiarazione" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="CodStatoPagamento" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="DataFine" Type="datetime" />
+          <Field Name="DataInizio" Type="datetime" />
+          <Field Name="DataPagamento" Type="datetime" IsOptional="true" />
+          <Field Name="DataProroga" Type="datetime" IsOptional="true" />
+          <Field Name="DataRicezione" Type="datetime" IsOptional="true" />
+          <Field Name="DataScadenzaDichiarazione" Type="datetime" />
+          <Field Name="DataScadenzaPagamento" Type="datetime" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAzienda" Type="int" Precision="10" />
+          <Field Name="IdScadenza" Type="int" Precision="10" />
+          <Field Name="ImportoPagato" Type="decimal" IsOptional="true" Precision="19" Scale="4" />
+          <Field Name="ImportoRuolo" Type="decimal" IsOptional="true" Precision="19" Scale="4" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="RifArxivar" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="DichiarazioneOnLine" ObjectID="567a1027-1741-4a79-9da3-12d01c41ad86">
+        <Fields>
+          <Field Name="Anno" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="DataCompilazione" Type="datetime" IsOptional="true" />
+          <Field Name="DataRicevimento" Type="datetime" IsOptional="true" />
+          <Field Name="Dati" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="EsitoAnalisi" Type="string" IsOptional="true" MaxLength="4000" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAzienda" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="IdDichiarazione" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Periodo" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Protocollo" Type="string" MaxLength="50" />
+          <Field Name="Stato" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Utente" Type="string" IsOptional="true" MaxLength="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="EventoAzienda" ObjectID="7bfca418-4920-4401-8f7d-54256553ba49">
+        <Fields>
+          <Field Name="Causale" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="CodEvento" Type="string" MaxLength="50" />
+          <Field Name="CodUtente" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Data" Type="datetime" />
+          <Field Name="DataAvviso" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAzienda" Type="int" Precision="10" />
+          <Field Name="Incaricato" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="IsChiuso" Type="bool" />
+          <Field Name="IsUrgente" Type="bool" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="RifArxivar" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Scadenza" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Segnalazione" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Stato" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Valore" Type="decimal" IsOptional="true" Precision="19" Scale="4" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Incasso" ObjectID="893efcd5-4e2e-4553-bc5c-abb01d4900b0">
+        <Fields>
+          <Field Name="CodModalitaPagamento" Type="string" MaxLength="10" />
+          <Field Name="CodTipo" Type="string" MaxLength="10" />
+          <Field Name="DataEsportazione" Type="datetime" IsOptional="true" />
+          <Field Name="DataInserimento" Type="datetime" />
+          <Field Name="DataPagamento" Type="datetime" IsOptional="true" />
+          <Field Name="DataScadenza" Type="datetime" IsOptional="true" />
+          <Field Name="DataValuta" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdDichiarazione" Type="int" Precision="10" />
+          <Field Name="Importo" Type="decimal" Precision="19" Scale="4" />
+          <Field Name="IsAcconto" Type="bool" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="NumeroRata" Type="short" IsOptional="true" Precision="5" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="LicenzaAzienda" ObjectID="4976eeaf-ad96-4811-9162-152be23c2ae7">
+        <Fields>
+          <Field Name="CodLicenza" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="DataRicevuta" Type="datetime" IsOptional="true" />
+          <Field Name="DataRichiesta" Type="datetime" IsOptional="true" />
+          <Field Name="DataScadenza" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAzienda" Type="int" Precision="10" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="2147483647" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Materiale" ObjectID="17a2c600-83be-4ae7-97e5-5c61210d6dbd">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="50" />
+          <Field Name="CodTipo" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="CodUnitaMisura" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="DataFine" Type="datetime" IsOptional="true" />
+          <Field Name="DataInizio" Type="datetime" IsOptional="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Prezzo" Type="decimal" IsOptional="true" Precision="10" Scale="4" />
+          <Field Name="Utilizzato" Type="bool" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="MaterialeQuadro" ObjectID="fcc07217-b80f-4d76-b4b6-770383911c97">
+        <Fields>
+          <Field Name="IdMateriale" Type="int" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdQuadro" Type="int" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Posizione" Type="string" IsOptional="true" MaxLength="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Parametro" ObjectID="b51fd298-5b06-4946-98b2-d9c5e36f842e">
+        <Fields>
+          <Field Name="Nome" Type="string" MaxLength="100" IsPrimaryKey="true" />
+          <Field Name="Valore" Type="string" IsOptional="true" MaxLength="2147483647" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Prodotto" ObjectID="593972d9-e352-4991-8429-e73d42885625">
+        <Fields>
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdRiferimento" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Livello" Type="int" IsOptional="true" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Provincia" ObjectID="958207ce-adf3-412f-ab6a-ab7545d77aa9">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="3" IsPrimaryKey="true" />
+          <Field Name="CodRegione" Type="string" IsOptional="true" MaxLength="3" />
+          <Field Name="Descrizione" Type="string" MaxLength="100" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Quadro" ObjectID="c0cf737a-2111-4679-874d-bbe440a48222">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" />
+          <Field Name="CodTipo" Type="string" MaxLength="10" />
+          <Field Name="DataFine" Type="datetime" IsOptional="true" />
+          <Field Name="DataInizio" Type="datetime" IsOptional="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Procedura" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Segno" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Utilizzato" Type="bool" />
+        </Fields>
+        <UniqueConstraints>
+          <UniqueConstraint Name="UqQuadroCodice">
+            <Field Name="Codice" />
+          </UniqueConstraint>
+        </UniqueConstraints>
+      </EntityDefinition>
+      <EntityDefinition Name="Regione" ObjectID="756310ef-da09-4dc4-8bb4-50ca86ea5c0a">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="3" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" MaxLength="100" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="RigaDichiarazione" ObjectID="3cdf2d59-3937-4cd2-be75-91a2a1588d58">
+        <Fields>
+          <Field Name="CodQuadro" Type="string" MaxLength="10" />
+          <Field Name="CodUnitaMisura" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdDichiarazione" Type="int" Precision="10" />
+          <Field Name="IdMateriale" Type="int" Precision="10" />
+          <Field Name="Iva" Type="single" Precision="24" />
+          <Field Name="PrezzoUnitario" Type="decimal" Precision="19" Scale="4" />
+          <Field Name="Procedura" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Valore" Type="single" Precision="24" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Riunione" ObjectID="5657bdb2-e730-4da3-884a-a788e6c7caf0">
+        <Fields>
+          <Field Name="Data" Type="datetime" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="Tipo" Type="string" IsOptional="true" MaxLength="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="RuoloUtente" ObjectID="2c0efc15-0090-4ce4-8602-dfdb3b08f6fb">
+        <Fields>
+          <Field Name="CodRuolo" Type="string" MaxLength="20" IsPrimaryKey="true" />
+          <Field Name="UserName" Type="string" MaxLength="20" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Scadenza" ObjectID="97d45ec5-a40c-4f05-a27f-96a4bdca30e9">
+        <Fields>
+          <Field Name="Anno" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="ApplicaInteressi" Type="bool" />
+          <Field Name="CodCategoria" Type="string" MaxLength="10" />
+          <Field Name="Codice" Type="string" MaxLength="20" />
+          <Field Name="CreaAutomatico" Type="bool" />
+          <Field Name="DataFine" Type="datetime" />
+          <Field Name="DataInizio" Type="datetime" />
+          <Field Name="DataScadenzaDichiarazione" Type="datetime" />
+          <Field Name="DataScadenzaPagamento" Type="datetime" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="RifPeriodo" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="TassoInteresse" Type="single" IsOptional="true" Precision="24" />
+        </Fields>
+        <UniqueConstraints>
+          <UniqueConstraint Name="UqScadCodice">
+            <Field Name="Codice" />
+          </UniqueConstraint>
+        </UniqueConstraints>
+      </EntityDefinition>
+      <EntityDefinition Name="Sede" ObjectID="a5468bbf-5240-44fc-ad23-bafd9208e1f0">
+        <Fields>
+          <Field Name="Cap" Type="string" IsOptional="true" MaxLength="5" />
+          <Field Name="CodTipoSede" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Fax" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAzienda" Type="int" Precision="10" />
+          <Field Name="Indirizzo" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Localita" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Provincia" Type="string" IsOptional="true" MaxLength="3" />
+          <Field Name="Regione" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Telefono1" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Telefono2" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="UsatoPerSpedizione" Type="bool" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Utente" ObjectID="60d2de23-3814-4328-b5ab-027c1809df0e">
+        <Fields>
+          <Field Name="ArxivarPassword" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="ArxivarUserId" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Cellulare" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="CompanyKey" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="DataAccesso" Type="datetime" IsOptional="true" />
+          <Field Name="DataRegistrazione" Type="datetime" IsOptional="true" />
+          <Field Name="DataRilascioPassword" Type="datetime" IsOptional="true" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="IsAttivo" Type="bool" />
+          <Field Name="Nome" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="NumeroAccessi" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Password" Type="byte[]" IsOptional="true" MaxLength="20" />
+          <Field Name="PasswordProvvisoria" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Telefono" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="UserName" Type="string" MaxLength="20" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Allegato" GroupName="Allegati" ObjectID="26bab1b0-8e00-4c9e-ae39-ded70b99a61b">
+        <Fields>
+          <Field Name="Anno" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="CategoriaAzienda" Type="string" IsOptional="true" MaxLength="1" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAzienda" Type="int" Precision="10" />
+          <Field Name="IdDichiarazione" Type="int" Precision="10" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="1000" />
+          <Field Name="Periodo" Type="string" IsOptional="true" MaxLength="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="AziendaAllegato" GroupName="Allegati" ObjectID="c170c538-bd1d-43c9-9690-3fa4fc70943e">
+        <Fields>
+          <Field Name="Cap" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdSocio" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Indirizzo" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Localita" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Nazione" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="1000" />
+          <Field Name="PartitaIva" Type="string" MaxLength="20" />
+          <Field Name="Provincia" Type="string" IsOptional="true" MaxLength="3" />
+          <Field Name="RagioneSociale" Type="string" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="CodiciCer" GroupName="Allegati" ObjectID="1b7db9d1-9dcf-4262-b8ea-07e8755644eb">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="20" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" MaxLength="500" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="DettaglioAllegato" GroupName="Allegati" ObjectID="4ab364ac-78fd-4973-a15e-89736c5cd421">
+        <Fields>
+          <Field Name="CodiceCer" Type="string" MaxLength="20" />
+          <Field Name="ContributoApplicato" Type="decimal" IsOptional="true" Precision="19" Scale="4" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdAllegato" Type="int" Precision="10" />
+          <Field Name="IdAziendaAllegato" Type="int" Precision="10" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="1000" />
+          <Field Name="Quantita" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="RuoloAziendaAllegato" Type="string" IsOptional="true" MaxLength="1" />
+          <Field Name="UnitaMisura" Type="string" IsOptional="true" MaxLength="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="AliquotaIva" GroupName="Lookup" ObjectID="d7dd2339-1258-4195-a3df-1a3c6a37bb49">
+        <Fields>
+          <Field Name="DataFinale" Type="datetime" IsOptional="true" FieldIndex="2" />
+          <Field Name="DataIniziale" Type="datetime" IsOptional="true" FieldIndex="1" />
+          <Field Name="Valore" Type="single" Precision="24" IsPrimaryKey="true" FieldIndex="0" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Categoria" GroupName="Lookup" ObjectID="5340bacc-8b85-40de-90b9-3db81d2f5ebc">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Evento" GroupName="Lookup" ObjectID="739d131e-a5d8-4a86-af7f-1a769496e12f">
+        <Fields>
+          <Field Name="CodEventoPrecedente" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Codice" Type="string" MaxLength="50" IsPrimaryKey="true" />
+          <Field Name="CodStato" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Nome" Type="string" MaxLength="100" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="FormaGiuridica" GroupName="Lookup" ObjectID="aa30cc20-b943-4346-948c-23521bdc7ef5">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="InfoStato" GroupName="Lookup" ObjectID="e7ed54d7-2f96-4c96-b3e7-cfec84d4efda">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="ModalitaPagamento" GroupName="Lookup" ObjectID="4d09f993-82b7-4a2b-993e-7efcd291131a">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="QuotaAdesione" GroupName="Lookup" ObjectID="281f8a7b-407b-4e97-86f4-a76ddd057d92">
+        <Fields>
+          <Field Name="Codice" Type="decimal" Precision="19" Scale="4" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="RuoloContatto" GroupName="Lookup" ObjectID="fc45fc98-2640-4225-825e-74e13f43d281">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="StatoSocio" GroupName="Lookup" ObjectID="ead52da4-a83c-41e7-a7f2-08933113d24a">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TipoAttivita" GroupName="Lookup" ObjectID="f1003668-0a78-40df-841b-1b0515929d9d">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TipoAttrezzatura" GroupName="Lookup" ObjectID="845ae2e3-bee9-44c8-a5e7-7a424fa5a6f5">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TipoLicenza" GroupName="Lookup" ObjectID="9bd7b116-ae5f-49a2-a084-a1f09bdc25c4">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TipoMateriale" GroupName="Lookup" ObjectID="b72f225f-0447-4dce-ac31-f12ada43e925">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="20" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TipoQuadro" GroupName="Lookup" ObjectID="29c1930f-7283-4bdd-afaf-ade38b2ff215">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TipoSede" GroupName="Lookup" ObjectID="0056fc6f-f0a6-4c48-bfc7-296e68747027">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TipoSocio" GroupName="Lookup" ObjectID="5d0672ca-7d52-4d71-adeb-6f9be152ceeb">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TitoloContatto" GroupName="Lookup" ObjectID="e450da12-8ea8-4ee7-a072-43ffd96079d8">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="UnitaMisura" GroupName="Lookup" ObjectID="9f2098b7-dc50-432e-957a-e5f17db4d89c">
+        <Fields>
+          <Field Name="Codice" Type="string" MaxLength="10" IsPrimaryKey="true" />
+          <Field Name="Descrizione" Type="string" IsOptional="true" MaxLength="200" />
+        </Fields>
+      </EntityDefinition>
+    </EntityDefinitions>
+    <Relationships>
+      <NormalRelationship Name="Allegati.Allegato.Azienda-Azienda.Allegatos" Start="Allegati:Allegato" End=":Azienda" StartNavigator="Azienda" EndNavigator="Allegatos" Type="1" StartIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAzienda" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Allegati.Allegato.Dichiarazione-Dichiarazione.Allegato" Start="Allegati:Allegato" End=":Dichiarazione" StartNavigator="Dichiarazione" EndNavigator="Allegato" Type="1" StartIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdDichiarazione" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Allegati.AziendaAllegato.Azienda-Azienda.AziendaAllegato" Start="Allegati:AziendaAllegato" End=":Azienda" StartNavigator="Azienda" EndNavigator="AziendaAllegato" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdSocio" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Allegati.DettaglioAllegato.Allegato-Allegati.Allegato.Dettaglio" Start="Allegati:DettaglioAllegato" End="Allegati:Allegato" StartNavigator="Allegato" EndNavigator="Dettaglio" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAllegato" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Allegati.DettaglioAllegato.AziendaAllegato-Allegati.AziendaAllegato.DettagliAllegati" Start="Allegati:DettaglioAllegato" End="Allegati:AziendaAllegato" StartNavigator="AziendaAllegato" EndNavigator="DettagliAllegati" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAziendaAllegato" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Allegati.DettaglioAllegato.CodiciCer-Allegati.CodiciCer.DettagliAllegati" Start="Allegati:DettaglioAllegato" End="Allegati:CodiciCer" StartNavigator="CodiciCer" EndNavigator="DettagliAllegati" Type="4" UpdateRuleAction="1" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodiceCer" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Attivita.Azienda-Azienda.Attivita" Start=":Attivita" End=":Azienda" StartNavigator="Azienda" EndNavigator="Attivita" Type="4" UpdateRuleAction="1" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAzienda" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Attivita.TipoAttivita-Lookup.TipoAttivita.Attivita" Start=":Attivita" End="Lookup:TipoAttivita" StartNavigator="TipoAttivita" EndNavigator="Attivita" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodTipoAttivita" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="AttrezzaturaAttivita.Attivita-Attivita.Attrezzature" Start=":AttrezzaturaAttivita" End=":Attivita" StartNavigator="Attivita" EndNavigator="Attrezzature" Type="4" UpdateRuleAction="1" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAttivita" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="AttrezzaturaAttivita.TipoAttrezzatura-Lookup.TipoAttrezzatura.AttrezzatureAttivita" Start=":AttrezzaturaAttivita" End="Lookup:TipoAttrezzatura" StartNavigator="TipoAttrezzatura" EndNavigator="AttrezzatureAttivita" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodAttrezzatura" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Azienda.Categoria-Lookup.Categoria.Aziende" Start=":Azienda" End="Lookup:Categoria" StartNavigator="Categoria" EndNavigator="Aziende" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodCategoria" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Azienda.FormaGiuridica-Lookup.FormaGiuridica.Aziende" Start=":Azienda" End="Lookup:FormaGiuridica" StartNavigator="FormaGiuridica" EndNavigator="Aziende" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodFormaGiuridica" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Azienda.InfoStato-Lookup.InfoStato.Aziende" Start=":Azienda" End="Lookup:InfoStato" StartNavigator="InfoStato" EndNavigator="Aziende" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodInfoStato" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Azienda.StatoSocio-Lookup.StatoSocio.Aziende" Start=":Azienda" End="Lookup:StatoSocio" StartNavigator="StatoSocio" EndNavigator="Aziende" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodStato" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Azienda.TipoSocio-Lookup.TipoSocio.Aziende" Start=":Azienda" End="Lookup:TipoSocio" StartNavigator="TipoSocio" EndNavigator="Aziende" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodTipoIscrizione" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="AziendaProdotto.Azienda-Azienda.AziendaProdotti" Start=":AziendaProdotto" End=":Azienda" StartNavigator="Azienda" EndNavigator="AziendaProdotti" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAzienda" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="AziendaProdotto.Prodotto-Prodotto.AziendaProdotti" Start=":AziendaProdotto" End=":Prodotto" StartNavigator="Prodotto" EndNavigator="AziendaProdotti" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdProdotto" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Comune.Provincia-Provincia.Comuni" Start=":Comune" End=":Provincia" StartNavigator="Provincia" EndNavigator="Comuni" Type="4" EndIsOptional="true" UpdateRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodProvincia" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Contatto.Azienda-Azienda.Contatti" Start=":Contatto" End=":Azienda" StartNavigator="Azienda" EndNavigator="Contatti" Type="4" UpdateRuleAction="1" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAzienda" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Contatto.RuoloContatto-Lookup.RuoloContatto.Contatti" Start=":Contatto" End="Lookup:RuoloContatto" StartNavigator="RuoloContatto" EndNavigator="Contatti" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodRuolo" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Contatto.TitoloContatto-Lookup.TitoloContatto.Contatti" Start=":Contatto" End="Lookup:TitoloContatto" StartNavigator="TitoloContatto" EndNavigator="Contatti" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodTitolo" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Dichiarazione.Azienda-Azienda.Dichiarazioni" Start=":Dichiarazione" End=":Azienda" StartNavigator="Azienda" EndNavigator="Dichiarazioni" Type="4" UpdateRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAzienda" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Dichiarazione.Scadenza-Scadenza.Dichiaraziones" Start=":Dichiarazione" End=":Scadenza" StartNavigator="Scadenza" EndNavigator="Dichiaraziones" Type="4" UpdateRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdScadenza" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="DichiarazioneOnLine.Azienda-Azienda.DichiarazioneOnLines" Start=":DichiarazioneOnLine" End=":Azienda" StartNavigator="Azienda" EndNavigator="DichiarazioneOnLines" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAzienda" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="DichiarazioneOnLine.Dichiarazione-Dichiarazione.DichiarazioniOnLine" Start=":DichiarazioneOnLine" End=":Dichiarazione" StartNavigator="Dichiarazione" EndNavigator="DichiarazioniOnLine" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdDichiarazione" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="EventoAzienda.Azienda-Azienda.Eventi" Start=":EventoAzienda" End=":Azienda" StartNavigator="Azienda" EndNavigator="Eventi" Type="4" UpdateRuleAction="1" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAzienda" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Incasso.Dichiarazione-Dichiarazione.Incassi" Start=":Incasso" End=":Dichiarazione" StartNavigator="Dichiarazione" EndNavigator="Incassi" Type="4" UpdateRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdDichiarazione" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="LicenzaAzienda.Azienda-Azienda.Licenze" Start=":LicenzaAzienda" End=":Azienda" StartNavigator="Azienda" EndNavigator="Licenze" Type="4" UpdateRuleAction="1" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAzienda" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="LicenzaAzienda.TipoLicenza-Lookup.TipoLicenza.LicenzeAziende" Start=":LicenzaAzienda" End="Lookup:TipoLicenza" StartNavigator="TipoLicenza" EndNavigator="LicenzeAziende" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodLicenza" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Lookup.Evento.EventoPadre-Lookup.Evento.EventiFigli" Start="Lookup:Evento" End="Lookup:Evento" StartNavigator="EventoPadre" EndNavigator="EventiFigli" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodEventoPrecedente" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Materiale.TipoMateriale-Lookup.TipoMateriale.Materiales" Start=":Materiale" End="Lookup:TipoMateriale" StartNavigator="TipoMateriale" EndNavigator="Materiales" Type="4" EndIsOptional="true" UpdateRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodTipo" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Materiale.UnitaMisura-Lookup.UnitaMisura.Materiales" Start=":Materiale" End="Lookup:UnitaMisura" StartNavigator="UnitaMisura" EndNavigator="Materiales" Type="4" EndIsOptional="true" UpdateRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodUnitaMisura" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="MaterialeQuadro.Materiale-Materiale.MaterialeQuadri" Start=":MaterialeQuadro" End=":Materiale" StartNavigator="Materiale" EndNavigator="MaterialeQuadri" Type="4" UpdateRuleAction="1" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdMateriale" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="MaterialeQuadro.Quadro-Quadro.MaterialiQuadro" Start=":MaterialeQuadro" End=":Quadro" StartNavigator="Quadro" EndNavigator="MaterialiQuadro" Type="4" UpdateRuleAction="1" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdQuadro" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Prodotto.ProdottoPadre-Prodotto.SottoProdotti" Start=":Prodotto" End=":Prodotto" StartNavigator="ProdottoPadre" EndNavigator="SottoProdotti" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdRiferimento" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Provincia.Regione-Regione.Provincie" Start=":Provincia" End=":Regione" StartNavigator="Regione" EndNavigator="Provincie" Type="4" EndIsOptional="true" UpdateRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodRegione" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Quadro.TipoQuadro-Lookup.TipoQuadro.Quadri" Start=":Quadro" End="Lookup:TipoQuadro" StartNavigator="TipoQuadro" EndNavigator="Quadri" Type="4" UpdateRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodTipo" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="RigaDichiarazione.Dichiarazione-Dichiarazione.RigheDettaglio" Start=":RigaDichiarazione" End=":Dichiarazione" StartNavigator="Dichiarazione" EndNavigator="RigheDettaglio" Type="4" UpdateRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdDichiarazione" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="RigaDichiarazione.Materiale-Materiale.RigheDichiarazioni" Start=":RigaDichiarazione" End=":Materiale" StartNavigator="Materiale" EndNavigator="RigheDichiarazioni" Type="4" UpdateRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdMateriale" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="RuoloUtente.Utente-Utente.Ruoli" Start=":RuoloUtente" End=":Utente" StartNavigator="Utente" EndNavigator="Ruoli" Type="4" UpdateRuleAction="1" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="UserName" PkField="UserName" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Sede.Azienda-Azienda.Sedi" Start=":Sede" End=":Azienda" StartNavigator="Azienda" EndNavigator="Sedi" Type="4" UpdateRuleAction="1" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdAzienda" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Sede.TipoSede-Lookup.TipoSede.Sedi" Start=":Sede" End="Lookup:TipoSede" StartNavigator="TipoSede" EndNavigator="Sedi" Type="4" EndIsOptional="true" UpdateRuleAction="1" DeleteRuleAction="3">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CodTipoSede" PkField="Codice" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <IndirectRelationship Start=":Quadro" End=":Materiale" StartNavigator="Materiali" EndNavigator="Quadri" Relationship1="MaterialeQuadro.Quadro-Quadro.MaterialiQuadro" Relationship2="MaterialeQuadro.Materiale-Materiale.MaterialeQuadri" />
+    </Relationships>
+    <InheritanceHierarchies />
+  </EntityModel>
+  <TypedListDefinitions>
+    <TypedListDefinition Name="LstSoci">
+      <EntityAliases>
+        <EntityAlias Entity=":Azienda" />
+      </EntityAliases>
+      <Fields>
+        <Field FieldAlias="AllegaBilancio" TargetField="Azienda.AllegaBilancio" />
+        <Field FieldAlias="Associazione" TargetField="Azienda.Associazione" />
+        <Field FieldAlias="Cap" TargetField="Azienda.Cap" />
+        <Field FieldAlias="CodCategoria" Caption="Categoria" TargetField="Azienda.CodCategoria" />
+        <Field FieldAlias="CodiceFiscale" TargetField="Azienda.CodiceFiscale" />
+        <Field FieldAlias="DataAdesione" TargetField="Azienda.DataAdesione" />
+        <Field FieldAlias="DataAssemblea" TargetField="Azienda.DataAssemblea" />
+        <Field FieldAlias="DataInizioAttivita" TargetField="Azienda.DataInizioAttivita" />
+        <Field FieldAlias="DataPassaggioCda" TargetField="Azienda.DataPassaggioCda" />
+        <Field FieldAlias="DataVersamentoUnaTantum" TargetField="Azienda.DataVersamentoUnaTantum" />
+        <Field FieldAlias="DocumentazioneCciaa" TargetField="Azienda.DocumentazioneCciaa" />
+        <Field FieldAlias="Email" TargetField="Azienda.Email" />
+        <Field FieldAlias="Fax" TargetField="Azienda.Fax" />
+        <Field FieldAlias="Id" TargetField="Azienda.Id" />
+        <Field FieldAlias="Indirizzo" TargetField="Azienda.Indirizzo" />
+        <Field FieldAlias="CodInfoStato" Caption="InfoStato" TargetField="Azienda.CodInfoStato" />
+        <Field FieldAlias="LegaleRappresentante" TargetField="Azienda.LegaleRappresentante" />
+        <Field FieldAlias="Localita" TargetField="Azienda.Localita" />
+        <Field FieldAlias="PartitaIva" TargetField="Azienda.PartitaIva" />
+        <Field FieldAlias="Provincia" TargetField="Azienda.Provincia" />
+        <Field FieldAlias="QuotaAdesione" TargetField="Azienda.QuotaAdesione" />
+        <Field FieldAlias="RagioneSociale" TargetField="Azienda.RagioneSociale" />
+        <Field FieldAlias="Regione" TargetField="Azienda.Regione" />
+        <Field FieldAlias="CodStato" Caption="Stato" TargetField="Azienda.CodStato" />
+        <Field FieldAlias="StatoDichiarazione" TargetField="Azienda.StatoDichiarazione" />
+        <Field FieldAlias="StatoPagamenti" TargetField="Azienda.StatoPagamenti" />
+        <Field FieldAlias="Telefono1" TargetField="Azienda.Telefono1" />
+        <Field FieldAlias="Telefono2" TargetField="Azienda.Telefono2" />
+        <Field FieldAlias="CodTipoIscrizione" Caption="TipoIscrizione" TargetField="Azienda.CodTipoIscrizione" />
+        <Field FieldAlias="CodFormaGiuridica" Caption="TipoSocieta" TargetField="Azienda.CodFormaGiuridica" />
+        <Field FieldAlias="UsatoPerSpedizione" TargetField="Azienda.UsatoPerSpedizione" />
+      </Fields>
+    </TypedListDefinition>
+  </TypedListDefinitions>
+  <TypedViewDefinitions>
+    <TypedViewDefinition Name="VwPassaggioAssemblea" ObjectID="f4a0ec0e-4e2e-4b5e-b548-def04692a941">
+      <Fields>
+        <Field Name="CodCategoria" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="CodiceFiscale" Type="string" IsOptional="true" MaxLength="16" />
+        <Field Name="DataPassaggioCda" Type="datetime" IsOptional="true" />
+        <Field Name="Id" Type="int" Precision="10" />
+        <Field Name="Localita" Type="string" IsOptional="true" MaxLength="100" />
+        <Field Name="Motivo" Type="string" MaxLength="6" />
+        <Field Name="PartitaIva" Type="string" IsOptional="true" MaxLength="16" />
+        <Field Name="Provincia" Type="string" IsOptional="true" MaxLength="5" />
+        <Field Name="RagioneSociale" Type="string" IsOptional="true" MaxLength="2147483647" />
+      </Fields>
+    </TypedViewDefinition>
+    <TypedViewDefinition Name="VwPassaggioCda" ObjectID="083e77f1-49ae-4b6b-b544-bb6a7ad3e3d6">
+      <Fields>
+        <Field Name="CodCategoria" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="CodiceFiscale" Type="string" IsOptional="true" MaxLength="16" />
+        <Field Name="Id" Type="int" Precision="10" />
+        <Field Name="Localita" Type="string" IsOptional="true" MaxLength="100" />
+        <Field Name="Motivo" Type="string" MaxLength="6" />
+        <Field Name="PartitaIva" Type="string" IsOptional="true" MaxLength="16" />
+        <Field Name="Provincia" Type="string" IsOptional="true" MaxLength="5" />
+        <Field Name="RagioneSociale" Type="string" IsOptional="true" MaxLength="2147483647" />
+      </Fields>
+    </TypedViewDefinition>
+    <TypedViewDefinition Name="VwRicercaAziende" ObjectID="58649eec-695e-49fc-ac86-7f10c2346536">
+      <Fields>
+        <Field Name="AllegaBilancio" Type="bool" />
+        <Field Name="Associazione" Type="string" IsOptional="true" MaxLength="50" />
+        <Field Name="Cap" Type="string" IsOptional="true" MaxLength="5" />
+        <Field Name="CatAttivitaPrincipale" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="CatAttivitaSecondaria" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="CodCategoria" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="CodFormaGiuridica" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="CodiceFiscale" Type="string" IsOptional="true" MaxLength="16" />
+        <Field Name="CodInfoStato" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="CodRegione" Type="string" IsOptional="true" MaxLength="3" />
+        <Field Name="CodStato" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="CodTipoIscrizione" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="DataAdesione" Type="datetime" IsOptional="true" />
+        <Field Name="DataAssemblea" Type="datetime" IsOptional="true" />
+        <Field Name="DataInizioAttivita" Type="datetime" IsOptional="true" />
+        <Field Name="DataPassaggioCda" Type="datetime" IsOptional="true" />
+        <Field Name="DataVersamentoUnaTantum" Type="datetime" IsOptional="true" />
+        <Field Name="DescrTelefoni" Type="string" IsOptional="true" MaxLength="101" />
+        <Field Name="DocumentazioneCciaa" Type="bool" />
+        <Field Name="Email" Type="string" IsOptional="true" MaxLength="100" />
+        <Field Name="Fax" Type="string" IsOptional="true" MaxLength="50" />
+        <Field Name="Id" Type="int" Precision="10" />
+        <Field Name="Indirizzo" Type="string" IsOptional="true" MaxLength="500" />
+        <Field Name="LegaleRappresentante" Type="string" IsOptional="true" MaxLength="200" />
+        <Field Name="Localita" Type="string" IsOptional="true" MaxLength="100" />
+        <Field Name="PartitaIva" Type="string" IsOptional="true" MaxLength="16" />
+        <Field Name="Provincia" Type="string" IsOptional="true" MaxLength="5" />
+        <Field Name="QuotaAdesione" Type="decimal" IsOptional="true" Precision="19" Scale="4" />
+        <Field Name="RagioneSociale" Type="string" MaxLength="200" />
+        <Field Name="RagSocPrecedenti" Type="string" IsOptional="true" MaxLength="4000" />
+        <Field Name="Regione" Type="string" IsOptional="true" MaxLength="50" />
+        <Field Name="StatoDichiarazione" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="StatoPagamenti" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="Telefono1" Type="string" IsOptional="true" MaxLength="50" />
+        <Field Name="Telefono2" Type="string" IsOptional="true" MaxLength="50" />
+        <Field Name="UsatoPerSpedizione" Type="bool" />
+      </Fields>
+    </TypedViewDefinition>
+    <TypedViewDefinition Name="VwRicercaQuantitativi" ObjectID="0f90e7b3-b95b-48e8-a096-49c69318f239">
+      <Fields>
+        <Field Name="Anno" Type="int" Precision="10" />
+        <Field Name="CodCategoria" Type="string" IsOptional="true" MaxLength="10" />
+        <Field Name="CodTipo" Type="string" IsOptional="true" MaxLength="20" />
+        <Field Name="Id" Type="int" Precision="10" />
+        <Field Name="IdAzienda" Type="int" Precision="10" />
+        <Field Name="Provincia" Type="string" IsOptional="true" MaxLength="5" />
+        <Field Name="RagioneSociale" Type="string" MaxLength="200" />
+        <Field Name="Regione" Type="string" IsOptional="true" MaxLength="50" />
+        <Field Name="Valorekg" Type="double" IsOptional="true" Precision="38" />
+      </Fields>
+    </TypedViewDefinition>
+  </TypedViewDefinitions>
+  <SPCallDefinitions>
+    <SPCallDefinition Name="GetLibroSoci" ObjectID="82aa42fa-c853-4f10-b30a-89bb2305fb33">
+      <Parameters>
+        <Parameter Name="DataAssemblea" Type="datetime" />
+      </Parameters>
+    </SPCallDefinition>
+  </SPCallDefinitions>
+  <TargetDatabases>
+    <TargetDatabase Type="2D18D138-1DD2-467E-86CC-4838250611AE" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value=".\ss2014" />
+        <ConnectionElement Name="CatalogName" Value="master" />
+        <ConnectionElement Name="UseWindowsAuthentication" Value="true" />
+        <ConnectionElement Name="UserID" Value="" />
+        <ConnectionElement Name="Password" Value="" />
+      </ConnectionElements>
+      <SystemSequences>
+        <Sequence Name="SCOPE_IDENTITY()" />
+        <Sequence Name="@@IDENTITY" />
+      </SystemSequences>
+      <Catalogs>
+        <Catalog Name="SociPolieco">
+          <Schemas>
+            <Schema Name="Allegati" SyncSource="2" LastSyncWithDatabase="2017-05-07T09:33:32.8941558Z">
+              <Tables>
+                <Table Name="Allegato">
+                  <PkConstraintName Name="PK__Allegato__3214EC07AF6380CA" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdDichiarazione" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="IdAzienda" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="CategoriaAzienda" Ordinal="4" IsOptional="true" DbType="3" Length="1" />
+                    <Field Name="Anno" Ordinal="5" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="Periodo" Ordinal="6" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="Note" Ordinal="7" IsOptional="true" DbType="24" Length="1000" />
+                  </Fields>
+                </Table>
+                <Table Name="AziendaAllegato">
+                  <PkConstraintName Name="PK__AziendaA__3214EC0736F5F6DD" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="RagioneSociale" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="PartitaIva" Ordinal="3" DbType="24" Length="20" />
+                    <Field Name="Indirizzo" Ordinal="4" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="Localita" Ordinal="5" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="Cap" Ordinal="6" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Provincia" Ordinal="7" IsOptional="true" DbType="24" Length="3" />
+                    <Field Name="Nazione" Ordinal="8" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Note" Ordinal="9" IsOptional="true" DbType="24" Length="1000" />
+                    <Field Name="IdSocio" Ordinal="10" IsOptional="true" DbType="8" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="CodiciCER">
+                  <PkConstraintName Name="PK__CodiciCE__0636EC1C33FC8D96" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="20" />
+                    <Field Name="Descrizione" Ordinal="2" DbType="24" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="DettaglioAllegato">
+                  <PkConstraintName Name="PK__Dettagli__3214EC0720CDA9DC" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdAllegato" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="IdAziendaAllegato" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="RuoloAziendaAllegato" Ordinal="4" IsOptional="true" DbType="3" Length="1" />
+                    <Field Name="UnitaMisura" Ordinal="5" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Quantita" Ordinal="6" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="ContributoApplicato" Ordinal="7" IsOptional="true" DbType="9" Precision="19" Scale="4" />
+                    <Field Name="CodiceCER" Ordinal="8" DbType="24" Length="20" />
+                    <Field Name="Note" Ordinal="9" IsOptional="true" DbType="24" Length="1000" />
+                  </Fields>
+                </Table>
+              </Tables>
+            </Schema>
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2017-05-07T09:33:32.9944388Z">
+              <Tables>
+                <Table Name="Attivita">
+                  <PkConstraintName Name="PK__Attivita__151B244E" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdAzienda" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="DataIniziale" Ordinal="3" IsOptional="true" DbType="15" />
+                    <Field Name="DataFinale" Ordinal="4" IsOptional="true" DbType="15" />
+                    <Field Name="CodiceAteco" Ordinal="5" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodTipoAttivita" Ordinal="6" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodCategoria" Ordinal="7" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="8" IsOptional="true" DbType="24" Length="2147483647" />
+                    <Field Name="QuantitaAnnoPrecedente" Ordinal="9" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="QuantitaAnnoCorrente" Ordinal="10" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="AnnoPrecedente" Ordinal="11" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="AnnoCorrente" Ordinal="12" IsOptional="true" DbType="8" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="AttrezzaturaAttivita">
+                  <PkConstraintName Name="PK__AttrezzaturaAtti__1DB06A4F" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdAttivita" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="CodAttrezzatura" Ordinal="3" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Altezza" Ordinal="4" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="Larghezza" Ordinal="5" IsOptional="true" DbType="14" Precision="24" />
+                  </Fields>
+                </Table>
+                <Table Name="Audit">
+                  <PkConstraintName Name="PK__Audit__3E1D39E1" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="data" Ordinal="2" DbType="4" />
+                    <Field Name="username" Ordinal="3" DbType="24" Length="20" />
+                    <Field Name="ip" Ordinal="4" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="operazione" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="target" Ordinal="6" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="dati" Ordinal="7" IsOptional="true" DbType="24" Length="2000" />
+                  </Fields>
+                </Table>
+                <Table Name="Azienda">
+                  <PkConstraintName Name="PK__Azienda__09A971A2" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="RagioneSociale" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="CodFormaGiuridica" Ordinal="3" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodStato" Ordinal="4" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodInfoStato" Ordinal="5" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodTipoIscrizione" Ordinal="6" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Associazione" Ordinal="7" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Indirizzo" Ordinal="8" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="Cap" Ordinal="9" IsOptional="true" DbType="24" Length="5" />
+                    <Field Name="Localita" Ordinal="10" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="Provincia" Ordinal="11" IsOptional="true" DbType="24" Length="5" />
+                    <Field Name="Regione" Ordinal="12" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Telefono1" Ordinal="13" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Telefono2" Ordinal="14" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Fax" Ordinal="15" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UsatoPerSpedizione" Ordinal="16" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="PartitaIVA" Ordinal="17" IsOptional="true" DbType="24" Length="16" />
+                    <Field Name="CodiceFiscale" Ordinal="18" IsOptional="true" DbType="24" Length="16" />
+                    <Field Name="Email" Ordinal="19" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="LegaleRappresentante" Ordinal="20" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="CodCategoria" Ordinal="21" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="DataInizioAttivita" Ordinal="22" IsOptional="true" DbType="15" />
+                    <Field Name="DataAdesione" Ordinal="23" IsOptional="true" DbType="15" />
+                    <Field Name="DataVersamentoUnaTantum" Ordinal="24" IsOptional="true" DbType="15" />
+                    <Field Name="DataPassaggioCDA" Ordinal="25" IsOptional="true" DbType="15" />
+                    <Field Name="DataAssemblea" Ordinal="26" IsOptional="true" DbType="15" />
+                    <Field Name="AllegaBilancio" Ordinal="27" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="DocumentazioneCCIAA" Ordinal="28" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="StatoDichiarazione" Ordinal="29" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="StatoPagamenti" Ordinal="30" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="QuotaAdesione" Ordinal="31" IsOptional="true" DbType="9" Precision="19" Scale="4" />
+                    <Field Name="Pec" Ordinal="32" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="RagSocPrecedenti" Ordinal="33" IsOptional="true" DbType="24" Length="4000" />
+                    <Field Name="SitoWeb" Ordinal="34" IsOptional="true" DbType="24" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="AziendaProdotto">
+                  <PkConstraintName Name="PK__AziendaP__3214EC07EB190405" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdAzienda" Ordinal="2" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="IdProdotto" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="TipoUtilizzo" Ordinal="4" IsOptional="true" DbType="3" Length="1" />
+                    <Field Name="Note" Ordinal="5" IsOptional="true" DbType="24" Length="2000" />
+                  </Fields>
+                </Table>
+                <Table Name="Comune">
+                  <PkConstraintName Name="PK__Comune__44CA3770" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" DbType="24" Length="255" />
+                    <Field Name="Cod_Provincia" Ordinal="3" IsOptional="true" DbType="24" Length="3" />
+                    <Field Name="Cap" Ordinal="4" IsOptional="true" DbType="24" Length="6" />
+                    <Field Name="Estera" Ordinal="5" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="Contatto">
+                  <PkConstraintName Name="PK__Contatto__0E6E26BF" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdAzienda" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="CodRuolo" Ordinal="3" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodTitolo" Ordinal="4" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Nominativo" Ordinal="5" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="Ufficio" Ordinal="6" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="Note" Ordinal="7" IsOptional="true" DbType="24" Length="2147483647" />
+                    <Field Name="Telefono" Ordinal="8" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Fax" Ordinal="9" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Cellulare" Ordinal="10" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Email" Ordinal="11" IsOptional="true" DbType="24" Length="100" />
+                  </Fields>
+                </Table>
+                <Table Name="Dichiarazione">
+                  <PkConstraintName Name="PK__Dichiara__3214EC074F12BBB9" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdAzienda" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="Anno" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="CodCategoria" Ordinal="4" DbType="24" Length="10" />
+                    <Field Name="IdScadenza" Ordinal="5" DbType="8" Precision="10" />
+                    <Field Name="DataInizio" Ordinal="6" DbType="15" />
+                    <Field Name="DataFine" Ordinal="7" DbType="15" />
+                    <Field Name="DataScadenzaDichiarazione" Ordinal="8" DbType="15" />
+                    <Field Name="DataScadenzaPagamento" Ordinal="9" DbType="15" />
+                    <Field Name="DataProroga" Ordinal="10" IsOptional="true" DbType="15" />
+                    <Field Name="DataRicezione" Ordinal="11" IsOptional="true" DbType="15" />
+                    <Field Name="ImportoRuolo" Ordinal="12" IsOptional="true" DbType="9" Precision="19" Scale="4" />
+                    <Field Name="DataPagamento" Ordinal="13" IsOptional="true" DbType="15" />
+                    <Field Name="ImportoPagato" Ordinal="14" IsOptional="true" DbType="9" Precision="19" Scale="4" />
+                    <Field Name="CodStatoDichiarazione" Ordinal="15" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Note" Ordinal="16" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="Codice" Ordinal="17" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="CodStatoPagamento" Ordinal="18" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="RifArxivar" Ordinal="19" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="DichiarazioneOnLine">
+                  <PkConstraintName Name="PK__Dichiara__3214EC0766B53B20" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="Protocollo" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="DataRicevimento" Ordinal="3" IsOptional="true" DbType="15" />
+                    <Field Name="Dati" Ordinal="4" IsOptional="true" DbType="26" Length="2147483647" />
+                    <Field Name="Stato" Ordinal="5" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="Utente" Ordinal="6" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="Anno" Ordinal="7" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="Periodo" Ordinal="8" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="IdAzienda" Ordinal="9" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="IdDichiarazione" Ordinal="10" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="Note" Ordinal="11" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="DataCompilazione" Ordinal="12" IsOptional="true" DbType="15" />
+                    <Field Name="EsitoAnalisi" Ordinal="13" IsOptional="true" DbType="24" Length="4000" />
+                  </Fields>
+                </Table>
+                <Table Name="EventoAzienda">
+                  <PkConstraintName Name="PK__EventoAz__3214EC07324172E1" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdAzienda" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="CodUtente" Ordinal="3" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="Data" Ordinal="4" DbType="15" />
+                    <Field Name="CodEvento" Ordinal="5" DbType="24" Length="50" />
+                    <Field Name="Causale" Ordinal="6" IsOptional="true" DbType="24" Length="2147483647" />
+                    <Field Name="Segnalazione" Ordinal="7" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Incaricato" Ordinal="8" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="Scadenza" Ordinal="9" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="Valore" Ordinal="10" IsOptional="true" DbType="9" Precision="19" Scale="4" />
+                    <Field Name="Note" Ordinal="11" IsOptional="true" DbType="24" Length="2147483647" />
+                    <Field Name="Stato" Ordinal="12" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="RifArxivar" Ordinal="13" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="IsUrgente" Ordinal="14" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="IsChiuso" Ordinal="15" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="DataAvviso" Ordinal="16" IsOptional="true" DbType="15" />
+                  </Fields>
+                </Table>
+                <Table Name="Incasso">
+                  <PkConstraintName Name="PK__Incasso__3214EC07558AAF1E" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdDichiarazione" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="DataInserimento" Ordinal="3" DbType="15" />
+                    <Field Name="CodTipo" Ordinal="4" DbType="24" Length="10" />
+                    <Field Name="CodModalitaPagamento" Ordinal="5" DbType="24" Length="10" />
+                    <Field Name="DataPagamento" Ordinal="6" IsOptional="true" DbType="15" />
+                    <Field Name="DataValuta" Ordinal="7" IsOptional="true" DbType="15" />
+                    <Field Name="Importo" Ordinal="8" HasDefaultValue="true" DefaultValue="(0)" DbType="9" Precision="19" Scale="4" />
+                    <Field Name="IsAcconto" Ordinal="9" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="Note" Ordinal="10" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="DataScadenza" Ordinal="11" IsOptional="true" DbType="15" />
+                    <Field Name="NumeroRata" Ordinal="12" IsOptional="true" DbType="16" Precision="5" />
+                    <Field Name="DataEsportazione" Ordinal="13" IsOptional="true" DbType="15" />
+                  </Fields>
+                </Table>
+                <Table Name="LicenzaAzienda">
+                  <PkConstraintName Name="PK__LicenzaAzienda__236943A5" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdAzienda" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="CodLicenza" Ordinal="3" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Note" Ordinal="4" IsOptional="true" DbType="24" Length="2147483647" />
+                    <Field Name="DataRichiesta" Ordinal="5" IsOptional="true" DbType="15" />
+                    <Field Name="DataRicevuta" Ordinal="6" IsOptional="true" DbType="15" />
+                    <Field Name="DataScadenza" Ordinal="7" IsOptional="true" DbType="15" />
+                  </Fields>
+                </Table>
+                <Table Name="Materiale">
+                  <PkConstraintName Name="PK__Material__3214EC077814D14C" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="Codice" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="Descrizione" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="CodUnitaMisura" Ordinal="4" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Prezzo" Ordinal="5" IsOptional="true" DbType="17" Precision="10" Scale="4" />
+                    <Field Name="Utilizzato" Ordinal="6" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="DataInizio" Ordinal="7" IsOptional="true" DbType="15" />
+                    <Field Name="DataFine" Ordinal="8" IsOptional="true" DbType="15" />
+                    <Field Name="CodTipo" Ordinal="9" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="Iva" Ordinal="10" IsOptional="true" DbType="14" Precision="24" />
+                  </Fields>
+                </Table>
+                <Table Name="MaterialeQuadro">
+                  <PkConstraintName Name="pk_mq" />
+                  <Fields>
+                    <Field Name="IdMateriale" Ordinal="1" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdQuadro" Ordinal="2" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="Posizione" Ordinal="3" IsOptional="true" DbType="24" Length="10" />
+                  </Fields>
+                </Table>
+                <Table Name="Parametro">
+                  <PkConstraintName Name="PK__Parametro__3B40CD36" />
+                  <Fields>
+                    <Field Name="Nome" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="100" />
+                    <Field Name="Valore" Ordinal="2" IsOptional="true" DbType="24" Length="2147483647" />
+                  </Fields>
+                </Table>
+                <Table Name="Prodotto">
+                  <PkConstraintName Name="PK__Prodotto__3214EC070570698A" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="Livello" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="IdRiferimento" Ordinal="4" IsOptional="true" DbType="8" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="provincia">
+                  <PkConstraintName Name="PK__provincia__41EDCAC5" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="3" />
+                    <Field Name="Descrizione" Ordinal="2" DbType="24" Length="100" />
+                    <Field Name="Cod_Regione" Ordinal="3" IsOptional="true" DbType="3" Length="3" />
+                  </Fields>
+                </Table>
+                <Table Name="Quadro">
+                  <PkConstraintName Name="PK__Quadro__3214EC077FB5F314" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="Codice" Ordinal="2" DbType="24" Length="10" />
+                    <Field Name="CodTipo" Ordinal="3" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="4" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="Procedura" Ordinal="5" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="Segno" Ordinal="6" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="Utilizzato" Ordinal="7" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="DataInizio" Ordinal="8" IsOptional="true" DbType="15" />
+                    <Field Name="DataFine" Ordinal="9" IsOptional="true" DbType="15" />
+                  </Fields>
+                  <UniqueConstraints>
+                    <UniqueConstraint Name="UQ_QUADRO_CODICE">
+                      <Field Name="Codice" />
+                    </UniqueConstraint>
+                  </UniqueConstraints>
+                </Table>
+                <Table Name="Regione">
+                  <PkConstraintName Name="PK__Regione__40058253" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="3" Length="3" />
+                    <Field Name="Descrizione" Ordinal="2" DbType="24" Length="100" />
+                  </Fields>
+                </Table>
+                <Table Name="RigaDichiarazione">
+                  <PkConstraintName Name="PK__RigaDich__3214EC070662F0A3" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdDichiarazione" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="IdMateriale" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="CodQuadro" Ordinal="4" DbType="24" Length="10" />
+                    <Field Name="Procedura" Ordinal="5" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="Descrizione" Ordinal="6" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="CodUnitaMisura" Ordinal="7" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="PrezzoUnitario" Ordinal="8" HasDefaultValue="true" DefaultValue="(0)" DbType="9" Precision="19" Scale="4" />
+                    <Field Name="Valore" Ordinal="9" HasDefaultValue="true" DefaultValue="(0)" DbType="14" Precision="24" />
+                    <Field Name="Iva" Ordinal="10" HasDefaultValue="true" DefaultValue="(0)" DbType="14" Precision="24" />
+                    <Field Name="ImportoNetto" Ordinal="11" IsOptional="true" IsComputed="true" DbType="14" Precision="24" />
+                    <Field Name="ImportoIva" Ordinal="12" IsOptional="true" IsComputed="true" DbType="14" Precision="24" />
+                    <Field Name="ImportoLordo" Ordinal="13" IsOptional="true" IsComputed="true" DbType="14" Precision="24" />
+                  </Fields>
+                </Table>
+                <Table Name="Riunione">
+                  <PkConstraintName Name="PK__Riunione__3214EC070FEC5ADD" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="Data" Ordinal="2" DbType="15" />
+                    <Field Name="Tipo" Ordinal="3" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Note" Ordinal="4" IsOptional="true" DbType="24" Length="2147483647" />
+                  </Fields>
+                </Table>
+                <Table Name="RuoloUtente">
+                  <PkConstraintName Name="pk_ruoloutente" />
+                  <Fields>
+                    <Field Name="UserName" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="20" />
+                    <Field Name="CodRuolo" Ordinal="2" IsPrimaryKey="true" DbType="24" Length="20" />
+                  </Fields>
+                </Table>
+                <Table Name="Scadenza">
+                  <PkConstraintName Name="PK__Scadenza__3214EC0742ACE4D4" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="Codice" Ordinal="2" DbType="24" Length="20" />
+                    <Field Name="Anno" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="DataInizio" Ordinal="4" DbType="15" />
+                    <Field Name="DataFine" Ordinal="5" DbType="15" />
+                    <Field Name="DataScadenzaDichiarazione" Ordinal="6" DbType="15" />
+                    <Field Name="DataScadenzaPagamento" Ordinal="7" DbType="15" />
+                    <Field Name="CodCategoria" Ordinal="8" DbType="24" Length="10" />
+                    <Field Name="ApplicaInteressi" Ordinal="9" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="TassoInteresse" Ordinal="10" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="CreaAutomatico" Ordinal="11" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="RifPeriodo" Ordinal="12" IsOptional="true" DbType="24" Length="20" />
+                  </Fields>
+                  <UniqueConstraints>
+                    <UniqueConstraint Name="uq_scad_codice">
+                      <Field Name="Codice" />
+                    </UniqueConstraint>
+                  </UniqueConstraints>
+                </Table>
+                <Table Name="Sede">
+                  <PkConstraintName Name="PK__Sede__114A936A" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="IdAzienda" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="Descrizione" Ordinal="3" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="CodTipoSede" Ordinal="4" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Indirizzo" Ordinal="5" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="Cap" Ordinal="6" IsOptional="true" DbType="24" Length="5" />
+                    <Field Name="Localita" Ordinal="7" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="Provincia" Ordinal="8" IsOptional="true" DbType="3" Length="3" />
+                    <Field Name="Regione" Ordinal="9" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Telefono1" Ordinal="10" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Telefono2" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Fax" Ordinal="12" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UsatoPerSpedizione" Ordinal="13" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="Email" Ordinal="14" IsOptional="true" DbType="24" Length="100" />
+                  </Fields>
+                </Table>
+                <Table Name="Utente">
+                  <PkConstraintName Name="PK__Utente__3587F3E0" />
+                  <Fields>
+                    <Field Name="UserName" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="20" />
+                    <Field Name="Password" Ordinal="2" IsOptional="true" DbType="1" Length="20" />
+                    <Field Name="Nome" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="Email" Ordinal="4" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="IsAttivo" Ordinal="5" HasDefaultValue="true" DefaultValue="(1)" DbType="2" />
+                    <Field Name="CompanyKey" Ordinal="6" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="Note" Ordinal="7" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="DataAccesso" Ordinal="8" IsOptional="true" DbType="15" />
+                    <Field Name="NumeroAccessi" Ordinal="9" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="PasswordProvvisoria" Ordinal="10" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="Telefono" Ordinal="11" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="Cellulare" Ordinal="12" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="DataRegistrazione" Ordinal="13" IsOptional="true" DbType="15" />
+                    <Field Name="DataRilascioPassword" Ordinal="14" IsOptional="true" DbType="15" />
+                    <Field Name="ArxivarUserId" Ordinal="15" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="ArxivarPassword" Ordinal="16" IsOptional="true" DbType="24" Length="150" />
+                  </Fields>
+                </Table>
+              </Tables>
+              <Views>
+                <View Name="vwPassaggioAssemblea">
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" DbType="8" Precision="10" />
+                    <Field Name="RagioneSociale" Ordinal="2" IsOptional="true" DbType="24" Length="2147483647" />
+                    <Field Name="Localita" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="provincia" Ordinal="4" IsOptional="true" DbType="24" Length="5" />
+                    <Field Name="CodCategoria" Ordinal="5" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodiceFiscale" Ordinal="6" IsOptional="true" DbType="24" Length="16" />
+                    <Field Name="PartitaIVA" Ordinal="7" IsOptional="true" DbType="24" Length="16" />
+                    <Field Name="DataPassaggioCDA" Ordinal="8" IsOptional="true" DbType="15" />
+                    <Field Name="Motivo" Ordinal="9" DbType="24" Length="6" />
+                  </Fields>
+                </View>
+                <View Name="vwPassaggioCDA">
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" DbType="8" Precision="10" />
+                    <Field Name="RagioneSociale" Ordinal="2" IsOptional="true" DbType="24" Length="2147483647" />
+                    <Field Name="Localita" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="provincia" Ordinal="4" IsOptional="true" DbType="24" Length="5" />
+                    <Field Name="CodCategoria" Ordinal="5" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodiceFiscale" Ordinal="6" IsOptional="true" DbType="24" Length="16" />
+                    <Field Name="PartitaIVA" Ordinal="7" IsOptional="true" DbType="24" Length="16" />
+                    <Field Name="Motivo" Ordinal="8" DbType="24" Length="6" />
+                  </Fields>
+                </View>
+                <View Name="vwRicercaAziende">
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" DbType="8" Precision="10" />
+                    <Field Name="RagioneSociale" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="CodFormaGiuridica" Ordinal="3" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodStato" Ordinal="4" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodInfoStato" Ordinal="5" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CodTipoIscrizione" Ordinal="6" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="Associazione" Ordinal="7" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Indirizzo" Ordinal="8" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="Cap" Ordinal="9" IsOptional="true" DbType="24" Length="5" />
+                    <Field Name="Localita" Ordinal="10" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="Provincia" Ordinal="11" IsOptional="true" DbType="24" Length="5" />
+                    <Field Name="Regione" Ordinal="12" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="CodRegione" Ordinal="13" IsOptional="true" DbType="3" Length="3" />
+                    <Field Name="Telefono1" Ordinal="14" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Telefono2" Ordinal="15" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="Fax" Ordinal="16" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UsatoPerSpedizione" Ordinal="17" DbType="2" />
+                    <Field Name="PartitaIVA" Ordinal="18" IsOptional="true" DbType="24" Length="16" />
+                    <Field Name="CodiceFiscale" Ordinal="19" IsOptional="true" DbType="24" Length="16" />
+                    <Field Name="Email" Ordinal="20" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="LegaleRappresentante" Ordinal="21" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="CodCategoria" Ordinal="22" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="DataInizioAttivita" Ordinal="23" IsOptional="true" DbType="15" />
+                    <Field Name="DataAdesione" Ordinal="24" IsOptional="true" DbType="15" />
+                    <Field Name="DataVersamentoUnaTantum" Ordinal="25" IsOptional="true" DbType="15" />
+                    <Field Name="DataPassaggioCDA" Ordinal="26" IsOptional="true" DbType="15" />
+                    <Field Name="DataAssemblea" Ordinal="27" IsOptional="true" DbType="15" />
+                    <Field Name="AllegaBilancio" Ordinal="28" DbType="2" />
+                    <Field Name="DocumentazioneCCIAA" Ordinal="29" DbType="2" />
+                    <Field Name="StatoDichiarazione" Ordinal="30" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="StatoPagamenti" Ordinal="31" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="QuotaAdesione" Ordinal="32" IsOptional="true" DbType="9" Precision="19" Scale="4" />
+                    <Field Name="RagSocPrecedenti" Ordinal="33" IsOptional="true" DbType="24" Length="4000" />
+                    <Field Name="DescrTelefoni" Ordinal="34" IsOptional="true" DbType="24" Length="101" />
+                    <Field Name="CatAttivitaPrincipale" Ordinal="35" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="CatAttivitaSecondaria" Ordinal="36" IsOptional="true" DbType="24" Length="10" />
+                  </Fields>
+                </View>
+                <View Name="vwRicercaQuantitativi">
+                  <Fields>
+                    <Field Name="id" Ordinal="1" DbType="8" Precision="10" />
+                    <Field Name="RagioneSociale" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="codCategoria" Ordinal="3" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="provincia" Ordinal="4" IsOptional="true" DbType="24" Length="5" />
+                    <Field Name="Regione" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="anno" Ordinal="6" DbType="8" Precision="10" />
+                    <Field Name="idAzienda" Ordinal="7" DbType="8" Precision="10" />
+                    <Field Name="CodTipo" Ordinal="8" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="valorekg" Ordinal="9" IsOptional="true" DbType="6" Precision="38" />
+                  </Fields>
+                </View>
+              </Views>
+              <StoredProcedures>
+                <StoredProcedure Name="getLibroSoci" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@DataAssemblea" Direction="1" Ordinal="1" DbType="15" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="Id" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="RagioneSociale" Ordinal="2" IsOptional="true" DbType="24" Length="2147483647" />
+                        <Field Name="Indirizzo" Ordinal="3" IsOptional="true" DbType="24" Length="500" />
+                        <Field Name="Localita" Ordinal="4" IsOptional="true" DbType="24" Length="100" />
+                        <Field Name="Cap" Ordinal="5" IsOptional="true" DbType="24" Length="5" />
+                        <Field Name="Provincia" Ordinal="6" IsOptional="true" DbType="24" Length="5" />
+                        <Field Name="CodCategoria" Ordinal="7" IsOptional="true" DbType="24" Length="10" />
+                        <Field Name="CodiceFiscale" Ordinal="8" IsOptional="true" DbType="24" Length="16" />
+                        <Field Name="PartitaIVA" Ordinal="9" IsOptional="true" DbType="24" Length="16" />
+                        <Field Name="DataPassaggioCDA" Ordinal="10" IsOptional="true" DbType="15" />
+                        <Field Name="Motivo" Ordinal="11" DbType="24" Length="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+              </StoredProcedures>
+            </Schema>
+            <Schema Name="Lookup" SyncSource="2" LastSyncWithDatabase="2017-05-07T09:33:33.1476183Z">
+              <Tables>
+                <Table Name="AliquotaIVA">
+                  <PkConstraintName Name="PK__Aliquota__CFAD1C5160FC61CA" />
+                  <Fields>
+                    <Field Name="Valore" Ordinal="1" IsPrimaryKey="true" DbType="14" Precision="24" />
+                    <Field Name="DataIniziale" Ordinal="2" IsOptional="true" DbType="15" />
+                    <Field Name="DataFinale" Ordinal="3" IsOptional="true" DbType="15" />
+                  </Fields>
+                </Table>
+                <Table Name="Categoria">
+                  <PkConstraintName Name="PK__Categoria__4C6B5938" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="Evento">
+                  <PkConstraintName Name="PK__Evento__0636EC1C1F2E9E6D" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="50" />
+                    <Field Name="Nome" Ordinal="2" DbType="24" Length="100" />
+                    <Field Name="Descrizione" Ordinal="3" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="CodEventoPrecedente" Ordinal="4" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="CodStato" Ordinal="5" IsOptional="true" DbType="24" Length="10" />
+                  </Fields>
+                </Table>
+                <Table Name="FormaGiuridica">
+                  <PkConstraintName Name="PK__TipoSocieta__55F4C372" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="InfoStato">
+                  <PkConstraintName Name="PK__InfoStato__671F4F74" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="ModalitaPagamento">
+                  <PkConstraintName Name="PK__Modalita__0636EC1C51BA1E3A" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="QuotaAdesione">
+                  <PkConstraintName Name="PK__QuotaAde__0636EC1C4183B671" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="9" Precision="19" Scale="4" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="RuoloContatto">
+                  <PkConstraintName Name="PK__RuoloContatto__503BEA1C" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="StatoSocio">
+                  <PkConstraintName Name="PK__StatoSocio__4E53A1AA" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="TipoAttivita">
+                  <PkConstraintName Name="PK__TipoAttivita__489AC854" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="TipoAttrezzatura">
+                  <PkConstraintName Name="PK__TipoAttrezzatura__540C7B00" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="TipoLicenza">
+                  <PkConstraintName Name="PK__TipoLicenza__57DD0BE4" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="TipoMateriale">
+                  <PkConstraintName Name="PK__TipoMate__0636EC1C6225902D" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="20" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="TipoQuadro">
+                  <PkConstraintName Name="PK__TipoQuad__0636EC1C5A846E65" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="TipoSede">
+                  <PkConstraintName Name="PK__TipoSede__4A8310C6" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="TipoSocio">
+                  <PkConstraintName Name="PK__TipoSocio__59C55456" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="TitoloContatto">
+                  <PkConstraintName Name="PK__TitoloContatto__5224328E" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="UnitaMisura">
+                  <PkConstraintName Name="PK__UnitaMis__0636EC1C6CA31EA0" />
+                  <Fields>
+                    <Field Name="Codice" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="10" />
+                    <Field Name="Descrizione" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+              </Tables>
+            </Schema>
+          </Schemas>
+          <ForeignKeyConstraints>
+            <ForeignKeyConstraint Name="Allegati:Allegato:fk_all_dic">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Dichiarazione:Id" FkField="Allegati:Allegato:IdDichiarazione" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="Allegati:Allegato:fk_alldic_az">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Azienda:Id" FkField="Allegati:Allegato:IdAzienda" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="Allegati:AziendaAllegato:fk_AzAll_Az">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Azienda:Id" FkField="Allegati:AziendaAllegato:IdSocio" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="Allegati:DettaglioAllegato:fk_alldett_dic">
+              <FieldPairs>
+                <FieldPair PkField="Allegati:Allegato:Id" FkField="Allegati:DettaglioAllegato:IdAllegato" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="Allegati:DettaglioAllegato:fk_alldic_allaz">
+              <FieldPairs>
+                <FieldPair PkField="Allegati:AziendaAllegato:Id" FkField="Allegati:DettaglioAllegato:IdAziendaAllegato" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="Allegati:DettaglioAllegato:fk_allsic_cer" UpdateRuleAction="1" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="Allegati:CodiciCER:Codice" FkField="Allegati:DettaglioAllegato:CodiceCER" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Attivita:fk_attivita_azienda" UpdateRuleAction="1" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Azienda:Id" FkField="dbo:Attivita:IdAzienda" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Attivita:fk_attivita_tipo" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:TipoAttivita:Codice" FkField="dbo:Attivita:CodTipoAttivita" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:AttrezzaturaAttivita:fk_attrezzatura_attivita" UpdateRuleAction="1" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Attivita:Id" FkField="dbo:AttrezzaturaAttivita:IdAttivita" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:AttrezzaturaAttivita:fk_AttrezzaturaAttivita_tipo" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:TipoAttrezzatura:Codice" FkField="dbo:AttrezzaturaAttivita:CodAttrezzatura" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Azienda:fk_azienda_categoria" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:Categoria:Codice" FkField="dbo:Azienda:CodCategoria" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Azienda:fk_azienda_infostato" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:InfoStato:Codice" FkField="dbo:Azienda:CodInfoStato" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Azienda:fk_azienda_stato" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:StatoSocio:Codice" FkField="dbo:Azienda:CodStato" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Azienda:fk_azienda_TipoIscrizione" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:TipoSocio:Codice" FkField="dbo:Azienda:CodTipoIscrizione" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Azienda:fk_azienda_TipoSocieta" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:FormaGiuridica:Codice" FkField="dbo:Azienda:CodFormaGiuridica" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:AziendaProdotto:fk_ap_az">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Azienda:Id" FkField="dbo:AziendaProdotto:IdAzienda" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:AziendaProdotto:fk_ap_prod">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Prodotto:Id" FkField="dbo:AziendaProdotto:IdProdotto" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Comune:fk_com_prov" UpdateRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:provincia:Codice" FkField="dbo:Comune:Cod_Provincia" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Contatto:fk_contatto_azienda" UpdateRuleAction="1" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Azienda:Id" FkField="dbo:Contatto:IdAzienda" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Contatto:fk_contatto_ruolo" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:RuoloContatto:Codice" FkField="dbo:Contatto:CodRuolo" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Contatto:fk_contatto_titolo" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:TitoloContatto:Codice" FkField="dbo:Contatto:CodTitolo" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Dichiarazione:fk_Dichiarazione_Azienda" UpdateRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Azienda:Id" FkField="dbo:Dichiarazione:IdAzienda" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Dichiarazione:fk_DisciarazioneScadenza" UpdateRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Scadenza:Id" FkField="dbo:Dichiarazione:IdScadenza" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DichiarazioneOnLine:fk_dol_azienda" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Azienda:Id" FkField="dbo:DichiarazioneOnLine:IdAzienda" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DichiarazioneOnLine:fl_dol_dic">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Dichiarazione:Id" FkField="dbo:DichiarazioneOnLine:IdDichiarazione" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:EventoAzienda:fk_evento_azienda" UpdateRuleAction="1" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Azienda:Id" FkField="dbo:EventoAzienda:IdAzienda" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Incasso:FK_Incasso_Dichiarazione" UpdateRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Dichiarazione:Id" FkField="dbo:Incasso:IdDichiarazione" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:LicenzaAzienda:fk_licenza_azienda" UpdateRuleAction="1" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Azienda:Id" FkField="dbo:LicenzaAzienda:IdAzienda" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:LicenzaAzienda:fk_licenza_tipo" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:TipoLicenza:Codice" FkField="dbo:LicenzaAzienda:CodLicenza" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Materiale:fk_materiale_tipo" UpdateRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:TipoMateriale:Codice" FkField="dbo:Materiale:CodTipo" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Materiale:fk_materiale_um" UpdateRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:UnitaMisura:Codice" FkField="dbo:Materiale:CodUnitaMisura" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:MaterialeQuadro:fk_mq_Materiale" UpdateRuleAction="1" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Materiale:Id" FkField="dbo:MaterialeQuadro:IdMateriale" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:MaterialeQuadro:fk_mq_Quadro" UpdateRuleAction="1" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Quadro:Id" FkField="dbo:MaterialeQuadro:IdQuadro" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Prodotto:fk_prod_prod">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Prodotto:Id" FkField="dbo:Prodotto:IdRiferimento" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:provincia:fk_prov_reg" UpdateRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Regione:Codice" FkField="dbo:provincia:Cod_Regione" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Quadro:fk_quadro_tipo" UpdateRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:TipoQuadro:Codice" FkField="dbo:Quadro:CodTipo" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:RigaDichiarazione:fk_riga_dichiarazione" UpdateRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Dichiarazione:Id" FkField="dbo:RigaDichiarazione:IdDichiarazione" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:RigaDichiarazione:fk_riga_dichiarazione_materiale" UpdateRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Materiale:Id" FkField="dbo:RigaDichiarazione:IdMateriale" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:RuoloUtente:fk_ruolo_utente" UpdateRuleAction="1" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Utente:UserName" FkField="dbo:RuoloUtente:UserName" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Sede:fk_sede_azienda" UpdateRuleAction="1" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Azienda:Id" FkField="dbo:Sede:IdAzienda" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Sede:fk_sede_tipo" UpdateRuleAction="1" DeleteRuleAction="3">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:TipoSede:Codice" FkField="dbo:Sede:CodTipoSede" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="Lookup:Evento:fk_evento_self">
+              <FieldPairs>
+                <FieldPair PkField="Lookup:Evento:Codice" FkField="Lookup:Evento:CodEventoPrecedente" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+          </ForeignKeyConstraints>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="2D18D138-1DD2-467E-86CC-4838250611AE">
+      <EntityMappings>
+        <EntityMapping EntityName="Allegati:Allegato" TargetName="SociPolieco:Allegati:Allegato">
+          <FieldMappings>
+            <FieldMapping FieldName="Anno" TargetFieldName="Anno" />
+            <FieldMapping FieldName="CategoriaAzienda" TargetFieldName="CategoriaAzienda" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAzienda" TargetFieldName="IdAzienda" />
+            <FieldMapping FieldName="IdDichiarazione" TargetFieldName="IdDichiarazione" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="Periodo" TargetFieldName="Periodo" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Allegati:AziendaAllegato" TargetName="SociPolieco:Allegati:AziendaAllegato">
+          <FieldMappings>
+            <FieldMapping FieldName="Cap" TargetFieldName="Cap" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdSocio" TargetFieldName="IdSocio" />
+            <FieldMapping FieldName="Indirizzo" TargetFieldName="Indirizzo" />
+            <FieldMapping FieldName="Localita" TargetFieldName="Localita" />
+            <FieldMapping FieldName="Nazione" TargetFieldName="Nazione" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="PartitaIva" TargetFieldName="PartitaIva" />
+            <FieldMapping FieldName="Provincia" TargetFieldName="Provincia" />
+            <FieldMapping FieldName="RagioneSociale" TargetFieldName="RagioneSociale" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Allegati:CodiciCer" TargetName="SociPolieco:Allegati:CodiciCER">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Allegati:DettaglioAllegato" TargetName="SociPolieco:Allegati:DettaglioAllegato">
+          <FieldMappings>
+            <FieldMapping FieldName="CodiceCer" TargetFieldName="CodiceCER" />
+            <FieldMapping FieldName="ContributoApplicato" TargetFieldName="ContributoApplicato" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAllegato" TargetFieldName="IdAllegato" />
+            <FieldMapping FieldName="IdAziendaAllegato" TargetFieldName="IdAziendaAllegato" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="Quantita" TargetFieldName="Quantita" />
+            <FieldMapping FieldName="RuoloAziendaAllegato" TargetFieldName="RuoloAziendaAllegato" />
+            <FieldMapping FieldName="UnitaMisura" TargetFieldName="UnitaMisura" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Attivita" TargetName="SociPolieco:dbo:Attivita">
+          <FieldMappings>
+            <FieldMapping FieldName="AnnoCorrente" TargetFieldName="AnnoCorrente" />
+            <FieldMapping FieldName="AnnoPrecedente" TargetFieldName="AnnoPrecedente" />
+            <FieldMapping FieldName="CodCategoria" TargetFieldName="CodCategoria" />
+            <FieldMapping FieldName="CodiceAteco" TargetFieldName="CodiceAteco" />
+            <FieldMapping FieldName="CodTipoAttivita" TargetFieldName="CodTipoAttivita" />
+            <FieldMapping FieldName="DataFinale" TargetFieldName="DataFinale" />
+            <FieldMapping FieldName="DataIniziale" TargetFieldName="DataIniziale" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAzienda" TargetFieldName="IdAzienda" />
+            <FieldMapping FieldName="QuantitaAnnoCorrente" TargetFieldName="QuantitaAnnoCorrente" />
+            <FieldMapping FieldName="QuantitaAnnoPrecedente" TargetFieldName="QuantitaAnnoPrecedente" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":AttrezzaturaAttivita" TargetName="SociPolieco:dbo:AttrezzaturaAttivita">
+          <FieldMappings>
+            <FieldMapping FieldName="Altezza" TargetFieldName="Altezza" />
+            <FieldMapping FieldName="CodAttrezzatura" TargetFieldName="CodAttrezzatura" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAttivita" TargetFieldName="IdAttivita" />
+            <FieldMapping FieldName="Larghezza" TargetFieldName="Larghezza" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Audit" TargetName="SociPolieco:dbo:Audit">
+          <FieldMappings>
+            <FieldMapping FieldName="Data" TargetFieldName="data" />
+            <FieldMapping FieldName="Dati" TargetFieldName="dati" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Ip" TargetFieldName="ip" />
+            <FieldMapping FieldName="Operazione" TargetFieldName="operazione" />
+            <FieldMapping FieldName="Target" TargetFieldName="target" />
+            <FieldMapping FieldName="Username" TargetFieldName="username" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Azienda" TargetName="SociPolieco:dbo:Azienda">
+          <FieldMappings>
+            <FieldMapping FieldName="AllegaBilancio" TargetFieldName="AllegaBilancio" />
+            <FieldMapping FieldName="Associazione" TargetFieldName="Associazione" />
+            <FieldMapping FieldName="Cap" TargetFieldName="Cap" />
+            <FieldMapping FieldName="CodCategoria" TargetFieldName="CodCategoria" />
+            <FieldMapping FieldName="CodFormaGiuridica" TargetFieldName="CodFormaGiuridica" />
+            <FieldMapping FieldName="CodiceFiscale" TargetFieldName="CodiceFiscale" />
+            <FieldMapping FieldName="CodInfoStato" TargetFieldName="CodInfoStato" />
+            <FieldMapping FieldName="CodStato" TargetFieldName="CodStato" />
+            <FieldMapping FieldName="CodTipoIscrizione" TargetFieldName="CodTipoIscrizione" />
+            <FieldMapping FieldName="DataAdesione" TargetFieldName="DataAdesione" />
+            <FieldMapping FieldName="DataAssemblea" TargetFieldName="DataAssemblea" />
+            <FieldMapping FieldName="DataInizioAttivita" TargetFieldName="DataInizioAttivita" />
+            <FieldMapping FieldName="DataPassaggioCda" TargetFieldName="DataPassaggioCDA" />
+            <FieldMapping FieldName="DataVersamentoUnaTantum" TargetFieldName="DataVersamentoUnaTantum" />
+            <FieldMapping FieldName="DocumentazioneCciaa" TargetFieldName="DocumentazioneCCIAA" />
+            <FieldMapping FieldName="Email" TargetFieldName="Email" />
+            <FieldMapping FieldName="Fax" TargetFieldName="Fax" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Indirizzo" TargetFieldName="Indirizzo" />
+            <FieldMapping FieldName="LegaleRappresentante" TargetFieldName="LegaleRappresentante" />
+            <FieldMapping FieldName="Localita" TargetFieldName="Localita" />
+            <FieldMapping FieldName="PartitaIva" TargetFieldName="PartitaIVA" />
+            <FieldMapping FieldName="Pec" TargetFieldName="Pec" />
+            <FieldMapping FieldName="Provincia" TargetFieldName="Provincia" />
+            <FieldMapping FieldName="QuotaAdesione" TargetFieldName="QuotaAdesione" />
+            <FieldMapping FieldName="RagioneSociale" TargetFieldName="RagioneSociale" />
+            <FieldMapping FieldName="RagSocPrecedenti" TargetFieldName="RagSocPrecedenti" />
+            <FieldMapping FieldName="Regione" TargetFieldName="Regione" />
+            <FieldMapping FieldName="SitoWeb" TargetFieldName="SitoWeb" />
+            <FieldMapping FieldName="StatoDichiarazione" TargetFieldName="StatoDichiarazione" />
+            <FieldMapping FieldName="StatoPagamenti" TargetFieldName="StatoPagamenti" />
+            <FieldMapping FieldName="Telefono1" TargetFieldName="Telefono1" />
+            <FieldMapping FieldName="Telefono2" TargetFieldName="Telefono2" />
+            <FieldMapping FieldName="UsatoPerSpedizione" TargetFieldName="UsatoPerSpedizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":AziendaProdotto" TargetName="SociPolieco:dbo:AziendaProdotto">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAzienda" TargetFieldName="IdAzienda" />
+            <FieldMapping FieldName="IdProdotto" TargetFieldName="IdProdotto" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="TipoUtilizzo" TargetFieldName="TipoUtilizzo" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Comune" TargetName="SociPolieco:dbo:Comune">
+          <FieldMappings>
+            <FieldMapping FieldName="Cap" TargetFieldName="Cap" />
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="CodProvincia" TargetFieldName="Cod_Provincia" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+            <FieldMapping FieldName="Estera" TargetFieldName="Estera" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Contatto" TargetName="SociPolieco:dbo:Contatto">
+          <FieldMappings>
+            <FieldMapping FieldName="Cellulare" TargetFieldName="Cellulare" />
+            <FieldMapping FieldName="CodRuolo" TargetFieldName="CodRuolo" />
+            <FieldMapping FieldName="CodTitolo" TargetFieldName="CodTitolo" />
+            <FieldMapping FieldName="Email" TargetFieldName="Email" />
+            <FieldMapping FieldName="Fax" TargetFieldName="Fax" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAzienda" TargetFieldName="IdAzienda" />
+            <FieldMapping FieldName="Nominativo" TargetFieldName="Nominativo" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="Telefono" TargetFieldName="Telefono" />
+            <FieldMapping FieldName="Ufficio" TargetFieldName="Ufficio" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Dichiarazione" TargetName="SociPolieco:dbo:Dichiarazione">
+          <FieldMappings>
+            <FieldMapping FieldName="Anno" TargetFieldName="Anno" />
+            <FieldMapping FieldName="CodCategoria" TargetFieldName="CodCategoria" />
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="CodStatoDichiarazione" TargetFieldName="CodStatoDichiarazione" />
+            <FieldMapping FieldName="CodStatoPagamento" TargetFieldName="CodStatoPagamento" />
+            <FieldMapping FieldName="DataFine" TargetFieldName="DataFine" />
+            <FieldMapping FieldName="DataInizio" TargetFieldName="DataInizio" />
+            <FieldMapping FieldName="DataPagamento" TargetFieldName="DataPagamento" />
+            <FieldMapping FieldName="DataProroga" TargetFieldName="DataProroga" />
+            <FieldMapping FieldName="DataRicezione" TargetFieldName="DataRicezione" />
+            <FieldMapping FieldName="DataScadenzaDichiarazione" TargetFieldName="DataScadenzaDichiarazione" />
+            <FieldMapping FieldName="DataScadenzaPagamento" TargetFieldName="DataScadenzaPagamento" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAzienda" TargetFieldName="IdAzienda" />
+            <FieldMapping FieldName="IdScadenza" TargetFieldName="IdScadenza" />
+            <FieldMapping FieldName="ImportoPagato" TargetFieldName="ImportoPagato" />
+            <FieldMapping FieldName="ImportoRuolo" TargetFieldName="ImportoRuolo" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="RifArxivar" TargetFieldName="RifArxivar" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":DichiarazioneOnLine" TargetName="SociPolieco:dbo:DichiarazioneOnLine">
+          <FieldMappings>
+            <FieldMapping FieldName="Anno" TargetFieldName="Anno" />
+            <FieldMapping FieldName="DataCompilazione" TargetFieldName="DataCompilazione" />
+            <FieldMapping FieldName="DataRicevimento" TargetFieldName="DataRicevimento" />
+            <FieldMapping FieldName="Dati" TargetFieldName="Dati" />
+            <FieldMapping FieldName="EsitoAnalisi" TargetFieldName="EsitoAnalisi" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAzienda" TargetFieldName="IdAzienda" />
+            <FieldMapping FieldName="IdDichiarazione" TargetFieldName="IdDichiarazione" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="Periodo" TargetFieldName="Periodo" />
+            <FieldMapping FieldName="Protocollo" TargetFieldName="Protocollo" />
+            <FieldMapping FieldName="Stato" TargetFieldName="Stato" />
+            <FieldMapping FieldName="Utente" TargetFieldName="Utente" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":EventoAzienda" TargetName="SociPolieco:dbo:EventoAzienda">
+          <FieldMappings>
+            <FieldMapping FieldName="Causale" TargetFieldName="Causale" />
+            <FieldMapping FieldName="CodEvento" TargetFieldName="CodEvento" />
+            <FieldMapping FieldName="CodUtente" TargetFieldName="CodUtente" />
+            <FieldMapping FieldName="Data" TargetFieldName="Data" />
+            <FieldMapping FieldName="DataAvviso" TargetFieldName="DataAvviso" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAzienda" TargetFieldName="IdAzienda" />
+            <FieldMapping FieldName="Incaricato" TargetFieldName="Incaricato" />
+            <FieldMapping FieldName="IsChiuso" TargetFieldName="IsChiuso" />
+            <FieldMapping FieldName="IsUrgente" TargetFieldName="IsUrgente" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="RifArxivar" TargetFieldName="RifArxivar" />
+            <FieldMapping FieldName="Scadenza" TargetFieldName="Scadenza" />
+            <FieldMapping FieldName="Segnalazione" TargetFieldName="Segnalazione" />
+            <FieldMapping FieldName="Stato" TargetFieldName="Stato" />
+            <FieldMapping FieldName="Valore" TargetFieldName="Valore" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Incasso" TargetName="SociPolieco:dbo:Incasso">
+          <FieldMappings>
+            <FieldMapping FieldName="CodModalitaPagamento" TargetFieldName="CodModalitaPagamento" />
+            <FieldMapping FieldName="CodTipo" TargetFieldName="CodTipo" />
+            <FieldMapping FieldName="DataEsportazione" TargetFieldName="DataEsportazione" />
+            <FieldMapping FieldName="DataInserimento" TargetFieldName="DataInserimento" />
+            <FieldMapping FieldName="DataPagamento" TargetFieldName="DataPagamento" />
+            <FieldMapping FieldName="DataScadenza" TargetFieldName="DataScadenza" />
+            <FieldMapping FieldName="DataValuta" TargetFieldName="DataValuta" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdDichiarazione" TargetFieldName="IdDichiarazione" />
+            <FieldMapping FieldName="Importo" TargetFieldName="Importo" />
+            <FieldMapping FieldName="IsAcconto" TargetFieldName="IsAcconto" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="NumeroRata" TargetFieldName="NumeroRata" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":LicenzaAzienda" TargetName="SociPolieco:dbo:LicenzaAzienda">
+          <FieldMappings>
+            <FieldMapping FieldName="CodLicenza" TargetFieldName="CodLicenza" />
+            <FieldMapping FieldName="DataRicevuta" TargetFieldName="DataRicevuta" />
+            <FieldMapping FieldName="DataRichiesta" TargetFieldName="DataRichiesta" />
+            <FieldMapping FieldName="DataScadenza" TargetFieldName="DataScadenza" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAzienda" TargetFieldName="IdAzienda" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:AliquotaIva" TargetName="SociPolieco:Lookup:AliquotaIVA">
+          <FieldMappings>
+            <FieldMapping FieldName="DataFinale" TargetFieldName="DataFinale" />
+            <FieldMapping FieldName="DataIniziale" TargetFieldName="DataIniziale" />
+            <FieldMapping FieldName="Valore" TargetFieldName="Valore" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:Categoria" TargetName="SociPolieco:Lookup:Categoria">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:Evento" TargetName="SociPolieco:Lookup:Evento">
+          <FieldMappings>
+            <FieldMapping FieldName="CodEventoPrecedente" TargetFieldName="CodEventoPrecedente" />
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="CodStato" TargetFieldName="CodStato" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+            <FieldMapping FieldName="Nome" TargetFieldName="Nome" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:FormaGiuridica" TargetName="SociPolieco:Lookup:FormaGiuridica">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:InfoStato" TargetName="SociPolieco:Lookup:InfoStato">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:ModalitaPagamento" TargetName="SociPolieco:Lookup:ModalitaPagamento">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:QuotaAdesione" TargetName="SociPolieco:Lookup:QuotaAdesione">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:RuoloContatto" TargetName="SociPolieco:Lookup:RuoloContatto">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:StatoSocio" TargetName="SociPolieco:Lookup:StatoSocio">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:TipoAttivita" TargetName="SociPolieco:Lookup:TipoAttivita">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:TipoAttrezzatura" TargetName="SociPolieco:Lookup:TipoAttrezzatura">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:TipoLicenza" TargetName="SociPolieco:Lookup:TipoLicenza">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:TipoMateriale" TargetName="SociPolieco:Lookup:TipoMateriale">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:TipoQuadro" TargetName="SociPolieco:Lookup:TipoQuadro">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:TipoSede" TargetName="SociPolieco:Lookup:TipoSede">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:TipoSocio" TargetName="SociPolieco:Lookup:TipoSocio">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:TitoloContatto" TargetName="SociPolieco:Lookup:TitoloContatto">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Lookup:UnitaMisura" TargetName="SociPolieco:Lookup:UnitaMisura">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Materiale" TargetName="SociPolieco:dbo:Materiale">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="CodTipo" TargetFieldName="CodTipo" />
+            <FieldMapping FieldName="CodUnitaMisura" TargetFieldName="CodUnitaMisura" />
+            <FieldMapping FieldName="DataFine" TargetFieldName="DataFine" />
+            <FieldMapping FieldName="DataInizio" TargetFieldName="DataInizio" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Prezzo" TargetFieldName="Prezzo" />
+            <FieldMapping FieldName="Utilizzato" TargetFieldName="Utilizzato" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":MaterialeQuadro" TargetName="SociPolieco:dbo:MaterialeQuadro">
+          <FieldMappings>
+            <FieldMapping FieldName="IdMateriale" TargetFieldName="IdMateriale" />
+            <FieldMapping FieldName="IdQuadro" TargetFieldName="IdQuadro" />
+            <FieldMapping FieldName="Posizione" TargetFieldName="Posizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Parametro" TargetName="SociPolieco:dbo:Parametro">
+          <FieldMappings>
+            <FieldMapping FieldName="Nome" TargetFieldName="Nome" />
+            <FieldMapping FieldName="Valore" TargetFieldName="Valore" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Prodotto" TargetName="SociPolieco:dbo:Prodotto">
+          <FieldMappings>
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdRiferimento" TargetFieldName="IdRiferimento" />
+            <FieldMapping FieldName="Livello" TargetFieldName="Livello" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Provincia" TargetName="SociPolieco:dbo:provincia">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="CodRegione" TargetFieldName="Cod_Regione" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Quadro" TargetName="SociPolieco:dbo:Quadro">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="CodTipo" TargetFieldName="CodTipo" />
+            <FieldMapping FieldName="DataFine" TargetFieldName="DataFine" />
+            <FieldMapping FieldName="DataInizio" TargetFieldName="DataInizio" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Procedura" TargetFieldName="Procedura" />
+            <FieldMapping FieldName="Segno" TargetFieldName="Segno" />
+            <FieldMapping FieldName="Utilizzato" TargetFieldName="Utilizzato" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Regione" TargetName="SociPolieco:dbo:Regione">
+          <FieldMappings>
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":RigaDichiarazione" TargetName="SociPolieco:dbo:RigaDichiarazione">
+          <FieldMappings>
+            <FieldMapping FieldName="CodQuadro" TargetFieldName="CodQuadro" />
+            <FieldMapping FieldName="CodUnitaMisura" TargetFieldName="CodUnitaMisura" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdDichiarazione" TargetFieldName="IdDichiarazione" />
+            <FieldMapping FieldName="IdMateriale" TargetFieldName="IdMateriale" />
+            <FieldMapping FieldName="Iva" TargetFieldName="Iva" />
+            <FieldMapping FieldName="PrezzoUnitario" TargetFieldName="PrezzoUnitario" />
+            <FieldMapping FieldName="Procedura" TargetFieldName="Procedura" />
+            <FieldMapping FieldName="Valore" TargetFieldName="Valore" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Riunione" TargetName="SociPolieco:dbo:Riunione">
+          <FieldMappings>
+            <FieldMapping FieldName="Data" TargetFieldName="Data" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="Tipo" TargetFieldName="Tipo" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":RuoloUtente" TargetName="SociPolieco:dbo:RuoloUtente">
+          <FieldMappings>
+            <FieldMapping FieldName="CodRuolo" TargetFieldName="CodRuolo" />
+            <FieldMapping FieldName="UserName" TargetFieldName="UserName" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Scadenza" TargetName="SociPolieco:dbo:Scadenza">
+          <FieldMappings>
+            <FieldMapping FieldName="Anno" TargetFieldName="Anno" />
+            <FieldMapping FieldName="ApplicaInteressi" TargetFieldName="ApplicaInteressi" />
+            <FieldMapping FieldName="CodCategoria" TargetFieldName="CodCategoria" />
+            <FieldMapping FieldName="Codice" TargetFieldName="Codice" />
+            <FieldMapping FieldName="CreaAutomatico" TargetFieldName="CreaAutomatico" />
+            <FieldMapping FieldName="DataFine" TargetFieldName="DataFine" />
+            <FieldMapping FieldName="DataInizio" TargetFieldName="DataInizio" />
+            <FieldMapping FieldName="DataScadenzaDichiarazione" TargetFieldName="DataScadenzaDichiarazione" />
+            <FieldMapping FieldName="DataScadenzaPagamento" TargetFieldName="DataScadenzaPagamento" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="RifPeriodo" TargetFieldName="RifPeriodo" />
+            <FieldMapping FieldName="TassoInteresse" TargetFieldName="TassoInteresse" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Sede" TargetName="SociPolieco:dbo:Sede">
+          <FieldMappings>
+            <FieldMapping FieldName="Cap" TargetFieldName="Cap" />
+            <FieldMapping FieldName="CodTipoSede" TargetFieldName="CodTipoSede" />
+            <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
+            <FieldMapping FieldName="Email" TargetFieldName="Email" />
+            <FieldMapping FieldName="Fax" TargetFieldName="Fax" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IdAzienda" TargetFieldName="IdAzienda" />
+            <FieldMapping FieldName="Indirizzo" TargetFieldName="Indirizzo" />
+            <FieldMapping FieldName="Localita" TargetFieldName="Localita" />
+            <FieldMapping FieldName="Provincia" TargetFieldName="Provincia" />
+            <FieldMapping FieldName="Regione" TargetFieldName="Regione" />
+            <FieldMapping FieldName="Telefono1" TargetFieldName="Telefono1" />
+            <FieldMapping FieldName="Telefono2" TargetFieldName="Telefono2" />
+            <FieldMapping FieldName="UsatoPerSpedizione" TargetFieldName="UsatoPerSpedizione" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Utente" TargetName="SociPolieco:dbo:Utente">
+          <FieldMappings>
+            <FieldMapping FieldName="ArxivarPassword" TargetFieldName="ArxivarPassword" />
+            <FieldMapping FieldName="ArxivarUserId" TargetFieldName="ArxivarUserId" />
+            <FieldMapping FieldName="Cellulare" TargetFieldName="Cellulare" />
+            <FieldMapping FieldName="CompanyKey" TargetFieldName="CompanyKey" />
+            <FieldMapping FieldName="DataAccesso" TargetFieldName="DataAccesso" />
+            <FieldMapping FieldName="DataRegistrazione" TargetFieldName="DataRegistrazione" />
+            <FieldMapping FieldName="DataRilascioPassword" TargetFieldName="DataRilascioPassword" />
+            <FieldMapping FieldName="Email" TargetFieldName="Email" />
+            <FieldMapping FieldName="IsAttivo" TargetFieldName="IsAttivo" />
+            <FieldMapping FieldName="Nome" TargetFieldName="Nome" />
+            <FieldMapping FieldName="Note" TargetFieldName="Note" />
+            <FieldMapping FieldName="NumeroAccessi" TargetFieldName="NumeroAccessi" />
+            <FieldMapping FieldName="Password" TargetFieldName="Password" />
+            <FieldMapping FieldName="PasswordProvvisoria" TargetFieldName="PasswordProvvisoria" />
+            <FieldMapping FieldName="Telefono" TargetFieldName="Telefono" />
+            <FieldMapping FieldName="UserName" TargetFieldName="UserName" />
+          </FieldMappings>
+        </EntityMapping>
+      </EntityMappings>
+      <TypedViewMappings>
+        <TypedViewMapping TypedViewName=":VwPassaggioAssemblea" TargetName="SociPolieco:dbo:vwPassaggioAssemblea">
+          <FieldMappings>
+            <FieldMapping FieldName="CodCategoria" TargetFieldName="CodCategoria" />
+            <FieldMapping FieldName="CodiceFiscale" TargetFieldName="CodiceFiscale" />
+            <FieldMapping FieldName="DataPassaggioCda" TargetFieldName="DataPassaggioCDA" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" />
+            <FieldMapping FieldName="Localita" TargetFieldName="Localita" />
+            <FieldMapping FieldName="Motivo" TargetFieldName="Motivo" />
+            <FieldMapping FieldName="PartitaIva" TargetFieldName="PartitaIVA" />
+            <FieldMapping FieldName="Provincia" TargetFieldName="provincia" />
+            <FieldMapping FieldName="RagioneSociale" TargetFieldName="RagioneSociale" />
+          </FieldMappings>
+        </TypedViewMapping>
+        <TypedViewMapping TypedViewName=":VwPassaggioCda" TargetName="SociPolieco:dbo:vwPassaggioCDA">
+          <FieldMappings>
+            <FieldMapping FieldName="CodCategoria" TargetFieldName="CodCategoria" />
+            <FieldMapping FieldName="CodiceFiscale" TargetFieldName="CodiceFiscale" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" />
+            <FieldMapping FieldName="Localita" TargetFieldName="Localita" />
+            <FieldMapping FieldName="Motivo" TargetFieldName="Motivo" />
+            <FieldMapping FieldName="PartitaIva" TargetFieldName="PartitaIVA" />
+            <FieldMapping FieldName="Provincia" TargetFieldName="provincia" />
+            <FieldMapping FieldName="RagioneSociale" TargetFieldName="RagioneSociale" />
+          </FieldMappings>
+        </TypedViewMapping>
+        <TypedViewMapping TypedViewName=":VwRicercaAziende" TargetName="SociPolieco:dbo:vwRicercaAziende">
+          <FieldMappings>
+            <FieldMapping FieldName="AllegaBilancio" TargetFieldName="AllegaBilancio" />
+            <FieldMapping FieldName="Associazione" TargetFieldName="Associazione" />
+            <FieldMapping FieldName="Cap" TargetFieldName="Cap" />
+            <FieldMapping FieldName="CatAttivitaPrincipale" TargetFieldName="CatAttivitaPrincipale" />
+            <FieldMapping FieldName="CatAttivitaSecondaria" TargetFieldName="CatAttivitaSecondaria" />
+            <FieldMapping FieldName="CodCategoria" TargetFieldName="CodCategoria" />
+            <FieldMapping FieldName="CodFormaGiuridica" TargetFieldName="CodFormaGiuridica" />
+            <FieldMapping FieldName="CodiceFiscale" TargetFieldName="CodiceFiscale" />
+            <FieldMapping FieldName="CodInfoStato" TargetFieldName="CodInfoStato" />
+            <FieldMapping FieldName="CodRegione" TargetFieldName="CodRegione" />
+            <FieldMapping FieldName="CodStato" TargetFieldName="CodStato" />
+            <FieldMapping FieldName="CodTipoIscrizione" TargetFieldName="CodTipoIscrizione" />
+            <FieldMapping FieldName="DataAdesione" TargetFieldName="DataAdesione" />
+            <FieldMapping FieldName="DataAssemblea" TargetFieldName="DataAssemblea" />
+            <FieldMapping FieldName="DataInizioAttivita" TargetFieldName="DataInizioAttivita" />
+            <FieldMapping FieldName="DataPassaggioCda" TargetFieldName="DataPassaggioCDA" />
+            <FieldMapping FieldName="DataVersamentoUnaTantum" TargetFieldName="DataVersamentoUnaTantum" />
+            <FieldMapping FieldName="DescrTelefoni" TargetFieldName="DescrTelefoni" />
+            <FieldMapping FieldName="DocumentazioneCciaa" TargetFieldName="DocumentazioneCCIAA" />
+            <FieldMapping FieldName="Email" TargetFieldName="Email" />
+            <FieldMapping FieldName="Fax" TargetFieldName="Fax" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" />
+            <FieldMapping FieldName="Indirizzo" TargetFieldName="Indirizzo" />
+            <FieldMapping FieldName="LegaleRappresentante" TargetFieldName="LegaleRappresentante" />
+            <FieldMapping FieldName="Localita" TargetFieldName="Localita" />
+            <FieldMapping FieldName="PartitaIva" TargetFieldName="PartitaIVA" />
+            <FieldMapping FieldName="Provincia" TargetFieldName="Provincia" />
+            <FieldMapping FieldName="QuotaAdesione" TargetFieldName="QuotaAdesione" />
+            <FieldMapping FieldName="RagioneSociale" TargetFieldName="RagioneSociale" />
+            <FieldMapping FieldName="RagSocPrecedenti" TargetFieldName="RagSocPrecedenti" />
+            <FieldMapping FieldName="Regione" TargetFieldName="Regione" />
+            <FieldMapping FieldName="StatoDichiarazione" TargetFieldName="StatoDichiarazione" />
+            <FieldMapping FieldName="StatoPagamenti" TargetFieldName="StatoPagamenti" />
+            <FieldMapping FieldName="Telefono1" TargetFieldName="Telefono1" />
+            <FieldMapping FieldName="Telefono2" TargetFieldName="Telefono2" />
+            <FieldMapping FieldName="UsatoPerSpedizione" TargetFieldName="UsatoPerSpedizione" />
+          </FieldMappings>
+        </TypedViewMapping>
+        <TypedViewMapping TypedViewName=":VwRicercaQuantitativi" TargetName="SociPolieco:dbo:vwRicercaQuantitativi">
+          <FieldMappings>
+            <FieldMapping FieldName="Anno" TargetFieldName="anno" />
+            <FieldMapping FieldName="CodCategoria" TargetFieldName="codCategoria" />
+            <FieldMapping FieldName="CodTipo" TargetFieldName="CodTipo" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" />
+            <FieldMapping FieldName="IdAzienda" TargetFieldName="idAzienda" />
+            <FieldMapping FieldName="Provincia" TargetFieldName="provincia" />
+            <FieldMapping FieldName="RagioneSociale" TargetFieldName="RagioneSociale" />
+            <FieldMapping FieldName="Regione" TargetFieldName="Regione" />
+            <FieldMapping FieldName="Valorekg" TargetFieldName="valorekg" />
+          </FieldMappings>
+        </TypedViewMapping>
+      </TypedViewMappings>
+      <SPCallMappings>
+        <SPCallMapping SPCallName=":GetLibroSoci" TargetName="SociPolieco:dbo:getLibroSoci">
+          <FieldMappings>
+            <FieldMapping FieldName="DataAssemblea" TargetFieldName="@DataAssemblea" />
+          </FieldMappings>
+        </SPCallMapping>
+      </SPCallMappings>
+      <TvfCallMappings />
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>

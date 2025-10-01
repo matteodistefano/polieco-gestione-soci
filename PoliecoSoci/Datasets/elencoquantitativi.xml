@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="VwRicercaQuantitativi" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VwRicercaQuantitativi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="RagioneSociale" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="CodCategoria" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Provincia" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Regione" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Anno" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAzienda" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="CodTipo" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Valorekg" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="_ValoreTn" msdata:ReadOnly="true" msdata:Expression="ValoreKg/1000" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

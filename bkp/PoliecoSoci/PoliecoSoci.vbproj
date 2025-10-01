@@ -1,0 +1,1424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09AB9EF2-C9A6-4693-ACB4-B874D756E97A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PoliecoSoci.My.MyApplication</StartupObject>
+    <RootNamespace>PoliecoSoci</RootNamespace>
+    <AssemblyName>PoliecoSoci</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PoliecoSoci.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PoliecoSoci.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>View Icons 32 n i8.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Abletech.Arxivar.Client.WCFConnector, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5954fa6a2fb99e64, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Abletech\v5.3.10\Assembly\Abletech.Arxivar.Client.WCFConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="Abletech.Arxivar.Entities, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5954fa6a2fb99e64, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Abletech\v5.3.10\Assembly\Abletech.Arxivar.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Abletech.Utility.Configurazione">
+      <HintPath>C:\Windows\SysWOW64\ArchSystem\Abletech.Utility.Configurazione.dll</HintPath>
+    </Reference>
+    <Reference Include="Atapi">
+      <HintPath>..\..\Library\TAPI\Atapi.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="NetOffice">
+      <HintPath>..\..\..\Library\NetOffice 1.6.0\NET 4.0\Assemblies\Any CPU\NetOffice.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="OfficeApi">
+      <HintPath>..\..\..\Library\NetOffice 1.6.0\NET 4.0\Assemblies\Any CPU\OfficeApi.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SD.LLBLGen.Pro.ORMSupportClasses, Version=5.2.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Solutions Design\LLBLGen Pro v5.2\Frameworks\LLBLGen Pro\RuntimeLibraries\CompiledRuntimeLibraries\SD.LLBLGen.Pro.ORMSupportClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="VBIDEApi">
+      <HintPath>..\..\..\Library\NetOffice 1.6.0\NET 4.0\Assemblies\Any CPU\VBIDEApi.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WordApi">
+      <HintPath>..\..\..\Library\NetOffice 1.6.0\NET 4.0\Assemblies\Any CPU\WordApi.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Allegati\dlgAziendaAllegato.designer.vb">
+      <DependentUpon>dlgAziendaAllegato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Allegati\dlgAziendaAllegato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CDAAssemblee\FLibroSoci.designer.vb">
+      <DependentUpon>FLibroSoci.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CDAAssemblee\FLibroSoci.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CDAAssemblee\FPassaggioAssociati.designer.vb">
+      <DependentUpon>FPassaggioAssociati.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CDAAssemblee\FPassaggioAssociati.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Config\clsUserConfig.vb" />
+    <Compile Include="Config\dlgCambioPassword.designer.vb">
+      <DependentUpon>dlgCambioPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Config\dlgCambioPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Allegati\dlgAllegatoDettaglio.designer.vb">
+      <DependentUpon>dlgAllegatoDettaglio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Allegati\dlgAllegatoDettaglio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Allegati\dlgAllegato.designer.vb">
+      <DependentUpon>dlgAllegato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Allegati\dlgAllegato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgStampaSchedaSocio.designer.vb">
+      <DependentUpon>dlgStampaSchedaSocio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgStampaSchedaSocio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgStampaEsportaSoci.designer.vb">
+      <DependentUpon>dlgStampaEsportaSoci.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgStampaEsportaSoci.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Allegati\FElencoAziendeAllegato.designer.vb">
+      <DependentUpon>FElencoAziendeAllegato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Allegati\FElencoAziendeAllegato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRicercaQuantitativi.designer.vb">
+      <DependentUpon>FRicercaQuantitativi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRicercaQuantitativi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgStampaDocumentazione.designer.vb">
+      <DependentUpon>dlgStampaDocumentazione.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgStampaDocumentazione.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgIncasso.designer.vb">
+      <DependentUpon>dlgIncasso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgIncasso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgEventoAzienda.designer.vb">
+      <DependentUpon>dlgEventoAzienda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgEventoAzienda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgDichiarazioneDettaglio.designer.vb">
+      <DependentUpon>dlgDichiarazioneDettaglio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgDichiarazioneDettaglio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FDichiarazione.designer.vb">
+      <DependentUpon>FDichiarazione.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FDichiarazione.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgLicenza.designer.vb">
+      <DependentUpon>dlgLicenza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgLicenza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgAttivita.designer.vb">
+      <DependentUpon>dlgAttivita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgAttivita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgContatto.designer.vb">
+      <DependentUpon>dlgContatto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgContatto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgSede.designer.vb">
+      <DependentUpon>dlgSede.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgSede.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgSplash.designer.vb">
+      <DependentUpon>dlgSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Config\FAggiornaDB.designer.vb">
+      <DependentUpon>FAggiornaDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Config\FAggiornaDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAzienda.Designer.vb">
+      <DependentUpon>FAzienda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FAzienda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FElencoSoci.designer.vb">
+      <DependentUpon>FElencoSoci.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FElencoSoci.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMain.designer.vb">
+      <DependentUpon>FMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTest.Designer.vb">
+      <DependentUpon>FTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generale.vb" />
+    <Compile Include="CDAAssemblee\dlgRiunione.designer.vb">
+      <DependentUpon>dlgRiunione.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CDAAssemblee\dlgRiunione.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CDAAssemblee\FElencoRiunioni.designer.vb">
+      <DependentUpon>FElencoRiunioni.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CDAAssemblee\FElencoRiunioni.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgSelFiltroEvento.designer.vb">
+      <DependentUpon>dlgSelFiltroEvento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgSelFiltroEvento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FElencoDOL.designer.vb">
+      <DependentUpon>FElencoDOL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FElencoDOL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestione tabelle\dlgQuadro.designer.vb">
+      <DependentUpon>dlgQuadro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestione tabelle\dlgQuadro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestione tabelle\FElencoProdotti.designer.vb">
+      <DependentUpon>FElencoProdotti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestione tabelle\FElencoProdotti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestione tabelle\FElencoQuadri.designer.vb">
+      <DependentUpon>FElencoQuadri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestione tabelle\FElencoQuadri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestione tabelle\dlgMateriale.designer.vb">
+      <DependentUpon>dlgMateriale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestione tabelle\dlgMateriale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestione tabelle\FElencoMateriali.designer.vb">
+      <DependentUpon>FElencoMateriali.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestione tabelle\FElencoMateriali.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestione tabelle\dlgScadenza.designer.vb">
+      <DependentUpon>dlgScadenza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestione tabelle\dlgScadenza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestione tabelle\FElencoScadenze.designer.vb">
+      <DependentUpon>FElencoScadenze.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestione tabelle\FElencoScadenze.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestione Utenti\dlgUtente.designer.vb">
+      <DependentUpon>dlgUtente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestione Utenti\dlgUtente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestione Utenti\FManagerUtenti.designer.vb">
+      <DependentUpon>FManagerUtenti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestione Utenti\FManagerUtenti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\ImagesHelper.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\WordReportManager.vb" />
+    <Compile Include="Stampe\ElencoQuantitativi.vb">
+      <DependentUpon>ElencoQuantitativi.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Stampe\SchedaSocio.vb">
+      <DependentUpon>SchedaSocio.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Stampe\ElencoSoci.vb">
+      <DependentUpon>ElencoSoci.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Stampe\ElencoAssemblea.vb">
+      <DependentUpon>ElencoAssemblea.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Stampe\ElencoCDA.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ElencoCDA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Stampe\librosoci.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>librosoci.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TAPI\AtapiLineEditor.vb" />
+    <Compile Include="TAPI\AtapiManager.vb" />
+    <Compile Include="TAPI\dlgEditAtapi.designer.vb">
+      <DependentUpon>dlgEditAtapi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TAPI\dlgEditAtapi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\dlgSelEvento.Designer.vb">
+      <DependentUpon>dlgSelEvento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\dlgSelEvento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucEventSelector.Designer.vb">
+      <DependentUpon>ucEventSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucEventSelector.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Allegati\dlgAziendaAllegato.resx">
+      <DependentUpon>dlgAziendaAllegato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDAAssemblee\FLibroSoci.resx">
+      <DependentUpon>FLibroSoci.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDAAssemblee\FPassaggioAssociati.resx">
+      <DependentUpon>FPassaggioAssociati.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Config\dlgCambioPassword.resx">
+      <DependentUpon>dlgCambioPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Allegati\dlgAllegatoDettaglio.resx">
+      <DependentUpon>dlgAllegatoDettaglio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Allegati\dlgAllegato.resx">
+      <DependentUpon>dlgAllegato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgStampaSchedaSocio.resx">
+      <DependentUpon>dlgStampaSchedaSocio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgStampaEsportaSoci.resx">
+      <DependentUpon>dlgStampaEsportaSoci.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Allegati\FElencoAziendeAllegato.resx">
+      <DependentUpon>FElencoAziendeAllegato.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRicercaQuantitativi.resx">
+      <DependentUpon>FRicercaQuantitativi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgStampaDocumentazione.resx">
+      <DependentUpon>dlgStampaDocumentazione.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgIncasso.resx">
+      <DependentUpon>dlgIncasso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgEventoAzienda.resx">
+      <DependentUpon>dlgEventoAzienda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgDichiarazioneDettaglio.resx">
+      <DependentUpon>dlgDichiarazioneDettaglio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FDichiarazione.resx">
+      <DependentUpon>FDichiarazione.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgLicenza.resx">
+      <DependentUpon>dlgLicenza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgAttivita.resx">
+      <DependentUpon>dlgAttivita.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgContatto.resx">
+      <DependentUpon>dlgContatto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgSede.resx">
+      <DependentUpon>dlgSede.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgSplash.resx">
+      <DependentUpon>dlgSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Config\FAggiornaDB.resx">
+      <DependentUpon>FAggiornaDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAzienda.resx">
+      <DependentUpon>FAzienda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FElencoSoci.resx">
+      <DependentUpon>FElencoSoci.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMain.resx">
+      <DependentUpon>FMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDAAssemblee\dlgRiunione.resx">
+      <DependentUpon>dlgRiunione.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDAAssemblee\FElencoRiunioni.resx">
+      <DependentUpon>FElencoRiunioni.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgSelFiltroEvento.resx">
+      <DependentUpon>dlgSelFiltroEvento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FElencoDOL.resx">
+      <DependentUpon>FElencoDOL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTest.resx">
+      <DependentUpon>FTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestione tabelle\dlgQuadro.resx">
+      <DependentUpon>dlgQuadro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestione tabelle\FElencoProdotti.resx">
+      <DependentUpon>FElencoProdotti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestione tabelle\FElencoQuadri.resx">
+      <DependentUpon>FElencoQuadri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestione tabelle\dlgMateriale.resx">
+      <DependentUpon>dlgMateriale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestione tabelle\FElencoMateriali.resx">
+      <DependentUpon>FElencoMateriali.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestione tabelle\dlgScadenza.resx">
+      <DependentUpon>dlgScadenza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestione tabelle\FElencoScadenze.resx">
+      <DependentUpon>FElencoScadenze.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestione Utenti\dlgUtente.resx">
+      <DependentUpon>dlgUtente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestione Utenti\FManagerUtenti.resx">
+      <DependentUpon>FManagerUtenti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Stampe\SchedaSocio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SchedaSocio.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Stampe\ElencoQuantitativi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ElencoQuantitativi.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="TAPI\dlgEditAtapi.resx">
+      <DependentUpon>dlgEditAtapi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\dlgSelEvento.resx">
+      <DependentUpon>dlgSelEvento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucEventSelector.resx">
+      <DependentUpon>ucEventSelector.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Stampe\ElencoSoci.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ElencoSoci.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Stampe\librosoci.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>librosoci.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Stampe\ElencoAssemblea.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ElencoAssemblea.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Stampe\ElencoCDA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ElencoCDA.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Abletech\v5.3.10\ArxivarWCFWrapper\ArxivarWCFWrapper\ArxivarWCFWrapper.vbproj">
+      <Project>{2A5E63B2-4914-491D-852E-CD8AD113217D}</Project>
+      <Name>ArxivarWCFWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\mdsConfig\mdsConfig.vbproj">
+      <Project>{f6065b8a-eb2b-47eb-bc4c-b004e53d72e4}</Project>
+      <Name>mdsConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\mdsDbLib\mdsDbLib.vbproj">
+      <Project>{ede9f97b-bce1-4a7c-983a-4a35ddf0039d}</Project>
+      <Name>mdsDbLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\mdsDbLib\mdsDbSqlServer\mdsDbSqlServer.vbproj">
+      <Project>{0e824602-c4c1-4d4a-a272-28a59a4dd49c}</Project>
+      <Name>mdsDbSqlServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\mdsLLBLGenUtility\mdsLLBLGenUtility.vbproj">
+      <Project>{b8bef4d1-8844-4bf2-b877-d2f16c9ab343}</Project>
+      <Name>mdsLLBLGenUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\mdsReport\mdsReport.vbproj">
+      <Project>{3333a1f9-d0da-476c-b70d-585a8c97e0d2}</Project>
+      <Name>mdsReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\mdsUIControls\mdsUIControls.vbproj">
+      <Project>{a31d3d2f-d093-4fb4-860e-e27007672f4b}</Project>
+      <Name>mdsUIControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\mdsUtility\mdsUtility.vbproj">
+      <Project>{e3aa64ad-1785-4049-a663-b9aa54fa0c44}</Project>
+      <Name>mdsUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.vbproj">
+      <Project>{c7301cdc-744b-408f-9361-d9cd88189a38}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DALDBSpecific.vbproj">
+      <Project>{2bb37d8c-272f-42a9-b66b-3dbf13664487}</Project>
+      <Name>DALDBSpecific</Name>
+    </ProjectReference>
+    <ProjectReference Include="DichiarazioneOnLine\DichiarazioneOnLine.vbproj">
+      <Project>{be0d04a0-949e-4cc3-9b56-3057079691df}</Project>
+      <Name>DichiarazioneOnLine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add User 3 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add User 3 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddAzienda.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddMandante.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddOrdine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert or Warning 2 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert or Warning 1 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert or Warning 1 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ANGEM_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ANGEM_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ateco91.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bank 32 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Arrow Left 16 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Delete 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Plus 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Books Untidy 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bottom 32 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browser Stop 32 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullets 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullets 32 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculator 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculator 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CBBack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charts and Graphs 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkbox Checked 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close X Red 16 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close X Red 32 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close X Red 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coins 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coins 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combination-lock.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Compile Pause 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contact 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contact 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contact 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database Check In 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database Options 32 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database Options 32 n p81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database Rollback 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Date and Time 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete Document 1 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete User 3 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteAzienda.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DelOrdine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discoconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Document Settings 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Document Settings 32 h g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down Folder 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\507[1].gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emails 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emails 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eraser 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eraser Pink 2 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estrattoconto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Euro 16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Euro 16 d g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Euro 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit Door 2 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Factory 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Factory 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FASI_GESTITAENTE.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fast Rewind 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fast Rewind 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Favorites Blue 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FECBack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File and Folder 2 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filing Cabinet Open 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find Document 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag Blue 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag Red 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2978276[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward or Next 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fragment Document 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GIROCONTI_DA_VALIDARE.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Plus 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Arrow Left 16 d g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Arrow Left 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Arrow Right 16 d g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Arrow Right 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Checkmark 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Checkmark 32 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Plus 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Plus 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Checkmark 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help Blue 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help Green 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\History 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\History 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hourglass 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\115067_32378_16_add_green_plus_icon[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICOANNULLATO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info Round Blue 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invoice 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Label 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Blue Round 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Green Round 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Green Round 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Green Round 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Red Round 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Red Round 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light White Round 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Yellow Round 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Yellow Round 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lightning 1 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lightning 1 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lightning 1 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line Graph 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line Graph with Markers 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Locked 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-i-nps[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoANGEM.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Media Card 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\647304[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Move Row Down 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smallmoto[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\News Blue 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next Document 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next Document 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Note 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Note 32 d g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Note 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office Block 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office Block 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office Block 24 h g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office Block 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK 16 d g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open File or Folder 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open File or Folder 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open File or Folder 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options 2 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options 2 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options 3 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options 3 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page Rulers 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDA 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pencil 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlusPlus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Previous Document 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer 24 n g1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectorange.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Delete 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Checkmark 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Delete 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Minus 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Arrow Left 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Delete 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report - Pie Chart 32 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rotate Object CCW 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SALDO_ERRATO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save Blue 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save Blue 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save Blue 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Script 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Script 32 n p8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SE Arrow 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SE Arrow 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SE Arrow 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select Document 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Send and Receive Mail 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Send Mail 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Show Grid 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Show Grid 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smart Female 2 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smart Female 1 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smart Male 2 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smart Male 1 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smart Male 1 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stacked Documents 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2946935[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistic[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop Sign Blank 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop[1].bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop Play 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sun - UV Warning 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swap.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swap1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Task List 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tile Vertically 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tile Vertically 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tile Vertically 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash Plastic Empty 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangle Green 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User 2 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Group 1 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserArrow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Group 2 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verifica_convenienza[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verify[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View Database 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View Documents 32 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View User 3 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View Details 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Coat Female 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Coat Male 48 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Workflow Horiz Arrows Multi 24 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Workflow Horiz Arrows Multi 16 n g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company_big[1].gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48px-Emblem-money.svg[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arxivar32.png" />
+    <None Include="Resources\Contact 48 n g1.gif" />
+    <None Include="Resources\Options 3 16 n g.gif" />
+    <None Include="Resources\Truck 48 n g.gif" />
+    <None Include="Resources\Truck 32 n g.gif" />
+    <None Include="Resources\Truck 24 n g.gif" />
+    <None Include="Resources\Truck 16 n g.gif" />
+    <None Include="Resources\Certificate 24 n g.gif" />
+    <None Include="Resources\Certificate 32 n g.gif" />
+    <None Include="Resources\Certificate 48 n g.gif" />
+    <None Include="Resources\Certificate 16 n g.gif" />
+    <None Include="Resources\Add Appointment 16 n g.gif" />
+    <None Include="Resources\Add Appointment 24 n g.gif" />
+    <None Include="Resources\Add Appointment 32 n g.gif" />
+    <None Include="Resources\Delete Appointment 16 n g.gif" />
+    <None Include="Resources\Delete Appointment 24 n g.gif" />
+    <None Include="Resources\Delete Appointment 32 n g.gif" />
+    <None Include="Resources\Red Minus 24 n g.gif" />
+    <None Include="Resources\Red Minus 16 n g.gif" />
+    <None Include="Resources\Arxivar16.png" />
+    <None Include="Resources\PROP.BMP" />
+    <None Include="Resources\Barcode.jpg" />
+    <None Include="Resources\alert_icon_dnld.gif" />
+    <None Include="Resources\freccia_A.png" />
+    <None Include="Resources\freccia_DA.png" />
+    <None Include="Resources\Charts and Graphs 16 n g.gif" />
+    <None Include="Resources\Charts and Graphs 24 n g.gif" />
+    <None Include="Resources\Charts and Graphs 32 n g.gif" />
+    <None Include="Resources\AssembleaTrasp.png" />
+    <Content Include="quote.xl.xsl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Resources\Blue Arrow Up 32 n g.gif" />
+    <None Include="Resources\Blue Arrow Up 24 n g.gif" />
+    <None Include="Resources\Blue Arrow Up 16 n g.gif" />
+    <None Include="Resources\Blue Arrow Down 32 n g.gif" />
+    <None Include="Resources\Blue Arrow Down 24 n g.gif" />
+    <None Include="Resources\Blue Arrow Down 16 n g.gif" />
+    <None Include="Resources\Export Doc 32 n g.gif" />
+    <None Include="Resources\Export Doc 16 n g.gif" />
+    <None Include="Resources\Export Doc 24 n g.gif" />
+    <None Include="Resources\Import Doc 32 n g.gif" />
+    <None Include="Resources\Import Doc 16 n g.gif" />
+    <None Include="Resources\Import Doc 24 n g.gif" />
+    <None Include="Resources\Attachment 48 n g.gif" />
+    <None Include="Resources\Attachment 16 n g.gif" />
+    <None Include="Resources\Attachment 24 n g.gif" />
+    <None Include="Resources\Attachment 32 n g.gif" />
+    <Content Include="View Icons 32 n i8.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Arxivar\" />
+    <Folder Include="Datasets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "E:\NET2012\UpdateChecker\UpdateChecker\bin\Release\UpdateChecker.exe" $(TargetDir)</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
