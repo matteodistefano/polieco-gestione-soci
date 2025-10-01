@@ -78,7 +78,7 @@
     </Reference>
     <Reference Include="SD.LLBLGen.Pro.ORMSupportClasses, Version=5.9.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Solutions Design\LLBLGen Pro v5.9\Frameworks\LLBLGen Pro\RuntimeLibraries\CompiledRuntimeLibraries\SD.LLBLGen.Pro.ORMSupportClasses.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Solutions Design\LLBLGen Pro v5.11\Frameworks\LLBLGen Pro\RuntimeLibraries\CompiledRuntimeLibraries\SD.LLBLGen.Pro.ORMSupportClasses.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Compression.Base, Version=15.3460.0.26, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -686,7 +686,7 @@
       <Project>{0e824602-c4c1-4d4a-a272-28a59a4dd49c}</Project>
       <Name>mdsDbSqlServer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\mdsLLBLGenUtility_5.9\mdsLLBLGenUtility.vbproj">
+    <ProjectReference Include="..\..\..\mdsLLBLGenUtility_5.11\mdsLLBLGenUtility.vbproj">
       <Project>{b8bef4d1-8844-4bf2-b877-d2f16c9ab343}</Project>
       <Name>mdsLLBLGenUtility</Name>
     </ProjectReference>

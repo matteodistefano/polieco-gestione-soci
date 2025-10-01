@@ -99,7 +99,7 @@
         <DestinationRootFolder Value=".\" />
         <FrameworkName Value="LLBLGen Pro Runtime Framework" />
         <LanguageName Value="VB.NET" />
-        <PlatformName Value=".NET 4.8.0" />
+        <PlatformName Value=".NET 4.6" />
         <PresetName Value="SD.Presets.Adapter.General" />
         <RootNamespace Value="DAL" />
         <TemplateGroup Value="Adapter" />
@@ -1070,7 +1070,7 @@
       <Catalogs>
         <Catalog Name="SociPolieco">
           <Schemas>
-            <Schema Name="Allegati" SyncSource="2" LastSyncWithDatabase="2025-10-01T18:02:44.2367982Z">
+            <Schema Name="Allegati" SyncSource="2" LastSyncWithDatabase="2023-03-26T09:23:31.507765Z">
               <Tables>
                 <Table Name="Allegato">
                   <PkConstraintName Name="PK__Allegato__3214EC07BFEBDD1A" />
@@ -1140,7 +1140,7 @@
                 </View>
               </Views>
             </Schema>
-            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2025-10-01T18:02:44.4437368Z">
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2023-03-26T09:23:31.6906621Z">
               <Tables>
                 <Table Name="Attivita">
                   <PkConstraintName Name="PK__Attivita__151B244E" />
@@ -1665,7 +1665,7 @@
                 </StoredProcedure>
               </StoredProcedures>
             </Schema>
-            <Schema Name="Lookup" SyncSource="2" LastSyncWithDatabase="2025-10-01T18:02:44.7308548Z">
+            <Schema Name="Lookup" SyncSource="2" LastSyncWithDatabase="2023-03-26T09:23:32.9201669Z">
               <Tables>
                 <Table Name="AliquotaIVA">
                   <PkConstraintName Name="PK__Aliquota__CFAD1C5160FC61CA" />

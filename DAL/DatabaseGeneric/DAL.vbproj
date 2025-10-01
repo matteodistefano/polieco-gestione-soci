@@ -53,7 +53,7 @@
     </Reference>
     <Reference Include="SD.LLBLGen.Pro.ORMSupportClasses, Version=5.9.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Solutions Design\LLBLGen Pro v5.9\Frameworks\LLBLGen Pro\RuntimeLibraries\CompiledRuntimeLibraries\SD.LLBLGen.Pro.ORMSupportClasses.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Solutions Design\LLBLGen Pro v5.11\Frameworks\LLBLGen Pro\RuntimeLibraries\CompiledRuntimeLibraries\SD.LLBLGen.Pro.ORMSupportClasses.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

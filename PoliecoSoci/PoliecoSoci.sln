@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28922.388
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PoliecoSoci", "PoliecoSoci.vbproj", "{09AB9EF2-C9A6-4693-ACB4-B874D756E97A}"
 EndProject
@@ -35,9 +35,9 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DALDBSpecific", "..\DAL\Dat
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DAL", "..\DAL\DatabaseGeneric\DAL.vbproj", "{3264F300-E7BF-4E15-9954-17BCEBE6B232}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "mdsLLBLGenUtility", "..\..\..\mdsLLBLGenUtility_5.9\mdsLLBLGenUtility.vbproj", "{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}"
-EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CallManager", "..\CallManager\CallManager.vbproj", "{B2128934-2D59-4EBA-BA11-0671ABE60C9B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "mdsLLBLGenUtility", "..\..\..\mdsLLBLGenUtility_5.11\mdsLLBLGenUtility.vbproj", "{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -263,22 +263,6 @@ Global
 		{3264F300-E7BF-4E15-9954-17BCEBE6B232}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3264F300-E7BF-4E15-9954-17BCEBE6B232}.Release|x86.ActiveCfg = Release|Any CPU
 		{3264F300-E7BF-4E15-9954-17BCEBE6B232}.Release|x86.Build.0 = Release|Any CPU
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.DataDirect|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.DataDirect|Any CPU.Build.0 = Debug|Any CPU
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.DataDirect|x86.ActiveCfg = Debug|x86
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.DataDirect|x86.Build.0 = Debug|x86
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug anagrafica|Any CPU.ActiveCfg = Debug anagrafica|Any CPU
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug anagrafica|Any CPU.Build.0 = Debug anagrafica|Any CPU
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug anagrafica|x86.ActiveCfg = Debug anagrafica|x86
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug anagrafica|x86.Build.0 = Debug anagrafica|x86
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug|x86.ActiveCfg = Debug|x86
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug|x86.Build.0 = Debug|x86
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Release|x86.ActiveCfg = Release|x86
-		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Release|x86.Build.0 = Release|x86
 		{B2128934-2D59-4EBA-BA11-0671ABE60C9B}.DataDirect|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2128934-2D59-4EBA-BA11-0671ABE60C9B}.DataDirect|Any CPU.Build.0 = Debug|Any CPU
 		{B2128934-2D59-4EBA-BA11-0671ABE60C9B}.DataDirect|x86.ActiveCfg = Debug|Any CPU
@@ -295,6 +279,22 @@ Global
 		{B2128934-2D59-4EBA-BA11-0671ABE60C9B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2128934-2D59-4EBA-BA11-0671ABE60C9B}.Release|x86.ActiveCfg = Release|Any CPU
 		{B2128934-2D59-4EBA-BA11-0671ABE60C9B}.Release|x86.Build.0 = Release|Any CPU
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.DataDirect|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.DataDirect|Any CPU.Build.0 = Release|Any CPU
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.DataDirect|x86.ActiveCfg = Release|x86
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.DataDirect|x86.Build.0 = Release|x86
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug anagrafica|Any CPU.ActiveCfg = Debug anagrafica|Any CPU
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug anagrafica|Any CPU.Build.0 = Debug anagrafica|Any CPU
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug anagrafica|x86.ActiveCfg = Debug anagrafica|x86
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug anagrafica|x86.Build.0 = Debug anagrafica|x86
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug|x86.ActiveCfg = Debug|x86
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Debug|x86.Build.0 = Debug|x86
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Release|x86.ActiveCfg = Release|x86
+		{B8BEF4D1-8844-4BF2-B877-D2F16C9AB343}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -305,22 +305,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {373B19B9-E30A-484E-847C-10721DB19882}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://matteodistefano.visualstudio.com/defaultcollection
-		SccProjectUniqueName0 = ..\\..\\..\\mdsDbLib\\mdsDbLib.vbproj
-		SccProjectTopLevelParentUniqueName0 = PoliecoSoci.sln
-		SccProjectName0 = $/EBT-MGR/EB-MGR/mdsDbLib
-		SccAuxPath0 = https://matteodistefano.visualstudio.com/defaultcollection
-		SccLocalPath0 = ..\\..\\..\\mdsDbLib
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName1 = ..\\..\\..\\mdsDbLib\\mdsDbSqlServer\\mdsDbSqlServer.vbproj
-		SccProjectTopLevelParentUniqueName1 = PoliecoSoci.sln
-		SccProjectName1 = $/EBT-MGR/EB-MGR/mdsDbSqlServer
-		SccAuxPath1 = https://matteodistefano.visualstudio.com/defaultcollection
-		SccLocalPath1 = ..\\..\\..\\mdsDbLib\\mdsDbSqlServer
-		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 	EndGlobalSection
 EndGlobal
