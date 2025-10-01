@@ -3,7 +3,6 @@
         Dim Par() As String = My.Application.CommandLineArgs.ToArray
         Dim DA As DAL.DatabaseSpecific.DataAccessAdapter = Nothing
 
-
         Dim cfgPath As String = mdsUtility.FileSystem.GetUserConfigFolder(True) & "\settings.xml"
         cfgPath = cfgPath.Replace(My.Application.Info.AssemblyName, "PoliecoSoci")
         If Not System.IO.File.Exists(cfgPath) Then
