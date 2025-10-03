@@ -367,3 +367,4 @@ FodyWeavers.xsd
 /DAL/DatabaseGeneric/DAL.vbproj
 /PoliecoSoci/DichiarazioneOnLine/DichiarazioneOnLine.vbproj
 /PoliecoSoci/PoliecoSoci.vbproj
+**/*.vbproj
