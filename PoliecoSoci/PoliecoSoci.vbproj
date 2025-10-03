@@ -670,7 +670,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Abletech\v5.3.10\ArxivarWCFWrapper\ArxivarWCFWrapper\ArxivarWCFWrapper.vbproj">
+    <ProjectReference Include="..\..\..\ArxivarWCFWrapper\ArxivarWCFWrapper\ArxivarWCFWrapper.vbproj">
       <Project>{2A5E63B2-4914-491D-852E-CD8AD113217D}</Project>
       <Name>ArxivarWCFWrapper</Name>
     </ProjectReference>
@@ -1494,7 +1494,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "E:\NET2012\UpdateChecker\UpdateChecker\bin\Release\UpdateChecker.exe" $(TargetDir)</PostBuildEvent>
+    <PostBuildEvent>rem copy "E:\NET2012\UpdateChecker\UpdateChecker\bin\Release\UpdateChecker.exe" $(TargetDir)</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
