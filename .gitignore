@@ -364,6 +364,3 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /PoliecoSoci/PoliecoSoci.sln
-/DAL/DatabaseGeneric/DAL.vbproj
-/PoliecoSoci/DichiarazioneOnLine/DichiarazioneOnLine.vbproj
-/PoliecoSoci/PoliecoSoci.vbproj
