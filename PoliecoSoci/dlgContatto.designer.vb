@@ -54,50 +54,54 @@ Partial Class dlgContatto
         '
         Me.tsMain.AutoSize = False
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbExit, Me.tsbOk})
-        Me.tsMain.Location = New System.Drawing.Point(0, 314)
+        Me.tsMain.Location = New System.Drawing.Point(0, 579)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(804, 37)
+        Me.tsMain.Size = New System.Drawing.Size(1474, 69)
         Me.tsMain.TabIndex = 11
         '
         'tsbExit
         '
         Me.tsbExit.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.Undo_24_n_g
+        Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.Undo_32_n_g
         Me.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbExit.Name = "tsbExit"
         Me.tsbExit.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbExit.Size = New System.Drawing.Size(80, 34)
+        Me.tsbExit.Size = New System.Drawing.Size(117, 66)
         Me.tsbExit.Text = "Annulla"
         '
         'tsbOk
         '
         Me.tsbOk.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbOk.Image = Global.PoliecoSoci.My.Resources.Resources.OK_24_n_g
+        Me.tsbOk.Image = Global.PoliecoSoci.My.Resources.Resources.OK_32_n_g
         Me.tsbOk.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbOk.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbOk.Name = "tsbOk"
         Me.tsbOk.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbOk.Size = New System.Drawing.Size(54, 34)
+        Me.tsbOk.Size = New System.Drawing.Size(74, 66)
         Me.tsbOk.Text = "Ok"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(3, 10)
+        Me.Label1.Location = New System.Drawing.Point(6, 18)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(48, 13)
+        Me.Label1.Size = New System.Drawing.Size(87, 24)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Azienda:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(3, 63)
+        Me.Label2.Location = New System.Drawing.Point(6, 117)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(35, 13)
+        Me.Label2.Size = New System.Drawing.Size(60, 24)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "Ruolo"
         '
@@ -105,9 +109,10 @@ Partial Class dlgContatto
         '
         Me.lAzienda.BackColor = System.Drawing.Color.WhiteSmoke
         Me.lAzienda.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lAzienda.Location = New System.Drawing.Point(75, 9)
+        Me.lAzienda.Location = New System.Drawing.Point(138, 16)
+        Me.lAzienda.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzienda.Name = "lAzienda"
-        Me.lAzienda.Size = New System.Drawing.Size(678, 32)
+        Me.lAzienda.Size = New System.Drawing.Size(1243, 58)
         Me.lAzienda.TabIndex = 0
         '
         'cbRuolo
@@ -115,17 +120,19 @@ Partial Class dlgContatto
         Me.cbRuolo.DataBindings.Add(New System.Windows.Forms.Binding("SelectedValue", Me.bsData, "CodRuolo", True))
         Me.cbRuolo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbRuolo.FormattingEnabled = True
-        Me.cbRuolo.Location = New System.Drawing.Point(75, 60)
+        Me.cbRuolo.Location = New System.Drawing.Point(138, 111)
+        Me.cbRuolo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cbRuolo.Name = "cbRuolo"
-        Me.cbRuolo.Size = New System.Drawing.Size(216, 21)
+        Me.cbRuolo.Size = New System.Drawing.Size(393, 32)
         Me.cbRuolo.TabIndex = 0
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(3, 90)
+        Me.Label3.Location = New System.Drawing.Point(6, 166)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(60, 13)
+        Me.Label3.Size = New System.Drawing.Size(113, 24)
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "Nominativo"
         '
@@ -134,17 +141,19 @@ Partial Class dlgContatto
         Me.txtNominativo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtNominativo.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Nominativo", True))
-        Me.txtNominativo.Location = New System.Drawing.Point(75, 87)
+        Me.txtNominativo.Location = New System.Drawing.Point(138, 160)
+        Me.txtNominativo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtNominativo.Name = "txtNominativo"
-        Me.txtNominativo.Size = New System.Drawing.Size(717, 20)
+        Me.txtNominativo.Size = New System.Drawing.Size(1312, 32)
         Me.txtNominativo.TabIndex = 2
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(3, 116)
+        Me.Label4.Location = New System.Drawing.Point(6, 214)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(37, 13)
+        Me.Label4.Size = New System.Drawing.Size(66, 24)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Ufficio"
         '
@@ -153,35 +162,39 @@ Partial Class dlgContatto
         Me.txtUfficio.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtUfficio.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Ufficio", True))
-        Me.txtUfficio.Location = New System.Drawing.Point(75, 113)
+        Me.txtUfficio.Location = New System.Drawing.Point(138, 208)
+        Me.txtUfficio.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtUfficio.Name = "txtUfficio"
-        Me.txtUfficio.Size = New System.Drawing.Size(717, 20)
+        Me.txtUfficio.Size = New System.Drawing.Size(1312, 32)
         Me.txtUfficio.TabIndex = 3
         '
         'txtCellulare
         '
         Me.txtCellulare.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Cellulare", True))
-        Me.txtCellulare.Location = New System.Drawing.Point(368, 139)
+        Me.txtCellulare.Location = New System.Drawing.Point(675, 256)
+        Me.txtCellulare.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtCellulare.Name = "txtCellulare"
-        Me.txtCellulare.Size = New System.Drawing.Size(216, 20)
+        Me.txtCellulare.Size = New System.Drawing.Size(393, 32)
         Me.txtCellulare.TabIndex = 8
         Me.txtCellulare.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Telefono
         '
         'txtTelefono
         '
         Me.txtTelefono.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Telefono", True))
-        Me.txtTelefono.Location = New System.Drawing.Point(75, 139)
+        Me.txtTelefono.Location = New System.Drawing.Point(138, 256)
+        Me.txtTelefono.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtTelefono.Name = "txtTelefono"
-        Me.txtTelefono.Size = New System.Drawing.Size(216, 20)
+        Me.txtTelefono.Size = New System.Drawing.Size(393, 32)
         Me.txtTelefono.TabIndex = 7
         Me.txtTelefono.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Telefono
         '
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(3, 142)
+        Me.Label32.Location = New System.Drawing.Point(6, 262)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(49, 13)
+        Me.Label32.Size = New System.Drawing.Size(88, 24)
         Me.Label32.TabIndex = 49
         Me.Label32.Text = "Telefono"
         '
@@ -189,10 +202,11 @@ Partial Class dlgContatto
         '
         Me.lLogo.BackColor = System.Drawing.Color.WhiteSmoke
         Me.lLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lLogo.Image = Global.PoliecoSoci.My.Resources.Resources.Contact_32_n_g
-        Me.lLogo.Location = New System.Drawing.Point(759, 9)
+        Me.lLogo.Image = Global.PoliecoSoci.My.Resources.Resources.Contact_48_n_g
+        Me.lLogo.Location = New System.Drawing.Point(1392, 16)
+        Me.lLogo.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lLogo.Name = "lLogo"
-        Me.lLogo.Size = New System.Drawing.Size(32, 32)
+        Me.lLogo.Size = New System.Drawing.Size(59, 58)
         Me.lLogo.TabIndex = 53
         '
         'cbTitolo
@@ -200,35 +214,39 @@ Partial Class dlgContatto
         Me.cbTitolo.DataBindings.Add(New System.Windows.Forms.Binding("SelectedValue", Me.bsData, "CodTitolo", True))
         Me.cbTitolo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbTitolo.FormattingEnabled = True
-        Me.cbTitolo.Location = New System.Drawing.Point(368, 60)
+        Me.cbTitolo.Location = New System.Drawing.Point(675, 111)
+        Me.cbTitolo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cbTitolo.Name = "cbTitolo"
-        Me.cbTitolo.Size = New System.Drawing.Size(186, 21)
+        Me.cbTitolo.Size = New System.Drawing.Size(338, 32)
         Me.cbTitolo.TabIndex = 54
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(315, 63)
+        Me.Label5.Location = New System.Drawing.Point(578, 117)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(33, 13)
+        Me.Label5.Size = New System.Drawing.Size(61, 24)
         Me.Label5.TabIndex = 55
         Me.Label5.Text = "Titolo"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(315, 142)
+        Me.Label6.Location = New System.Drawing.Point(578, 262)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(47, 13)
+        Me.Label6.Size = New System.Drawing.Size(89, 24)
         Me.Label6.TabIndex = 56
         Me.Label6.Text = "Cellulare"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(3, 194)
+        Me.Label7.Location = New System.Drawing.Point(6, 358)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(30, 13)
+        Me.Label7.Size = New System.Drawing.Size(53, 24)
         Me.Label7.TabIndex = 57
         Me.Label7.Text = "Note"
         '
@@ -237,36 +255,39 @@ Partial Class dlgContatto
         Me.txtNote.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtNote.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Note", True))
-        Me.txtNote.Location = New System.Drawing.Point(75, 191)
+        Me.txtNote.Location = New System.Drawing.Point(138, 352)
+        Me.txtNote.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtNote.Multiline = True
         Me.txtNote.Name = "txtNote"
         Me.txtNote.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtNote.Size = New System.Drawing.Size(717, 111)
+        Me.txtNote.Size = New System.Drawing.Size(1312, 202)
         Me.txtNote.TabIndex = 10
         '
         'txtMail
         '
         Me.txtMail.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Email", True))
-        Me.txtMail.Location = New System.Drawing.Point(74, 165)
+        Me.txtMail.Location = New System.Drawing.Point(136, 304)
+        Me.txtMail.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtMail.Name = "txtMail"
-        Me.txtMail.Size = New System.Drawing.Size(717, 20)
+        Me.txtMail.Size = New System.Drawing.Size(1312, 32)
         Me.txtMail.TabIndex = 9
         Me.txtMail.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Mail
         '
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(3, 168)
+        Me.Label33.Location = New System.Drawing.Point(6, 310)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(32, 13)
+        Me.Label33.Size = New System.Drawing.Size(60, 24)
         Me.Label33.TabIndex = 60
         Me.Label33.Text = "Email"
         '
         'dlgContatto
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(804, 351)
+        Me.ClientSize = New System.Drawing.Size(1474, 648)
         Me.Controls.Add(Me.txtMail)
         Me.Controls.Add(Me.Label33)
         Me.Controls.Add(Me.txtNote)
@@ -287,7 +308,9 @@ Partial Class dlgContatto
         Me.Controls.Add(Me.lAzienda)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.tsMain)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "dlgContatto"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Contatto"

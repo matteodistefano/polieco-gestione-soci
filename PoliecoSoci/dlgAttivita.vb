@@ -210,4 +210,7 @@ Public Class dlgAttivita
         End If
     End Sub
 
+    Private Sub dgvAttrezzature_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvAttrezzature.CellContentClick
+
+    End Sub
 End Class
