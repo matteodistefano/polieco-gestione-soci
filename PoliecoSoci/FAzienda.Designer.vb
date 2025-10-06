@@ -23,34 +23,34 @@ Partial Class FAzienda
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle31 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle32 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle33 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle34 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle35 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle36 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle37 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle38 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle39 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle40 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle41 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle42 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle43 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle44 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle45 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle46 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle47 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle48 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle49 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle50 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle51 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FAzienda))
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle52 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle53 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle54 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.pnlHeader = New mdsUIControls.ctlExtendedPanel()
         Me.txtDataUnaTantum = New mdsUIControls.mdsDate()
         Me.bsAzienda = New System.Windows.Forms.BindingSource(Me.components)
@@ -106,10 +106,6 @@ Partial Class FAzienda
         Me.Label12 = New System.Windows.Forms.Label()
         Me.pnlSediOperative = New System.Windows.Forms.Panel()
         Me.dgvSedi = New System.Windows.Forms.DataGridView()
-        Me.dgvcSedeTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcSedeLocalita = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcSedeProvincia = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcSedeDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.bsSedi = New System.Windows.Forms.BindingSource(Me.components)
         Me.tsSedi = New System.Windows.Forms.ToolStrip()
         Me.tsbSediAdd = New System.Windows.Forms.ToolStripButton()
@@ -216,6 +212,20 @@ Partial Class FAzienda
         Me.tpEventi = New System.Windows.Forms.TabPage()
         Me.pnlEventi = New System.Windows.Forms.Panel()
         Me.dgvEventi = New System.Windows.Forms.DataGridView()
+        Me.dgvcEvStato = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.dgvcEvIsUrgente = New mdsUIControls.DataGridViewBooleanImageColumn()
+        Me.dgvcEvData = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvNotifica = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvRuoloNotifica = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvUtente = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvMotivazione = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvIncaricato = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvNote = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvScadenza = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvValore = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvDocs = New mdsUIControls.DataGridViewBooleanImageColumn()
+        Me.dgvcEvSys = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.bsEventi = New System.Windows.Forms.BindingSource(Me.components)
         Me.tsEventi = New System.Windows.Forms.ToolStrip()
         Me.tsbEvAdd = New System.Windows.Forms.ToolStripButton()
@@ -279,20 +289,10 @@ Partial Class FAzienda
         Me.DataGridViewBooleanImageColumn1 = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.DataGridViewBooleanImageColumn2 = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.bsNotePNet = New System.Windows.Forms.BindingSource(Me.components)
-        Me.dgvcEvStato = New System.Windows.Forms.DataGridViewImageColumn()
-        Me.dgvcEvIsUrgente = New mdsUIControls.DataGridViewBooleanImageColumn()
-        Me.dgvcEvData = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvNotifica = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvRuoloNotifica = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvUtente = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvMotivazione = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvIncaricato = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvNote = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvScadenza = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvValore = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvDocs = New mdsUIControls.DataGridViewBooleanImageColumn()
-        Me.dgvcEvSys = New mdsUIControls.DataGridViewBooleanImageColumn()
+        Me.dgvcSedeTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcSedeLocalita = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcSedeProvincia = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcSedeDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.pnlHeader.SuspendLayout()
         CType(Me.bsAzienda, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tbMain.SuspendLayout()
@@ -385,8 +385,9 @@ Partial Class FAzienda
         Me.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top
         Me.pnlHeader.IsReadOnly = False
         Me.pnlHeader.Location = New System.Drawing.Point(0, 0)
+        Me.pnlHeader.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlHeader.Name = "pnlHeader"
-        Me.pnlHeader.Size = New System.Drawing.Size(1284, 199)
+        Me.pnlHeader.Size = New System.Drawing.Size(2354, 365)
         Me.pnlHeader.TabIndex = 0
         Me.pnlHeader.TipoEvidenziazione = mdsUIControls.ctlExtendedPanel.TipoEvideziazioneEnum.BackColor
         '
@@ -396,18 +397,20 @@ Partial Class FAzienda
         Me.txtDataUnaTantum.DateFormat = Nothing
         Me.txtDataUnaTantum.DateValue = Nothing
         Me.txtDataUnaTantum.IsReadOnly = False
-        Me.txtDataUnaTantum.Location = New System.Drawing.Point(527, 143)
+        Me.txtDataUnaTantum.Location = New System.Drawing.Point(1039, 264)
+        Me.txtDataUnaTantum.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDataUnaTantum.Name = "txtDataUnaTantum"
         Me.txtDataUnaTantum.SetNullDateToDbNull = False
-        Me.txtDataUnaTantum.Size = New System.Drawing.Size(100, 20)
+        Me.txtDataUnaTantum.Size = New System.Drawing.Size(180, 32)
         Me.txtDataUnaTantum.TabIndex = 9
         '
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(433, 146)
+        Me.Label30.Location = New System.Drawing.Point(849, 270)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(88, 13)
+        Me.Label30.Size = New System.Drawing.Size(164, 24)
         Me.Label30.TabIndex = 51
         Me.Label30.Text = "Data versamento"
         '
@@ -417,18 +420,20 @@ Partial Class FAzienda
         Me.txtDataInizioAttivita.DateFormat = Nothing
         Me.txtDataInizioAttivita.DateValue = Nothing
         Me.txtDataInizioAttivita.IsReadOnly = False
-        Me.txtDataInizioAttivita.Location = New System.Drawing.Point(527, 167)
+        Me.txtDataInizioAttivita.Location = New System.Drawing.Point(1039, 309)
+        Me.txtDataInizioAttivita.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDataInizioAttivita.Name = "txtDataInizioAttivita"
         Me.txtDataInizioAttivita.SetNullDateToDbNull = False
-        Me.txtDataInizioAttivita.Size = New System.Drawing.Size(100, 20)
+        Me.txtDataInizioAttivita.Size = New System.Drawing.Size(180, 32)
         Me.txtDataInizioAttivita.TabIndex = 10
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(433, 170)
+        Me.Label27.Location = New System.Drawing.Point(849, 314)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(90, 13)
+        Me.Label27.Size = New System.Drawing.Size(172, 24)
         Me.Label27.TabIndex = 47
         Me.Label27.Text = "Data inizio attivita"
         '
@@ -438,9 +443,10 @@ Partial Class FAzienda
         Me.cbQuotaAdesione.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
         Me.cbQuotaAdesione.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbQuotaAdesione.FormattingEnabled = True
-        Me.cbQuotaAdesione.Location = New System.Drawing.Point(527, 118)
+        Me.cbQuotaAdesione.Location = New System.Drawing.Point(1039, 218)
+        Me.cbQuotaAdesione.Margin = New System.Windows.Forms.Padding(6)
         Me.cbQuotaAdesione.Name = "cbQuotaAdesione"
-        Me.cbQuotaAdesione.Size = New System.Drawing.Size(273, 21)
+        Me.cbQuotaAdesione.Size = New System.Drawing.Size(498, 32)
         Me.cbQuotaAdesione.TabIndex = 8
         '
         'lInfoStato
@@ -448,9 +454,10 @@ Partial Class FAzienda
         Me.lInfoStato.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lInfoStato.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.lInfoStato.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lInfoStato.Location = New System.Drawing.Point(952, 8)
+        Me.lInfoStato.Location = New System.Drawing.Point(1747, 15)
+        Me.lInfoStato.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lInfoStato.Name = "lInfoStato"
-        Me.lInfoStato.Size = New System.Drawing.Size(317, 18)
+        Me.lInfoStato.Size = New System.Drawing.Size(580, 32)
         Me.lInfoStato.TabIndex = 2
         '
         'lStato
@@ -458,17 +465,19 @@ Partial Class FAzienda
         Me.lStato.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lStato.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.lStato.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lStato.Location = New System.Drawing.Point(814, 8)
+        Me.lStato.Location = New System.Drawing.Point(1494, 15)
+        Me.lStato.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lStato.Name = "lStato"
-        Me.lStato.Size = New System.Drawing.Size(132, 18)
+        Me.lStato.Size = New System.Drawing.Size(240, 32)
         Me.lStato.TabIndex = 1
         '
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(433, 120)
+        Me.Label36.Location = New System.Drawing.Point(849, 222)
+        Me.Label36.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(82, 13)
+        Me.Label36.Size = New System.Drawing.Size(150, 24)
         Me.Label36.TabIndex = 34
         Me.Label36.Text = "Quota adesione"
         '
@@ -479,9 +488,10 @@ Partial Class FAzienda
         Me.chkAllegaCCIAA.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.chkAllegaCCIAA.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsAzienda, "DocumentazioneCCIAA", True))
         Me.chkAllegaCCIAA.IsReadOnly = False
-        Me.chkAllegaCCIAA.Location = New System.Drawing.Point(1129, 94)
+        Me.chkAllegaCCIAA.Location = New System.Drawing.Point(2084, 174)
+        Me.chkAllegaCCIAA.Margin = New System.Windows.Forms.Padding(6)
         Me.chkAllegaCCIAA.Name = "chkAllegaCCIAA"
-        Me.chkAllegaCCIAA.Size = New System.Drawing.Size(140, 17)
+        Me.chkAllegaCCIAA.Size = New System.Drawing.Size(245, 28)
         Me.chkAllegaCCIAA.TabIndex = 13
         Me.chkAllegaCCIAA.Text = "Documentazione CCIAA"
         Me.chkAllegaCCIAA.UseVisualStyleBackColor = True
@@ -493,9 +503,10 @@ Partial Class FAzienda
         Me.chkAllegaBilancio.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.chkAllegaBilancio.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsAzienda, "AllegaBilancio", True))
         Me.chkAllegaBilancio.IsReadOnly = False
-        Me.chkAllegaBilancio.Location = New System.Drawing.Point(1174, 71)
+        Me.chkAllegaBilancio.Location = New System.Drawing.Point(2164, 130)
+        Me.chkAllegaBilancio.Margin = New System.Windows.Forms.Padding(6)
         Me.chkAllegaBilancio.Name = "chkAllegaBilancio"
-        Me.chkAllegaBilancio.Size = New System.Drawing.Size(94, 17)
+        Me.chkAllegaBilancio.Size = New System.Drawing.Size(162, 28)
         Me.chkAllegaBilancio.TabIndex = 12
         Me.chkAllegaBilancio.Text = "Allega bilancio"
         Me.chkAllegaBilancio.UseVisualStyleBackColor = True
@@ -506,52 +517,58 @@ Partial Class FAzienda
         Me.txtDataAdesione.DateFormat = Nothing
         Me.txtDataAdesione.DateValue = Nothing
         Me.txtDataAdesione.IsReadOnly = False
-        Me.txtDataAdesione.Location = New System.Drawing.Point(699, 167)
+        Me.txtDataAdesione.Location = New System.Drawing.Point(1354, 309)
+        Me.txtDataAdesione.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDataAdesione.Name = "txtDataAdesione"
         Me.txtDataAdesione.SetNullDateToDbNull = False
-        Me.txtDataAdesione.Size = New System.Drawing.Size(102, 20)
+        Me.txtDataAdesione.Size = New System.Drawing.Size(184, 32)
         Me.txtDataAdesione.TabIndex = 11
         '
         'TextBox7
         '
         Me.TextBox7.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "CodiceFiscale", True))
-        Me.TextBox7.Location = New System.Drawing.Point(101, 143)
+        Me.TextBox7.Location = New System.Drawing.Point(186, 264)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(152, 20)
+        Me.TextBox7.Size = New System.Drawing.Size(275, 32)
         Me.TextBox7.TabIndex = 7
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(643, 170)
+        Me.Label26.Location = New System.Drawing.Point(1250, 314)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(51, 13)
+        Me.Label26.Size = New System.Drawing.Size(93, 24)
         Me.Label26.TabIndex = 43
         Me.Label26.Text = "Adesione"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(13, 146)
+        Me.Label22.Location = New System.Drawing.Point(23, 270)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(73, 13)
+        Me.Label22.Size = New System.Drawing.Size(134, 24)
         Me.Label22.TabIndex = 44
         Me.Label22.Text = "Codice fiscale"
         '
         'TextBox6
         '
         Me.TextBox6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "PartitaIVA", True))
-        Me.TextBox6.Location = New System.Drawing.Point(101, 118)
+        Me.TextBox6.Location = New System.Drawing.Point(186, 218)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(152, 20)
+        Me.TextBox6.Size = New System.Drawing.Size(275, 32)
         Me.TextBox6.TabIndex = 6
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(12, 121)
+        Me.Label21.Location = New System.Drawing.Point(22, 224)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(57, 13)
+        Me.Label21.Size = New System.Drawing.Size(106, 24)
         Me.Label21.TabIndex = 42
         Me.Label21.Text = "Partita IVA"
         '
@@ -559,55 +576,61 @@ Partial Class FAzienda
         '
         Me.lDescrCatSecondaria.BackColor = System.Drawing.Color.WhiteSmoke
         Me.lDescrCatSecondaria.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lDescrCatSecondaria.Location = New System.Drawing.Point(527, 89)
+        Me.lDescrCatSecondaria.Location = New System.Drawing.Point(1039, 165)
+        Me.lDescrCatSecondaria.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lDescrCatSecondaria.Name = "lDescrCatSecondaria"
-        Me.lDescrCatSecondaria.Size = New System.Drawing.Size(269, 20)
+        Me.lDescrCatSecondaria.Size = New System.Drawing.Size(494, 38)
         Me.lDescrCatSecondaria.TabIndex = 8
         Me.lDescrCatSecondaria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(433, 89)
+        Me.Label18.Location = New System.Drawing.Point(849, 165)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(94, 13)
+        Me.Label18.Size = New System.Drawing.Size(178, 24)
         Me.Label18.TabIndex = 38
         Me.Label18.Text = "Attivita secondaria"
         '
         'lStatoSocio
         '
         Me.lStatoSocio.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lStatoSocio.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_16_n_g
-        Me.lStatoSocio.Location = New System.Drawing.Point(778, 6)
+        Me.lStatoSocio.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_24_n_g
+        Me.lStatoSocio.Location = New System.Drawing.Point(1428, 10)
+        Me.lStatoSocio.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lStatoSocio.Name = "lStatoSocio"
-        Me.lStatoSocio.Size = New System.Drawing.Size(20, 20)
+        Me.lStatoSocio.Size = New System.Drawing.Size(37, 38)
         Me.lStatoSocio.TabIndex = 37
         '
         'lStatoDichiarazioni
         '
         Me.lStatoDichiarazioni.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lStatoDichiarazioni.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_16_n_g
-        Me.lStatoDichiarazioni.Location = New System.Drawing.Point(1251, 139)
+        Me.lStatoDichiarazioni.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_24_n_g
+        Me.lStatoDichiarazioni.Location = New System.Drawing.Point(2296, 256)
+        Me.lStatoDichiarazioni.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lStatoDichiarazioni.Name = "lStatoDichiarazioni"
-        Me.lStatoDichiarazioni.Size = New System.Drawing.Size(20, 20)
+        Me.lStatoDichiarazioni.Size = New System.Drawing.Size(37, 38)
         Me.lStatoDichiarazioni.TabIndex = 36
         '
         'lStatoPagamenti
         '
         Me.lStatoPagamenti.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lStatoPagamenti.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_16_n_g
-        Me.lStatoPagamenti.Location = New System.Drawing.Point(1251, 159)
+        Me.lStatoPagamenti.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_24_n_g
+        Me.lStatoPagamenti.Location = New System.Drawing.Point(2296, 303)
+        Me.lStatoPagamenti.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lStatoPagamenti.Name = "lStatoPagamenti"
-        Me.lStatoPagamenti.Size = New System.Drawing.Size(20, 20)
+        Me.lStatoPagamenti.Size = New System.Drawing.Size(37, 38)
         Me.lStatoPagamenti.TabIndex = 35
         '
         'Label10
         '
         Me.Label10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(1155, 141)
+        Me.Label10.Location = New System.Drawing.Point(2108, 264)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(93, 13)
+        Me.Label10.Size = New System.Drawing.Size(176, 24)
         Me.Label10.TabIndex = 34
         Me.Label10.Text = "Stato dichiarazioni"
         '
@@ -615,9 +638,10 @@ Partial Class FAzienda
         '
         Me.Label9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(1154, 160)
+        Me.Label9.Location = New System.Drawing.Point(2108, 309)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(84, 13)
+        Me.Label9.Size = New System.Drawing.Size(159, 24)
         Me.Label9.TabIndex = 33
         Me.Label9.Text = "Stato pagamenti"
         '
@@ -625,35 +649,39 @@ Partial Class FAzienda
         '
         Me.lDescrCatPrincipale.BackColor = System.Drawing.Color.WhiteSmoke
         Me.lDescrCatPrincipale.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lDescrCatPrincipale.Location = New System.Drawing.Point(527, 63)
+        Me.lDescrCatPrincipale.Location = New System.Drawing.Point(1039, 117)
+        Me.lDescrCatPrincipale.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lDescrCatPrincipale.Name = "lDescrCatPrincipale"
-        Me.lDescrCatPrincipale.Size = New System.Drawing.Size(269, 20)
+        Me.lDescrCatPrincipale.Size = New System.Drawing.Size(494, 38)
         Me.lDescrCatPrincipale.TabIndex = 7
         Me.lDescrCatPrincipale.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(433, 63)
+        Me.Label7.Location = New System.Drawing.Point(849, 117)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(87, 13)
+        Me.Label7.Size = New System.Drawing.Size(167, 24)
         Me.Label7.TabIndex = 31
         Me.Label7.Text = "Attivita principale"
         '
         'TextBox2
         '
         Me.TextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Associazione", True))
-        Me.TextBox2.Location = New System.Drawing.Point(101, 92)
+        Me.TextBox2.Location = New System.Drawing.Point(186, 170)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(314, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(572, 32)
         Me.TextBox2.TabIndex = 5
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(13, 92)
+        Me.Label6.Location = New System.Drawing.Point(23, 170)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(69, 13)
+        Me.Label6.Size = New System.Drawing.Size(128, 24)
         Me.Label6.TabIndex = 29
         Me.Label6.Text = "Associazione"
         '
@@ -662,26 +690,29 @@ Partial Class FAzienda
         Me.cbFormaGiuridica.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
         Me.cbFormaGiuridica.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
         Me.cbFormaGiuridica.FormattingEnabled = True
-        Me.cbFormaGiuridica.Location = New System.Drawing.Point(100, 64)
+        Me.cbFormaGiuridica.Location = New System.Drawing.Point(183, 118)
+        Me.cbFormaGiuridica.Margin = New System.Windows.Forms.Padding(6)
         Me.cbFormaGiuridica.Name = "cbFormaGiuridica"
-        Me.cbFormaGiuridica.Size = New System.Drawing.Size(315, 21)
+        Me.cbFormaGiuridica.Size = New System.Drawing.Size(575, 32)
         Me.cbFormaGiuridica.TabIndex = 4
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 64)
+        Me.Label4.Location = New System.Drawing.Point(22, 118)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(78, 13)
+        Me.Label4.Size = New System.Drawing.Size(149, 24)
         Me.Label4.TabIndex = 27
         Me.Label4.Text = "Forma giuridica"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(184, 9)
+        Me.Label5.Location = New System.Drawing.Point(337, 16)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(28, 13)
+        Me.Label5.Size = New System.Drawing.Size(49, 24)
         Me.Label5.TabIndex = 26
         Me.Label5.Text = "Tipo"
         '
@@ -691,18 +722,20 @@ Partial Class FAzienda
         Me.cbTipo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
         Me.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbTipo.FormattingEnabled = True
-        Me.cbTipo.Location = New System.Drawing.Point(218, 9)
+        Me.cbTipo.Location = New System.Drawing.Point(400, 16)
+        Me.cbTipo.Margin = New System.Windows.Forms.Padding(6)
         Me.cbTipo.Name = "cbTipo"
-        Me.cbTipo.Size = New System.Drawing.Size(198, 21)
+        Me.cbTipo.Size = New System.Drawing.Size(360, 32)
         Me.cbTipo.TabIndex = 0
         '
         'Label2
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(712, 9)
+        Me.Label2.Location = New System.Drawing.Point(1307, 16)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(60, 13)
+        Me.Label2.Size = New System.Drawing.Size(110, 24)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Stato socio"
         '
@@ -711,17 +744,19 @@ Partial Class FAzienda
         Me.txtRagioneSociale.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtRagioneSociale.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "RagioneSociale", True))
-        Me.txtRagioneSociale.Location = New System.Drawing.Point(100, 38)
+        Me.txtRagioneSociale.Location = New System.Drawing.Point(183, 70)
+        Me.txtRagioneSociale.Margin = New System.Windows.Forms.Padding(6)
         Me.txtRagioneSociale.Name = "txtRagioneSociale"
-        Me.txtRagioneSociale.Size = New System.Drawing.Size(1171, 20)
+        Me.txtRagioneSociale.Size = New System.Drawing.Size(2146, 32)
         Me.txtRagioneSociale.TabIndex = 3
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(11, 38)
+        Me.Label3.Location = New System.Drawing.Point(21, 70)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(83, 13)
+        Me.Label3.Size = New System.Drawing.Size(150, 24)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Ragione sociale"
         '
@@ -729,19 +764,20 @@ Partial Class FAzienda
         '
         Me.lblId.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblId.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Id", True))
-        Me.lblId.Location = New System.Drawing.Point(100, 9)
+        Me.lblId.Location = New System.Drawing.Point(183, 16)
+        Me.lblId.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lblId.Name = "lblId"
-        Me.lblId.Size = New System.Drawing.Size(79, 20)
+        Me.lblId.Size = New System.Drawing.Size(144, 38)
         Me.lblId.TabIndex = 0
-        Me.lblId.Text = Global.PoliecoSoci.My.MySettings.Default.LastUserLogged
         Me.lblId.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Location = New System.Drawing.Point(22, 16)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(40, 13)
+        Me.Label1.Size = New System.Drawing.Size(71, 24)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Codice"
         '
@@ -756,10 +792,11 @@ Partial Class FAzienda
         Me.tbMain.Dock = System.Windows.Forms.DockStyle.Fill
         Me.tbMain.ImageList = Me.Il32
         Me.tbMain.ItemSize = New System.Drawing.Size(80, 48)
-        Me.tbMain.Location = New System.Drawing.Point(0, 199)
+        Me.tbMain.Location = New System.Drawing.Point(0, 365)
+        Me.tbMain.Margin = New System.Windows.Forms.Padding(6)
         Me.tbMain.Name = "tbMain"
         Me.tbMain.SelectedIndex = 0
-        Me.tbMain.Size = New System.Drawing.Size(1284, 420)
+        Me.tbMain.Size = New System.Drawing.Size(2354, 814)
         Me.tbMain.TabIndex = 1
         '
         'tpAnagrafica
@@ -770,9 +807,10 @@ Partial Class FAzienda
         Me.tpAnagrafica.Controls.Add(Me.pnlSedeLegale)
         Me.tpAnagrafica.ImageIndex = 0
         Me.tpAnagrafica.Location = New System.Drawing.Point(4, 52)
+        Me.tpAnagrafica.Margin = New System.Windows.Forms.Padding(6)
         Me.tpAnagrafica.Name = "tpAnagrafica"
-        Me.tpAnagrafica.Padding = New System.Windows.Forms.Padding(3)
-        Me.tpAnagrafica.Size = New System.Drawing.Size(1276, 364)
+        Me.tpAnagrafica.Padding = New System.Windows.Forms.Padding(6)
+        Me.tpAnagrafica.Size = New System.Drawing.Size(2346, 758)
         Me.tpAnagrafica.TabIndex = 0
         Me.tpAnagrafica.Text = "Dati anagrafici"
         '
@@ -783,9 +821,10 @@ Partial Class FAzienda
         Me.pnlContatti.Controls.Add(Me.tsContatti)
         Me.pnlContatti.Controls.Add(Me.Label12)
         Me.pnlContatti.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlContatti.Location = New System.Drawing.Point(520, 170)
+        Me.pnlContatti.Location = New System.Drawing.Point(953, 312)
+        Me.pnlContatti.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlContatti.Name = "pnlContatti"
-        Me.pnlContatti.Size = New System.Drawing.Size(753, 191)
+        Me.pnlContatti.Size = New System.Drawing.Size(1387, 440)
         Me.pnlContatti.TabIndex = 2
         '
         'dgvContatti
@@ -798,12 +837,13 @@ Partial Class FAzienda
         Me.dgvContatti.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcContattoNome, Me.dgvcContattoRuolo, Me.dgvcContattoTelefono, Me.dgvcContatoCellulare, Me.dgvcContattiFax})
         Me.dgvContatti.DataSource = Me.bsContatti
         Me.dgvContatti.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvContatti.Location = New System.Drawing.Point(0, 20)
+        Me.dgvContatti.Location = New System.Drawing.Point(0, 35)
+        Me.dgvContatti.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvContatti.Name = "dgvContatti"
         Me.dgvContatti.ReadOnly = True
         Me.dgvContatti.RowHeadersWidth = 20
         Me.dgvContatti.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvContatti.Size = New System.Drawing.Size(715, 169)
+        Me.dgvContatti.Size = New System.Drawing.Size(1319, 403)
         Me.dgvContatti.TabIndex = 37
         '
         'dgvcContattoNome
@@ -853,45 +893,47 @@ Partial Class FAzienda
         '
         Me.tsContatti.AutoSize = False
         Me.tsContatti.Dock = System.Windows.Forms.DockStyle.Right
+        Me.tsContatti.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsContatti.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsContatti.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsContatti.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbContattiAdd, Me.tsbContattiEdit, Me.tsbContattiDel})
-        Me.tsContatti.Location = New System.Drawing.Point(715, 20)
+        Me.tsContatti.Location = New System.Drawing.Point(1319, 35)
         Me.tsContatti.Name = "tsContatti"
-        Me.tsContatti.Size = New System.Drawing.Size(36, 169)
+        Me.tsContatti.Size = New System.Drawing.Size(66, 403)
         Me.tsContatti.TabIndex = 36
         '
         'tsbContattiAdd
         '
         Me.tsbContattiAdd.AutoSize = False
         Me.tsbContattiAdd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tsbContattiAdd.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Plus_24_n_g
+        Me.tsbContattiAdd.Font = New System.Drawing.Font("Roboto", 12.0!)
+        Me.tsbContattiAdd.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Plus_32_n_g
         Me.tsbContattiAdd.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbContattiAdd.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbContattiAdd.Name = "tsbContattiAdd"
-        Me.tsbContattiAdd.Size = New System.Drawing.Size(70, 30)
+        Me.tsbContattiAdd.Size = New System.Drawing.Size(70, 50)
         Me.tsbContattiAdd.Text = "Nuova"
         '
         'tsbContattiEdit
         '
         Me.tsbContattiEdit.AutoSize = False
         Me.tsbContattiEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tsbContattiEdit.Image = Global.PoliecoSoci.My.Resources.Resources.Edit_24_n_g
+        Me.tsbContattiEdit.Image = Global.PoliecoSoci.My.Resources.Resources.Edit_32_n_g
         Me.tsbContattiEdit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbContattiEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbContattiEdit.Name = "tsbContattiEdit"
-        Me.tsbContattiEdit.Size = New System.Drawing.Size(70, 30)
+        Me.tsbContattiEdit.Size = New System.Drawing.Size(70, 50)
         Me.tsbContattiEdit.Text = "Modifica"
         '
         'tsbContattiDel
         '
         Me.tsbContattiDel.AutoSize = False
         Me.tsbContattiDel.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tsbContattiDel.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_24_n_g
+        Me.tsbContattiDel.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_32_n_g
         Me.tsbContattiDel.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbContattiDel.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbContattiDel.Name = "tsbContattiDel"
-        Me.tsbContattiDel.Size = New System.Drawing.Size(70, 30)
+        Me.tsbContattiDel.Size = New System.Drawing.Size(70, 50)
         Me.tsbContattiDel.Text = "Elimina"
         '
         'Label12
@@ -900,8 +942,9 @@ Partial Class FAzienda
         Me.Label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label12.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label12.Location = New System.Drawing.Point(0, 0)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(751, 20)
+        Me.Label12.Size = New System.Drawing.Size(1385, 35)
         Me.Label12.TabIndex = 35
         Me.Label12.Text = "Contatti"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -913,9 +956,10 @@ Partial Class FAzienda
         Me.pnlSediOperative.Controls.Add(Me.tsSedi)
         Me.pnlSediOperative.Controls.Add(Me.Label15)
         Me.pnlSediOperative.Dock = System.Windows.Forms.DockStyle.Left
-        Me.pnlSediOperative.Location = New System.Drawing.Point(3, 170)
+        Me.pnlSediOperative.Location = New System.Drawing.Point(6, 312)
+        Me.pnlSediOperative.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlSediOperative.Name = "pnlSediOperative"
-        Me.pnlSediOperative.Size = New System.Drawing.Size(517, 191)
+        Me.pnlSediOperative.Size = New System.Drawing.Size(947, 440)
         Me.pnlSediOperative.TabIndex = 1
         '
         'dgvSedi
@@ -928,45 +972,14 @@ Partial Class FAzienda
         Me.dgvSedi.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcSedeTipo, Me.dgvcSedeLocalita, Me.dgvcSedeProvincia, Me.dgvcSedeDescrizione})
         Me.dgvSedi.DataSource = Me.bsSedi
         Me.dgvSedi.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvSedi.Location = New System.Drawing.Point(0, 20)
+        Me.dgvSedi.Location = New System.Drawing.Point(0, 35)
+        Me.dgvSedi.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvSedi.Name = "dgvSedi"
         Me.dgvSedi.ReadOnly = True
         Me.dgvSedi.RowHeadersWidth = 20
         Me.dgvSedi.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvSedi.Size = New System.Drawing.Size(479, 169)
+        Me.dgvSedi.Size = New System.Drawing.Size(879, 403)
         Me.dgvSedi.TabIndex = 36
-        '
-        'dgvcSedeTipo
-        '
-        Me.dgvcSedeTipo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcSedeTipo.DataPropertyName = "CodTipoSede"
-        Me.dgvcSedeTipo.HeaderText = "Tipo"
-        Me.dgvcSedeTipo.Name = "dgvcSedeTipo"
-        Me.dgvcSedeTipo.ReadOnly = True
-        Me.dgvcSedeTipo.Width = 60
-        '
-        'dgvcSedeLocalita
-        '
-        Me.dgvcSedeLocalita.DataPropertyName = "Localita"
-        Me.dgvcSedeLocalita.HeaderText = "Localita"
-        Me.dgvcSedeLocalita.Name = "dgvcSedeLocalita"
-        Me.dgvcSedeLocalita.ReadOnly = True
-        '
-        'dgvcSedeProvincia
-        '
-        Me.dgvcSedeProvincia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcSedeProvincia.DataPropertyName = "Provincia"
-        Me.dgvcSedeProvincia.HeaderText = "Prov."
-        Me.dgvcSedeProvincia.Name = "dgvcSedeProvincia"
-        Me.dgvcSedeProvincia.ReadOnly = True
-        Me.dgvcSedeProvincia.Width = 50
-        '
-        'dgvcSedeDescrizione
-        '
-        Me.dgvcSedeDescrizione.DataPropertyName = "Descrizione"
-        Me.dgvcSedeDescrizione.HeaderText = "Descrizione"
-        Me.dgvcSedeDescrizione.Name = "dgvcSedeDescrizione"
-        Me.dgvcSedeDescrizione.ReadOnly = True
         '
         'tsSedi
         '
@@ -975,42 +988,45 @@ Partial Class FAzienda
         Me.tsSedi.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsSedi.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsSedi.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbSediAdd, Me.tsbSediEdit, Me.tsbSediDel})
-        Me.tsSedi.Location = New System.Drawing.Point(479, 20)
+        Me.tsSedi.Location = New System.Drawing.Point(879, 35)
         Me.tsSedi.Name = "tsSedi"
-        Me.tsSedi.Size = New System.Drawing.Size(36, 169)
+        Me.tsSedi.Size = New System.Drawing.Size(66, 403)
         Me.tsSedi.TabIndex = 35
         '
         'tsbSediAdd
         '
         Me.tsbSediAdd.AutoSize = False
         Me.tsbSediAdd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tsbSediAdd.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Plus_24_n_g
+        Me.tsbSediAdd.Font = New System.Drawing.Font("Roboto", 12.0!)
+        Me.tsbSediAdd.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Plus_32_n_g
         Me.tsbSediAdd.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbSediAdd.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSediAdd.Name = "tsbSediAdd"
-        Me.tsbSediAdd.Size = New System.Drawing.Size(70, 30)
+        Me.tsbSediAdd.Size = New System.Drawing.Size(70, 50)
         Me.tsbSediAdd.Text = "Nuova"
         '
         'tsbSediEdit
         '
         Me.tsbSediEdit.AutoSize = False
         Me.tsbSediEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tsbSediEdit.Image = Global.PoliecoSoci.My.Resources.Resources.Edit_24_n_g
+        Me.tsbSediEdit.Font = New System.Drawing.Font("Roboto", 12.0!)
+        Me.tsbSediEdit.Image = Global.PoliecoSoci.My.Resources.Resources.Edit_32_n_g
         Me.tsbSediEdit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbSediEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSediEdit.Name = "tsbSediEdit"
-        Me.tsbSediEdit.Size = New System.Drawing.Size(70, 30)
+        Me.tsbSediEdit.Size = New System.Drawing.Size(70, 50)
         Me.tsbSediEdit.Text = "Modifica"
         '
         'tsbSediDel
         '
         Me.tsbSediDel.AutoSize = False
         Me.tsbSediDel.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tsbSediDel.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_24_n_g
+        Me.tsbSediDel.Font = New System.Drawing.Font("Roboto", 12.0!)
+        Me.tsbSediDel.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_32_n_g
         Me.tsbSediDel.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbSediDel.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSediDel.Name = "tsbSediDel"
-        Me.tsbSediDel.Size = New System.Drawing.Size(70, 30)
+        Me.tsbSediDel.Size = New System.Drawing.Size(70, 50)
         Me.tsbSediDel.Text = "Elimina"
         '
         'Label15
@@ -1019,8 +1035,9 @@ Partial Class FAzienda
         Me.Label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label15.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label15.Location = New System.Drawing.Point(0, 0)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(515, 20)
+        Me.Label15.Size = New System.Drawing.Size(945, 35)
         Me.Label15.TabIndex = 34
         Me.Label15.Text = "Sedi operative"
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1053,9 +1070,10 @@ Partial Class FAzienda
         Me.pnlSedeLegale.Controls.Add(Me.Label14)
         Me.pnlSedeLegale.Controls.Add(Me.Label11)
         Me.pnlSedeLegale.Dock = System.Windows.Forms.DockStyle.Top
-        Me.pnlSedeLegale.Location = New System.Drawing.Point(3, 3)
+        Me.pnlSedeLegale.Location = New System.Drawing.Point(6, 6)
+        Me.pnlSedeLegale.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlSedeLegale.Name = "pnlSedeLegale"
-        Me.pnlSedeLegale.Size = New System.Drawing.Size(1270, 167)
+        Me.pnlSedeLegale.Size = New System.Drawing.Size(2334, 306)
         Me.pnlSedeLegale.TabIndex = 0
         '
         'txtUrl
@@ -1063,18 +1081,20 @@ Partial Class FAzienda
         Me.txtUrl.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtUrl.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "SitoWeb", True))
-        Me.txtUrl.Location = New System.Drawing.Point(558, 133)
+        Me.txtUrl.Location = New System.Drawing.Point(1023, 246)
+        Me.txtUrl.Margin = New System.Windows.Forms.Padding(6)
         Me.txtUrl.Name = "txtUrl"
-        Me.txtUrl.Size = New System.Drawing.Size(694, 20)
+        Me.txtUrl.Size = New System.Drawing.Size(1276, 32)
         Me.txtUrl.TabIndex = 10
         Me.txtUrl.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Url
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(519, 136)
+        Me.Label20.Location = New System.Drawing.Point(952, 250)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(30, 13)
+        Me.Label20.Size = New System.Drawing.Size(50, 24)
         Me.Label20.TabIndex = 51
         Me.Label20.Text = "Web"
         '
@@ -1083,28 +1103,30 @@ Partial Class FAzienda
         Me.txtPec.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtPec.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Pec", True))
-        Me.txtPec.Location = New System.Drawing.Point(557, 107)
+        Me.txtPec.Location = New System.Drawing.Point(1022, 198)
+        Me.txtPec.Margin = New System.Windows.Forms.Padding(6)
         Me.txtPec.Name = "txtPec"
-        Me.txtPec.Size = New System.Drawing.Size(694, 20)
+        Me.txtPec.Size = New System.Drawing.Size(1276, 32)
         Me.txtPec.TabIndex = 8
         Me.txtPec.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Mail
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(519, 110)
+        Me.Label8.Location = New System.Drawing.Point(952, 202)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(26, 13)
+        Me.Label8.Size = New System.Drawing.Size(44, 24)
         Me.Label8.TabIndex = 50
         Me.Label8.Text = "Pec"
         '
         'btnTest
         '
         Me.btnTest.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnTest.Location = New System.Drawing.Point(1212, 78)
-        Me.btnTest.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnTest.Location = New System.Drawing.Point(2229, 144)
+        Me.btnTest.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.btnTest.Name = "btnTest"
-        Me.btnTest.Size = New System.Drawing.Size(39, 20)
+        Me.btnTest.Size = New System.Drawing.Size(72, 38)
         Me.btnTest.TabIndex = 9
         Me.btnTest.Text = "Test"
         Me.btnTest.UseVisualStyleBackColor = True
@@ -1112,17 +1134,19 @@ Partial Class FAzienda
         'TextBox8
         '
         Me.TextBox8.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "LegaleRappresentante", True))
-        Me.TextBox8.Location = New System.Drawing.Point(94, 133)
+        Me.TextBox8.Location = New System.Drawing.Point(172, 246)
+        Me.TextBox8.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(414, 20)
+        Me.TextBox8.Size = New System.Drawing.Size(756, 32)
         Me.TextBox8.TabIndex = 9
         '
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(6, 136)
+        Me.Label35.Location = New System.Drawing.Point(11, 250)
+        Me.Label35.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(69, 13)
+        Me.Label35.Size = New System.Drawing.Size(126, 24)
         Me.Label35.TabIndex = 49
         Me.Label35.Text = "Legale rappr."
         '
@@ -1131,63 +1155,70 @@ Partial Class FAzienda
         Me.UcTxtCall4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.UcTxtCall4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Fax", True))
-        Me.UcTxtCall4.Location = New System.Drawing.Point(557, 80)
+        Me.UcTxtCall4.Location = New System.Drawing.Point(1022, 147)
+        Me.UcTxtCall4.Margin = New System.Windows.Forms.Padding(6)
         Me.UcTxtCall4.Name = "UcTxtCall4"
-        Me.UcTxtCall4.Size = New System.Drawing.Size(442, 20)
+        Me.UcTxtCall4.Size = New System.Drawing.Size(814, 32)
         Me.UcTxtCall4.TabIndex = 6
         Me.UcTxtCall4.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Fax
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(519, 84)
+        Me.Label34.Location = New System.Drawing.Point(952, 154)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(24, 13)
+        Me.Label34.Size = New System.Drawing.Size(42, 24)
         Me.Label34.TabIndex = 47
         Me.Label34.Text = "Fax"
         '
         'UcTxtCall3
         '
         Me.UcTxtCall3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Telefono2", True))
-        Me.UcTxtCall3.Location = New System.Drawing.Point(311, 81)
+        Me.UcTxtCall3.Location = New System.Drawing.Point(571, 150)
+        Me.UcTxtCall3.Margin = New System.Windows.Forms.Padding(6)
         Me.UcTxtCall3.Name = "UcTxtCall3"
-        Me.UcTxtCall3.Size = New System.Drawing.Size(202, 20)
+        Me.UcTxtCall3.Size = New System.Drawing.Size(367, 32)
         Me.UcTxtCall3.TabIndex = 5
         Me.UcTxtCall3.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Telefono
         '
         'UcTxtCall2
         '
         Me.UcTxtCall2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Email", True))
-        Me.UcTxtCall2.Location = New System.Drawing.Point(93, 107)
+        Me.UcTxtCall2.Location = New System.Drawing.Point(170, 198)
+        Me.UcTxtCall2.Margin = New System.Windows.Forms.Padding(6)
         Me.UcTxtCall2.Name = "UcTxtCall2"
-        Me.UcTxtCall2.Size = New System.Drawing.Size(420, 20)
+        Me.UcTxtCall2.Size = New System.Drawing.Size(767, 32)
         Me.UcTxtCall2.TabIndex = 7
         Me.UcTxtCall2.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Mail
         '
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(5, 110)
+        Me.Label33.Location = New System.Drawing.Point(10, 202)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(32, 13)
+        Me.Label33.Size = New System.Drawing.Size(60, 24)
         Me.Label33.TabIndex = 44
         Me.Label33.Text = "Email"
         '
         'UcTxtCall1
         '
         Me.UcTxtCall1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Telefono1", True))
-        Me.UcTxtCall1.Location = New System.Drawing.Point(93, 81)
+        Me.UcTxtCall1.Location = New System.Drawing.Point(170, 150)
+        Me.UcTxtCall1.Margin = New System.Windows.Forms.Padding(6)
         Me.UcTxtCall1.Name = "UcTxtCall1"
-        Me.UcTxtCall1.Size = New System.Drawing.Size(202, 20)
+        Me.UcTxtCall1.Size = New System.Drawing.Size(367, 32)
         Me.UcTxtCall1.TabIndex = 4
         Me.UcTxtCall1.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Telefono
         '
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(5, 84)
+        Me.Label32.Location = New System.Drawing.Point(10, 154)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(49, 13)
+        Me.Label32.Size = New System.Drawing.Size(88, 24)
         Me.Label32.TabIndex = 42
         Me.Label32.Text = "Telefono"
         '
@@ -1197,9 +1228,10 @@ Partial Class FAzienda
         Me.chkUsaIndirizzo.AutoSize = True
         Me.chkUsaIndirizzo.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.chkUsaIndirizzo.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsAzienda, "UsatoPerSpedizione", True))
-        Me.chkUsaIndirizzo.Location = New System.Drawing.Point(1066, 3)
+        Me.chkUsaIndirizzo.Location = New System.Drawing.Point(1965, 6)
+        Me.chkUsaIndirizzo.Margin = New System.Windows.Forms.Padding(6)
         Me.chkUsaIndirizzo.Name = "chkUsaIndirizzo"
-        Me.chkUsaIndirizzo.Size = New System.Drawing.Size(186, 17)
+        Me.chkUsaIndirizzo.Size = New System.Drawing.Size(338, 28)
         Me.chkUsaIndirizzo.TabIndex = 10
         Me.chkUsaIndirizzo.Text = "Indirizzo usato per corrispondenza"
         Me.chkUsaIndirizzo.UseVisualStyleBackColor = True
@@ -1208,9 +1240,10 @@ Partial Class FAzienda
         '
         Me.Label17.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(1124, 57)
+        Me.Label17.Location = New System.Drawing.Point(2068, 105)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(51, 13)
+        Me.Label17.Size = New System.Drawing.Size(93, 24)
         Me.Label17.TabIndex = 40
         Me.Label17.Text = "Provincia"
         '
@@ -1218,9 +1251,10 @@ Partial Class FAzienda
         '
         Me.Label16.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(1005, 57)
+        Me.Label16.Location = New System.Drawing.Point(1850, 105)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(28, 13)
+        Me.Label16.Size = New System.Drawing.Size(49, 24)
         Me.Label16.TabIndex = 39
         Me.Label16.Text = "CAP"
         '
@@ -1228,9 +1262,10 @@ Partial Class FAzienda
         '
         Me.TextBox5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Cap", True))
-        Me.TextBox5.Location = New System.Drawing.Point(1039, 54)
+        Me.TextBox5.Location = New System.Drawing.Point(1911, 99)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(79, 20)
+        Me.TextBox5.Size = New System.Drawing.Size(142, 32)
         Me.TextBox5.TabIndex = 2
         '
         'cbSLProv
@@ -1239,9 +1274,10 @@ Partial Class FAzienda
         Me.cbSLProv.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
         Me.cbSLProv.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
         Me.cbSLProv.FormattingEnabled = True
-        Me.cbSLProv.Location = New System.Drawing.Point(1182, 54)
+        Me.cbSLProv.Location = New System.Drawing.Point(2174, 99)
+        Me.cbSLProv.Margin = New System.Windows.Forms.Padding(6)
         Me.cbSLProv.Name = "cbSLProv"
-        Me.cbSLProv.Size = New System.Drawing.Size(69, 21)
+        Me.cbSLProv.Size = New System.Drawing.Size(124, 32)
         Me.cbSLProv.TabIndex = 3
         '
         'TextBox4
@@ -1249,17 +1285,19 @@ Partial Class FAzienda
         Me.TextBox4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Localita", True))
-        Me.TextBox4.Location = New System.Drawing.Point(93, 54)
+        Me.TextBox4.Location = New System.Drawing.Point(170, 99)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(906, 20)
+        Me.TextBox4.Size = New System.Drawing.Size(1665, 32)
         Me.TextBox4.TabIndex = 1
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(6, 57)
+        Me.Label13.Location = New System.Drawing.Point(11, 105)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(44, 13)
+        Me.Label13.Size = New System.Drawing.Size(81, 24)
         Me.Label13.TabIndex = 35
         Me.Label13.Text = "Località"
         '
@@ -1268,17 +1306,19 @@ Partial Class FAzienda
         Me.TextBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Indirizzo", True))
-        Me.TextBox3.Location = New System.Drawing.Point(93, 29)
+        Me.TextBox3.Location = New System.Drawing.Point(170, 54)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(1157, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(2125, 32)
         Me.TextBox3.TabIndex = 0
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(5, 29)
+        Me.Label14.Location = New System.Drawing.Point(10, 54)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(45, 13)
+        Me.Label14.Size = New System.Drawing.Size(85, 24)
         Me.Label14.TabIndex = 33
         Me.Label14.Text = "Indirizzo"
         '
@@ -1287,8 +1327,9 @@ Partial Class FAzienda
         Me.Label11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label11.Location = New System.Drawing.Point(0, 0)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(74, 20)
+        Me.Label11.Size = New System.Drawing.Size(134, 35)
         Me.Label11.TabIndex = 32
         Me.Label11.Text = "Sede legale"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1301,9 +1342,10 @@ Partial Class FAzienda
         Me.tpAttivita.Controls.Add(Me.pnlAttivita)
         Me.tpAttivita.ImageIndex = 1
         Me.tpAttivita.Location = New System.Drawing.Point(4, 52)
+        Me.tpAttivita.Margin = New System.Windows.Forms.Padding(6)
         Me.tpAttivita.Name = "tpAttivita"
-        Me.tpAttivita.Padding = New System.Windows.Forms.Padding(3)
-        Me.tpAttivita.Size = New System.Drawing.Size(1276, 364)
+        Me.tpAttivita.Padding = New System.Windows.Forms.Padding(6)
+        Me.tpAttivita.Size = New System.Drawing.Size(2346, 758)
         Me.tpAttivita.TabIndex = 1
         Me.tpAttivita.Text = "Attivita, licenze & prodotti"
         '
@@ -1314,9 +1356,10 @@ Partial Class FAzienda
         Me.Panel2.Controls.Add(Me.tsProdotti)
         Me.Panel2.Controls.Add(Me.Label24)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(572, 135)
+        Me.Panel2.Location = New System.Drawing.Point(1048, 249)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(6)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(701, 226)
+        Me.Panel2.Size = New System.Drawing.Size(1292, 503)
         Me.Panel2.TabIndex = 4
         '
         'dgvProdotti
@@ -1329,19 +1372,20 @@ Partial Class FAzienda
         Me.dgvProdotti.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcProdCategoria, Me.dgvcProdDescr, Me.dgvcProdTipo})
         Me.dgvProdotti.DataSource = Me.bsProdotti
         Me.dgvProdotti.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvProdotti.Location = New System.Drawing.Point(0, 20)
+        Me.dgvProdotti.Location = New System.Drawing.Point(0, 35)
+        Me.dgvProdotti.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvProdotti.Name = "dgvProdotti"
         Me.dgvProdotti.ReadOnly = True
         Me.dgvProdotti.RowHeadersWidth = 20
         Me.dgvProdotti.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvProdotti.Size = New System.Drawing.Size(662, 204)
+        Me.dgvProdotti.Size = New System.Drawing.Size(1253, 466)
         Me.dgvProdotti.TabIndex = 36
         '
         'dgvcProdCategoria
         '
         Me.dgvcProdCategoria.DataPropertyName = "DescrCategoria"
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcProdCategoria.DefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcProdCategoria.DefaultCellStyle = DataGridViewCellStyle28
         Me.dgvcProdCategoria.HeaderText = "Categoria"
         Me.dgvcProdCategoria.Name = "dgvcProdCategoria"
         Me.dgvcProdCategoria.ReadOnly = True
@@ -1349,8 +1393,8 @@ Partial Class FAzienda
         'dgvcProdDescr
         '
         Me.dgvcProdDescr.DataPropertyName = "DescrProdotto"
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcProdDescr.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcProdDescr.DefaultCellStyle = DataGridViewCellStyle29
         Me.dgvcProdDescr.HeaderText = "Prodotto"
         Me.dgvcProdDescr.Name = "dgvcProdDescr"
         Me.dgvcProdDescr.ReadOnly = True
@@ -1370,9 +1414,9 @@ Partial Class FAzienda
         Me.tsProdotti.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsProdotti.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsProdotti.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbProdAdd, Me.tsbProdEdit, Me.tsbProdDel, Me.tsbProdRefresh})
-        Me.tsProdotti.Location = New System.Drawing.Point(662, 20)
+        Me.tsProdotti.Location = New System.Drawing.Point(1253, 35)
         Me.tsProdotti.Name = "tsProdotti"
-        Me.tsProdotti.Size = New System.Drawing.Size(37, 204)
+        Me.tsProdotti.Size = New System.Drawing.Size(37, 466)
         Me.tsProdotti.TabIndex = 35
         '
         'tsbProdAdd
@@ -1425,8 +1469,9 @@ Partial Class FAzienda
         Me.Label24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label24.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label24.Location = New System.Drawing.Point(0, 0)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(699, 20)
+        Me.Label24.Size = New System.Drawing.Size(1290, 35)
         Me.Label24.TabIndex = 34
         Me.Label24.Text = "Prodotti"
         Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1438,9 +1483,10 @@ Partial Class FAzienda
         Me.Panel1.Controls.Add(Me.tsLicenze)
         Me.Panel1.Controls.Add(Me.Label23)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel1.Location = New System.Drawing.Point(3, 135)
+        Me.Panel1.Location = New System.Drawing.Point(6, 249)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(6)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(569, 226)
+        Me.Panel1.Size = New System.Drawing.Size(1042, 503)
         Me.Panel1.TabIndex = 3
         '
         'dgvLicenze
@@ -1453,12 +1499,13 @@ Partial Class FAzienda
         Me.dgvLicenze.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcLicDescrizione, Me.dgvcLicDataRichiesta, Me.dgvcLicDataScadenza, Me.dgvcLicDataRicevuta})
         Me.dgvLicenze.DataSource = Me.bsLicenze
         Me.dgvLicenze.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvLicenze.Location = New System.Drawing.Point(0, 20)
+        Me.dgvLicenze.Location = New System.Drawing.Point(0, 35)
+        Me.dgvLicenze.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvLicenze.Name = "dgvLicenze"
         Me.dgvLicenze.ReadOnly = True
         Me.dgvLicenze.RowHeadersWidth = 20
         Me.dgvLicenze.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvLicenze.Size = New System.Drawing.Size(531, 204)
+        Me.dgvLicenze.Size = New System.Drawing.Size(974, 466)
         Me.dgvLicenze.TabIndex = 36
         '
         'dgvcLicDescrizione
@@ -1472,8 +1519,8 @@ Partial Class FAzienda
         '
         Me.dgvcLicDataRichiesta.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcLicDataRichiesta.DataPropertyName = "DataRichiesta"
-        DataGridViewCellStyle3.Format = "d"
-        Me.dgvcLicDataRichiesta.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle30.Format = "d"
+        Me.dgvcLicDataRichiesta.DefaultCellStyle = DataGridViewCellStyle30
         Me.dgvcLicDataRichiesta.HeaderText = "Data Richiesta"
         Me.dgvcLicDataRichiesta.Name = "dgvcLicDataRichiesta"
         Me.dgvcLicDataRichiesta.ReadOnly = True
@@ -1483,8 +1530,8 @@ Partial Class FAzienda
         '
         Me.dgvcLicDataScadenza.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcLicDataScadenza.DataPropertyName = "DataScadenza"
-        DataGridViewCellStyle4.Format = "d"
-        Me.dgvcLicDataScadenza.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle31.Format = "d"
+        Me.dgvcLicDataScadenza.DefaultCellStyle = DataGridViewCellStyle31
         Me.dgvcLicDataScadenza.HeaderText = "Data Scadenza"
         Me.dgvcLicDataScadenza.Name = "dgvcLicDataScadenza"
         Me.dgvcLicDataScadenza.ReadOnly = True
@@ -1494,8 +1541,8 @@ Partial Class FAzienda
         '
         Me.dgvcLicDataRicevuta.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcLicDataRicevuta.DataPropertyName = "DataRicevuta"
-        DataGridViewCellStyle5.Format = "d"
-        Me.dgvcLicDataRicevuta.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle32.Format = "d"
+        Me.dgvcLicDataRicevuta.DefaultCellStyle = DataGridViewCellStyle32
         Me.dgvcLicDataRicevuta.HeaderText = "Data Ricevuta"
         Me.dgvcLicDataRicevuta.Name = "dgvcLicDataRicevuta"
         Me.dgvcLicDataRicevuta.ReadOnly = True
@@ -1508,9 +1555,9 @@ Partial Class FAzienda
         Me.tsLicenze.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsLicenze.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsLicenze.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbLicAdd, Me.tsbLicEdit, Me.tsbLicDel})
-        Me.tsLicenze.Location = New System.Drawing.Point(531, 20)
+        Me.tsLicenze.Location = New System.Drawing.Point(974, 35)
         Me.tsLicenze.Name = "tsLicenze"
-        Me.tsLicenze.Size = New System.Drawing.Size(36, 204)
+        Me.tsLicenze.Size = New System.Drawing.Size(66, 466)
         Me.tsLicenze.TabIndex = 35
         '
         'tsbLicAdd
@@ -1552,8 +1599,9 @@ Partial Class FAzienda
         Me.Label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label23.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label23.Location = New System.Drawing.Point(0, 0)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(567, 20)
+        Me.Label23.Size = New System.Drawing.Size(1040, 35)
         Me.Label23.TabIndex = 34
         Me.Label23.Text = "Licenze"
         Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1564,9 +1612,10 @@ Partial Class FAzienda
         Me.pnlAttivita.Controls.Add(Me.tsAttivita)
         Me.pnlAttivita.Controls.Add(Me.Label25)
         Me.pnlAttivita.Dock = System.Windows.Forms.DockStyle.Top
-        Me.pnlAttivita.Location = New System.Drawing.Point(3, 3)
+        Me.pnlAttivita.Location = New System.Drawing.Point(6, 6)
+        Me.pnlAttivita.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlAttivita.Name = "pnlAttivita"
-        Me.pnlAttivita.Size = New System.Drawing.Size(1270, 132)
+        Me.pnlAttivita.Size = New System.Drawing.Size(2334, 243)
         Me.pnlAttivita.TabIndex = 0
         '
         'dgvAttivita
@@ -1579,12 +1628,13 @@ Partial Class FAzienda
         Me.dgvAttivita.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcAttTipo, Me.dgvcAttCategoria, Me.dgvcAttDescrizione, Me.dgvcAttDataIni, Me.dgvcDataFine, Me.dgvcAttConsuntivo, Me.dgvcAttPreventivo, Me.dgvcAttAttrezzatura})
         Me.dgvAttivita.DataSource = Me.bsAttivita
         Me.dgvAttivita.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvAttivita.Location = New System.Drawing.Point(0, 20)
+        Me.dgvAttivita.Location = New System.Drawing.Point(0, 35)
+        Me.dgvAttivita.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvAttivita.Name = "dgvAttivita"
         Me.dgvAttivita.ReadOnly = True
         Me.dgvAttivita.RowHeadersWidth = 20
         Me.dgvAttivita.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvAttivita.Size = New System.Drawing.Size(1234, 112)
+        Me.dgvAttivita.Size = New System.Drawing.Size(2268, 208)
         Me.dgvAttivita.TabIndex = 37
         '
         'dgvcAttTipo
@@ -1600,8 +1650,8 @@ Partial Class FAzienda
         '
         Me.dgvcAttCategoria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcAttCategoria.DataPropertyName = "CodCategoria"
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.dgvcAttCategoria.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.dgvcAttCategoria.DefaultCellStyle = DataGridViewCellStyle33
         Me.dgvcAttCategoria.HeaderText = "Categoria"
         Me.dgvcAttCategoria.Name = "dgvcAttCategoria"
         Me.dgvcAttCategoria.ReadOnly = True
@@ -1618,8 +1668,8 @@ Partial Class FAzienda
         '
         Me.dgvcAttDataIni.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcAttDataIni.DataPropertyName = "DataIniziale"
-        DataGridViewCellStyle7.Format = "d"
-        Me.dgvcAttDataIni.DefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle34.Format = "d"
+        Me.dgvcAttDataIni.DefaultCellStyle = DataGridViewCellStyle34
         Me.dgvcAttDataIni.HeaderText = "Dal"
         Me.dgvcAttDataIni.Name = "dgvcAttDataIni"
         Me.dgvcAttDataIni.ReadOnly = True
@@ -1629,8 +1679,8 @@ Partial Class FAzienda
         '
         Me.dgvcDataFine.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDataFine.DataPropertyName = "DataFinale"
-        DataGridViewCellStyle8.Format = "d"
-        Me.dgvcDataFine.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle35.Format = "d"
+        Me.dgvcDataFine.DefaultCellStyle = DataGridViewCellStyle35
         Me.dgvcDataFine.HeaderText = "Al"
         Me.dgvcDataFine.Name = "dgvcDataFine"
         Me.dgvcDataFine.ReadOnly = True
@@ -1676,9 +1726,9 @@ Partial Class FAzienda
         Me.tsAttivita.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsAttivita.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsAttivita.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbAttAdd, Me.tsbAttEdit, Me.tsbAttDel})
-        Me.tsAttivita.Location = New System.Drawing.Point(1234, 20)
+        Me.tsAttivita.Location = New System.Drawing.Point(2268, 35)
         Me.tsAttivita.Name = "tsAttivita"
-        Me.tsAttivita.Size = New System.Drawing.Size(36, 112)
+        Me.tsAttivita.Size = New System.Drawing.Size(66, 208)
         Me.tsAttivita.TabIndex = 38
         '
         'tsbAttAdd
@@ -1720,8 +1770,9 @@ Partial Class FAzienda
         Me.Label25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label25.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label25.Location = New System.Drawing.Point(0, 0)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(1270, 20)
+        Me.Label25.Size = New System.Drawing.Size(2334, 35)
         Me.Label25.TabIndex = 35
         Me.Label25.Text = "Attivita"
         Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1732,9 +1783,10 @@ Partial Class FAzienda
         Me.tpDichiarazioni.Controls.Add(Me.pnlDichiarazioni)
         Me.tpDichiarazioni.ImageIndex = 2
         Me.tpDichiarazioni.Location = New System.Drawing.Point(4, 52)
+        Me.tpDichiarazioni.Margin = New System.Windows.Forms.Padding(6)
         Me.tpDichiarazioni.Name = "tpDichiarazioni"
-        Me.tpDichiarazioni.Padding = New System.Windows.Forms.Padding(3)
-        Me.tpDichiarazioni.Size = New System.Drawing.Size(1276, 364)
+        Me.tpDichiarazioni.Padding = New System.Windows.Forms.Padding(6)
+        Me.tpDichiarazioni.Size = New System.Drawing.Size(2346, 758)
         Me.tpDichiarazioni.TabIndex = 2
         Me.tpDichiarazioni.Text = "Dichiarazioni & incassi"
         '
@@ -1746,9 +1798,10 @@ Partial Class FAzienda
         Me.pnlDichiarazioni.Controls.Add(Me.tsDichiarazioni)
         Me.pnlDichiarazioni.Controls.Add(Me.Label31)
         Me.pnlDichiarazioni.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlDichiarazioni.Location = New System.Drawing.Point(3, 3)
+        Me.pnlDichiarazioni.Location = New System.Drawing.Point(6, 6)
+        Me.pnlDichiarazioni.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlDichiarazioni.Name = "pnlDichiarazioni"
-        Me.pnlDichiarazioni.Size = New System.Drawing.Size(1270, 358)
+        Me.pnlDichiarazioni.Size = New System.Drawing.Size(2334, 746)
         Me.pnlDichiarazioni.TabIndex = 2
         '
         'dgvDichiarazioni
@@ -1761,12 +1814,13 @@ Partial Class FAzienda
         Me.dgvDichiarazioni.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcDicAnno, Me.dgvcDicCategoria, Me.dgvcDicPeriodo, Me.dgvcDicDataRic, Me.dgvcDicImporto, Me.dgvcDicPagato, Me.dgvcDicData, Me.dgvcDicScadDic, Me.dgvcDicScadPag, Me.dgvcDicProroga, Me.dgvcDicProd, Me.dgvcDicDocs, Me.dgvcDicAllegato, Me.dgvcDicRegDic, Me.dgvcDicRegPag})
         Me.dgvDichiarazioni.DataSource = Me.bsDichiarazioni
         Me.dgvDichiarazioni.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvDichiarazioni.Location = New System.Drawing.Point(0, 20)
+        Me.dgvDichiarazioni.Location = New System.Drawing.Point(0, 35)
+        Me.dgvDichiarazioni.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvDichiarazioni.Name = "dgvDichiarazioni"
         Me.dgvDichiarazioni.ReadOnly = True
         Me.dgvDichiarazioni.RowHeadersWidth = 20
         Me.dgvDichiarazioni.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvDichiarazioni.Size = New System.Drawing.Size(1232, 310)
+        Me.dgvDichiarazioni.Size = New System.Drawing.Size(2266, 661)
         Me.dgvDichiarazioni.TabIndex = 36
         '
         'dgvcDicAnno
@@ -1782,8 +1836,8 @@ Partial Class FAzienda
         '
         Me.dgvcDicCategoria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicCategoria.DataPropertyName = "CodCategoria"
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.dgvcDicCategoria.DefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.dgvcDicCategoria.DefaultCellStyle = DataGridViewCellStyle36
         Me.dgvcDicCategoria.HeaderText = "Cat."
         Me.dgvcDicCategoria.Name = "dgvcDicCategoria"
         Me.dgvcDicCategoria.ReadOnly = True
@@ -1801,8 +1855,8 @@ Partial Class FAzienda
         '
         Me.dgvcDicDataRic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicDataRic.DataPropertyName = "DataRicezione"
-        DataGridViewCellStyle10.Format = "d"
-        Me.dgvcDicDataRic.DefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle37.Format = "d"
+        Me.dgvcDicDataRic.DefaultCellStyle = DataGridViewCellStyle37
         Me.dgvcDicDataRic.HeaderText = "Data ricezione"
         Me.dgvcDicDataRic.Name = "dgvcDicDataRic"
         Me.dgvcDicDataRic.ReadOnly = True
@@ -1812,9 +1866,9 @@ Partial Class FAzienda
         '
         Me.dgvcDicImporto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicImporto.DataPropertyName = "ImportoRuolo"
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle11.Format = "c2"
-        Me.dgvcDicImporto.DefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle38.Format = "c2"
+        Me.dgvcDicImporto.DefaultCellStyle = DataGridViewCellStyle38
         Me.dgvcDicImporto.HeaderText = "Importo dovuto"
         Me.dgvcDicImporto.Name = "dgvcDicImporto"
         Me.dgvcDicImporto.ReadOnly = True
@@ -1824,9 +1878,9 @@ Partial Class FAzienda
         '
         Me.dgvcDicPagato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicPagato.DataPropertyName = "ImportoPagato"
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle12.Format = "c2"
-        Me.dgvcDicPagato.DefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle39.Format = "c2"
+        Me.dgvcDicPagato.DefaultCellStyle = DataGridViewCellStyle39
         Me.dgvcDicPagato.HeaderText = "Importo Pagato"
         Me.dgvcDicPagato.Name = "dgvcDicPagato"
         Me.dgvcDicPagato.ReadOnly = True
@@ -1836,8 +1890,8 @@ Partial Class FAzienda
         '
         Me.dgvcDicData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicData.DataPropertyName = "DataPagamento"
-        DataGridViewCellStyle13.Format = "d"
-        Me.dgvcDicData.DefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle40.Format = "d"
+        Me.dgvcDicData.DefaultCellStyle = DataGridViewCellStyle40
         Me.dgvcDicData.HeaderText = "Data"
         Me.dgvcDicData.Name = "dgvcDicData"
         Me.dgvcDicData.ReadOnly = True
@@ -1847,8 +1901,8 @@ Partial Class FAzienda
         '
         Me.dgvcDicScadDic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicScadDic.DataPropertyName = "DataScadenzaDichiarazione"
-        DataGridViewCellStyle14.Format = "d"
-        Me.dgvcDicScadDic.DefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle41.Format = "d"
+        Me.dgvcDicScadDic.DefaultCellStyle = DataGridViewCellStyle41
         Me.dgvcDicScadDic.HeaderText = "Scadenza consegna dichiarazione"
         Me.dgvcDicScadDic.Name = "dgvcDicScadDic"
         Me.dgvcDicScadDic.ReadOnly = True
@@ -1858,8 +1912,8 @@ Partial Class FAzienda
         '
         Me.dgvcDicScadPag.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicScadPag.DataPropertyName = "DataScadenzaPagamento"
-        DataGridViewCellStyle15.Format = "d"
-        Me.dgvcDicScadPag.DefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle42.Format = "d"
+        Me.dgvcDicScadPag.DefaultCellStyle = DataGridViewCellStyle42
         Me.dgvcDicScadPag.HeaderText = "Scadenza pagamento"
         Me.dgvcDicScadPag.Name = "dgvcDicScadPag"
         Me.dgvcDicScadPag.ReadOnly = True
@@ -1869,8 +1923,8 @@ Partial Class FAzienda
         '
         Me.dgvcDicProroga.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicProroga.DataPropertyName = "DataProroga"
-        DataGridViewCellStyle16.Format = "d"
-        Me.dgvcDicProroga.DefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle43.Format = "d"
+        Me.dgvcDicProroga.DefaultCellStyle = DataGridViewCellStyle43
         Me.dgvcDicProroga.HeaderText = "Proroga"
         Me.dgvcDicProroga.Name = "dgvcDicProroga"
         Me.dgvcDicProroga.ReadOnly = True
@@ -1933,16 +1987,13 @@ Partial Class FAzienda
         Me.dgvcDicRegPag.ToolTipText = "Regolarità pagamenti"
         Me.dgvcDicRegPag.Width = 50
         '
-        'bsDichiarazioni
-        '
-        '
         'pnlDicFooter
         '
         Me.pnlDicFooter.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnlDicFooter.Location = New System.Drawing.Point(0, 330)
-        Me.pnlDicFooter.Margin = New System.Windows.Forms.Padding(2)
+        Me.pnlDicFooter.Location = New System.Drawing.Point(0, 696)
+        Me.pnlDicFooter.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.pnlDicFooter.Name = "pnlDicFooter"
-        Me.pnlDicFooter.Size = New System.Drawing.Size(1232, 26)
+        Me.pnlDicFooter.Size = New System.Drawing.Size(2266, 48)
         Me.pnlDicFooter.TabIndex = 37
         '
         'tsDichiarazioni
@@ -1952,9 +2003,9 @@ Partial Class FAzienda
         Me.tsDichiarazioni.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsDichiarazioni.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsDichiarazioni.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbDicAdd, Me.tsbDicEdit, Me.tsbDicDel, Me.ToolStripSeparator1, Me.tsbDicForza, Me.tsbDicDocArxivar, Me.tsbDicScadenze})
-        Me.tsDichiarazioni.Location = New System.Drawing.Point(1232, 20)
+        Me.tsDichiarazioni.Location = New System.Drawing.Point(2266, 35)
         Me.tsDichiarazioni.Name = "tsDichiarazioni"
-        Me.tsDichiarazioni.Size = New System.Drawing.Size(36, 336)
+        Me.tsDichiarazioni.Size = New System.Drawing.Size(66, 709)
         Me.tsDichiarazioni.TabIndex = 35
         '
         'tsbDicAdd
@@ -1965,19 +2016,19 @@ Partial Class FAzienda
         Me.tsbDicAdd.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbDicAdd.Margin = New System.Windows.Forms.Padding(0, 10, 0, 2)
         Me.tsbDicAdd.Name = "tsbDicAdd"
-        Me.tsbDicAdd.Size = New System.Drawing.Size(34, 24)
+        Me.tsbDicAdd.Size = New System.Drawing.Size(64, 24)
         Me.tsbDicAdd.Text = "Genera scadenze"
         '
         'tsmDicGenAuto
         '
         Me.tsmDicGenAuto.Name = "tsmDicGenAuto"
-        Me.tsmDicGenAuto.Size = New System.Drawing.Size(137, 22)
+        Me.tsmDicGenAuto.Size = New System.Drawing.Size(156, 24)
         Me.tsmDicGenAuto.Text = "Automatico"
         '
         'tsmDicGenSel
         '
         Me.tsmDicGenSel.Name = "tsmDicGenSel"
-        Me.tsmDicGenSel.Size = New System.Drawing.Size(137, 22)
+        Me.tsmDicGenSel.Size = New System.Drawing.Size(156, 24)
         Me.tsmDicGenSel.Text = "Seleziona"
         '
         'tsbDicEdit
@@ -2006,7 +2057,7 @@ Partial Class FAzienda
         '
         Me.ToolStripSeparator1.Margin = New System.Windows.Forms.Padding(0, 0, 0, 40)
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(34, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(64, 6)
         '
         'tsbDicForza
         '
@@ -2025,7 +2076,7 @@ Partial Class FAzienda
         Me.tsbDicDocArxivar.Image = Global.PoliecoSoci.My.Resources.Resources.Arxivar16
         Me.tsbDicDocArxivar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbDicDocArxivar.Name = "tsbDicDocArxivar"
-        Me.tsbDicDocArxivar.Size = New System.Drawing.Size(34, 24)
+        Me.tsbDicDocArxivar.Size = New System.Drawing.Size(64, 24)
         Me.tsbDicDocArxivar.Text = "Documenti Arxivar"
         '
         'tsbDicScadenze
@@ -2035,7 +2086,7 @@ Partial Class FAzienda
         Me.tsbDicScadenze.Image = Global.PoliecoSoci.My.Resources.Resources.Tile_Vertically_24_n_g
         Me.tsbDicScadenze.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbDicScadenze.Name = "tsbDicScadenze"
-        Me.tsbDicScadenze.Size = New System.Drawing.Size(34, 24)
+        Me.tsbDicScadenze.Size = New System.Drawing.Size(64, 24)
         Me.tsbDicScadenze.Text = "Gestione scadenze"
         '
         'Label31
@@ -2044,8 +2095,9 @@ Partial Class FAzienda
         Me.Label31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label31.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label31.Location = New System.Drawing.Point(0, 0)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(1268, 20)
+        Me.Label31.Size = New System.Drawing.Size(2332, 35)
         Me.Label31.TabIndex = 34
         Me.Label31.Text = "Dichiarazioni"
         Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -2057,9 +2109,10 @@ Partial Class FAzienda
         Me.tpEventi.Controls.Add(Me.pnlEventiHeader)
         Me.tpEventi.ImageIndex = 4
         Me.tpEventi.Location = New System.Drawing.Point(4, 52)
+        Me.tpEventi.Margin = New System.Windows.Forms.Padding(6)
         Me.tpEventi.Name = "tpEventi"
-        Me.tpEventi.Padding = New System.Windows.Forms.Padding(3)
-        Me.tpEventi.Size = New System.Drawing.Size(1276, 364)
+        Me.tpEventi.Padding = New System.Windows.Forms.Padding(6)
+        Me.tpEventi.Size = New System.Drawing.Size(2346, 758)
         Me.tpEventi.TabIndex = 3
         Me.tpEventi.Text = "Eventi"
         '
@@ -2070,9 +2123,10 @@ Partial Class FAzienda
         Me.pnlEventi.Controls.Add(Me.tsEventi)
         Me.pnlEventi.Controls.Add(Me.Label37)
         Me.pnlEventi.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlEventi.Location = New System.Drawing.Point(3, 50)
+        Me.pnlEventi.Location = New System.Drawing.Point(6, 90)
+        Me.pnlEventi.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlEventi.Name = "pnlEventi"
-        Me.pnlEventi.Size = New System.Drawing.Size(1270, 311)
+        Me.pnlEventi.Size = New System.Drawing.Size(2334, 662)
         Me.pnlEventi.TabIndex = 3
         '
         'dgvEventi
@@ -2086,13 +2140,164 @@ Partial Class FAzienda
         Me.dgvEventi.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcEvStato, Me.dgvcEvIsUrgente, Me.dgvcEvData, Me.dgvcEvNotifica, Me.dgvcEvRuoloNotifica, Me.dgvcEvTipo, Me.dgvcEvUtente, Me.dgvcEvMotivazione, Me.dgvcEvIncaricato, Me.dgvcEvNote, Me.dgvcEvScadenza, Me.dgvcEvValore, Me.dgvcEvDocs, Me.dgvcEvSys})
         Me.dgvEventi.DataSource = Me.bsEventi
         Me.dgvEventi.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvEventi.Location = New System.Drawing.Point(0, 20)
+        Me.dgvEventi.Location = New System.Drawing.Point(0, 35)
+        Me.dgvEventi.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvEventi.Name = "dgvEventi"
         Me.dgvEventi.ReadOnly = True
         Me.dgvEventi.RowHeadersWidth = 20
         Me.dgvEventi.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvEventi.Size = New System.Drawing.Size(1232, 289)
+        Me.dgvEventi.Size = New System.Drawing.Size(2266, 625)
         Me.dgvEventi.TabIndex = 36
+        '
+        'dgvcEvStato
+        '
+        Me.dgvcEvStato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvStato.DataPropertyName = "Stato"
+        Me.dgvcEvStato.HeaderText = "Stato"
+        Me.dgvcEvStato.Name = "dgvcEvStato"
+        Me.dgvcEvStato.ReadOnly = True
+        Me.dgvcEvStato.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvStato.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcEvStato.Width = 50
+        '
+        'dgvcEvIsUrgente
+        '
+        Me.dgvcEvIsUrgente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvIsUrgente.DataPropertyName = "IsUrgente"
+        Me.dgvcEvIsUrgente.HeaderText = "Urg."
+        Me.dgvcEvIsUrgente.ImageFalse = Nothing
+        Me.dgvcEvIsUrgente.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Alert_or_Warning_2_16_n_g
+        Me.dgvcEvIsUrgente.Name = "dgvcEvIsUrgente"
+        Me.dgvcEvIsUrgente.ReadOnly = True
+        Me.dgvcEvIsUrgente.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvIsUrgente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcEvIsUrgente.ValueFalse = "False"
+        Me.dgvcEvIsUrgente.ValueTrue = "True"
+        Me.dgvcEvIsUrgente.Width = 40
+        '
+        'dgvcEvData
+        '
+        Me.dgvcEvData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvData.DataPropertyName = "Data"
+        DataGridViewCellStyle44.Format = "d"
+        Me.dgvcEvData.DefaultCellStyle = DataGridViewCellStyle44
+        Me.dgvcEvData.HeaderText = "Data"
+        Me.dgvcEvData.Name = "dgvcEvData"
+        Me.dgvcEvData.ReadOnly = True
+        '
+        'dgvcEvNotifica
+        '
+        Me.dgvcEvNotifica.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvNotifica.DataPropertyName = "DataAvviso"
+        DataGridViewCellStyle45.Format = "d"
+        Me.dgvcEvNotifica.DefaultCellStyle = DataGridViewCellStyle45
+        Me.dgvcEvNotifica.HeaderText = "Notifica"
+        Me.dgvcEvNotifica.Name = "dgvcEvNotifica"
+        Me.dgvcEvNotifica.ReadOnly = True
+        '
+        'dgvcEvRuoloNotifica
+        '
+        Me.dgvcEvRuoloNotifica.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvRuoloNotifica.DataPropertyName = "RuoloNotifica"
+        Me.dgvcEvRuoloNotifica.HeaderText = "Ruolo not."
+        Me.dgvcEvRuoloNotifica.Name = "dgvcEvRuoloNotifica"
+        Me.dgvcEvRuoloNotifica.ReadOnly = True
+        Me.dgvcEvRuoloNotifica.ToolTipText = "Ruolo notifica"
+        Me.dgvcEvRuoloNotifica.Width = 120
+        '
+        'dgvcEvTipo
+        '
+        Me.dgvcEvTipo.DataPropertyName = "DescrTipo"
+        Me.dgvcEvTipo.HeaderText = "Tipo"
+        Me.dgvcEvTipo.Name = "dgvcEvTipo"
+        Me.dgvcEvTipo.ReadOnly = True
+        '
+        'dgvcEvUtente
+        '
+        Me.dgvcEvUtente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvUtente.DataPropertyName = "DescrUtente"
+        Me.dgvcEvUtente.HeaderText = "Utente"
+        Me.dgvcEvUtente.Name = "dgvcEvUtente"
+        Me.dgvcEvUtente.ReadOnly = True
+        Me.dgvcEvUtente.Width = 140
+        '
+        'dgvcEvMotivazione
+        '
+        Me.dgvcEvMotivazione.DataPropertyName = "Causale"
+        DataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvMotivazione.DefaultCellStyle = DataGridViewCellStyle46
+        Me.dgvcEvMotivazione.HeaderText = "Motivazione"
+        Me.dgvcEvMotivazione.Name = "dgvcEvMotivazione"
+        Me.dgvcEvMotivazione.ReadOnly = True
+        '
+        'dgvcEvIncaricato
+        '
+        Me.dgvcEvIncaricato.DataPropertyName = "Incaricato"
+        Me.dgvcEvIncaricato.HeaderText = "Incaricato"
+        Me.dgvcEvIncaricato.Name = "dgvcEvIncaricato"
+        Me.dgvcEvIncaricato.ReadOnly = True
+        '
+        'dgvcEvNote
+        '
+        Me.dgvcEvNote.DataPropertyName = "Note"
+        DataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvNote.DefaultCellStyle = DataGridViewCellStyle47
+        Me.dgvcEvNote.HeaderText = "Note"
+        Me.dgvcEvNote.Name = "dgvcEvNote"
+        Me.dgvcEvNote.ReadOnly = True
+        '
+        'dgvcEvScadenza
+        '
+        Me.dgvcEvScadenza.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvScadenza.DataPropertyName = "Scadenza"
+        DataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvScadenza.DefaultCellStyle = DataGridViewCellStyle48
+        Me.dgvcEvScadenza.HeaderText = "Scadenza"
+        Me.dgvcEvScadenza.Name = "dgvcEvScadenza"
+        Me.dgvcEvScadenza.ReadOnly = True
+        Me.dgvcEvScadenza.Width = 180
+        '
+        'dgvcEvValore
+        '
+        Me.dgvcEvValore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvValore.DataPropertyName = "Valore"
+        DataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle49.Format = "c2"
+        Me.dgvcEvValore.DefaultCellStyle = DataGridViewCellStyle49
+        Me.dgvcEvValore.HeaderText = "Valore"
+        Me.dgvcEvValore.Name = "dgvcEvValore"
+        Me.dgvcEvValore.ReadOnly = True
+        Me.dgvcEvValore.Width = 80
+        '
+        'dgvcEvDocs
+        '
+        Me.dgvcEvDocs.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvDocs.DataPropertyName = "HasDocument"
+        Me.dgvcEvDocs.HeaderText = "Doc"
+        Me.dgvcEvDocs.ImageFalse = Nothing
+        Me.dgvcEvDocs.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Arxivar16
+        Me.dgvcEvDocs.Name = "dgvcEvDocs"
+        Me.dgvcEvDocs.ReadOnly = True
+        Me.dgvcEvDocs.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvDocs.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcEvDocs.ValueFalse = "False"
+        Me.dgvcEvDocs.ValueTrue = "True"
+        Me.dgvcEvDocs.Width = 60
+        '
+        'dgvcEvSys
+        '
+        Me.dgvcEvSys.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvSys.DataPropertyName = "IsManuale"
+        Me.dgvcEvSys.HeaderText = "Sys"
+        Me.dgvcEvSys.ImageFalse = Global.PoliecoSoci.My.Resources.Resources.Options_3_16_n_g
+        Me.dgvcEvSys.ImageTrue = Nothing
+        Me.dgvcEvSys.Name = "dgvcEvSys"
+        Me.dgvcEvSys.ReadOnly = True
+        Me.dgvcEvSys.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvSys.ToolTipText = "Evento di sistema"
+        Me.dgvcEvSys.ValueFalse = "False"
+        Me.dgvcEvSys.ValueTrue = "True"
+        Me.dgvcEvSys.Width = 40
         '
         'tsEventi
         '
@@ -2101,9 +2306,9 @@ Partial Class FAzienda
         Me.tsEventi.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsEventi.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsEventi.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbEvAdd, Me.tsbEvEdit, Me.tsbEvDel, Me.ToolStripSeparator2, Me.tsbEvVisAll, Me.tsbEvDocArxivar})
-        Me.tsEventi.Location = New System.Drawing.Point(1232, 20)
+        Me.tsEventi.Location = New System.Drawing.Point(2266, 35)
         Me.tsEventi.Name = "tsEventi"
-        Me.tsEventi.Size = New System.Drawing.Size(36, 289)
+        Me.tsEventi.Size = New System.Drawing.Size(66, 625)
         Me.tsEventi.TabIndex = 35
         '
         'tsbEvAdd
@@ -2113,7 +2318,7 @@ Partial Class FAzienda
         Me.tsbEvAdd.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbEvAdd.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbEvAdd.Name = "tsbEvAdd"
-        Me.tsbEvAdd.Size = New System.Drawing.Size(34, 28)
+        Me.tsbEvAdd.Size = New System.Drawing.Size(64, 28)
         Me.tsbEvAdd.Text = "Aggiungi nuovo evento"
         '
         'tsbEvEdit
@@ -2123,7 +2328,7 @@ Partial Class FAzienda
         Me.tsbEvEdit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbEvEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbEvEdit.Name = "tsbEvEdit"
-        Me.tsbEvEdit.Size = New System.Drawing.Size(34, 28)
+        Me.tsbEvEdit.Size = New System.Drawing.Size(64, 28)
         Me.tsbEvEdit.Text = "Modifica"
         '
         'tsbEvDel
@@ -2133,13 +2338,13 @@ Partial Class FAzienda
         Me.tsbEvDel.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbEvDel.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbEvDel.Name = "tsbEvDel"
-        Me.tsbEvDel.Size = New System.Drawing.Size(34, 28)
+        Me.tsbEvDel.Size = New System.Drawing.Size(64, 28)
         Me.tsbEvDel.Text = "Elimina"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(34, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(64, 6)
         '
         'tsbEvVisAll
         '
@@ -2152,7 +2357,7 @@ Partial Class FAzienda
         Me.tsbEvVisAll.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbEvVisAll.Margin = New System.Windows.Forms.Padding(0, 60, 0, 2)
         Me.tsbEvVisAll.Name = "tsbEvVisAll"
-        Me.tsbEvVisAll.Size = New System.Drawing.Size(34, 28)
+        Me.tsbEvVisAll.Size = New System.Drawing.Size(64, 28)
         Me.tsbEvVisAll.Text = "Espandi note"
         '
         'tsbEvDocArxivar
@@ -2161,7 +2366,7 @@ Partial Class FAzienda
         Me.tsbEvDocArxivar.Image = Global.PoliecoSoci.My.Resources.Resources.Arxivar16
         Me.tsbEvDocArxivar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbEvDocArxivar.Name = "tsbEvDocArxivar"
-        Me.tsbEvDocArxivar.Size = New System.Drawing.Size(34, 24)
+        Me.tsbEvDocArxivar.Size = New System.Drawing.Size(64, 24)
         Me.tsbEvDocArxivar.Text = "Documenti Arxivar"
         '
         'Label37
@@ -2170,8 +2375,9 @@ Partial Class FAzienda
         Me.Label37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label37.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label37.Location = New System.Drawing.Point(0, 0)
+        Me.Label37.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(1268, 20)
+        Me.Label37.Size = New System.Drawing.Size(2332, 35)
         Me.Label37.TabIndex = 34
         Me.Label37.Text = "Eventi"
         Me.Label37.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -2186,9 +2392,10 @@ Partial Class FAzienda
         Me.pnlEventiHeader.Controls.Add(Me.Label29)
         Me.pnlEventiHeader.Controls.Add(Me.Label28)
         Me.pnlEventiHeader.Dock = System.Windows.Forms.DockStyle.Top
-        Me.pnlEventiHeader.Location = New System.Drawing.Point(3, 3)
+        Me.pnlEventiHeader.Location = New System.Drawing.Point(6, 6)
+        Me.pnlEventiHeader.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlEventiHeader.Name = "pnlEventiHeader"
-        Me.pnlEventiHeader.Size = New System.Drawing.Size(1270, 47)
+        Me.pnlEventiHeader.Size = New System.Drawing.Size(2334, 84)
         Me.pnlEventiHeader.TabIndex = 0
         '
         'txtRsPrec
@@ -2196,18 +2403,20 @@ Partial Class FAzienda
         Me.txtRsPrec.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtRsPrec.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "RagSocPrecedenti", True))
         Me.txtRsPrec.Enabled = False
-        Me.txtRsPrec.Location = New System.Drawing.Point(866, 14)
+        Me.txtRsPrec.Location = New System.Drawing.Point(1595, 26)
+        Me.txtRsPrec.Margin = New System.Windows.Forms.Padding(6)
         Me.txtRsPrec.Name = "txtRsPrec"
-        Me.txtRsPrec.Size = New System.Drawing.Size(396, 20)
+        Me.txtRsPrec.Size = New System.Drawing.Size(723, 32)
         Me.txtRsPrec.TabIndex = 52
         '
         'Label19
         '
         Me.Label19.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(716, 15)
+        Me.Label19.Location = New System.Drawing.Point(1320, 27)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(145, 13)
+        Me.Label19.Size = New System.Drawing.Size(263, 24)
         Me.Label19.TabIndex = 51
         Me.Label19.Text = "Ragione Sociale precedente:"
         '
@@ -2217,10 +2426,11 @@ Partial Class FAzienda
         Me.txtDataAssemblea.DateFormat = Nothing
         Me.txtDataAssemblea.DateValue = Nothing
         Me.txtDataAssemblea.IsReadOnly = False
-        Me.txtDataAssemblea.Location = New System.Drawing.Point(311, 13)
+        Me.txtDataAssemblea.Location = New System.Drawing.Point(571, 24)
+        Me.txtDataAssemblea.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDataAssemblea.Name = "txtDataAssemblea"
         Me.txtDataAssemblea.SetNullDateToDbNull = False
-        Me.txtDataAssemblea.Size = New System.Drawing.Size(96, 20)
+        Me.txtDataAssemblea.Size = New System.Drawing.Size(173, 32)
         Me.txtDataAssemblea.TabIndex = 50
         '
         'txtDataCDA
@@ -2229,27 +2439,30 @@ Partial Class FAzienda
         Me.txtDataCDA.DateFormat = Nothing
         Me.txtDataCDA.DateValue = Nothing
         Me.txtDataCDA.IsReadOnly = False
-        Me.txtDataCDA.Location = New System.Drawing.Point(95, 13)
+        Me.txtDataCDA.Location = New System.Drawing.Point(175, 24)
+        Me.txtDataCDA.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDataCDA.Name = "txtDataCDA"
         Me.txtDataCDA.SetNullDateToDbNull = False
-        Me.txtDataCDA.Size = New System.Drawing.Size(96, 20)
+        Me.txtDataCDA.Size = New System.Drawing.Size(173, 32)
         Me.txtDataCDA.TabIndex = 49
         '
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(196, 15)
+        Me.Label29.Location = New System.Drawing.Point(359, 27)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(109, 13)
+        Me.Label29.Size = New System.Drawing.Size(206, 24)
         Me.Label29.TabIndex = 48
         Me.Label29.Text = "Passaggio assemblea"
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(3, 14)
+        Me.Label28.Location = New System.Drawing.Point(6, 26)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(81, 13)
+        Me.Label28.Size = New System.Drawing.Size(147, 24)
         Me.Label28.TabIndex = 47
         Me.Label28.Text = "Passaggio CDA"
         '
@@ -2259,9 +2472,10 @@ Partial Class FAzienda
         Me.tpPolietileNet.Controls.Add(Me.pnlNotePNet)
         Me.tpPolietileNet.ImageIndex = 5
         Me.tpPolietileNet.Location = New System.Drawing.Point(4, 52)
+        Me.tpPolietileNet.Margin = New System.Windows.Forms.Padding(6)
         Me.tpPolietileNet.Name = "tpPolietileNet"
-        Me.tpPolietileNet.Padding = New System.Windows.Forms.Padding(3)
-        Me.tpPolietileNet.Size = New System.Drawing.Size(1276, 364)
+        Me.tpPolietileNet.Padding = New System.Windows.Forms.Padding(6)
+        Me.tpPolietileNet.Size = New System.Drawing.Size(2346, 758)
         Me.tpPolietileNet.TabIndex = 5
         Me.tpPolietileNet.Text = "Note Polietile.Net"
         '
@@ -2272,9 +2486,10 @@ Partial Class FAzienda
         Me.pnlNotePNet.Controls.Add(Me.tsNotePNet)
         Me.pnlNotePNet.Controls.Add(Me.Label38)
         Me.pnlNotePNet.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlNotePNet.Location = New System.Drawing.Point(3, 3)
+        Me.pnlNotePNet.Location = New System.Drawing.Point(6, 6)
+        Me.pnlNotePNet.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlNotePNet.Name = "pnlNotePNet"
-        Me.pnlNotePNet.Size = New System.Drawing.Size(1270, 358)
+        Me.pnlNotePNet.Size = New System.Drawing.Size(2334, 746)
         Me.pnlNotePNet.TabIndex = 5
         '
         'dgvNotePNet
@@ -2288,20 +2503,21 @@ Partial Class FAzienda
         Me.dgvNotePNet.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcNPData, Me.dgvcNPNota, Me.dgvcNPUtente, Me.dgvcNPStato})
         Me.dgvNotePNet.DataSource = Me.bsProdotti
         Me.dgvNotePNet.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvNotePNet.Location = New System.Drawing.Point(0, 20)
+        Me.dgvNotePNet.Location = New System.Drawing.Point(0, 35)
+        Me.dgvNotePNet.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvNotePNet.Name = "dgvNotePNet"
         Me.dgvNotePNet.ReadOnly = True
         Me.dgvNotePNet.RowHeadersWidth = 20
         Me.dgvNotePNet.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvNotePNet.Size = New System.Drawing.Size(1231, 336)
+        Me.dgvNotePNet.Size = New System.Drawing.Size(2295, 709)
         Me.dgvNotePNet.TabIndex = 36
         '
         'dgvcNPData
         '
         Me.dgvcNPData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcNPData.DataPropertyName = "Data"
-        DataGridViewCellStyle23.Format = "d"
-        Me.dgvcNPData.DefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle50.Format = "d"
+        Me.dgvcNPData.DefaultCellStyle = DataGridViewCellStyle50
         Me.dgvcNPData.HeaderText = "Data"
         Me.dgvcNPData.Name = "dgvcNPData"
         Me.dgvcNPData.ReadOnly = True
@@ -2310,8 +2526,8 @@ Partial Class FAzienda
         'dgvcNPNota
         '
         Me.dgvcNPNota.DataPropertyName = "Testo"
-        DataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcNPNota.DefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcNPNota.DefaultCellStyle = DataGridViewCellStyle51
         Me.dgvcNPNota.HeaderText = "Nota"
         Me.dgvcNPNota.Name = "dgvcNPNota"
         Me.dgvcNPNota.ReadOnly = True
@@ -2341,9 +2557,9 @@ Partial Class FAzienda
         Me.tsNotePNet.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsNotePNet.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsNotePNet.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNPRefresh, Me.tsbNPDetail})
-        Me.tsNotePNet.Location = New System.Drawing.Point(1231, 20)
+        Me.tsNotePNet.Location = New System.Drawing.Point(2295, 35)
         Me.tsNotePNet.Name = "tsNotePNet"
-        Me.tsNotePNet.Size = New System.Drawing.Size(37, 336)
+        Me.tsNotePNet.Size = New System.Drawing.Size(37, 709)
         Me.tsNotePNet.TabIndex = 35
         '
         'tsbNPRefresh
@@ -2375,8 +2591,9 @@ Partial Class FAzienda
         Me.Label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label38.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label38.Location = New System.Drawing.Point(0, 0)
+        Me.Label38.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(1268, 20)
+        Me.Label38.Size = New System.Drawing.Size(2332, 35)
         Me.Label38.TabIndex = 34
         Me.Label38.Text = "Note periodiche da Polietile.Net"
         Me.Label38.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -2386,9 +2603,10 @@ Partial Class FAzienda
         Me.tpNote.Controls.Add(Me.txtNote)
         Me.tpNote.ImageIndex = 3
         Me.tpNote.Location = New System.Drawing.Point(4, 52)
+        Me.tpNote.Margin = New System.Windows.Forms.Padding(6)
         Me.tpNote.Name = "tpNote"
-        Me.tpNote.Padding = New System.Windows.Forms.Padding(3)
-        Me.tpNote.Size = New System.Drawing.Size(1276, 364)
+        Me.tpNote.Padding = New System.Windows.Forms.Padding(6)
+        Me.tpNote.Size = New System.Drawing.Size(2346, 758)
         Me.tpNote.TabIndex = 4
         Me.tpNote.Text = "Note"
         Me.tpNote.UseVisualStyleBackColor = True
@@ -2396,15 +2614,17 @@ Partial Class FAzienda
         'txtNote
         '
         Me.txtNote.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtNote.Location = New System.Drawing.Point(3, 3)
+        Me.txtNote.Location = New System.Drawing.Point(6, 6)
+        Me.txtNote.Margin = New System.Windows.Forms.Padding(6)
         Me.txtNote.Multiline = True
         Me.txtNote.Name = "txtNote"
         Me.txtNote.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtNote.Size = New System.Drawing.Size(1270, 358)
+        Me.txtNote.Size = New System.Drawing.Size(2334, 746)
         Me.txtNote.TabIndex = 46
         '
         'Il32
         '
+        Me.Il32.ColorDepth = System.Windows.Forms.ColorDepth.Depth24Bit
         Me.Il32.ImageStream = CType(resources.GetObject("Il32.ImageStream"), System.Windows.Forms.ImageListStreamer)
         Me.Il32.TransparentColor = System.Drawing.Color.Transparent
         Me.Il32.Images.SetKeyName(0, "Contact 32 n g.gif")
@@ -2417,12 +2637,13 @@ Partial Class FAzienda
         'tsMain
         '
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbChiudi, Me.tsbArxivar, Me.tsbStampa, Me.tsbOk, Me.ToolStripSeparator3, Me.tsbAttivaSocio})
-        Me.tsMain.Location = New System.Drawing.Point(0, 619)
+        Me.tsMain.Location = New System.Drawing.Point(0, 1179)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1284, 43)
+        Me.tsMain.Size = New System.Drawing.Size(2354, 43)
         Me.tsMain.TabIndex = 5
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -2434,7 +2655,7 @@ Partial Class FAzienda
         Me.tsbChiudi.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbChiudi.Name = "tsbChiudi"
         Me.tsbChiudi.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbChiudi.Size = New System.Drawing.Size(88, 40)
+        Me.tsbChiudi.Size = New System.Drawing.Size(99, 40)
         Me.tsbChiudi.Text = "Annulla"
         '
         'tsbArxivar
@@ -2445,20 +2666,20 @@ Partial Class FAzienda
         Me.tsbArxivar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbArxivar.Name = "tsbArxivar"
         Me.tsbArxivar.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbArxivar.Size = New System.Drawing.Size(155, 40)
+        Me.tsbArxivar.Size = New System.Drawing.Size(181, 40)
         Me.tsbArxivar.Text = "Documenti Arxivar"
         Me.tsbArxivar.ToolTipText = "Documenti Arxivar"
         '
         'tsmiArxProfila
         '
         Me.tsmiArxProfila.Name = "tsmiArxProfila"
-        Me.tsmiArxProfila.Size = New System.Drawing.Size(210, 22)
+        Me.tsmiArxProfila.Size = New System.Drawing.Size(246, 24)
         Me.tsmiArxProfila.Text = "Profila nuovo documento"
         '
         'tsmiArxApri
         '
         Me.tsmiArxApri.Name = "tsmiArxApri"
-        Me.tsmiArxApri.Size = New System.Drawing.Size(210, 22)
+        Me.tsmiArxApri.Size = New System.Drawing.Size(246, 24)
         Me.tsmiArxApri.Text = "Apri documenti socio"
         '
         'tsbStampa
@@ -2469,31 +2690,31 @@ Partial Class FAzienda
         Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStampa.Name = "tsbStampa"
         Me.tsbStampa.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbStampa.Size = New System.Drawing.Size(96, 40)
+        Me.tsbStampa.Size = New System.Drawing.Size(109, 40)
         Me.tsbStampa.Text = "Stampa"
         Me.tsbStampa.ToolTipText = "Stampa"
         '
         'tsmiSchedaSocio
         '
         Me.tsmiSchedaSocio.Name = "tsmiSchedaSocio"
-        Me.tsmiSchedaSocio.Size = New System.Drawing.Size(192, 22)
+        Me.tsmiSchedaSocio.Size = New System.Drawing.Size(229, 24)
         Me.tsmiSchedaSocio.Text = "Scheda socio"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(189, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(226, 6)
         '
         'tsmiPrintDoc
         '
         Me.tsmiPrintDoc.Name = "tsmiPrintDoc"
-        Me.tsmiPrintDoc.Size = New System.Drawing.Size(192, 22)
+        Me.tsmiPrintDoc.Size = New System.Drawing.Size(229, 24)
         Me.tsmiPrintDoc.Text = "Documentazione"
         '
         'tsmiPrintLA
         '
         Me.tsmiPrintLA.Name = "tsmiPrintLA"
-        Me.tsmiPrintLA.Size = New System.Drawing.Size(192, 22)
+        Me.tsmiPrintLA.Size = New System.Drawing.Size(229, 24)
         Me.tsmiPrintLA.Text = "Lettera di accettazione"
         '
         'tsbOk
@@ -2504,7 +2725,7 @@ Partial Class FAzienda
         Me.tsbOk.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbOk.Name = "tsbOk"
         Me.tsbOk.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbOk.Size = New System.Drawing.Size(62, 40)
+        Me.tsbOk.Size = New System.Drawing.Size(67, 40)
         Me.tsbOk.Text = "Ok"
         '
         'ToolStripSeparator3
@@ -2520,7 +2741,7 @@ Partial Class FAzienda
         Me.tsbAttivaSocio.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbAttivaSocio.Name = "tsbAttivaSocio"
         Me.tsbAttivaSocio.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbAttivaSocio.Size = New System.Drawing.Size(109, 40)
+        Me.tsbAttivaSocio.Size = New System.Drawing.Size(127, 40)
         Me.tsbAttivaSocio.Text = "Attiva socio"
         Me.tsbAttivaSocio.ToolTipText = "Attiva socio"
         '
@@ -2605,8 +2826,8 @@ Partial Class FAzienda
         '
         Me.DataGridViewTextBoxColumn11.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.DataGridViewTextBoxColumn11.DataPropertyName = "CodCategoria"
-        DataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.DataGridViewTextBoxColumn11.DefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DataGridViewTextBoxColumn11.DefaultCellStyle = DataGridViewCellStyle52
         Me.DataGridViewTextBoxColumn11.HeaderText = "Categoria"
         Me.DataGridViewTextBoxColumn11.Name = "DataGridViewTextBoxColumn11"
         Me.DataGridViewTextBoxColumn11.Width = 90
@@ -2622,8 +2843,8 @@ Partial Class FAzienda
         '
         Me.DataGridViewTextBoxColumn13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.DataGridViewTextBoxColumn13.DataPropertyName = "DataIniziale"
-        DataGridViewCellStyle26.Format = "d"
-        Me.DataGridViewTextBoxColumn13.DefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle53.Format = "d"
+        Me.DataGridViewTextBoxColumn13.DefaultCellStyle = DataGridViewCellStyle53
         Me.DataGridViewTextBoxColumn13.HeaderText = "Dal"
         Me.DataGridViewTextBoxColumn13.Name = "DataGridViewTextBoxColumn13"
         Me.DataGridViewTextBoxColumn13.Width = 90
@@ -2632,8 +2853,8 @@ Partial Class FAzienda
         '
         Me.DataGridViewTextBoxColumn14.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.DataGridViewTextBoxColumn14.DataPropertyName = "DataFinale"
-        DataGridViewCellStyle27.Format = "d"
-        Me.DataGridViewTextBoxColumn14.DefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle54.Format = "d"
+        Me.DataGridViewTextBoxColumn14.DefaultCellStyle = DataGridViewCellStyle54
         Me.DataGridViewTextBoxColumn14.HeaderText = "Al"
         Me.DataGridViewTextBoxColumn14.Name = "DataGridViewTextBoxColumn14"
         Me.DataGridViewTextBoxColumn14.Width = 90
@@ -2689,164 +2910,48 @@ Partial Class FAzienda
         Me.DataGridViewBooleanImageColumn2.ValueTrue = "True"
         Me.DataGridViewBooleanImageColumn2.Width = 70
         '
-        'dgvcEvStato
+        'dgvcSedeTipo
         '
-        Me.dgvcEvStato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvStato.DataPropertyName = "Stato"
-        Me.dgvcEvStato.HeaderText = "Stato"
-        Me.dgvcEvStato.Name = "dgvcEvStato"
-        Me.dgvcEvStato.ReadOnly = True
-        Me.dgvcEvStato.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvStato.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcEvStato.Width = 50
+        Me.dgvcSedeTipo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcSedeTipo.DataPropertyName = "CodTipoSede"
+        Me.dgvcSedeTipo.HeaderText = "Tipo"
+        Me.dgvcSedeTipo.Name = "dgvcSedeTipo"
+        Me.dgvcSedeTipo.ReadOnly = True
+        Me.dgvcSedeTipo.Width = 60
         '
-        'dgvcEvIsUrgente
+        'dgvcSedeLocalita
         '
-        Me.dgvcEvIsUrgente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvIsUrgente.DataPropertyName = "IsUrgente"
-        Me.dgvcEvIsUrgente.HeaderText = "Urg."
-        Me.dgvcEvIsUrgente.ImageFalse = Nothing
-        Me.dgvcEvIsUrgente.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Alert_or_Warning_2_16_n_g
-        Me.dgvcEvIsUrgente.Name = "dgvcEvIsUrgente"
-        Me.dgvcEvIsUrgente.ReadOnly = True
-        Me.dgvcEvIsUrgente.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvIsUrgente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcEvIsUrgente.ValueFalse = "False"
-        Me.dgvcEvIsUrgente.ValueTrue = "True"
-        Me.dgvcEvIsUrgente.Width = 40
+        Me.dgvcSedeLocalita.DataPropertyName = "Localita"
+        Me.dgvcSedeLocalita.HeaderText = "Localita"
+        Me.dgvcSedeLocalita.Name = "dgvcSedeLocalita"
+        Me.dgvcSedeLocalita.ReadOnly = True
         '
-        'dgvcEvData
+        'dgvcSedeProvincia
         '
-        Me.dgvcEvData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvData.DataPropertyName = "Data"
-        DataGridViewCellStyle17.Format = "d"
-        Me.dgvcEvData.DefaultCellStyle = DataGridViewCellStyle17
-        Me.dgvcEvData.HeaderText = "Data"
-        Me.dgvcEvData.Name = "dgvcEvData"
-        Me.dgvcEvData.ReadOnly = True
+        Me.dgvcSedeProvincia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcSedeProvincia.DataPropertyName = "Provincia"
+        Me.dgvcSedeProvincia.HeaderText = "Prov."
+        Me.dgvcSedeProvincia.Name = "dgvcSedeProvincia"
+        Me.dgvcSedeProvincia.ReadOnly = True
+        Me.dgvcSedeProvincia.Width = 70
         '
-        'dgvcEvNotifica
+        'dgvcSedeDescrizione
         '
-        Me.dgvcEvNotifica.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvNotifica.DataPropertyName = "DataAvviso"
-        DataGridViewCellStyle18.Format = "d"
-        Me.dgvcEvNotifica.DefaultCellStyle = DataGridViewCellStyle18
-        Me.dgvcEvNotifica.HeaderText = "Notifica"
-        Me.dgvcEvNotifica.Name = "dgvcEvNotifica"
-        Me.dgvcEvNotifica.ReadOnly = True
-        '
-        'dgvcEvRuoloNotifica
-        '
-        Me.dgvcEvRuoloNotifica.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvRuoloNotifica.DataPropertyName = "RuoloNotifica"
-        Me.dgvcEvRuoloNotifica.HeaderText = "Ruolo not."
-        Me.dgvcEvRuoloNotifica.Name = "dgvcEvRuoloNotifica"
-        Me.dgvcEvRuoloNotifica.ReadOnly = True
-        Me.dgvcEvRuoloNotifica.ToolTipText = "Ruolo notifica"
-        Me.dgvcEvRuoloNotifica.Width = 120
-        '
-        'dgvcEvTipo
-        '
-        Me.dgvcEvTipo.DataPropertyName = "DescrTipo"
-        Me.dgvcEvTipo.HeaderText = "Tipo"
-        Me.dgvcEvTipo.Name = "dgvcEvTipo"
-        Me.dgvcEvTipo.ReadOnly = True
-        '
-        'dgvcEvUtente
-        '
-        Me.dgvcEvUtente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvUtente.DataPropertyName = "DescrUtente"
-        Me.dgvcEvUtente.HeaderText = "Utente"
-        Me.dgvcEvUtente.Name = "dgvcEvUtente"
-        Me.dgvcEvUtente.ReadOnly = True
-        Me.dgvcEvUtente.Width = 140
-        '
-        'dgvcEvMotivazione
-        '
-        Me.dgvcEvMotivazione.DataPropertyName = "Causale"
-        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvMotivazione.DefaultCellStyle = DataGridViewCellStyle19
-        Me.dgvcEvMotivazione.HeaderText = "Motivazione"
-        Me.dgvcEvMotivazione.Name = "dgvcEvMotivazione"
-        Me.dgvcEvMotivazione.ReadOnly = True
-        '
-        'dgvcEvIncaricato
-        '
-        Me.dgvcEvIncaricato.DataPropertyName = "Incaricato"
-        Me.dgvcEvIncaricato.HeaderText = "Incaricato"
-        Me.dgvcEvIncaricato.Name = "dgvcEvIncaricato"
-        Me.dgvcEvIncaricato.ReadOnly = True
-        '
-        'dgvcEvNote
-        '
-        Me.dgvcEvNote.DataPropertyName = "Note"
-        DataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvNote.DefaultCellStyle = DataGridViewCellStyle20
-        Me.dgvcEvNote.HeaderText = "Note"
-        Me.dgvcEvNote.Name = "dgvcEvNote"
-        Me.dgvcEvNote.ReadOnly = True
-        '
-        'dgvcEvScadenza
-        '
-        Me.dgvcEvScadenza.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvScadenza.DataPropertyName = "Scadenza"
-        DataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvScadenza.DefaultCellStyle = DataGridViewCellStyle21
-        Me.dgvcEvScadenza.HeaderText = "Scadenza"
-        Me.dgvcEvScadenza.Name = "dgvcEvScadenza"
-        Me.dgvcEvScadenza.ReadOnly = True
-        Me.dgvcEvScadenza.Width = 180
-        '
-        'dgvcEvValore
-        '
-        Me.dgvcEvValore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvValore.DataPropertyName = "Valore"
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle22.Format = "c2"
-        Me.dgvcEvValore.DefaultCellStyle = DataGridViewCellStyle22
-        Me.dgvcEvValore.HeaderText = "Valore"
-        Me.dgvcEvValore.Name = "dgvcEvValore"
-        Me.dgvcEvValore.ReadOnly = True
-        Me.dgvcEvValore.Width = 80
-        '
-        'dgvcEvDocs
-        '
-        Me.dgvcEvDocs.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvDocs.DataPropertyName = "HasDocument"
-        Me.dgvcEvDocs.HeaderText = "Doc"
-        Me.dgvcEvDocs.ImageFalse = Nothing
-        Me.dgvcEvDocs.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Arxivar16
-        Me.dgvcEvDocs.Name = "dgvcEvDocs"
-        Me.dgvcEvDocs.ReadOnly = True
-        Me.dgvcEvDocs.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvDocs.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcEvDocs.ValueFalse = "False"
-        Me.dgvcEvDocs.ValueTrue = "True"
-        Me.dgvcEvDocs.Width = 60
-        '
-        'dgvcEvSys
-        '
-        Me.dgvcEvSys.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvSys.DataPropertyName = "IsManuale"
-        Me.dgvcEvSys.HeaderText = "Sys"
-        Me.dgvcEvSys.ImageFalse = Global.PoliecoSoci.My.Resources.Resources.Options_3_16_n_g
-        Me.dgvcEvSys.ImageTrue = Nothing
-        Me.dgvcEvSys.Name = "dgvcEvSys"
-        Me.dgvcEvSys.ReadOnly = True
-        Me.dgvcEvSys.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvSys.ToolTipText = "Evento di sistema"
-        Me.dgvcEvSys.ValueFalse = "False"
-        Me.dgvcEvSys.ValueTrue = "True"
-        Me.dgvcEvSys.Width = 40
+        Me.dgvcSedeDescrizione.DataPropertyName = "Descrizione"
+        Me.dgvcSedeDescrizione.HeaderText = "Descrizione"
+        Me.dgvcSedeDescrizione.Name = "dgvcSedeDescrizione"
+        Me.dgvcSedeDescrizione.ReadOnly = True
         '
         'FAzienda
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1284, 662)
+        Me.ClientSize = New System.Drawing.Size(2354, 1222)
         Me.Controls.Add(Me.tbMain)
         Me.Controls.Add(Me.tsMain)
         Me.Controls.Add(Me.pnlHeader)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "FAzienda"
         Me.Text = "Scheda socio"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
@@ -3006,10 +3111,6 @@ Partial Class FAzienda
     Friend WithEvents Label36 As System.Windows.Forms.Label
     Friend WithEvents chkAllegaCCIAA As mdsUIControls.CheckBoxExtended
     Friend WithEvents chkAllegaBilancio As mdsUIControls.CheckBoxExtended
-    Friend WithEvents dgvcSedeTipo As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcSedeLocalita As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcSedeProvincia As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcSedeDescrizione As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents pnlAttivita As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents dgvProdotti As System.Windows.Forms.DataGridView
@@ -3155,4 +3256,8 @@ Partial Class FAzienda
     Friend WithEvents dgvcEvValore As DataGridViewTextBoxColumn
     Friend WithEvents dgvcEvDocs As mdsUIControls.DataGridViewBooleanImageColumn
     Friend WithEvents dgvcEvSys As mdsUIControls.DataGridViewBooleanImageColumn
+    Friend WithEvents dgvcSedeTipo As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcSedeLocalita As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcSedeProvincia As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcSedeDescrizione As DataGridViewTextBoxColumn
 End Class

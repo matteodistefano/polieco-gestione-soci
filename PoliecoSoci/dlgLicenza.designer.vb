@@ -24,19 +24,19 @@ Partial Class dlgLicenza
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.tsMain = New System.Windows.Forms.ToolStrip()
+        Me.tsbExit = New System.Windows.Forms.ToolStripButton()
+        Me.tsbOk = New System.Windows.Forms.ToolStripButton()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lAzienda = New System.Windows.Forms.Label()
         Me.cbTipo = New System.Windows.Forms.ComboBox()
+        Me.bsData = New System.Windows.Forms.BindingSource(Me.components)
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.txtNote = New System.Windows.Forms.TextBox()
-        Me.bsData = New System.Windows.Forms.BindingSource(Me.components)
         Me.lLogo = New System.Windows.Forms.Label()
-        Me.tsbExit = New System.Windows.Forms.ToolStripButton()
-        Me.tsbOk = New System.Windows.Forms.ToolStripButton()
         Me.txtDataRichiesta = New mdsUIControls.mdsDate()
         Me.txtDataScadenza = New mdsUIControls.mdsDate()
         Me.txtDataRicevuta = New mdsUIControls.mdsDate()
@@ -48,28 +48,53 @@ Partial Class dlgLicenza
         '
         Me.tsMain.AutoSize = False
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbExit, Me.tsbOk})
-        Me.tsMain.Location = New System.Drawing.Point(0, 293)
+        Me.tsMain.Location = New System.Drawing.Point(0, 540)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(804, 37)
+        Me.tsMain.Size = New System.Drawing.Size(1474, 69)
         Me.tsMain.TabIndex = 10
+        '
+        'tsbExit
+        '
+        Me.tsbExit.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.Undo_32_n_g
+        Me.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbExit.Name = "tsbExit"
+        Me.tsbExit.Padding = New System.Windows.Forms.Padding(2)
+        Me.tsbExit.Size = New System.Drawing.Size(117, 66)
+        Me.tsbExit.Text = "Annulla"
+        '
+        'tsbOk
+        '
+        Me.tsbOk.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.tsbOk.Image = Global.PoliecoSoci.My.Resources.Resources.OK_32_n_g
+        Me.tsbOk.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbOk.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbOk.Name = "tsbOk"
+        Me.tsbOk.Padding = New System.Windows.Forms.Padding(2)
+        Me.tsbOk.Size = New System.Drawing.Size(74, 66)
+        Me.tsbOk.Text = "Ok"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(3, 10)
+        Me.Label1.Location = New System.Drawing.Point(6, 18)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(48, 13)
+        Me.Label1.Size = New System.Drawing.Size(87, 24)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Azienda:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(3, 63)
+        Me.Label2.Location = New System.Drawing.Point(6, 117)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(28, 13)
+        Me.Label2.Size = New System.Drawing.Size(49, 24)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "Tipo"
         '
@@ -77,9 +102,10 @@ Partial Class dlgLicenza
         '
         Me.lAzienda.BackColor = System.Drawing.Color.WhiteSmoke
         Me.lAzienda.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lAzienda.Location = New System.Drawing.Point(75, 9)
+        Me.lAzienda.Location = New System.Drawing.Point(138, 16)
+        Me.lAzienda.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzienda.Name = "lAzienda"
-        Me.lAzienda.Size = New System.Drawing.Size(678, 32)
+        Me.lAzienda.Size = New System.Drawing.Size(1243, 58)
         Me.lAzienda.TabIndex = 0
         '
         'cbTipo
@@ -87,44 +113,49 @@ Partial Class dlgLicenza
         Me.cbTipo.DataBindings.Add(New System.Windows.Forms.Binding("SelectedValue", Me.bsData, "CodLicenza", True))
         Me.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbTipo.FormattingEnabled = True
-        Me.cbTipo.Location = New System.Drawing.Point(75, 60)
+        Me.cbTipo.Location = New System.Drawing.Point(138, 111)
+        Me.cbTipo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cbTipo.Name = "cbTipo"
-        Me.cbTipo.Size = New System.Drawing.Size(305, 21)
+        Me.cbTipo.Size = New System.Drawing.Size(555, 32)
         Me.cbTipo.TabIndex = 0
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(3, 90)
+        Me.Label3.Location = New System.Drawing.Point(6, 166)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(72, 13)
+        Me.Label3.Size = New System.Drawing.Size(134, 24)
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "Data richiesta"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(193, 90)
+        Me.Label4.Location = New System.Drawing.Point(425, 166)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(79, 13)
+        Me.Label4.Size = New System.Drawing.Size(142, 24)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Data scadenza"
         '
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(412, 90)
+        Me.Label32.Location = New System.Drawing.Point(862, 166)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(71, 13)
+        Me.Label32.Size = New System.Drawing.Size(129, 24)
         Me.Label32.TabIndex = 49
         Me.Label32.Text = "Data ricevuta"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(3, 130)
+        Me.Label7.Location = New System.Drawing.Point(6, 240)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(30, 13)
+        Me.Label7.Size = New System.Drawing.Size(53, 24)
         Me.Label7.TabIndex = 57
         Me.Label7.Text = "Note"
         '
@@ -133,11 +164,12 @@ Partial Class dlgLicenza
         Me.txtNote.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtNote.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Note", True))
-        Me.txtNote.Location = New System.Drawing.Point(74, 130)
+        Me.txtNote.Location = New System.Drawing.Point(136, 240)
+        Me.txtNote.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtNote.Multiline = True
         Me.txtNote.Name = "txtNote"
         Me.txtNote.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtNote.Size = New System.Drawing.Size(717, 148)
+        Me.txtNote.Size = New System.Drawing.Size(1312, 270)
         Me.txtNote.TabIndex = 58
         '
         'lLogo
@@ -145,32 +177,11 @@ Partial Class dlgLicenza
         Me.lLogo.BackColor = System.Drawing.Color.WhiteSmoke
         Me.lLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lLogo.Image = Global.PoliecoSoci.My.Resources.Resources.Certificate_32_n_g
-        Me.lLogo.Location = New System.Drawing.Point(759, 9)
+        Me.lLogo.Location = New System.Drawing.Point(1392, 16)
+        Me.lLogo.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lLogo.Name = "lLogo"
-        Me.lLogo.Size = New System.Drawing.Size(32, 32)
+        Me.lLogo.Size = New System.Drawing.Size(59, 58)
         Me.lLogo.TabIndex = 53
-        '
-        'tsbExit
-        '
-        Me.tsbExit.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.Undo_24_n_g
-        Me.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbExit.Name = "tsbExit"
-        Me.tsbExit.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbExit.Size = New System.Drawing.Size(80, 34)
-        Me.tsbExit.Text = "Annulla"
-        '
-        'tsbOk
-        '
-        Me.tsbOk.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbOk.Image = Global.PoliecoSoci.My.Resources.Resources.OK_24_n_g
-        Me.tsbOk.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbOk.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbOk.Name = "tsbOk"
-        Me.tsbOk.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbOk.Size = New System.Drawing.Size(54, 34)
-        Me.tsbOk.Text = "Ok"
         '
         'txtDataRichiesta
         '
@@ -178,10 +189,11 @@ Partial Class dlgLicenza
         Me.txtDataRichiesta.DateFormat = Nothing
         Me.txtDataRichiesta.DateValue = Nothing
         Me.txtDataRichiesta.IsReadOnly = False
-        Me.txtDataRichiesta.Location = New System.Drawing.Point(75, 87)
+        Me.txtDataRichiesta.Location = New System.Drawing.Point(152, 160)
+        Me.txtDataRichiesta.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtDataRichiesta.Name = "txtDataRichiesta"
         Me.txtDataRichiesta.SetNullDateToDbNull = False
-        Me.txtDataRichiesta.Size = New System.Drawing.Size(100, 20)
+        Me.txtDataRichiesta.Size = New System.Drawing.Size(215, 32)
         Me.txtDataRichiesta.TabIndex = 59
         '
         'txtDataScadenza
@@ -190,10 +202,11 @@ Partial Class dlgLicenza
         Me.txtDataScadenza.DateFormat = Nothing
         Me.txtDataScadenza.DateValue = Nothing
         Me.txtDataScadenza.IsReadOnly = False
-        Me.txtDataScadenza.Location = New System.Drawing.Point(280, 87)
+        Me.txtDataScadenza.Location = New System.Drawing.Point(579, 160)
+        Me.txtDataScadenza.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtDataScadenza.Name = "txtDataScadenza"
         Me.txtDataScadenza.SetNullDateToDbNull = False
-        Me.txtDataScadenza.Size = New System.Drawing.Size(100, 20)
+        Me.txtDataScadenza.Size = New System.Drawing.Size(221, 32)
         Me.txtDataScadenza.TabIndex = 60
         '
         'txtDataRicevuta
@@ -202,17 +215,18 @@ Partial Class dlgLicenza
         Me.txtDataRicevuta.DateFormat = Nothing
         Me.txtDataRicevuta.DateValue = Nothing
         Me.txtDataRicevuta.IsReadOnly = False
-        Me.txtDataRicevuta.Location = New System.Drawing.Point(489, 87)
+        Me.txtDataRicevuta.Location = New System.Drawing.Point(1003, 160)
+        Me.txtDataRicevuta.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtDataRicevuta.Name = "txtDataRicevuta"
         Me.txtDataRicevuta.SetNullDateToDbNull = False
-        Me.txtDataRicevuta.Size = New System.Drawing.Size(100, 20)
+        Me.txtDataRicevuta.Size = New System.Drawing.Size(217, 32)
         Me.txtDataRicevuta.TabIndex = 61
         '
-        'dlgContatto
+        'dlgLicenza
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(804, 330)
+        Me.ClientSize = New System.Drawing.Size(1474, 609)
         Me.Controls.Add(Me.txtDataRicevuta)
         Me.Controls.Add(Me.txtDataScadenza)
         Me.Controls.Add(Me.txtDataRichiesta)
@@ -227,8 +241,10 @@ Partial Class dlgLicenza
         Me.Controls.Add(Me.lAzienda)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.tsMain)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
-        Me.Name = "dlgContatto"
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Name = "dlgLicenza"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Licenza"
         Me.tsMain.ResumeLayout(False)

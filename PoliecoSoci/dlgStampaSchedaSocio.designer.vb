@@ -46,41 +46,43 @@ Partial Class dlgStampaSchedaSocio
         '
         Me.tsMain.AutoSize = False
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbExit, Me.tsbOk})
-        Me.tsMain.Location = New System.Drawing.Point(0, 259)
+        Me.tsMain.Location = New System.Drawing.Point(0, 477)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(494, 37)
+        Me.tsMain.Size = New System.Drawing.Size(906, 69)
         Me.tsMain.TabIndex = 10
         '
         'tsbExit
         '
         Me.tsbExit.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.SE_Arrow_24_n_g
+        Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.SE_Arrow_32_n_g
         Me.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbExit.Name = "tsbExit"
         Me.tsbExit.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbExit.Size = New System.Drawing.Size(74, 34)
+        Me.tsbExit.Size = New System.Drawing.Size(106, 66)
         Me.tsbExit.Text = "Chiudi"
         '
         'tsbOk
         '
-        Me.tsbOk.Image = Global.PoliecoSoci.My.Resources.Resources.Printer_24_n_g1
+        Me.tsbOk.Image = Global.PoliecoSoci.My.Resources.Resources.Printer_32_n_g
         Me.tsbOk.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbOk.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbOk.Name = "tsbOk"
         Me.tsbOk.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbOk.Size = New System.Drawing.Size(95, 34)
+        Me.tsbOk.Size = New System.Drawing.Size(144, 66)
         Me.tsbOk.Text = "Anteprima"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(3, 10)
+        Me.Label1.Location = New System.Drawing.Point(6, 18)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(48, 13)
+        Me.Label1.Size = New System.Drawing.Size(87, 24)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Azienda:"
         '
@@ -88,9 +90,10 @@ Partial Class dlgStampaSchedaSocio
         '
         Me.lAzienda.BackColor = System.Drawing.Color.WhiteSmoke
         Me.lAzienda.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lAzienda.Location = New System.Drawing.Point(75, 9)
+        Me.lAzienda.Location = New System.Drawing.Point(138, 16)
+        Me.lAzienda.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzienda.Name = "lAzienda"
-        Me.lAzienda.Size = New System.Drawing.Size(371, 32)
+        Me.lAzienda.Size = New System.Drawing.Size(681, 58)
         Me.lAzienda.TabIndex = 0
         '
         'lLogo
@@ -98,17 +101,19 @@ Partial Class dlgStampaSchedaSocio
         Me.lLogo.BackColor = System.Drawing.Color.WhiteSmoke
         Me.lLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lLogo.Image = Global.PoliecoSoci.My.Resources.Resources.Contact_32_n_g
-        Me.lLogo.Location = New System.Drawing.Point(452, 10)
+        Me.lLogo.Location = New System.Drawing.Point(829, 18)
+        Me.lLogo.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lLogo.Name = "lLogo"
-        Me.lLogo.Size = New System.Drawing.Size(32, 32)
+        Me.lLogo.Size = New System.Drawing.Size(59, 58)
         Me.lLogo.TabIndex = 53
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(3, 47)
+        Me.Label7.Location = New System.Drawing.Point(6, 87)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(54, 13)
+        Me.Label7.Size = New System.Drawing.Size(104, 24)
         Me.Label7.TabIndex = 57
         Me.Label7.Text = "Sottotitolo"
         '
@@ -116,11 +121,12 @@ Partial Class dlgStampaSchedaSocio
         '
         Me.txtSottotitolo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtSottotitolo.Location = New System.Drawing.Point(75, 44)
+        Me.txtSottotitolo.Location = New System.Drawing.Point(138, 81)
+        Me.txtSottotitolo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtSottotitolo.Multiline = True
         Me.txtSottotitolo.Name = "txtSottotitolo"
         Me.txtSottotitolo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtSottotitolo.Size = New System.Drawing.Size(410, 77)
+        Me.txtSottotitolo.Size = New System.Drawing.Size(748, 139)
         Me.txtSottotitolo.TabIndex = 58
         '
         'chkRecapiti
@@ -128,10 +134,10 @@ Partial Class dlgStampaSchedaSocio
         Me.chkRecapiti.AutoSize = True
         Me.chkRecapiti.Checked = True
         Me.chkRecapiti.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkRecapiti.Location = New System.Drawing.Point(75, 132)
-        Me.chkRecapiti.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkRecapiti.Location = New System.Drawing.Point(138, 243)
+        Me.chkRecapiti.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkRecapiti.Name = "chkRecapiti"
-        Me.chkRecapiti.Size = New System.Drawing.Size(121, 17)
+        Me.chkRecapiti.Size = New System.Drawing.Size(220, 28)
         Me.chkRecapiti.TabIndex = 59
         Me.chkRecapiti.Text = "Recapiti && riferimenti"
         Me.chkRecapiti.UseVisualStyleBackColor = True
@@ -139,9 +145,10 @@ Partial Class dlgStampaSchedaSocio
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(3, 132)
+        Me.Label2.Location = New System.Drawing.Point(6, 243)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(29, 13)
+        Me.Label2.Size = New System.Drawing.Size(52, 24)
         Me.Label2.TabIndex = 60
         Me.Label2.Text = "Aree"
         '
@@ -150,10 +157,10 @@ Partial Class dlgStampaSchedaSocio
         Me.chkSedi.AutoSize = True
         Me.chkSedi.Checked = True
         Me.chkSedi.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkSedi.Location = New System.Drawing.Point(75, 154)
-        Me.chkSedi.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkSedi.Location = New System.Drawing.Point(138, 285)
+        Me.chkSedi.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkSedi.Name = "chkSedi"
-        Me.chkSedi.Size = New System.Drawing.Size(94, 17)
+        Me.chkSedi.Size = New System.Drawing.Size(160, 28)
         Me.chkSedi.TabIndex = 61
         Me.chkSedi.Text = "Sedi operative"
         Me.chkSedi.UseVisualStyleBackColor = True
@@ -163,10 +170,10 @@ Partial Class dlgStampaSchedaSocio
         Me.chkContatti.AutoSize = True
         Me.chkContatti.Checked = True
         Me.chkContatti.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkContatti.Location = New System.Drawing.Point(75, 176)
-        Me.chkContatti.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkContatti.Location = New System.Drawing.Point(138, 326)
+        Me.chkContatti.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkContatti.Name = "chkContatti"
-        Me.chkContatti.Size = New System.Drawing.Size(62, 17)
+        Me.chkContatti.Size = New System.Drawing.Size(104, 28)
         Me.chkContatti.TabIndex = 62
         Me.chkContatti.Text = "Contatti"
         Me.chkContatti.UseVisualStyleBackColor = True
@@ -176,10 +183,10 @@ Partial Class dlgStampaSchedaSocio
         Me.chkDichiarazioni.AutoSize = True
         Me.chkDichiarazioni.Checked = True
         Me.chkDichiarazioni.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkDichiarazioni.Location = New System.Drawing.Point(283, 176)
-        Me.chkDichiarazioni.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkDichiarazioni.Location = New System.Drawing.Point(518, 326)
+        Me.chkDichiarazioni.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkDichiarazioni.Name = "chkDichiarazioni"
-        Me.chkDichiarazioni.Size = New System.Drawing.Size(130, 17)
+        Me.chkDichiarazioni.Size = New System.Drawing.Size(231, 28)
         Me.chkDichiarazioni.TabIndex = 63
         Me.chkDichiarazioni.Text = "Dichiarazioni && incassi"
         Me.chkDichiarazioni.UseVisualStyleBackColor = True
@@ -187,10 +194,10 @@ Partial Class dlgStampaSchedaSocio
         'chkEventi
         '
         Me.chkEventi.AutoSize = True
-        Me.chkEventi.Location = New System.Drawing.Point(283, 198)
-        Me.chkEventi.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkEventi.Location = New System.Drawing.Point(518, 366)
+        Me.chkEventi.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkEventi.Name = "chkEventi"
-        Me.chkEventi.Size = New System.Drawing.Size(56, 17)
+        Me.chkEventi.Size = New System.Drawing.Size(87, 28)
         Me.chkEventi.TabIndex = 64
         Me.chkEventi.Text = "Eventi"
         Me.chkEventi.UseVisualStyleBackColor = True
@@ -199,10 +206,10 @@ Partial Class dlgStampaSchedaSocio
         '
         Me.chkAttivita.AutoSize = True
         Me.chkAttivita.Enabled = False
-        Me.chkAttivita.Location = New System.Drawing.Point(75, 198)
-        Me.chkAttivita.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkAttivita.Location = New System.Drawing.Point(138, 366)
+        Me.chkAttivita.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkAttivita.Name = "chkAttivita"
-        Me.chkAttivita.Size = New System.Drawing.Size(58, 17)
+        Me.chkAttivita.Size = New System.Drawing.Size(97, 28)
         Me.chkAttivita.TabIndex = 65
         Me.chkAttivita.Text = "Attività"
         Me.chkAttivita.UseVisualStyleBackColor = True
@@ -211,10 +218,10 @@ Partial Class dlgStampaSchedaSocio
         '
         Me.chkLicenze.AutoSize = True
         Me.chkLicenze.Enabled = False
-        Me.chkLicenze.Location = New System.Drawing.Point(283, 132)
-        Me.chkLicenze.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkLicenze.Location = New System.Drawing.Point(518, 243)
+        Me.chkLicenze.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkLicenze.Name = "chkLicenze"
-        Me.chkLicenze.Size = New System.Drawing.Size(63, 17)
+        Me.chkLicenze.Size = New System.Drawing.Size(101, 28)
         Me.chkLicenze.TabIndex = 66
         Me.chkLicenze.Text = "Licenze"
         Me.chkLicenze.UseVisualStyleBackColor = True
@@ -223,19 +230,19 @@ Partial Class dlgStampaSchedaSocio
         '
         Me.chkProdotti.AutoSize = True
         Me.chkProdotti.Enabled = False
-        Me.chkProdotti.Location = New System.Drawing.Point(283, 154)
-        Me.chkProdotti.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkProdotti.Location = New System.Drawing.Point(518, 285)
+        Me.chkProdotti.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkProdotti.Name = "chkProdotti"
-        Me.chkProdotti.Size = New System.Drawing.Size(62, 17)
+        Me.chkProdotti.Size = New System.Drawing.Size(104, 28)
         Me.chkProdotti.TabIndex = 67
         Me.chkProdotti.Text = "Prodotti"
         Me.chkProdotti.UseVisualStyleBackColor = True
         '
         'dlgStampaSchedaSocio
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(494, 296)
+        Me.ClientSize = New System.Drawing.Size(906, 546)
         Me.Controls.Add(Me.chkProdotti)
         Me.Controls.Add(Me.chkLicenze)
         Me.Controls.Add(Me.chkAttivita)
@@ -251,7 +258,9 @@ Partial Class dlgStampaSchedaSocio
         Me.Controls.Add(Me.lAzienda)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.tsMain)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "dlgStampaSchedaSocio"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Stampa scheda socio"
