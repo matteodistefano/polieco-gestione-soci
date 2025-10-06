@@ -49,6 +49,8 @@ Partial Class FMain
         Me.tsmiNotificheNuoviSoci = New System.Windows.Forms.ToolStripMenuItem()
         Me.ElencoNotificheToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AcquisisciFileAdesioniToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem11 = New System.Windows.Forms.ToolStripSeparator()
+        Me.AcquisisciFileAllegatiAnnualiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.tsbAmministrazione = New System.Windows.Forms.ToolStripDropDownButton()
         Me.tsmiImpostazioni = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem7 = New System.Windows.Forms.ToolStripSeparator()
@@ -96,8 +98,6 @@ Partial Class FMain
         Me.Button1 = New System.Windows.Forms.Button()
         Me.FfffToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FffToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem11 = New System.Windows.Forms.ToolStripSeparator()
-        Me.AcquisisciFileAllegatiAnnualiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.sStrip.SuspendLayout()
         Me.pnlMain.SuspendLayout()
         Me.tsMain.SuspendLayout()
@@ -107,32 +107,36 @@ Partial Class FMain
         '
         Me.sStrip.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.sStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsslApp, Me.tsddUsers, Me.tsslCopyright})
-        Me.sStrip.Location = New System.Drawing.Point(0, 613)
+        Me.sStrip.Location = New System.Drawing.Point(0, 756)
         Me.sStrip.Name = "sStrip"
-        Me.sStrip.Size = New System.Drawing.Size(1020, 26)
+        Me.sStrip.Padding = New System.Windows.Forms.Padding(1, 0, 19, 0)
+        Me.sStrip.Size = New System.Drawing.Size(1360, 30)
         Me.sStrip.TabIndex = 6
         Me.sStrip.Text = "StatusStrip1"
         '
         'tsslApp
         '
+        Me.tsslApp.Font = New System.Drawing.Font("Roboto Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tsslApp.Name = "tsslApp"
-        Me.tsslApp.Size = New System.Drawing.Size(813, 21)
+        Me.tsslApp.Size = New System.Drawing.Size(1034, 24)
         Me.tsslApp.Spring = True
         Me.tsslApp.Text = "ToolStripStatusLabel1"
         Me.tsslApp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'tsddUsers
         '
+        Me.tsddUsers.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsddUsers.Image = Global.PoliecoSoci.My.Resources.Resources.User_Group_1_16_n_g
         Me.tsddUsers.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsddUsers.Name = "tsddUsers"
-        Me.tsddUsers.Size = New System.Drawing.Size(72, 24)
+        Me.tsddUsers.Size = New System.Drawing.Size(98, 28)
         Me.tsddUsers.Text = "Utenti"
         '
         'tsslCopyright
         '
+        Me.tsslCopyright.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsslCopyright.Name = "tsslCopyright"
-        Me.tsslCopyright.Size = New System.Drawing.Size(120, 21)
+        Me.tsslCopyright.Size = New System.Drawing.Size(208, 24)
         Me.tsslCopyright.Text = "ToolStripStatusLabel2"
         '
         'pnlMain
@@ -140,9 +144,11 @@ Partial Class FMain
         Me.pnlMain.Controls.Add(Me.tsMain)
         Me.pnlMain.Controls.Add(Me.Button1)
         Me.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pnlMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.pnlMain.Location = New System.Drawing.Point(0, 0)
+        Me.pnlMain.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pnlMain.Name = "pnlMain"
-        Me.pnlMain.Size = New System.Drawing.Size(1020, 613)
+        Me.pnlMain.Size = New System.Drawing.Size(1360, 756)
         Me.pnlMain.TabIndex = 8
         '
         'tsMain
@@ -153,72 +159,72 @@ Partial Class FMain
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbSoci, Me.tsbDichiarazioni, Me.tsbCDAAss, Me.tsbStatistiche, Me.tsbNotifiche, Me.tsbAmministrazione, Me.tsbExit})
         Me.tsMain.Location = New System.Drawing.Point(0, 0)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1020, 90)
+        Me.tsMain.Size = New System.Drawing.Size(1360, 111)
         Me.tsMain.TabIndex = 10
         Me.tsMain.Text = "ToolStrip1"
         '
         'tsbSoci
         '
-        Me.tsbSoci.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tsbSoci.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsbSoci.Image = Global.PoliecoSoci.My.Resources.Resources.Office_Block_48_n_g
         Me.tsbSoci.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbSoci.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSoci.Name = "tsbSoci"
-        Me.tsbSoci.Size = New System.Drawing.Size(94, 87)
+        Me.tsbSoci.Size = New System.Drawing.Size(135, 108)
         Me.tsbSoci.Text = "Gestione soci"
         Me.tsbSoci.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'tsbDichiarazioni
         '
         Me.tsbDichiarazioni.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ElencoDichiarazioniToolStripMenuItem, Me.ElencoAllegatiToolStripMenuItem, Me.ToolStripMenuItem10, Me.DichiarazioniOnlineToolStripMenuItem1, Me.AcquisizioneAllegatiToolStripMenuItem})
-        Me.tsbDichiarazioni.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tsbDichiarazioni.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsbDichiarazioni.Image = Global.PoliecoSoci.My.Resources.Resources.Invoice_48_n_g
         Me.tsbDichiarazioni.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbDichiarazioni.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbDichiarazioni.Name = "tsbDichiarazioni"
-        Me.tsbDichiarazioni.Size = New System.Drawing.Size(99, 87)
+        Me.tsbDichiarazioni.Size = New System.Drawing.Size(139, 108)
         Me.tsbDichiarazioni.Text = "Dichiarazioni"
         Me.tsbDichiarazioni.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'ElencoDichiarazioniToolStripMenuItem
         '
         Me.ElencoDichiarazioniToolStripMenuItem.Name = "ElencoDichiarazioniToolStripMenuItem"
-        Me.ElencoDichiarazioniToolStripMenuItem.Size = New System.Drawing.Size(202, 24)
+        Me.ElencoDichiarazioniToolStripMenuItem.Size = New System.Drawing.Size(278, 28)
         Me.ElencoDichiarazioniToolStripMenuItem.Text = "Elenco dichiarazioni"
         '
         'ElencoAllegatiToolStripMenuItem
         '
         Me.ElencoAllegatiToolStripMenuItem.Enabled = False
         Me.ElencoAllegatiToolStripMenuItem.Name = "ElencoAllegatiToolStripMenuItem"
-        Me.ElencoAllegatiToolStripMenuItem.Size = New System.Drawing.Size(202, 24)
+        Me.ElencoAllegatiToolStripMenuItem.Size = New System.Drawing.Size(278, 28)
         Me.ElencoAllegatiToolStripMenuItem.Text = "Elenco allegati"
         '
         'ToolStripMenuItem10
         '
         Me.ToolStripMenuItem10.Name = "ToolStripMenuItem10"
-        Me.ToolStripMenuItem10.Size = New System.Drawing.Size(199, 6)
+        Me.ToolStripMenuItem10.Size = New System.Drawing.Size(275, 6)
         '
         'DichiarazioniOnlineToolStripMenuItem1
         '
         Me.DichiarazioniOnlineToolStripMenuItem1.Name = "DichiarazioniOnlineToolStripMenuItem1"
-        Me.DichiarazioniOnlineToolStripMenuItem1.Size = New System.Drawing.Size(202, 24)
+        Me.DichiarazioniOnlineToolStripMenuItem1.Size = New System.Drawing.Size(278, 28)
         Me.DichiarazioniOnlineToolStripMenuItem1.Text = "Dichiarazioni on-line"
         '
         'AcquisizioneAllegatiToolStripMenuItem
         '
         Me.AcquisizioneAllegatiToolStripMenuItem.Name = "AcquisizioneAllegatiToolStripMenuItem"
-        Me.AcquisizioneAllegatiToolStripMenuItem.Size = New System.Drawing.Size(202, 24)
+        Me.AcquisizioneAllegatiToolStripMenuItem.Size = New System.Drawing.Size(278, 28)
         Me.AcquisizioneAllegatiToolStripMenuItem.Text = "Acquisizione allegati"
         '
         'tsbCDAAss
         '
         Me.tsbCDAAss.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsmiAssCDA, Me.ToolStripMenuItem5, Me.tsmiPassCDA, Me.tsmiPassAss, Me.tsmiGenQuote, Me.ToolStripMenuItem6, Me.LibroSociToolStripMenuItem})
-        Me.tsbCDAAss.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tsbCDAAss.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsbCDAAss.Image = Global.PoliecoSoci.My.Resources.Resources.AssembleaTrasp
         Me.tsbCDAAss.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbCDAAss.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbCDAAss.Name = "tsbCDAAss"
-        Me.tsbCDAAss.Size = New System.Drawing.Size(134, 87)
+        Me.tsbCDAAss.Size = New System.Drawing.Size(185, 108)
         Me.tsbCDAAss.Text = "CDA && Assemblee"
         Me.tsbCDAAss.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -227,381 +233,392 @@ Partial Class FMain
         Me.tsmiAssCDA.Font = New System.Drawing.Font("Segoe UI", 10.2!)
         Me.tsmiAssCDA.ForeColor = System.Drawing.Color.Navy
         Me.tsmiAssCDA.Name = "tsmiAssCDA"
-        Me.tsmiAssCDA.Size = New System.Drawing.Size(258, 24)
+        Me.tsmiAssCDA.Size = New System.Drawing.Size(354, 28)
         Me.tsmiAssCDA.Text = "Riunioni"
         '
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(255, 6)
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(351, 6)
         '
         'tsmiPassCDA
         '
         Me.tsmiPassCDA.ForeColor = System.Drawing.Color.Navy
         Me.tsmiPassCDA.Name = "tsmiPassCDA"
-        Me.tsmiPassCDA.Size = New System.Drawing.Size(258, 24)
+        Me.tsmiPassCDA.Size = New System.Drawing.Size(354, 28)
         Me.tsmiPassCDA.Text = "Passaggio CDA"
         '
         'tsmiPassAss
         '
         Me.tsmiPassAss.ForeColor = System.Drawing.Color.Navy
         Me.tsmiPassAss.Name = "tsmiPassAss"
-        Me.tsmiPassAss.Size = New System.Drawing.Size(258, 24)
+        Me.tsmiPassAss.Size = New System.Drawing.Size(354, 28)
         Me.tsmiPassAss.Text = "Passaggio Assemblea"
         '
         'tsmiGenQuote
         '
         Me.tsmiGenQuote.ForeColor = System.Drawing.Color.Navy
         Me.tsmiGenQuote.Name = "tsmiGenQuote"
-        Me.tsmiGenQuote.Size = New System.Drawing.Size(258, 24)
+        Me.tsmiGenQuote.Size = New System.Drawing.Size(354, 28)
         Me.tsmiGenQuote.Text = "Generazione prospetto quote"
         '
         'ToolStripMenuItem6
         '
         Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
-        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(255, 6)
+        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(351, 6)
         '
         'LibroSociToolStripMenuItem
         '
         Me.LibroSociToolStripMenuItem.ForeColor = System.Drawing.Color.Navy
         Me.LibroSociToolStripMenuItem.Name = "LibroSociToolStripMenuItem"
-        Me.LibroSociToolStripMenuItem.Size = New System.Drawing.Size(258, 24)
+        Me.LibroSociToolStripMenuItem.Size = New System.Drawing.Size(354, 28)
         Me.LibroSociToolStripMenuItem.Text = "Libro soci"
         '
         'tsbStatistiche
         '
         Me.tsbStatistiche.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsmiStatQuantitativi})
-        Me.tsbStatistiche.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tsbStatistiche.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsbStatistiche.Image = Global.PoliecoSoci.My.Resources.Resources.Charts_and_Graphs_48_n_g
         Me.tsbStatistiche.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbStatistiche.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStatistiche.Name = "tsbStatistiche"
-        Me.tsbStatistiche.Size = New System.Drawing.Size(84, 87)
+        Me.tsbStatistiche.Size = New System.Drawing.Size(120, 108)
         Me.tsbStatistiche.Text = "Statistiche"
         Me.tsbStatistiche.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'tsmiStatQuantitativi
         '
         Me.tsmiStatQuantitativi.Name = "tsmiStatQuantitativi"
-        Me.tsmiStatQuantitativi.Size = New System.Drawing.Size(150, 24)
+        Me.tsmiStatQuantitativi.Size = New System.Drawing.Size(224, 28)
         Me.tsmiStatQuantitativi.Text = "Quantitativi"
         '
         'tsbNotifiche
         '
         Me.tsbNotifiche.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsmiNotificheNuoviSoci, Me.ElencoNotificheToolStripMenuItem, Me.AcquisisciFileAdesioniToolStripMenuItem, Me.ToolStripMenuItem11, Me.AcquisisciFileAllegatiAnnualiToolStripMenuItem})
-        Me.tsbNotifiche.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tsbNotifiche.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsbNotifiche.Image = Global.PoliecoSoci.My.Resources.Resources.alert_icon
         Me.tsbNotifiche.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbNotifiche.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbNotifiche.Name = "tsbNotifiche"
-        Me.tsbNotifiche.Size = New System.Drawing.Size(147, 87)
+        Me.tsbNotifiche.Size = New System.Drawing.Size(201, 108)
         Me.tsbNotifiche.Text = "Controlli && Notifiche"
         Me.tsbNotifiche.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'tsmiNotificheNuoviSoci
         '
         Me.tsmiNotificheNuoviSoci.Name = "tsmiNotificheNuoviSoci"
-        Me.tsmiNotificheNuoviSoci.Size = New System.Drawing.Size(252, 24)
+        Me.tsmiNotificheNuoviSoci.Size = New System.Drawing.Size(357, 28)
         Me.tsmiNotificheNuoviSoci.Text = "Verifica nuovi soci"
         '
         'ElencoNotificheToolStripMenuItem
         '
         Me.ElencoNotificheToolStripMenuItem.Name = "ElencoNotificheToolStripMenuItem"
-        Me.ElencoNotificheToolStripMenuItem.Size = New System.Drawing.Size(252, 24)
+        Me.ElencoNotificheToolStripMenuItem.Size = New System.Drawing.Size(357, 28)
         Me.ElencoNotificheToolStripMenuItem.Text = "Elenco notifiche"
         '
         'AcquisisciFileAdesioniToolStripMenuItem
         '
         Me.AcquisisciFileAdesioniToolStripMenuItem.Name = "AcquisisciFileAdesioniToolStripMenuItem"
-        Me.AcquisisciFileAdesioniToolStripMenuItem.Size = New System.Drawing.Size(252, 24)
+        Me.AcquisisciFileAdesioniToolStripMenuItem.Size = New System.Drawing.Size(357, 28)
         Me.AcquisisciFileAdesioniToolStripMenuItem.Text = "Acquisisci file adesioni"
+        '
+        'ToolStripMenuItem11
+        '
+        Me.ToolStripMenuItem11.Name = "ToolStripMenuItem11"
+        Me.ToolStripMenuItem11.Size = New System.Drawing.Size(354, 6)
+        '
+        'AcquisisciFileAllegatiAnnualiToolStripMenuItem
+        '
+        Me.AcquisisciFileAllegatiAnnualiToolStripMenuItem.Name = "AcquisisciFileAllegatiAnnualiToolStripMenuItem"
+        Me.AcquisisciFileAllegatiAnnualiToolStripMenuItem.Size = New System.Drawing.Size(357, 28)
+        Me.AcquisisciFileAllegatiAnnualiToolStripMenuItem.Text = "Acquisisci file allegati annuali"
         '
         'tsbAmministrazione
         '
         Me.tsbAmministrazione.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsmiImpostazioni, Me.ToolStripMenuItem7, Me.tsmiGestione, Me.tsmiCheckUpdate})
-        Me.tsbAmministrazione.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tsbAmministrazione.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsbAmministrazione.Image = Global.PoliecoSoci.My.Resources.Resources.View_Details_48_n_g
         Me.tsbAmministrazione.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbAmministrazione.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbAmministrazione.Name = "tsbAmministrazione"
-        Me.tsbAmministrazione.Size = New System.Drawing.Size(124, 87)
+        Me.tsbAmministrazione.Size = New System.Drawing.Size(177, 108)
         Me.tsbAmministrazione.Text = "Amministrazione"
         Me.tsbAmministrazione.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'tsmiImpostazioni
         '
         Me.tsmiImpostazioni.Name = "tsmiImpostazioni"
-        Me.tsmiImpostazioni.Size = New System.Drawing.Size(228, 24)
+        Me.tsmiImpostazioni.Size = New System.Drawing.Size(310, 28)
         Me.tsmiImpostazioni.Text = "Impostazioni"
         '
         'ToolStripMenuItem7
         '
         Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
-        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(225, 6)
+        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(307, 6)
         '
         'tsmiGestione
         '
         Me.tsmiGestione.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsmiUtenti, Me.tsmiScadenze, Me.tsmiMateriali, Me.tsmiQuadri, Me.ToolStripMenuItem4, Me.tsmiComuni, Me.ToolStripSeparator4, Me.tsmiTabelle, Me.DatiProvaToolStripMenuItem})
         Me.tsmiGestione.Name = "tsmiGestione"
-        Me.tsmiGestione.Size = New System.Drawing.Size(228, 24)
+        Me.tsmiGestione.Size = New System.Drawing.Size(310, 28)
         Me.tsmiGestione.Text = "Gestione"
         '
         'tsmiUtenti
         '
         Me.tsmiUtenti.ForeColor = System.Drawing.Color.Navy
         Me.tsmiUtenti.Name = "tsmiUtenti"
-        Me.tsmiUtenti.Size = New System.Drawing.Size(201, 24)
+        Me.tsmiUtenti.Size = New System.Drawing.Size(273, 28)
         Me.tsmiUtenti.Text = "Utenti"
         '
         'tsmiScadenze
         '
         Me.tsmiScadenze.ForeColor = System.Drawing.Color.Navy
         Me.tsmiScadenze.Name = "tsmiScadenze"
-        Me.tsmiScadenze.Size = New System.Drawing.Size(201, 24)
+        Me.tsmiScadenze.Size = New System.Drawing.Size(273, 28)
         Me.tsmiScadenze.Text = "Scadenze"
         '
         'tsmiMateriali
         '
         Me.tsmiMateriali.ForeColor = System.Drawing.Color.Navy
         Me.tsmiMateriali.Name = "tsmiMateriali"
-        Me.tsmiMateriali.Size = New System.Drawing.Size(201, 24)
+        Me.tsmiMateriali.Size = New System.Drawing.Size(273, 28)
         Me.tsmiMateriali.Text = "Materiali"
         '
         'tsmiQuadri
         '
         Me.tsmiQuadri.ForeColor = System.Drawing.Color.Navy
         Me.tsmiQuadri.Name = "tsmiQuadri"
-        Me.tsmiQuadri.Size = New System.Drawing.Size(201, 24)
+        Me.tsmiQuadri.Size = New System.Drawing.Size(273, 28)
         Me.tsmiQuadri.Text = "Quadri Dichiarazioni"
         '
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(198, 6)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(270, 6)
         '
         'tsmiComuni
         '
         Me.tsmiComuni.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RegioniToolStripMenuItem, Me.ProvinceToolStripMenuItem, Me.ComuniToolStripMenuItem})
         Me.tsmiComuni.ForeColor = System.Drawing.Color.Navy
         Me.tsmiComuni.Name = "tsmiComuni"
-        Me.tsmiComuni.Size = New System.Drawing.Size(201, 24)
+        Me.tsmiComuni.Size = New System.Drawing.Size(273, 28)
         Me.tsmiComuni.Text = "Comuni e stradario"
         '
         'RegioniToolStripMenuItem
         '
         Me.RegioniToolStripMenuItem.Name = "RegioniToolStripMenuItem"
-        Me.RegioniToolStripMenuItem.Size = New System.Drawing.Size(130, 24)
+        Me.RegioniToolStripMenuItem.Size = New System.Drawing.Size(172, 28)
         Me.RegioniToolStripMenuItem.Text = "Regioni"
         '
         'ProvinceToolStripMenuItem
         '
         Me.ProvinceToolStripMenuItem.Name = "ProvinceToolStripMenuItem"
-        Me.ProvinceToolStripMenuItem.Size = New System.Drawing.Size(130, 24)
+        Me.ProvinceToolStripMenuItem.Size = New System.Drawing.Size(172, 28)
         Me.ProvinceToolStripMenuItem.Text = "Province"
         '
         'ComuniToolStripMenuItem
         '
         Me.ComuniToolStripMenuItem.Name = "ComuniToolStripMenuItem"
-        Me.ComuniToolStripMenuItem.Size = New System.Drawing.Size(130, 24)
+        Me.ComuniToolStripMenuItem.Size = New System.Drawing.Size(172, 28)
         Me.ComuniToolStripMenuItem.Text = "Comuni"
         '
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(198, 6)
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(270, 6)
         '
         'tsmiTabelle
         '
         Me.tsmiTabelle.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CategorieToolStripMenuItem, Me.FormeGiuridicheToolStripMenuItem, Me.ToolStripMenuItem1, Me.TipiSociToolStripMenuItem, Me.StatoToolStripMenuItem, Me.InfoStatoToolStripMenuItem, Me.ToolStripMenuItem2, Me.RuoliContattoToolStripMenuItem, Me.TitoliContattoToolStripMenuItem, Me.ToolStripMenuItem3, Me.tsmiGestIncassi, Me.tsmiGestAttivita, Me.ToolStripMenuItem8, Me.tsmiEventi, Me.ToolStripMenuItem9, Me.CodiciCERToolStripMenuItem})
         Me.tsmiTabelle.ForeColor = System.Drawing.Color.Navy
         Me.tsmiTabelle.Name = "tsmiTabelle"
-        Me.tsmiTabelle.Size = New System.Drawing.Size(201, 24)
+        Me.tsmiTabelle.Size = New System.Drawing.Size(273, 28)
         Me.tsmiTabelle.Text = "Tabelle"
         '
         'CategorieToolStripMenuItem
         '
         Me.CategorieToolStripMenuItem.Name = "CategorieToolStripMenuItem"
-        Me.CategorieToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.CategorieToolStripMenuItem.Size = New System.Drawing.Size(244, 28)
         Me.CategorieToolStripMenuItem.Text = "Categorie"
         '
         'FormeGiuridicheToolStripMenuItem
         '
         Me.FormeGiuridicheToolStripMenuItem.Name = "FormeGiuridicheToolStripMenuItem"
-        Me.FormeGiuridicheToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.FormeGiuridicheToolStripMenuItem.Size = New System.Drawing.Size(244, 28)
         Me.FormeGiuridicheToolStripMenuItem.Text = "Forme giuridiche"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(241, 6)
         '
         'TipiSociToolStripMenuItem
         '
         Me.TipiSociToolStripMenuItem.Name = "TipiSociToolStripMenuItem"
-        Me.TipiSociToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.TipiSociToolStripMenuItem.Size = New System.Drawing.Size(244, 28)
         Me.TipiSociToolStripMenuItem.Text = "Tipi soci"
         '
         'StatoToolStripMenuItem
         '
         Me.StatoToolStripMenuItem.Name = "StatoToolStripMenuItem"
-        Me.StatoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.StatoToolStripMenuItem.Size = New System.Drawing.Size(244, 28)
         Me.StatoToolStripMenuItem.Text = "Stato"
         '
         'InfoStatoToolStripMenuItem
         '
         Me.InfoStatoToolStripMenuItem.Name = "InfoStatoToolStripMenuItem"
-        Me.InfoStatoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.InfoStatoToolStripMenuItem.Size = New System.Drawing.Size(244, 28)
         Me.InfoStatoToolStripMenuItem.Text = "Info Stato"
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(241, 6)
         '
         'RuoliContattoToolStripMenuItem
         '
         Me.RuoliContattoToolStripMenuItem.Name = "RuoliContattoToolStripMenuItem"
-        Me.RuoliContattoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.RuoliContattoToolStripMenuItem.Size = New System.Drawing.Size(244, 28)
         Me.RuoliContattoToolStripMenuItem.Text = "Ruoli contatto"
         '
         'TitoliContattoToolStripMenuItem
         '
         Me.TitoliContattoToolStripMenuItem.Name = "TitoliContattoToolStripMenuItem"
-        Me.TitoliContattoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.TitoliContattoToolStripMenuItem.Size = New System.Drawing.Size(244, 28)
         Me.TitoliContattoToolStripMenuItem.Text = "Titoli contatto"
         '
         'ToolStripMenuItem3
         '
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(241, 6)
         '
         'tsmiGestIncassi
         '
         Me.tsmiGestIncassi.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsmiModPagamento, Me.tsmiAliquoteIVA, Me.TipiQuadroToolStripMenuItem, Me.QuoteAdesioneToolStripMenuItem})
         Me.tsmiGestIncassi.Name = "tsmiGestIncassi"
-        Me.tsmiGestIncassi.Size = New System.Drawing.Size(180, 24)
+        Me.tsmiGestIncassi.Size = New System.Drawing.Size(244, 28)
         Me.tsmiGestIncassi.Text = "Gestione incassi"
         '
         'tsmiModPagamento
         '
         Me.tsmiModPagamento.Name = "tsmiModPagamento"
-        Me.tsmiModPagamento.Size = New System.Drawing.Size(206, 24)
+        Me.tsmiModPagamento.Size = New System.Drawing.Size(279, 28)
         Me.tsmiModPagamento.Text = "Modalità pagamento"
         '
         'tsmiAliquoteIVA
         '
         Me.tsmiAliquoteIVA.Name = "tsmiAliquoteIVA"
-        Me.tsmiAliquoteIVA.Size = New System.Drawing.Size(206, 24)
+        Me.tsmiAliquoteIVA.Size = New System.Drawing.Size(279, 28)
         Me.tsmiAliquoteIVA.Text = "Aliquote IVA"
         '
         'TipiQuadroToolStripMenuItem
         '
         Me.TipiQuadroToolStripMenuItem.Name = "TipiQuadroToolStripMenuItem"
-        Me.TipiQuadroToolStripMenuItem.Size = New System.Drawing.Size(206, 24)
+        Me.TipiQuadroToolStripMenuItem.Size = New System.Drawing.Size(279, 28)
         Me.TipiQuadroToolStripMenuItem.Text = "Tipi quadro"
         '
         'QuoteAdesioneToolStripMenuItem
         '
         Me.QuoteAdesioneToolStripMenuItem.Name = "QuoteAdesioneToolStripMenuItem"
-        Me.QuoteAdesioneToolStripMenuItem.Size = New System.Drawing.Size(206, 24)
+        Me.QuoteAdesioneToolStripMenuItem.Size = New System.Drawing.Size(279, 28)
         Me.QuoteAdesioneToolStripMenuItem.Text = "Quote di adesione"
         '
         'tsmiGestAttivita
         '
         Me.tsmiGestAttivita.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TipiAttivitàToolStripMenuItem, Me.TipiAttrezzatureToolStripMenuItem, Me.TipiLicenzeToolStripMenuItem, Me.TipiSedeToolStripMenuItem, Me.TipiMaterialeToolStripMenuItem, Me.UnitaDiMisuraToolStripMenuItem})
         Me.tsmiGestAttivita.Name = "tsmiGestAttivita"
-        Me.tsmiGestAttivita.Size = New System.Drawing.Size(180, 24)
+        Me.tsmiGestAttivita.Size = New System.Drawing.Size(244, 28)
         Me.tsmiGestAttivita.Text = "Gestione attività"
         '
         'TipiAttivitàToolStripMenuItem
         '
         Me.TipiAttivitàToolStripMenuItem.Name = "TipiAttivitàToolStripMenuItem"
-        Me.TipiAttivitàToolStripMenuItem.Size = New System.Drawing.Size(176, 24)
+        Me.TipiAttivitàToolStripMenuItem.Size = New System.Drawing.Size(242, 28)
         Me.TipiAttivitàToolStripMenuItem.Text = "Tipi attività"
         '
         'TipiAttrezzatureToolStripMenuItem
         '
         Me.TipiAttrezzatureToolStripMenuItem.Name = "TipiAttrezzatureToolStripMenuItem"
-        Me.TipiAttrezzatureToolStripMenuItem.Size = New System.Drawing.Size(176, 24)
+        Me.TipiAttrezzatureToolStripMenuItem.Size = New System.Drawing.Size(242, 28)
         Me.TipiAttrezzatureToolStripMenuItem.Text = "Tipi attrezzature"
         '
         'TipiLicenzeToolStripMenuItem
         '
         Me.TipiLicenzeToolStripMenuItem.Name = "TipiLicenzeToolStripMenuItem"
-        Me.TipiLicenzeToolStripMenuItem.Size = New System.Drawing.Size(176, 24)
+        Me.TipiLicenzeToolStripMenuItem.Size = New System.Drawing.Size(242, 28)
         Me.TipiLicenzeToolStripMenuItem.Text = "Tipi licenza"
         '
         'TipiSedeToolStripMenuItem
         '
         Me.TipiSedeToolStripMenuItem.Name = "TipiSedeToolStripMenuItem"
-        Me.TipiSedeToolStripMenuItem.Size = New System.Drawing.Size(176, 24)
+        Me.TipiSedeToolStripMenuItem.Size = New System.Drawing.Size(242, 28)
         Me.TipiSedeToolStripMenuItem.Text = "Tipi sede"
         '
         'TipiMaterialeToolStripMenuItem
         '
         Me.TipiMaterialeToolStripMenuItem.Name = "TipiMaterialeToolStripMenuItem"
-        Me.TipiMaterialeToolStripMenuItem.Size = New System.Drawing.Size(176, 24)
+        Me.TipiMaterialeToolStripMenuItem.Size = New System.Drawing.Size(242, 28)
         Me.TipiMaterialeToolStripMenuItem.Text = "Tipi Materiale"
         '
         'UnitaDiMisuraToolStripMenuItem
         '
         Me.UnitaDiMisuraToolStripMenuItem.Name = "UnitaDiMisuraToolStripMenuItem"
-        Me.UnitaDiMisuraToolStripMenuItem.Size = New System.Drawing.Size(176, 24)
+        Me.UnitaDiMisuraToolStripMenuItem.Size = New System.Drawing.Size(242, 28)
         Me.UnitaDiMisuraToolStripMenuItem.Text = "Unita di misura"
         '
         'ToolStripMenuItem8
         '
         Me.ToolStripMenuItem8.Name = "ToolStripMenuItem8"
-        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(241, 6)
         '
         'tsmiEventi
         '
         Me.tsmiEventi.Name = "tsmiEventi"
-        Me.tsmiEventi.Size = New System.Drawing.Size(180, 24)
+        Me.tsmiEventi.Size = New System.Drawing.Size(244, 28)
         Me.tsmiEventi.Text = "Eventi"
         '
         'ToolStripMenuItem9
         '
         Me.ToolStripMenuItem9.Name = "ToolStripMenuItem9"
-        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(241, 6)
         '
         'CodiciCERToolStripMenuItem
         '
         Me.CodiciCERToolStripMenuItem.Name = "CodiciCERToolStripMenuItem"
-        Me.CodiciCERToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.CodiciCERToolStripMenuItem.Size = New System.Drawing.Size(244, 28)
         Me.CodiciCERToolStripMenuItem.Text = "Codici C.E.R."
         '
         'DatiProvaToolStripMenuItem
         '
         Me.DatiProvaToolStripMenuItem.Name = "DatiProvaToolStripMenuItem"
-        Me.DatiProvaToolStripMenuItem.Size = New System.Drawing.Size(201, 24)
+        Me.DatiProvaToolStripMenuItem.Size = New System.Drawing.Size(273, 28)
         Me.DatiProvaToolStripMenuItem.Text = "Dati prova e utility"
         Me.DatiProvaToolStripMenuItem.Visible = False
         '
         'tsmiCheckUpdate
         '
         Me.tsmiCheckUpdate.Name = "tsmiCheckUpdate"
-        Me.tsmiCheckUpdate.Size = New System.Drawing.Size(228, 24)
+        Me.tsmiCheckUpdate.Size = New System.Drawing.Size(310, 28)
         Me.tsmiCheckUpdate.Text = "Controllo aggiornamenti"
         '
         'tsbExit
         '
         Me.tsbExit.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbExit.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tsbExit.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.Close_X_Red_48_n_g
         Me.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbExit.Name = "tsbExit"
-        Me.tsbExit.Size = New System.Drawing.Size(52, 87)
+        Me.tsbExit.Size = New System.Drawing.Size(70, 108)
         Me.tsbExit.Text = "Uscita"
         Me.tsbExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(18, 131)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button1.Location = New System.Drawing.Point(24, 161)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(81, 42)
+        Me.Button1.Size = New System.Drawing.Size(108, 52)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
@@ -616,24 +633,14 @@ Partial Class FMain
         Me.FffToolStripMenuItem.Name = "FffToolStripMenuItem"
         Me.FffToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
         '
-        'ToolStripMenuItem11
-        '
-        Me.ToolStripMenuItem11.Name = "ToolStripMenuItem11"
-        Me.ToolStripMenuItem11.Size = New System.Drawing.Size(249, 6)
-        '
-        'AcquisisciFileAllegatiAnnualiToolStripMenuItem
-        '
-        Me.AcquisisciFileAllegatiAnnualiToolStripMenuItem.Name = "AcquisisciFileAllegatiAnnualiToolStripMenuItem"
-        Me.AcquisisciFileAllegatiAnnualiToolStripMenuItem.Size = New System.Drawing.Size(252, 24)
-        Me.AcquisisciFileAllegatiAnnualiToolStripMenuItem.Text = "Acquisisci file allegati annuali"
-        '
         'FMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1020, 639)
+        Me.ClientSize = New System.Drawing.Size(1360, 786)
         Me.Controls.Add(Me.pnlMain)
         Me.Controls.Add(Me.sStrip)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione soci - Polieco"

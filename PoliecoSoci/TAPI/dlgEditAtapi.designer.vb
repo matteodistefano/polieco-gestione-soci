@@ -32,48 +32,54 @@ Partial Class dlgEditAtapi
         '
         Me.cbLinee.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbLinee.FormattingEnabled = True
-        Me.cbLinee.Location = New System.Drawing.Point(51, 12)
+        Me.cbLinee.Location = New System.Drawing.Point(94, 22)
+        Me.cbLinee.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cbLinee.Name = "cbLinee"
-        Me.cbLinee.Size = New System.Drawing.Size(394, 21)
+        Me.cbLinee.Size = New System.Drawing.Size(719, 32)
         Me.cbLinee.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 15)
+        Me.Label1.Location = New System.Drawing.Point(22, 27)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(33, 13)
+        Me.Label1.Size = New System.Drawing.Size(59, 24)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Linea"
         '
         'btnOk
         '
-        Me.btnOk.Location = New System.Drawing.Point(289, 52)
+        Me.btnOk.Location = New System.Drawing.Point(529, 96)
+        Me.btnOk.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnOk.Name = "btnOk"
-        Me.btnOk.Size = New System.Drawing.Size(75, 23)
+        Me.btnOk.Size = New System.Drawing.Size(138, 42)
         Me.btnOk.TabIndex = 2
         Me.btnOk.Text = "Ok"
         Me.btnOk.UseVisualStyleBackColor = True
         '
         'btnUndo
         '
-        Me.btnUndo.Location = New System.Drawing.Point(370, 52)
+        Me.btnUndo.Location = New System.Drawing.Point(678, 96)
+        Me.btnUndo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnUndo.Name = "btnUndo"
-        Me.btnUndo.Size = New System.Drawing.Size(75, 23)
+        Me.btnUndo.Size = New System.Drawing.Size(138, 42)
         Me.btnUndo.TabIndex = 3
         Me.btnUndo.Text = "Annulla"
         Me.btnUndo.UseVisualStyleBackColor = True
         '
         'dlgEditAtapi
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(457, 87)
+        Me.ClientSize = New System.Drawing.Size(837, 160)
         Me.Controls.Add(Me.btnUndo)
         Me.Controls.Add(Me.btnOk)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.cbLinee)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "dlgEditAtapi"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Impostazione linea TAPI"

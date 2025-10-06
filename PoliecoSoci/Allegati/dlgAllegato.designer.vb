@@ -42,10 +42,10 @@ Partial Class dlgAllegato
         Me.tsbSediAdd = New System.Windows.Forms.ToolStripButton()
         Me.tsbSediEdit = New System.Windows.Forms.ToolStripButton()
         Me.tsbSediDel = New System.Windows.Forms.ToolStripButton()
+        Me.tsbAzienda = New System.Windows.Forms.ToolStripButton()
         Me.lAnno = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.tsbAzienda = New System.Windows.Forms.ToolStripButton()
         Me.dgvcRagSoc = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcSede = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcRuolo = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -64,52 +64,54 @@ Partial Class dlgAllegato
         '
         Me.tsMain.AutoSize = False
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbExit, Me.tsbOk, Me.tsbDelete})
-        Me.tsMain.Location = New System.Drawing.Point(0, 469)
+        Me.tsMain.Location = New System.Drawing.Point(0, 865)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1084, 37)
+        Me.tsMain.Size = New System.Drawing.Size(1987, 69)
         Me.tsMain.TabIndex = 1
         '
         'tsbExit
         '
         Me.tsbExit.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.Undo_24_n_g
+        Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.Undo_32_n_g
         Me.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbExit.Name = "tsbExit"
         Me.tsbExit.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbExit.Size = New System.Drawing.Size(80, 34)
+        Me.tsbExit.Size = New System.Drawing.Size(117, 66)
         Me.tsbExit.Text = "Annulla"
         '
         'tsbOk
         '
         Me.tsbOk.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbOk.Image = Global.PoliecoSoci.My.Resources.Resources.OK_24_n_g
+        Me.tsbOk.Image = Global.PoliecoSoci.My.Resources.Resources.OK_32_n_g
         Me.tsbOk.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbOk.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbOk.Name = "tsbOk"
         Me.tsbOk.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbOk.Size = New System.Drawing.Size(54, 34)
+        Me.tsbOk.Size = New System.Drawing.Size(74, 66)
         Me.tsbOk.Text = "Ok"
         '
         'tsbDelete
         '
-        Me.tsbDelete.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_24_n_g
+        Me.tsbDelete.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_32_n_g
         Me.tsbDelete.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbDelete.Name = "tsbDelete"
         Me.tsbDelete.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbDelete.Size = New System.Drawing.Size(123, 34)
+        Me.tsbDelete.Size = New System.Drawing.Size(193, 66)
         Me.tsbDelete.Text = "Elimina allegato"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(9, 9)
+        Me.Label1.Location = New System.Drawing.Point(16, 16)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(100, 13)
+        Me.Label1.Size = New System.Drawing.Size(187, 24)
         Me.Label1.TabIndex = 59
         Me.Label1.Text = "Azienda dichiarante"
         '
@@ -119,9 +121,10 @@ Partial Class dlgAllegato
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lAzienda.BackColor = System.Drawing.Color.White
         Me.lAzienda.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lAzienda.Location = New System.Drawing.Point(12, 26)
+        Me.lAzienda.Location = New System.Drawing.Point(22, 48)
+        Me.lAzienda.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzienda.Name = "lAzienda"
-        Me.lAzienda.Size = New System.Drawing.Size(1047, 21)
+        Me.lAzienda.Size = New System.Drawing.Size(1917, 36)
         Me.lAzienda.TabIndex = 79
         Me.lAzienda.Text = "Materiale"
         Me.lAzienda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -133,9 +136,10 @@ Partial Class dlgAllegato
         Me.lDichiarazione.BackColor = System.Drawing.Color.White
         Me.lDichiarazione.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lDichiarazione.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAllegato, "IdDichiarazione", True))
-        Me.lDichiarazione.Location = New System.Drawing.Point(12, 74)
+        Me.lDichiarazione.Location = New System.Drawing.Point(22, 136)
+        Me.lDichiarazione.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lDichiarazione.Name = "lDichiarazione"
-        Me.lDichiarazione.Size = New System.Drawing.Size(136, 21)
+        Me.lDichiarazione.Size = New System.Drawing.Size(248, 36)
         Me.lDichiarazione.TabIndex = 81
         Me.lDichiarazione.Text = "Materiale"
         Me.lDichiarazione.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -143,36 +147,40 @@ Partial Class dlgAllegato
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(9, 57)
+        Me.Label7.Location = New System.Drawing.Point(16, 105)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(71, 13)
+        Me.Label7.Size = New System.Drawing.Size(131, 24)
         Me.Label7.TabIndex = 80
         Me.Label7.Text = "Dichiarazione"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(151, 58)
+        Me.Label2.Location = New System.Drawing.Point(276, 106)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(32, 13)
+        Me.Label2.Size = New System.Drawing.Size(56, 24)
         Me.Label2.TabIndex = 82
         Me.Label2.Text = "Anno"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(454, 58)
+        Me.Label5.Location = New System.Drawing.Point(832, 106)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(52, 13)
+        Me.Label5.Size = New System.Drawing.Size(97, 24)
         Me.Label5.TabIndex = 83
         Me.Label5.Text = "Categoria"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(259, 58)
+        Me.Label3.Location = New System.Drawing.Point(474, 106)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(43, 13)
+        Me.Label3.Size = New System.Drawing.Size(79, 24)
         Me.Label3.TabIndex = 86
         Me.Label3.Text = "Periodo"
         '
@@ -186,12 +194,13 @@ Partial Class dlgAllegato
         Me.dgvDettaglio.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgvDettaglio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvDettaglio.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcRagSoc, Me.dgvcSede, Me.dgvcRuolo, Me.dgvcCodCer, Me.dgvcDescrizione, Me.dgvcUM, Me.dgvcQta})
-        Me.dgvDettaglio.Location = New System.Drawing.Point(15, 109)
+        Me.dgvDettaglio.Location = New System.Drawing.Point(28, 201)
+        Me.dgvDettaglio.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.dgvDettaglio.Name = "dgvDettaglio"
         Me.dgvDettaglio.ReadOnly = True
         Me.dgvDettaglio.RowHeadersWidth = 20
         Me.dgvDettaglio.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvDettaglio.Size = New System.Drawing.Size(1021, 343)
+        Me.dgvDettaglio.Size = New System.Drawing.Size(1871, 633)
         Me.dgvDettaglio.TabIndex = 88
         '
         'tsSedi
@@ -200,47 +209,61 @@ Partial Class dlgAllegato
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.tsSedi.AutoSize = False
         Me.tsSedi.Dock = System.Windows.Forms.DockStyle.None
+        Me.tsSedi.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsSedi.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsSedi.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsSedi.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbSediAdd, Me.tsbSediEdit, Me.tsbSediDel, Me.tsbAzienda})
         Me.tsSedi.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow
-        Me.tsSedi.Location = New System.Drawing.Point(1039, 109)
+        Me.tsSedi.Location = New System.Drawing.Point(1904, 201)
         Me.tsSedi.Name = "tsSedi"
-        Me.tsSedi.Size = New System.Drawing.Size(36, 343)
+        Me.tsSedi.Size = New System.Drawing.Size(66, 633)
         Me.tsSedi.TabIndex = 89
         '
         'tsbSediAdd
         '
         Me.tsbSediAdd.AutoSize = False
         Me.tsbSediAdd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tsbSediAdd.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Plus_24_n_g
+        Me.tsbSediAdd.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Plus_32_n_g
         Me.tsbSediAdd.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbSediAdd.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSediAdd.Name = "tsbSediAdd"
-        Me.tsbSediAdd.Size = New System.Drawing.Size(70, 30)
+        Me.tsbSediAdd.Size = New System.Drawing.Size(70, 50)
         Me.tsbSediAdd.Text = "Nuova"
         '
         'tsbSediEdit
         '
         Me.tsbSediEdit.AutoSize = False
         Me.tsbSediEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tsbSediEdit.Image = Global.PoliecoSoci.My.Resources.Resources.Edit_24_n_g
+        Me.tsbSediEdit.Image = Global.PoliecoSoci.My.Resources.Resources.Edit_32_n_g
         Me.tsbSediEdit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbSediEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSediEdit.Name = "tsbSediEdit"
-        Me.tsbSediEdit.Size = New System.Drawing.Size(70, 30)
+        Me.tsbSediEdit.Size = New System.Drawing.Size(70, 50)
         Me.tsbSediEdit.Text = "Modifica"
         '
         'tsbSediDel
         '
         Me.tsbSediDel.AutoSize = False
         Me.tsbSediDel.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tsbSediDel.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_24_n_g
+        Me.tsbSediDel.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_32_n_g
         Me.tsbSediDel.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbSediDel.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSediDel.Name = "tsbSediDel"
-        Me.tsbSediDel.Size = New System.Drawing.Size(70, 30)
+        Me.tsbSediDel.Size = New System.Drawing.Size(70, 50)
         Me.tsbSediDel.Text = "Elimina"
+        '
+        'tsbAzienda
+        '
+        Me.tsbAzienda.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.tsbAzienda.AutoSize = False
+        Me.tsbAzienda.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.tsbAzienda.Image = Global.PoliecoSoci.My.Resources.Resources.Office_Block_32_n_g
+        Me.tsbAzienda.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbAzienda.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbAzienda.Name = "tsbAzienda"
+        Me.tsbAzienda.Size = New System.Drawing.Size(70, 50)
+        Me.tsbAzienda.Text = "Azienda"
+        Me.tsbAzienda.ToolTipText = "Scheda azienda allegato"
         '
         'lAnno
         '
@@ -249,9 +272,10 @@ Partial Class dlgAllegato
         Me.lAnno.BackColor = System.Drawing.Color.White
         Me.lAnno.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lAnno.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAllegato, "Anno", True))
-        Me.lAnno.Location = New System.Drawing.Point(154, 74)
+        Me.lAnno.Location = New System.Drawing.Point(282, 136)
+        Me.lAnno.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAnno.Name = "lAnno"
-        Me.lAnno.Size = New System.Drawing.Size(102, 21)
+        Me.lAnno.Size = New System.Drawing.Size(185, 36)
         Me.lAnno.TabIndex = 90
         Me.lAnno.Text = "Materiale"
         Me.lAnno.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -263,9 +287,10 @@ Partial Class dlgAllegato
         Me.Label4.BackColor = System.Drawing.Color.White
         Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAllegato, "Periodo", True))
-        Me.Label4.Location = New System.Drawing.Point(262, 74)
+        Me.Label4.Location = New System.Drawing.Point(480, 136)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(189, 21)
+        Me.Label4.Size = New System.Drawing.Size(344, 36)
         Me.Label4.TabIndex = 91
         Me.Label4.Text = "Materiale"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -277,25 +302,13 @@ Partial Class dlgAllegato
         Me.Label6.BackColor = System.Drawing.Color.White
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAllegato, "CategoriaAzienda", True))
-        Me.Label6.Location = New System.Drawing.Point(457, 74)
+        Me.Label6.Location = New System.Drawing.Point(837, 136)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(137, 21)
+        Me.Label6.Size = New System.Drawing.Size(250, 36)
         Me.Label6.TabIndex = 92
         Me.Label6.Text = "Materiale"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'tsbAzienda
-        '
-        Me.tsbAzienda.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbAzienda.AutoSize = False
-        Me.tsbAzienda.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tsbAzienda.Image = Global.PoliecoSoci.My.Resources.Resources.Office_Block_24_h_g
-        Me.tsbAzienda.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbAzienda.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbAzienda.Name = "tsbAzienda"
-        Me.tsbAzienda.Size = New System.Drawing.Size(70, 30)
-        Me.tsbAzienda.Text = "Azienda"
-        Me.tsbAzienda.ToolTipText = "Scheda azienda allegato"
         '
         'dgvcRagSoc
         '
@@ -320,7 +333,7 @@ Partial Class dlgAllegato
         Me.dgvcRuolo.HeaderText = "Ruolo"
         Me.dgvcRuolo.Name = "dgvcRuolo"
         Me.dgvcRuolo.ReadOnly = True
-        Me.dgvcRuolo.Width = 50
+        Me.dgvcRuolo.Width = 70
         '
         'dgvcCodCer
         '
@@ -329,7 +342,7 @@ Partial Class dlgAllegato
         Me.dgvcCodCer.HeaderText = "Cod.CER"
         Me.dgvcCodCer.Name = "dgvcCodCer"
         Me.dgvcCodCer.ReadOnly = True
-        Me.dgvcCodCer.Width = 60
+        Me.dgvcCodCer.Width = 110
         '
         'dgvcDescrizione
         '
@@ -346,7 +359,7 @@ Partial Class dlgAllegato
         Me.dgvcUM.HeaderText = "U.M."
         Me.dgvcUM.Name = "dgvcUM"
         Me.dgvcUM.ReadOnly = True
-        Me.dgvcUM.Width = 40
+        Me.dgvcUM.Width = 60
         '
         'dgvcQta
         '
@@ -361,9 +374,9 @@ Partial Class dlgAllegato
         '
         'dlgAllegato
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1084, 506)
+        Me.ClientSize = New System.Drawing.Size(1987, 934)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lAnno)
@@ -377,7 +390,9 @@ Partial Class dlgAllegato
         Me.Controls.Add(Me.lAzienda)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.tsMain)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "dlgAllegato"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Allegato"

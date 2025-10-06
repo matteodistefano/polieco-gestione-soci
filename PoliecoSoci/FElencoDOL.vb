@@ -476,4 +476,8 @@ Public Class FElencoDOL
             MsgBox(ex.Message, MsgBoxStyle.Exclamation)
         End Try
     End Sub
+
+    Private Sub tsMain_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles tsMain.ItemClicked
+
+    End Sub
 End Class

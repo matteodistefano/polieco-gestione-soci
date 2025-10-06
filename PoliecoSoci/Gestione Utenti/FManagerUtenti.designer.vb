@@ -51,12 +51,13 @@ Partial Class FManagerUtenti
         'tsUtenti
         '
         Me.tsUtenti.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsUtenti.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsUtenti.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsUtenti.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsUtenti.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNuovo, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbStampa})
-        Me.tsUtenti.Location = New System.Drawing.Point(0, 569)
+        Me.tsUtenti.Location = New System.Drawing.Point(0, 876)
         Me.tsUtenti.Name = "tsUtenti"
-        Me.tsUtenti.Size = New System.Drawing.Size(1169, 45)
+        Me.tsUtenti.Size = New System.Drawing.Size(1607, 45)
         Me.tsUtenti.TabIndex = 4
         Me.tsUtenti.Text = "ToolStrip1"
         '
@@ -67,7 +68,7 @@ Partial Class FManagerUtenti
         Me.tsbNuovo.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbNuovo.Name = "tsbNuovo"
         Me.tsbNuovo.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbNuovo.Size = New System.Drawing.Size(93, 42)
+        Me.tsbNuovo.Size = New System.Drawing.Size(107, 42)
         Me.tsbNuovo.Text = "Nuovo"
         Me.tsbNuovo.ToolTipText = "Nuovo utente"
         '
@@ -77,7 +78,7 @@ Partial Class FManagerUtenti
         Me.tsbModifica.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbModifica.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbModifica.Name = "tsbModifica"
-        Me.tsbModifica.Size = New System.Drawing.Size(104, 42)
+        Me.tsbModifica.Size = New System.Drawing.Size(122, 42)
         Me.tsbModifica.Text = "Modifica"
         '
         'tsbElimina
@@ -86,7 +87,7 @@ Partial Class FManagerUtenti
         Me.tsbElimina.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbElimina.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbElimina.Name = "tsbElimina"
-        Me.tsbElimina.Size = New System.Drawing.Size(94, 42)
+        Me.tsbElimina.Size = New System.Drawing.Size(112, 42)
         Me.tsbElimina.Text = "Elimina"
         '
         'ToolStripSeparator1
@@ -102,7 +103,7 @@ Partial Class FManagerUtenti
         Me.tsbChiudi.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbChiudi.Name = "tsbChiudi"
         Me.tsbChiudi.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbChiudi.Size = New System.Drawing.Size(93, 42)
+        Me.tsbChiudi.Size = New System.Drawing.Size(108, 42)
         Me.tsbChiudi.Text = "&Chiudi"
         '
         'tsbStampa
@@ -111,7 +112,7 @@ Partial Class FManagerUtenti
         Me.tsbStampa.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStampa.Name = "tsbStampa"
-        Me.tsbStampa.Size = New System.Drawing.Size(96, 42)
+        Me.tsbStampa.Size = New System.Drawing.Size(116, 42)
         Me.tsbStampa.Text = "Stampa"
         '
         'dgvUtenti
@@ -129,12 +130,13 @@ Partial Class FManagerUtenti
         Me.dgvUtenti.DataSource = Me.bsUtenti
         Me.dgvUtenti.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvUtenti.Location = New System.Drawing.Point(0, 0)
-        Me.dgvUtenti.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dgvUtenti.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.dgvUtenti.Name = "dgvUtenti"
         Me.dgvUtenti.ReadOnly = True
         Me.dgvUtenti.RowHeadersVisible = False
+        Me.dgvUtenti.RowHeadersWidth = 51
         Me.dgvUtenti.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvUtenti.Size = New System.Drawing.Size(1169, 569)
+        Me.dgvUtenti.Size = New System.Drawing.Size(1607, 876)
         Me.dgvUtenti.TabIndex = 6
         '
         'ilUsers
@@ -149,6 +151,7 @@ Partial Class FManagerUtenti
         '
         Me.dgvcNome.DataPropertyName = "Descrizione"
         Me.dgvcNome.HeaderText = "Nome"
+        Me.dgvcNome.MinimumWidth = 6
         Me.dgvcNome.Name = "dgvcNome"
         Me.dgvcNome.ReadOnly = True
         '
@@ -159,9 +162,10 @@ Partial Class FManagerUtenti
         DataGridViewCellStyle2.Format = "G"
         Me.dgvcUltimoAccesso.DefaultCellStyle = DataGridViewCellStyle2
         Me.dgvcUltimoAccesso.HeaderText = "Ultimo accesso"
+        Me.dgvcUltimoAccesso.MinimumWidth = 6
         Me.dgvcUltimoAccesso.Name = "dgvcUltimoAccesso"
         Me.dgvcUltimoAccesso.ReadOnly = True
-        Me.dgvcUltimoAccesso.Width = 200
+        Me.dgvcUltimoAccesso.Width = 350
         '
         'dgvcNAccessi
         '
@@ -172,6 +176,7 @@ Partial Class FManagerUtenti
         DataGridViewCellStyle3.NullValue = Nothing
         Me.dgvcNAccessi.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgvcNAccessi.HeaderText = "Numero accessi"
+        Me.dgvcNAccessi.MinimumWidth = 6
         Me.dgvcNAccessi.Name = "dgvcNAccessi"
         Me.dgvcNAccessi.ReadOnly = True
         Me.dgvcNAccessi.Width = 110
@@ -183,6 +188,7 @@ Partial Class FManagerUtenti
         DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.dgvcRuolo.DefaultCellStyle = DataGridViewCellStyle4
         Me.dgvcRuolo.HeaderText = "Ruolo"
+        Me.dgvcRuolo.MinimumWidth = 6
         Me.dgvcRuolo.Name = "dgvcRuolo"
         Me.dgvcRuolo.ReadOnly = True
         Me.dgvcRuolo.Width = 150
@@ -191,20 +197,22 @@ Partial Class FManagerUtenti
         '
         Me.dgvcStato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcStato.HeaderText = "Stato"
+        Me.dgvcStato.MinimumWidth = 6
         Me.dgvcStato.Name = "dgvcStato"
         Me.dgvcStato.ReadOnly = True
         Me.dgvcStato.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvcStato.Width = 40
+        Me.dgvcStato.Width = 80
         '
         'FManagerUtenti
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1169, 614)
+        Me.ClientSize = New System.Drawing.Size(1607, 921)
         Me.Controls.Add(Me.dgvUtenti)
         Me.Controls.Add(Me.tsUtenti)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "FManagerUtenti"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione utenti"
@@ -231,9 +239,9 @@ Partial Class FManagerUtenti
     Friend WithEvents EmailDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents NumAccessiDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataUltimoAccessoDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcNome As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcUltimoAccesso As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcNAccessi As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcRuolo As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcStato As System.Windows.Forms.DataGridViewImageColumn
+    Friend WithEvents dgvcNome As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcUltimoAccesso As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcNAccessi As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcRuolo As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcStato As DataGridViewImageColumn
 End Class

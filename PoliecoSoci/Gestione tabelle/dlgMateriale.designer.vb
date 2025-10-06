@@ -58,74 +58,83 @@ Partial Class dlgMateriale
         'NomeLabel
         '
         NomeLabel.AutoSize = True
-        NomeLabel.Location = New System.Drawing.Point(10, 15)
+        NomeLabel.Location = New System.Drawing.Point(18, 27)
+        NomeLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         NomeLabel.Name = "NomeLabel"
-        NomeLabel.Size = New System.Drawing.Size(43, 13)
+        NomeLabel.Size = New System.Drawing.Size(76, 24)
         NomeLabel.TabIndex = 0
         NomeLabel.Text = "Codice:"
         '
         'EmailLabel
         '
         EmailLabel.AutoSize = True
-        EmailLabel.Location = New System.Drawing.Point(10, 141)
+        EmailLabel.Location = New System.Drawing.Point(18, 261)
+        EmailLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         EmailLabel.Name = "EmailLabel"
-        EmailLabel.Size = New System.Drawing.Size(46, 13)
+        EmailLabel.Size = New System.Drawing.Size(84, 24)
         EmailLabel.TabIndex = 12
         EmailLabel.Text = "Periodo:"
         '
         'Label5
         '
         Label5.AutoSize = True
-        Label5.Location = New System.Drawing.Point(10, 66)
+        Label5.Location = New System.Drawing.Point(18, 122)
+        Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Label5.Name = "Label5"
-        Label5.Size = New System.Drawing.Size(65, 13)
+        Label5.Size = New System.Drawing.Size(119, 24)
         Label5.TabIndex = 36
         Label5.Text = "Descrizione:"
         '
         'Label6
         '
         Label6.AutoSize = True
-        Label6.Location = New System.Drawing.Point(346, 15)
+        Label6.Location = New System.Drawing.Point(642, 27)
+        Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Label6.Name = "Label6"
-        Label6.Size = New System.Drawing.Size(52, 13)
+        Label6.Size = New System.Drawing.Size(99, 24)
         Label6.TabIndex = 38
         Label6.Text = "Utilizzato:"
         '
         'Label7
         '
         Label7.AutoSize = True
-        Label7.Location = New System.Drawing.Point(10, 89)
+        Label7.Location = New System.Drawing.Point(18, 165)
+        Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Label7.Name = "Label7"
-        Label7.Size = New System.Drawing.Size(60, 13)
+        Label7.Size = New System.Drawing.Size(111, 24)
         Label7.TabIndex = 39
         Label7.Text = "Un. misura:"
         '
         'Label2
         '
         Label2.AutoSize = True
-        Label2.Location = New System.Drawing.Point(10, 41)
+        Label2.Location = New System.Drawing.Point(18, 75)
+        Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Label2.Name = "Label2"
-        Label2.Size = New System.Drawing.Size(31, 13)
+        Label2.Size = New System.Drawing.Size(54, 24)
         Label2.TabIndex = 42
         Label2.Text = "Tipo:"
         '
         'Label3
         '
         Label3.AutoSize = True
-        Label3.Location = New System.Drawing.Point(10, 114)
+        Label3.Location = New System.Drawing.Point(18, 213)
+        Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Label3.Name = "Label3"
-        Label3.Size = New System.Drawing.Size(69, 13)
+        Label3.Size = New System.Drawing.Size(129, 24)
         Label3.TabIndex = 45
         Label3.Text = "Prezzo netto:"
         '
         'tsMain
         '
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbAnnulla, Me.tsbOk, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 172)
+        Me.tsMain.Location = New System.Drawing.Point(0, 355)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(433, 45)
+        Me.tsMain.Size = New System.Drawing.Size(819, 45)
         Me.tsMain.TabIndex = 0
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -137,7 +146,7 @@ Partial Class dlgMateriale
         Me.tsbAnnulla.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbAnnulla.Name = "tsbAnnulla"
         Me.tsbAnnulla.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbAnnulla.Size = New System.Drawing.Size(90, 42)
+        Me.tsbAnnulla.Size = New System.Drawing.Size(119, 42)
         Me.tsbAnnulla.Text = "&Annulla"
         '
         'tsbOk
@@ -148,7 +157,7 @@ Partial Class dlgMateriale
         Me.tsbOk.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbOk.Name = "tsbOk"
         Me.tsbOk.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbOk.Size = New System.Drawing.Size(64, 42)
+        Me.tsbOk.Size = New System.Drawing.Size(76, 42)
         Me.tsbOk.Text = "&Ok"
         '
         'tsbStampa
@@ -157,7 +166,7 @@ Partial Class dlgMateriale
         Me.tsbStampa.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStampa.Name = "tsbStampa"
-        Me.tsbStampa.Size = New System.Drawing.Size(83, 42)
+        Me.tsbStampa.Size = New System.Drawing.Size(116, 42)
         Me.tsbStampa.Text = "&Stampa"
         '
         'pnlEdit
@@ -178,8 +187,9 @@ Partial Class dlgMateriale
         Me.pnlEdit.Controls.Add(Me.txtCodice)
         Me.pnlEdit.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlEdit.Location = New System.Drawing.Point(0, 0)
+        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.pnlEdit.Name = "pnlEdit"
-        Me.pnlEdit.Size = New System.Drawing.Size(433, 172)
+        Me.pnlEdit.Size = New System.Drawing.Size(819, 355)
         Me.pnlEdit.TabIndex = 6
         '
         'cdiPeriodo
@@ -188,38 +198,45 @@ Partial Class dlgMateriale
         Me.cdiPeriodo.DataBindings.Add(New System.Windows.Forms.Binding("DataIniziale", Me.bsEntity, "DataInizio", True))
         Me.cdiPeriodo.DataFinale = Nothing
         Me.cdiPeriodo.DataIniziale = Nothing
-        Me.cdiPeriodo.Location = New System.Drawing.Point(77, 141)
+        Me.cdiPeriodo.DateFormat = "dd/MM/yyyy"
+        Me.cdiPeriodo.IntervalCodition = mdsUIControls.ctlDateIntervalHorizontal.IntervalConditionEnum.STANDARD
+        Me.cdiPeriodo.Location = New System.Drawing.Point(150, 261)
+        Me.cdiPeriodo.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
+        Me.cdiPeriodo.MonthFormat = False
         Me.cdiPeriodo.Name = "cdiPeriodo"
-        Me.cdiPeriodo.Size = New System.Drawing.Size(232, 23)
+        Me.cdiPeriodo.Size = New System.Drawing.Size(425, 42)
         Me.cdiPeriodo.TabIndex = 7
+        Me.cdiPeriodo.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiPeriodo.TxtBackColor = System.Drawing.SystemColors.Window
         '
         'cbUM
         '
         Me.cbUM.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbUM.FormattingEnabled = True
-        Me.cbUM.Location = New System.Drawing.Point(77, 86)
-        Me.cbUM.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbUM.Location = New System.Drawing.Point(150, 159)
+        Me.cbUM.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.cbUM.Name = "cbUM"
-        Me.cbUM.Size = New System.Drawing.Size(110, 21)
+        Me.cbUM.Size = New System.Drawing.Size(198, 32)
         Me.cbUM.TabIndex = 4
         '
         'txtDescrizione
         '
         Me.txtDescrizione.BackColor = System.Drawing.Color.White
         Me.txtDescrizione.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsEntity, "Descrizione", True))
-        Me.txtDescrizione.Location = New System.Drawing.Point(77, 63)
+        Me.txtDescrizione.Location = New System.Drawing.Point(150, 117)
+        Me.txtDescrizione.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtDescrizione.Name = "txtDescrizione"
-        Me.txtDescrizione.Size = New System.Drawing.Size(345, 20)
+        Me.txtDescrizione.Size = New System.Drawing.Size(630, 32)
         Me.txtDescrizione.TabIndex = 3
         '
         'txtPrezzo
         '
         Me.txtPrezzo.BackColor = System.Drawing.Color.White
         Me.txtPrezzo.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsEntity, "Prezzo", True))
-        Me.txtPrezzo.Location = New System.Drawing.Point(77, 114)
+        Me.txtPrezzo.Location = New System.Drawing.Point(150, 210)
+        Me.txtPrezzo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtPrezzo.Name = "txtPrezzo"
-        Me.txtPrezzo.Size = New System.Drawing.Size(110, 20)
+        Me.txtPrezzo.Size = New System.Drawing.Size(198, 32)
         Me.txtPrezzo.TabIndex = 5
         Me.txtPrezzo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -227,37 +244,41 @@ Partial Class dlgMateriale
         '
         Me.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbTipo.FormattingEnabled = True
-        Me.cbTipo.Location = New System.Drawing.Point(77, 38)
-        Me.cbTipo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbTipo.Location = New System.Drawing.Point(150, 70)
+        Me.cbTipo.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.cbTipo.Name = "cbTipo"
-        Me.cbTipo.Size = New System.Drawing.Size(345, 21)
+        Me.cbTipo.Size = New System.Drawing.Size(630, 32)
         Me.cbTipo.TabIndex = 2
         '
         'chkInteressi
         '
         Me.chkInteressi.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsEntity, "Utilizzato", True))
-        Me.chkInteressi.Location = New System.Drawing.Point(405, 10)
+        Me.chkInteressi.Location = New System.Drawing.Point(750, 18)
+        Me.chkInteressi.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.chkInteressi.Name = "chkInteressi"
-        Me.chkInteressi.Size = New System.Drawing.Size(16, 24)
+        Me.chkInteressi.Size = New System.Drawing.Size(29, 45)
         Me.chkInteressi.TabIndex = 1
         '
         'txtCodice
         '
         Me.txtCodice.BackColor = System.Drawing.Color.White
         Me.txtCodice.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsEntity, "Codice", True))
-        Me.txtCodice.Location = New System.Drawing.Point(77, 15)
+        Me.txtCodice.Location = New System.Drawing.Point(150, 27)
+        Me.txtCodice.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtCodice.Name = "txtCodice"
-        Me.txtCodice.Size = New System.Drawing.Size(264, 20)
+        Me.txtCodice.Size = New System.Drawing.Size(481, 32)
         Me.txtCodice.TabIndex = 0
         '
         'dlgMateriale
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(433, 217)
+        Me.ClientSize = New System.Drawing.Size(819, 400)
         Me.Controls.Add(Me.pnlEdit)
         Me.Controls.Add(Me.tsMain)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "dlgMateriale"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Materiale"

@@ -376,4 +376,8 @@ Public Class FDichiarazione
             MsgBox(ex.Message, MsgBoxStyle.Exclamation)
         End Try
     End Sub
+
+    Private Sub Label13_Click()
+
+    End Sub
 End Class

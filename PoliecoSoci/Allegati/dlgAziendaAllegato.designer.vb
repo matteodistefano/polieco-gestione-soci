@@ -69,42 +69,44 @@ Partial Class dlgAziendaAllegato
         '
         Me.tsMain.AutoSize = False
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbExit, Me.tsbOk})
-        Me.tsMain.Location = New System.Drawing.Point(0, 567)
+        Me.tsMain.Location = New System.Drawing.Point(0, 1045)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(981, 37)
+        Me.tsMain.Size = New System.Drawing.Size(1798, 69)
         Me.tsMain.TabIndex = 11
         '
         'tsbExit
         '
         Me.tsbExit.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.Undo_24_n_g
+        Me.tsbExit.Image = Global.PoliecoSoci.My.Resources.Resources.Undo_32_n_g
         Me.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbExit.Name = "tsbExit"
         Me.tsbExit.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbExit.Size = New System.Drawing.Size(80, 34)
+        Me.tsbExit.Size = New System.Drawing.Size(117, 66)
         Me.tsbExit.Text = "Annulla"
         '
         'tsbOk
         '
         Me.tsbOk.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbOk.Image = Global.PoliecoSoci.My.Resources.Resources.OK_24_n_g
+        Me.tsbOk.Image = Global.PoliecoSoci.My.Resources.Resources.OK_32_n_g
         Me.tsbOk.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbOk.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbOk.Name = "tsbOk"
         Me.tsbOk.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbOk.Size = New System.Drawing.Size(54, 34)
+        Me.tsbOk.Size = New System.Drawing.Size(74, 66)
         Me.tsbOk.Text = "Ok"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 8)
+        Me.Label4.Location = New System.Drawing.Point(22, 15)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(134, 13)
+        Me.Label4.Size = New System.Drawing.Size(248, 24)
         Me.Label4.TabIndex = 110
         Me.Label4.Text = "Partita IVA / Codice fiscale"
         '
@@ -112,9 +114,10 @@ Partial Class dlgAziendaAllegato
         '
         Me.Label19.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(753, 129)
+        Me.Label19.Location = New System.Drawing.Point(1380, 238)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(46, 13)
+        Me.Label19.Size = New System.Drawing.Size(83, 24)
         Me.Label19.TabIndex = 100
         Me.Label19.Text = "Nazione"
         '
@@ -122,9 +125,10 @@ Partial Class dlgAziendaAllegato
         '
         Me.Label17.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(697, 126)
+        Me.Label17.Location = New System.Drawing.Point(1277, 232)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(32, 13)
+        Me.Label17.Size = New System.Drawing.Size(55, 24)
         Me.Label17.TabIndex = 98
         Me.Label17.Text = "Prov."
         '
@@ -132,36 +136,40 @@ Partial Class dlgAziendaAllegato
         '
         Me.Label15.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(608, 129)
+        Me.Label15.Location = New System.Drawing.Point(1115, 238)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(28, 13)
+        Me.Label15.Size = New System.Drawing.Size(49, 24)
         Me.Label15.TabIndex = 96
         Me.Label15.Text = "CAP"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(9, 129)
+        Me.Label11.Location = New System.Drawing.Point(16, 238)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(44, 13)
+        Me.Label11.Size = New System.Drawing.Size(81, 24)
         Me.Label11.TabIndex = 92
         Me.Label11.Text = "Localita"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(9, 87)
+        Me.Label9.Location = New System.Drawing.Point(16, 160)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(45, 13)
+        Me.Label9.Size = New System.Drawing.Size(85, 24)
         Me.Label9.TabIndex = 90
         Me.Label9.Text = "Indirizzo"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(9, 48)
+        Me.Label6.Location = New System.Drawing.Point(16, 88)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(83, 13)
+        Me.Label6.Size = New System.Drawing.Size(150, 24)
         Me.Label6.TabIndex = 88
         Me.Label6.Text = "Ragione sociale"
         '
@@ -171,37 +179,41 @@ Partial Class dlgAziendaAllegato
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Note", True))
-        Me.TextBox2.Location = New System.Drawing.Point(12, 184)
+        Me.TextBox2.Location = New System.Drawing.Point(22, 339)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox2.Size = New System.Drawing.Size(957, 101)
+        Me.TextBox2.Size = New System.Drawing.Size(1752, 182)
         Me.TextBox2.TabIndex = 9
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(12, 168)
+        Me.Label3.Location = New System.Drawing.Point(22, 310)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(30, 13)
+        Me.Label3.Size = New System.Drawing.Size(53, 24)
         Me.Label3.TabIndex = 114
         Me.Label3.Text = "Note"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(0, -1)
+        Me.Label7.Location = New System.Drawing.Point(0, -2)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(34, 13)
+        Me.Label7.Size = New System.Drawing.Size(59, 24)
         Me.Label7.TabIndex = 115
         Me.Label7.Text = "Socio"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(12, 302)
+        Me.Label12.Location = New System.Drawing.Point(22, 558)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(112, 13)
+        Me.Label12.Size = New System.Drawing.Size(210, 24)
         Me.Label12.TabIndex = 117
         Me.Label12.Text = "Riepilogo dichiarazioni"
         '
@@ -209,9 +221,10 @@ Partial Class dlgAziendaAllegato
         '
         Me.txtPIva.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtPIva.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "PartitaIva", True))
-        Me.txtPIva.Location = New System.Drawing.Point(12, 22)
+        Me.txtPIva.Location = New System.Drawing.Point(22, 40)
+        Me.txtPIva.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtPIva.Name = "txtPIva"
-        Me.txtPIva.Size = New System.Drawing.Size(189, 20)
+        Me.txtPIva.Size = New System.Drawing.Size(344, 32)
         Me.txtPIva.TabIndex = 0
         '
         'txtSocio
@@ -219,9 +232,10 @@ Partial Class dlgAziendaAllegato
         Me.txtSocio.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtSocio.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txtSocio.Location = New System.Drawing.Point(0, 13)
+        Me.txtSocio.Location = New System.Drawing.Point(0, 24)
+        Me.txtSocio.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtSocio.Name = "txtSocio"
-        Me.txtSocio.Size = New System.Drawing.Size(713, 20)
+        Me.txtSocio.Size = New System.Drawing.Size(1303, 32)
         Me.txtSocio.TabIndex = 0
         '
         'TextBox4
@@ -230,9 +244,10 @@ Partial Class dlgAziendaAllegato
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "RagioneSociale", True))
-        Me.TextBox4.Location = New System.Drawing.Point(12, 64)
+        Me.TextBox4.Location = New System.Drawing.Point(22, 118)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(957, 20)
+        Me.TextBox4.Size = New System.Drawing.Size(1752, 32)
         Me.TextBox4.TabIndex = 3
         '
         'TextBox5
@@ -241,9 +256,10 @@ Partial Class dlgAziendaAllegato
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Indirizzo", True))
-        Me.TextBox5.Location = New System.Drawing.Point(12, 103)
+        Me.TextBox5.Location = New System.Drawing.Point(22, 190)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(957, 20)
+        Me.TextBox5.Size = New System.Drawing.Size(1752, 32)
         Me.TextBox5.TabIndex = 4
         '
         'TextBox6
@@ -252,9 +268,10 @@ Partial Class dlgAziendaAllegato
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox6.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Localita", True))
-        Me.TextBox6.Location = New System.Drawing.Point(12, 145)
+        Me.TextBox6.Location = New System.Drawing.Point(22, 267)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(593, 20)
+        Me.TextBox6.Size = New System.Drawing.Size(1083, 32)
         Me.TextBox6.TabIndex = 5
         '
         'TextBox7
@@ -262,9 +279,10 @@ Partial Class dlgAziendaAllegato
         Me.TextBox7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox7.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox7.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Cap", True))
-        Me.TextBox7.Location = New System.Drawing.Point(611, 145)
+        Me.TextBox7.Location = New System.Drawing.Point(1121, 267)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(83, 20)
+        Me.TextBox7.Size = New System.Drawing.Size(148, 32)
         Me.TextBox7.TabIndex = 6
         '
         'TextBox8
@@ -272,9 +290,10 @@ Partial Class dlgAziendaAllegato
         Me.TextBox8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox8.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox8.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Provincia", True))
-        Me.TextBox8.Location = New System.Drawing.Point(700, 145)
+        Me.TextBox8.Location = New System.Drawing.Point(1283, 267)
+        Me.TextBox8.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(50, 20)
+        Me.TextBox8.Size = New System.Drawing.Size(88, 32)
         Me.TextBox8.TabIndex = 7
         '
         'TextBox9
@@ -282,17 +301,19 @@ Partial Class dlgAziendaAllegato
         Me.TextBox9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox9.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox9.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsAzienda, "Nazione", True))
-        Me.TextBox9.Location = New System.Drawing.Point(756, 145)
+        Me.TextBox9.Location = New System.Drawing.Point(1386, 267)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(213, 20)
+        Me.TextBox9.Size = New System.Drawing.Size(388, 32)
         Me.TextBox9.TabIndex = 8
         '
         'btnVerSocio
         '
-        Me.btnVerSocio.Image = Global.PoliecoSoci.My.Resources.Resources.Search_16_n_g
-        Me.btnVerSocio.Location = New System.Drawing.Point(207, 17)
+        Me.btnVerSocio.Image = Global.PoliecoSoci.My.Resources.Resources.Search_32_n_g
+        Me.btnVerSocio.Location = New System.Drawing.Point(380, 32)
+        Me.btnVerSocio.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnVerSocio.Name = "btnVerSocio"
-        Me.btnVerSocio.Size = New System.Drawing.Size(43, 29)
+        Me.btnVerSocio.Size = New System.Drawing.Size(78, 54)
         Me.btnVerSocio.TabIndex = 1
         Me.ToolTip.SetToolTip(Me.btnVerSocio, "Verifica socio")
         Me.btnVerSocio.UseVisualStyleBackColor = True
@@ -303,9 +324,10 @@ Partial Class dlgAziendaAllegato
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pnlSocio.Controls.Add(Me.txtSocio)
         Me.pnlSocio.Controls.Add(Me.Label7)
-        Me.pnlSocio.Location = New System.Drawing.Point(256, 9)
+        Me.pnlSocio.Location = New System.Drawing.Point(469, 16)
+        Me.pnlSocio.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.pnlSocio.Name = "pnlSocio"
-        Me.pnlSocio.Size = New System.Drawing.Size(713, 33)
+        Me.pnlSocio.Size = New System.Drawing.Size(1308, 62)
         Me.pnlSocio.TabIndex = 2
         Me.pnlSocio.Visible = False
         '
@@ -319,12 +341,13 @@ Partial Class dlgAziendaAllegato
         Me.dgvDettaglio.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgvDettaglio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvDettaglio.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcSede, Me.dgvcDichiarante, Me.dgvcRuolo, Me.dgvcCodCer, Me.dgvcDescrizione, Me.dgvcUM, Me.dgvcQta})
-        Me.dgvDettaglio.Location = New System.Drawing.Point(12, 318)
+        Me.dgvDettaglio.Location = New System.Drawing.Point(22, 586)
+        Me.dgvDettaglio.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.dgvDettaglio.Name = "dgvDettaglio"
         Me.dgvDettaglio.ReadOnly = True
         Me.dgvDettaglio.RowHeadersWidth = 20
         Me.dgvDettaglio.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvDettaglio.Size = New System.Drawing.Size(957, 234)
+        Me.dgvDettaglio.Size = New System.Drawing.Size(1754, 432)
         Me.dgvDettaglio.TabIndex = 118
         '
         'dgvcSede
@@ -350,7 +373,7 @@ Partial Class dlgAziendaAllegato
         Me.dgvcRuolo.HeaderText = "Ruolo"
         Me.dgvcRuolo.Name = "dgvcRuolo"
         Me.dgvcRuolo.ReadOnly = True
-        Me.dgvcRuolo.Width = 50
+        Me.dgvcRuolo.Width = 80
         '
         'dgvcCodCer
         '
@@ -359,7 +382,7 @@ Partial Class dlgAziendaAllegato
         Me.dgvcCodCer.HeaderText = "Cod.CER"
         Me.dgvcCodCer.Name = "dgvcCodCer"
         Me.dgvcCodCer.ReadOnly = True
-        Me.dgvcCodCer.Width = 60
+        Me.dgvcCodCer.Width = 90
         '
         'dgvcDescrizione
         '
@@ -376,7 +399,7 @@ Partial Class dlgAziendaAllegato
         Me.dgvcUM.HeaderText = "U.M."
         Me.dgvcUM.Name = "dgvcUM"
         Me.dgvcUM.ReadOnly = True
-        Me.dgvcUM.Width = 40
+        Me.dgvcUM.Width = 60
         '
         'dgvcQta
         '
@@ -391,9 +414,9 @@ Partial Class dlgAziendaAllegato
         '
         'dlgAziendaAllegato
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(981, 604)
+        Me.ClientSize = New System.Drawing.Size(1798, 1114)
         Me.Controls.Add(Me.dgvDettaglio)
         Me.Controls.Add(Me.pnlSocio)
         Me.Controls.Add(Me.btnVerSocio)
@@ -415,7 +438,9 @@ Partial Class dlgAziendaAllegato
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label15)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "dlgAziendaAllegato"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Azienda allegato"

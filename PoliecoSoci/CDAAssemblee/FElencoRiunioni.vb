@@ -141,4 +141,8 @@ Public Class FElencoRiunioni
             CaricaDati()
         End If
     End Sub
+
+    Private Sub cdiPeriodo_Load()
+
+    End Sub
 End Class

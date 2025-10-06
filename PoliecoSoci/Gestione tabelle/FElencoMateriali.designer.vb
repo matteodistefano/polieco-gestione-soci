@@ -59,11 +59,13 @@ Partial Class FElencoMateriali
         'tsMain
         '
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNuovo, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbSelect, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 454)
+        Me.tsMain.Location = New System.Drawing.Point(0, 876)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(877, 45)
+        Me.tsMain.Size = New System.Drawing.Size(1607, 45)
         Me.tsMain.TabIndex = 4
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -74,7 +76,7 @@ Partial Class FElencoMateriali
         Me.tsbNuovo.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbNuovo.Name = "tsbNuovo"
         Me.tsbNuovo.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbNuovo.Size = New System.Drawing.Size(82, 42)
+        Me.tsbNuovo.Size = New System.Drawing.Size(107, 42)
         Me.tsbNuovo.Text = "Nuova"
         Me.tsbNuovo.ToolTipText = "Nuovo scadenza"
         '
@@ -84,7 +86,7 @@ Partial Class FElencoMateriali
         Me.tsbModifica.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbModifica.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbModifica.Name = "tsbModifica"
-        Me.tsbModifica.Size = New System.Drawing.Size(90, 42)
+        Me.tsbModifica.Size = New System.Drawing.Size(122, 42)
         Me.tsbModifica.Text = "Modifica"
         '
         'tsbElimina
@@ -93,7 +95,7 @@ Partial Class FElencoMateriali
         Me.tsbElimina.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbElimina.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbElimina.Name = "tsbElimina"
-        Me.tsbElimina.Size = New System.Drawing.Size(85, 42)
+        Me.tsbElimina.Size = New System.Drawing.Size(117, 42)
         Me.tsbElimina.Text = "Elimina "
         '
         'ToolStripSeparator1
@@ -109,7 +111,7 @@ Partial Class FElencoMateriali
         Me.tsbChiudi.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbChiudi.Name = "tsbChiudi"
         Me.tsbChiudi.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbChiudi.Size = New System.Drawing.Size(84, 42)
+        Me.tsbChiudi.Size = New System.Drawing.Size(108, 42)
         Me.tsbChiudi.Text = "&Chiudi"
         '
         'tsbSelect
@@ -120,7 +122,7 @@ Partial Class FElencoMateriali
         Me.tsbSelect.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSelect.Name = "tsbSelect"
         Me.tsbSelect.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbSelect.Size = New System.Drawing.Size(98, 42)
+        Me.tsbSelect.Size = New System.Drawing.Size(139, 42)
         Me.tsbSelect.Text = "&Seleziona"
         '
         'tsbStampa
@@ -129,7 +131,7 @@ Partial Class FElencoMateriali
         Me.tsbStampa.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStampa.Name = "tsbStampa"
-        Me.tsbStampa.Size = New System.Drawing.Size(83, 42)
+        Me.tsbStampa.Size = New System.Drawing.Size(116, 42)
         Me.tsbStampa.Text = "Stampa"
         '
         'dgvElenco
@@ -146,12 +148,14 @@ Partial Class FElencoMateriali
         Me.dgvElenco.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcCodice, Me.dgvcDescrizione, Me.dgvcTipo, Me.dgvcUM, Me.dgvcPrezzo, Me.dgvcIva, Me.dgvcPeriodo, Me.dgvcUtilizzato})
         Me.dgvElenco.DataSource = Me.bsMateriali
         Me.dgvElenco.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvElenco.Location = New System.Drawing.Point(0, 33)
+        Me.dgvElenco.Location = New System.Drawing.Point(0, 62)
+        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.dgvElenco.Name = "dgvElenco"
         Me.dgvElenco.ReadOnly = True
         Me.dgvElenco.RowHeadersVisible = False
+        Me.dgvElenco.RowHeadersWidth = 51
         Me.dgvElenco.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvElenco.Size = New System.Drawing.Size(877, 421)
+        Me.dgvElenco.Size = New System.Drawing.Size(1607, 814)
         Me.dgvElenco.TabIndex = 6
         '
         'DataGridViewBooleanImageColumn1
@@ -161,6 +165,7 @@ Partial Class FElencoMateriali
         Me.DataGridViewBooleanImageColumn1.HeaderText = "Crea automatico"
         Me.DataGridViewBooleanImageColumn1.ImageFalse = Nothing
         Me.DataGridViewBooleanImageColumn1.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_16_n_g
+        Me.DataGridViewBooleanImageColumn1.MinimumWidth = 6
         Me.DataGridViewBooleanImageColumn1.Name = "DataGridViewBooleanImageColumn1"
         Me.DataGridViewBooleanImageColumn1.ReadOnly = True
         Me.DataGridViewBooleanImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -174,21 +179,21 @@ Partial Class FElencoMateriali
         Me.Panel1.Controls.Add(Me.ccTipo)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(877, 33)
+        Me.Panel1.Size = New System.Drawing.Size(1607, 62)
         Me.Panel1.TabIndex = 7
         '
         'chkAttivi
         '
         Me.chkAttivi.Checked = True
         Me.chkAttivi.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkAttivi.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_16_n_g
+        Me.chkAttivi.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_32_n_p8
         Me.chkAttivi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkAttivi.Location = New System.Drawing.Point(415, 4)
-        Me.chkAttivi.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkAttivi.Location = New System.Drawing.Point(760, 8)
+        Me.chkAttivi.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkAttivi.Name = "chkAttivi"
-        Me.chkAttivi.Size = New System.Drawing.Size(95, 27)
+        Me.chkAttivi.Size = New System.Drawing.Size(175, 50)
         Me.chkAttivi.TabIndex = 2
         Me.chkAttivi.Text = "     Solo attivi"
         Me.chkAttivi.UseVisualStyleBackColor = True
@@ -199,17 +204,18 @@ Partial Class FElencoMateriali
         Me.ccTipo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
         Me.ccTipo.Checked = False
         Me.ccTipo.CheckText = "Solo tipo"
-        Me.ccTipo.CheckWidth = 130
+        Me.ccTipo.CheckWidth = 179
         Me.ccTipo.ComboText = ""
         Me.ccTipo.DataSource = Nothing
         Me.ccTipo.DisplayMember = ""
         Me.ccTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ccTipo.Location = New System.Drawing.Point(10, 6)
+        Me.ccTipo.Location = New System.Drawing.Point(18, 10)
+        Me.ccTipo.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.ccTipo.MaxDropDownItems = 8
         Me.ccTipo.Name = "ccTipo"
         Me.ccTipo.SelectedIndex = -1
         Me.ccTipo.SelectedValue = Nothing
-        Me.ccTipo.Size = New System.Drawing.Size(385, 21)
+        Me.ccTipo.Size = New System.Drawing.Size(705, 39)
         Me.ccTipo.TabIndex = 1
         Me.ccTipo.ValueFieldName = Nothing
         Me.ccTipo.ValueMember = ""
@@ -220,14 +226,16 @@ Partial Class FElencoMateriali
         Me.dgvcCodice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcCodice.DataPropertyName = "Codice"
         Me.dgvcCodice.HeaderText = "Codice"
+        Me.dgvcCodice.MinimumWidth = 6
         Me.dgvcCodice.Name = "dgvcCodice"
         Me.dgvcCodice.ReadOnly = True
-        Me.dgvcCodice.Width = 160
+        Me.dgvcCodice.Width = 140
         '
         'dgvcDescrizione
         '
         Me.dgvcDescrizione.DataPropertyName = "Descrizione"
         Me.dgvcDescrizione.HeaderText = "Descrizione"
+        Me.dgvcDescrizione.MinimumWidth = 6
         Me.dgvcDescrizione.Name = "dgvcDescrizione"
         Me.dgvcDescrizione.ReadOnly = True
         '
@@ -236,6 +244,7 @@ Partial Class FElencoMateriali
         Me.dgvcTipo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcTipo.DataPropertyName = "CodTipo"
         Me.dgvcTipo.HeaderText = "Tipo"
+        Me.dgvcTipo.MinimumWidth = 6
         Me.dgvcTipo.Name = "dgvcTipo"
         Me.dgvcTipo.ReadOnly = True
         Me.dgvcTipo.Width = 120
@@ -247,9 +256,10 @@ Partial Class FElencoMateriali
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         Me.dgvcUM.DefaultCellStyle = DataGridViewCellStyle2
         Me.dgvcUM.HeaderText = "Unita misura"
+        Me.dgvcUM.MinimumWidth = 6
         Me.dgvcUM.Name = "dgvcUM"
         Me.dgvcUM.ReadOnly = True
-        Me.dgvcUM.Width = 60
+        Me.dgvcUM.Width = 80
         '
         'dgvcPrezzo
         '
@@ -259,8 +269,10 @@ Partial Class FElencoMateriali
         DataGridViewCellStyle3.Format = "c4"
         Me.dgvcPrezzo.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgvcPrezzo.HeaderText = "Prezzo"
+        Me.dgvcPrezzo.MinimumWidth = 6
         Me.dgvcPrezzo.Name = "dgvcPrezzo"
         Me.dgvcPrezzo.ReadOnly = True
+        Me.dgvcPrezzo.Width = 125
         '
         'dgvcIva
         '
@@ -270,6 +282,7 @@ Partial Class FElencoMateriali
         DataGridViewCellStyle4.Format = "n2"
         Me.dgvcIva.DefaultCellStyle = DataGridViewCellStyle4
         Me.dgvcIva.HeaderText = "Iva"
+        Me.dgvcIva.MinimumWidth = 6
         Me.dgvcIva.Name = "dgvcIva"
         Me.dgvcIva.ReadOnly = True
         Me.dgvcIva.Width = 50
@@ -278,6 +291,7 @@ Partial Class FElencoMateriali
         '
         Me.dgvcPeriodo.DataPropertyName = "DescrPeriodo"
         Me.dgvcPeriodo.HeaderText = "Periodo"
+        Me.dgvcPeriodo.MinimumWidth = 6
         Me.dgvcPeriodo.Name = "dgvcPeriodo"
         Me.dgvcPeriodo.ReadOnly = True
         '
@@ -288,23 +302,26 @@ Partial Class FElencoMateriali
         Me.dgvcUtilizzato.HeaderText = "Utiliz."
         Me.dgvcUtilizzato.ImageFalse = Nothing
         Me.dgvcUtilizzato.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_16_n_g
+        Me.dgvcUtilizzato.MinimumWidth = 6
         Me.dgvcUtilizzato.Name = "dgvcUtilizzato"
         Me.dgvcUtilizzato.ReadOnly = True
         Me.dgvcUtilizzato.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.dgvcUtilizzato.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         Me.dgvcUtilizzato.ValueFalse = "False"
         Me.dgvcUtilizzato.ValueTrue = "True"
-        Me.dgvcUtilizzato.Width = 40
+        Me.dgvcUtilizzato.Width = 80
         '
         'FElencoMateriali
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(877, 499)
+        Me.ClientSize = New System.Drawing.Size(1607, 921)
         Me.Controls.Add(Me.dgvElenco)
         Me.Controls.Add(Me.tsMain)
         Me.Controls.Add(Me.Panel1)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "FElencoMateriali"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione materiali"
@@ -336,12 +353,12 @@ Partial Class FElencoMateriali
     Friend WithEvents ccTipo As mdsUIControls.ucCheckedCombo
     Friend WithEvents tsbSelect As System.Windows.Forms.ToolStripButton
     Friend WithEvents chkAttivi As System.Windows.Forms.CheckBox
-    Friend WithEvents dgvcCodice As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcDescrizione As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcTipo As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcUM As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcPrezzo As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcIva As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcPeriodo As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvcCodice As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcDescrizione As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcTipo As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcUM As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcPrezzo As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcIva As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcPeriodo As DataGridViewTextBoxColumn
     Friend WithEvents dgvcUtilizzato As mdsUIControls.DataGridViewBooleanImageColumn
 End Class

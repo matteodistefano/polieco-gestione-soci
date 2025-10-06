@@ -28,19 +28,23 @@ Partial Class FTest
         'UcEventSelector1
         '
         Me.UcEventSelector1.DropDownAlignment = System.Windows.Forms.HorizontalAlignment.Right
-        Me.UcEventSelector1.Location = New System.Drawing.Point(37, 29)
+        Me.UcEventSelector1.Location = New System.Drawing.Point(46, 76)
+        Me.UcEventSelector1.ManualOnly = False
+        Me.UcEventSelector1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.UcEventSelector1.Name = "UcEventSelector1"
         Me.UcEventSelector1.SelectedCode = ""
         Me.UcEventSelector1.SelectedEvent = Nothing
-        Me.UcEventSelector1.Size = New System.Drawing.Size(331, 28)
+        Me.UcEventSelector1.Size = New System.Drawing.Size(532, 42)
         Me.UcEventSelector1.TabIndex = 0
         '
         'FTest
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(540, 418)
+        Me.ClientSize = New System.Drawing.Size(742, 627)
         Me.Controls.Add(Me.UcEventSelector1)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FTest"
         Me.Text = "FTest"
         Me.ResumeLayout(False)

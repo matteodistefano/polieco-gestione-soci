@@ -484,4 +484,8 @@ Public Class FElencoDichiarazioni
             MsgBox(ex.Message, MsgBoxStyle.Information)
         End Try
     End Sub
+
+    Private Sub lScadPag_Click(sender As Object, e As EventArgs) Handles lScadPag.Click
+
+    End Sub
 End Class

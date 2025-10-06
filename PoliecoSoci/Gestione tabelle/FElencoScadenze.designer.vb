@@ -67,12 +67,13 @@ Partial Class FElencoScadenze
         'tsMain
         '
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNuova, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbSelect, Me.tsbDuplica, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 454)
+        Me.tsMain.Location = New System.Drawing.Point(0, 876)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1294, 45)
+        Me.tsMain.Size = New System.Drawing.Size(2372, 45)
         Me.tsMain.TabIndex = 4
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -83,7 +84,7 @@ Partial Class FElencoScadenze
         Me.tsbNuova.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbNuova.Name = "tsbNuova"
         Me.tsbNuova.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbNuova.Size = New System.Drawing.Size(82, 42)
+        Me.tsbNuova.Size = New System.Drawing.Size(107, 42)
         Me.tsbNuova.Text = "Nuova"
         Me.tsbNuova.ToolTipText = "Nuovo scadenza"
         '
@@ -93,7 +94,7 @@ Partial Class FElencoScadenze
         Me.tsbModifica.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbModifica.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbModifica.Name = "tsbModifica"
-        Me.tsbModifica.Size = New System.Drawing.Size(90, 42)
+        Me.tsbModifica.Size = New System.Drawing.Size(122, 42)
         Me.tsbModifica.Text = "Modifica"
         '
         'tsbElimina
@@ -102,7 +103,7 @@ Partial Class FElencoScadenze
         Me.tsbElimina.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbElimina.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbElimina.Name = "tsbElimina"
-        Me.tsbElimina.Size = New System.Drawing.Size(85, 42)
+        Me.tsbElimina.Size = New System.Drawing.Size(117, 42)
         Me.tsbElimina.Text = "Elimina "
         '
         'ToolStripSeparator1
@@ -118,7 +119,7 @@ Partial Class FElencoScadenze
         Me.tsbChiudi.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbChiudi.Name = "tsbChiudi"
         Me.tsbChiudi.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbChiudi.Size = New System.Drawing.Size(84, 42)
+        Me.tsbChiudi.Size = New System.Drawing.Size(108, 42)
         Me.tsbChiudi.Text = "&Chiudi"
         '
         'tsbSelect
@@ -129,7 +130,7 @@ Partial Class FElencoScadenze
         Me.tsbSelect.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSelect.Name = "tsbSelect"
         Me.tsbSelect.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbSelect.Size = New System.Drawing.Size(98, 42)
+        Me.tsbSelect.Size = New System.Drawing.Size(139, 42)
         Me.tsbSelect.Text = "&Seleziona"
         '
         'tsbDuplica
@@ -139,7 +140,7 @@ Partial Class FElencoScadenze
         Me.tsbDuplica.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbDuplica.Margin = New System.Windows.Forms.Padding(0, 1, 60, 2)
         Me.tsbDuplica.Name = "tsbDuplica"
-        Me.tsbDuplica.Size = New System.Drawing.Size(83, 42)
+        Me.tsbDuplica.Size = New System.Drawing.Size(112, 42)
         Me.tsbDuplica.Text = "Duplica"
         '
         'tsbStampa
@@ -148,7 +149,7 @@ Partial Class FElencoScadenze
         Me.tsbStampa.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStampa.Name = "tsbStampa"
-        Me.tsbStampa.Size = New System.Drawing.Size(83, 42)
+        Me.tsbStampa.Size = New System.Drawing.Size(116, 42)
         Me.tsbStampa.Text = "Stampa"
         '
         'dgvElenco
@@ -165,12 +166,14 @@ Partial Class FElencoScadenze
         Me.dgvElenco.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcCodice, Me.dgvcAnno, Me.dgvcScadRifPer, Me.dgvcInizio, Me.dgvcUltimoAccesso, Me.dgvcScadDichiarazione, Me.dgvcScadPagamento, Me.dgvcCategoria, Me.dgvcInteresse, Me.dgvcAuto})
         Me.dgvElenco.DataSource = Me.bsScadenze
         Me.dgvElenco.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvElenco.Location = New System.Drawing.Point(0, 33)
+        Me.dgvElenco.Location = New System.Drawing.Point(0, 62)
+        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.dgvElenco.Name = "dgvElenco"
         Me.dgvElenco.ReadOnly = True
         Me.dgvElenco.RowHeadersVisible = False
+        Me.dgvElenco.RowHeadersWidth = 51
         Me.dgvElenco.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvElenco.Size = New System.Drawing.Size(1294, 421)
+        Me.dgvElenco.Size = New System.Drawing.Size(2372, 814)
         Me.dgvElenco.TabIndex = 6
         '
         'DataGridViewBooleanImageColumn1
@@ -180,6 +183,7 @@ Partial Class FElencoScadenze
         Me.DataGridViewBooleanImageColumn1.HeaderText = "Crea automatico"
         Me.DataGridViewBooleanImageColumn1.ImageFalse = Nothing
         Me.DataGridViewBooleanImageColumn1.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_16_n_g
+        Me.DataGridViewBooleanImageColumn1.MinimumWidth = 6
         Me.DataGridViewBooleanImageColumn1.Name = "DataGridViewBooleanImageColumn1"
         Me.DataGridViewBooleanImageColumn1.ReadOnly = True
         Me.DataGridViewBooleanImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -194,18 +198,18 @@ Partial Class FElencoScadenze
         Me.Panel1.Controls.Add(Me.ccCategoria)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1294, 33)
+        Me.Panel1.Size = New System.Drawing.Size(2372, 62)
         Me.Panel1.TabIndex = 7
         '
         'chkAuto
         '
         Me.chkAuto.AutoSize = True
-        Me.chkAuto.Location = New System.Drawing.Point(682, 6)
-        Me.chkAuto.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkAuto.Location = New System.Drawing.Point(1244, 14)
+        Me.chkAuto.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkAuto.Name = "chkAuto"
-        Me.chkAuto.Size = New System.Drawing.Size(108, 17)
+        Me.chkAuto.Size = New System.Drawing.Size(189, 28)
         Me.chkAuto.TabIndex = 3
         Me.chkAuto.Text = "Solo automatiche"
         Me.chkAuto.UseVisualStyleBackColor = True
@@ -216,17 +220,18 @@ Partial Class FElencoScadenze
         Me.ccAnno.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
         Me.ccAnno.Checked = False
         Me.ccAnno.CheckText = "Anno"
-        Me.ccAnno.CheckWidth = 70
+        Me.ccAnno.CheckWidth = 96
         Me.ccAnno.ComboText = ""
         Me.ccAnno.DataSource = Nothing
         Me.ccAnno.DisplayMember = ""
         Me.ccAnno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown
-        Me.ccAnno.Location = New System.Drawing.Point(535, 6)
+        Me.ccAnno.Location = New System.Drawing.Point(980, 10)
+        Me.ccAnno.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.ccAnno.MaxDropDownItems = 8
         Me.ccAnno.Name = "ccAnno"
         Me.ccAnno.SelectedIndex = -1
         Me.ccAnno.SelectedValue = Nothing
-        Me.ccAnno.Size = New System.Drawing.Size(122, 21)
+        Me.ccAnno.Size = New System.Drawing.Size(224, 39)
         Me.ccAnno.TabIndex = 2
         Me.ccAnno.ValueFieldName = Nothing
         Me.ccAnno.ValueMember = ""
@@ -238,17 +243,18 @@ Partial Class FElencoScadenze
         Me.ccCategoria.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
         Me.ccCategoria.Checked = False
         Me.ccCategoria.CheckText = "Solo categoria"
-        Me.ccCategoria.CheckWidth = 130
+        Me.ccCategoria.CheckWidth = 179
         Me.ccCategoria.ComboText = ""
         Me.ccCategoria.DataSource = Nothing
         Me.ccCategoria.DisplayMember = ""
         Me.ccCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ccCategoria.Location = New System.Drawing.Point(10, 6)
+        Me.ccCategoria.Location = New System.Drawing.Point(18, 10)
+        Me.ccCategoria.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.ccCategoria.MaxDropDownItems = 8
         Me.ccCategoria.Name = "ccCategoria"
         Me.ccCategoria.SelectedIndex = -1
         Me.ccCategoria.SelectedValue = Nothing
-        Me.ccCategoria.Size = New System.Drawing.Size(519, 21)
+        Me.ccCategoria.Size = New System.Drawing.Size(952, 39)
         Me.ccCategoria.TabIndex = 1
         Me.ccCategoria.ValueFieldName = Nothing
         Me.ccCategoria.ValueMember = ""
@@ -258,6 +264,7 @@ Partial Class FElencoScadenze
         '
         Me.dgvcCodice.DataPropertyName = "Codice"
         Me.dgvcCodice.HeaderText = "Codice"
+        Me.dgvcCodice.MinimumWidth = 800
         Me.dgvcCodice.Name = "dgvcCodice"
         Me.dgvcCodice.ReadOnly = True
         '
@@ -268,17 +275,19 @@ Partial Class FElencoScadenze
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         Me.dgvcAnno.DefaultCellStyle = DataGridViewCellStyle2
         Me.dgvcAnno.HeaderText = "Anno"
+        Me.dgvcAnno.MinimumWidth = 6
         Me.dgvcAnno.Name = "dgvcAnno"
         Me.dgvcAnno.ReadOnly = True
+        Me.dgvcAnno.Width = 125
         '
         'dgvcScadRifPer
         '
         Me.dgvcScadRifPer.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcScadRifPer.DataPropertyName = "RifPeriodo"
         Me.dgvcScadRifPer.HeaderText = "Periodo"
+        Me.dgvcScadRifPer.MinimumWidth = 6
         Me.dgvcScadRifPer.Name = "dgvcScadRifPer"
         Me.dgvcScadRifPer.ReadOnly = True
-        Me.dgvcScadRifPer.Width = 80
         '
         'dgvcInizio
         '
@@ -288,6 +297,7 @@ Partial Class FElencoScadenze
         DataGridViewCellStyle3.NullValue = Nothing
         Me.dgvcInizio.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgvcInizio.HeaderText = "Inizio"
+        Me.dgvcInizio.MinimumWidth = 6
         Me.dgvcInizio.Name = "dgvcInizio"
         Me.dgvcInizio.ReadOnly = True
         Me.dgvcInizio.Width = 140
@@ -299,6 +309,7 @@ Partial Class FElencoScadenze
         DataGridViewCellStyle4.Format = "G"
         Me.dgvcUltimoAccesso.DefaultCellStyle = DataGridViewCellStyle4
         Me.dgvcUltimoAccesso.HeaderText = "Fine"
+        Me.dgvcUltimoAccesso.MinimumWidth = 6
         Me.dgvcUltimoAccesso.Name = "dgvcUltimoAccesso"
         Me.dgvcUltimoAccesso.ReadOnly = True
         Me.dgvcUltimoAccesso.Width = 140
@@ -310,9 +321,10 @@ Partial Class FElencoScadenze
         DataGridViewCellStyle5.Format = "G"
         Me.dgvcScadDichiarazione.DefaultCellStyle = DataGridViewCellStyle5
         Me.dgvcScadDichiarazione.HeaderText = "Scadenza dichiarazione"
+        Me.dgvcScadDichiarazione.MinimumWidth = 6
         Me.dgvcScadDichiarazione.Name = "dgvcScadDichiarazione"
         Me.dgvcScadDichiarazione.ReadOnly = True
-        Me.dgvcScadDichiarazione.Width = 160
+        Me.dgvcScadDichiarazione.Width = 140
         '
         'dgvcScadPagamento
         '
@@ -321,9 +333,10 @@ Partial Class FElencoScadenze
         DataGridViewCellStyle6.Format = "G"
         Me.dgvcScadPagamento.DefaultCellStyle = DataGridViewCellStyle6
         Me.dgvcScadPagamento.HeaderText = "Scadenza Pagamento"
+        Me.dgvcScadPagamento.MinimumWidth = 6
         Me.dgvcScadPagamento.Name = "dgvcScadPagamento"
         Me.dgvcScadPagamento.ReadOnly = True
-        Me.dgvcScadPagamento.Width = 160
+        Me.dgvcScadPagamento.Width = 140
         '
         'dgvcCategoria
         '
@@ -332,9 +345,10 @@ Partial Class FElencoScadenze
         DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         Me.dgvcCategoria.DefaultCellStyle = DataGridViewCellStyle7
         Me.dgvcCategoria.HeaderText = "Categoria"
+        Me.dgvcCategoria.MinimumWidth = 6
         Me.dgvcCategoria.Name = "dgvcCategoria"
         Me.dgvcCategoria.ReadOnly = True
-        Me.dgvcCategoria.Width = 80
+        Me.dgvcCategoria.Width = 110
         '
         'dgvcInteresse
         '
@@ -344,9 +358,10 @@ Partial Class FElencoScadenze
         DataGridViewCellStyle8.Format = "n2"
         Me.dgvcInteresse.DefaultCellStyle = DataGridViewCellStyle8
         Me.dgvcInteresse.HeaderText = "% Interesse"
+        Me.dgvcInteresse.MinimumWidth = 6
         Me.dgvcInteresse.Name = "dgvcInteresse"
         Me.dgvcInteresse.ReadOnly = True
-        Me.dgvcInteresse.Width = 80
+        Me.dgvcInteresse.Width = 110
         '
         'dgvcAuto
         '
@@ -355,23 +370,26 @@ Partial Class FElencoScadenze
         Me.dgvcAuto.HeaderText = "Crea automatico"
         Me.dgvcAuto.ImageFalse = Nothing
         Me.dgvcAuto.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_16_n_g
+        Me.dgvcAuto.MinimumWidth = 6
         Me.dgvcAuto.Name = "dgvcAuto"
         Me.dgvcAuto.ReadOnly = True
         Me.dgvcAuto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dgvcAuto.ValueFalse = "False"
         Me.dgvcAuto.ValueTrue = "True"
-        Me.dgvcAuto.Width = 60
+        Me.dgvcAuto.Width = 160
         '
         'FElencoScadenze
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1294, 499)
+        Me.ClientSize = New System.Drawing.Size(2372, 921)
         Me.Controls.Add(Me.dgvElenco)
         Me.Controls.Add(Me.tsMain)
         Me.Controls.Add(Me.Panel1)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "FElencoScadenze"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione scadenze"

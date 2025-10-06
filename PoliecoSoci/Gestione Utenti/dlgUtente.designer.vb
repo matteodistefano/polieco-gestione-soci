@@ -81,50 +81,50 @@ Partial Class dlgUtente
         'NomeLabel
         '
         NomeLabel.AutoSize = True
-        NomeLabel.Location = New System.Drawing.Point(4, 22)
-        NomeLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        NomeLabel.Location = New System.Drawing.Point(43, 30)
+        NomeLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         NomeLabel.Name = "NomeLabel"
-        NomeLabel.Size = New System.Drawing.Size(49, 17)
+        NomeLabel.Size = New System.Drawing.Size(69, 24)
         NomeLabel.TabIndex = 0
         NomeLabel.Text = "Nome:"
         '
         'DataRegistrazioneLabel
         '
         DataRegistrazioneLabel.AutoSize = True
-        DataRegistrazioneLabel.Location = New System.Drawing.Point(4, 341)
-        DataRegistrazioneLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        DataRegistrazioneLabel.Location = New System.Drawing.Point(6, 517)
+        DataRegistrazioneLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         DataRegistrazioneLabel.Name = "DataRegistrazioneLabel"
-        DataRegistrazioneLabel.Size = New System.Drawing.Size(99, 17)
+        DataRegistrazioneLabel.Size = New System.Drawing.Size(137, 24)
         DataRegistrazioneLabel.TabIndex = 2
         DataRegistrazioneLabel.Text = "Registrazione:"
         '
         'DataRilascioPasswordLabel
         '
         DataRilascioPasswordLabel.AutoSize = True
-        DataRilascioPasswordLabel.Location = New System.Drawing.Point(370, 341)
-        DataRilascioPasswordLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        DataRilascioPasswordLabel.Location = New System.Drawing.Point(552, 514)
+        DataRilascioPasswordLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         DataRilascioPasswordLabel.Name = "DataRilascioPasswordLabel"
-        DataRilascioPasswordLabel.Size = New System.Drawing.Size(100, 17)
+        DataRilascioPasswordLabel.Size = New System.Drawing.Size(138, 24)
         DataRilascioPasswordLabel.TabIndex = 4
         DataRilascioPasswordLabel.Text = "Rilascio Pass.:"
         '
         'DataUltimoAccessoLabel
         '
         DataUltimoAccessoLabel.AutoSize = True
-        DataUltimoAccessoLabel.Location = New System.Drawing.Point(4, 370)
-        DataUltimoAccessoLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        DataUltimoAccessoLabel.Location = New System.Drawing.Point(6, 560)
+        DataUltimoAccessoLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         DataUltimoAccessoLabel.Name = "DataUltimoAccessoLabel"
-        DataUltimoAccessoLabel.Size = New System.Drawing.Size(81, 17)
+        DataUltimoAccessoLabel.Size = New System.Drawing.Size(115, 24)
         DataUltimoAccessoLabel.TabIndex = 6
         DataUltimoAccessoLabel.Text = "Ultimo acc.:"
         '
         'CellulareLabel
         '
         CellulareLabel.AutoSize = True
-        CellulareLabel.Location = New System.Drawing.Point(401, 86)
-        CellulareLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        CellulareLabel.Location = New System.Drawing.Point(586, 129)
+        CellulareLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         CellulareLabel.Name = "CellulareLabel"
-        CellulareLabel.Size = New System.Drawing.Size(67, 17)
+        CellulareLabel.Size = New System.Drawing.Size(94, 24)
         CellulareLabel.TabIndex = 8
         CellulareLabel.Text = "Cellulare:"
         CellulareLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -132,59 +132,59 @@ Partial Class dlgUtente
         'NumAccessiLabel
         '
         NumAccessiLabel.AutoSize = True
-        NumAccessiLabel.Location = New System.Drawing.Point(370, 370)
-        NumAccessiLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        NumAccessiLabel.Location = New System.Drawing.Point(552, 564)
+        NumAccessiLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         NumAccessiLabel.Name = "NumAccessiLabel"
-        NumAccessiLabel.Size = New System.Drawing.Size(93, 17)
+        NumAccessiLabel.Size = New System.Drawing.Size(132, 24)
         NumAccessiLabel.TabIndex = 10
         NumAccessiLabel.Text = "Num Accessi:"
         '
         'EmailLabel
         '
         EmailLabel.AutoSize = True
-        EmailLabel.Location = New System.Drawing.Point(4, 54)
-        EmailLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        EmailLabel.Location = New System.Drawing.Point(43, 78)
+        EmailLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         EmailLabel.Name = "EmailLabel"
-        EmailLabel.Size = New System.Drawing.Size(46, 17)
+        EmailLabel.Size = New System.Drawing.Size(65, 24)
         EmailLabel.TabIndex = 12
         EmailLabel.Text = "Email:"
         '
         'TelefonoLabel
         '
         TelefonoLabel.AutoSize = True
-        TelefonoLabel.Location = New System.Drawing.Point(4, 86)
-        TelefonoLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        TelefonoLabel.Location = New System.Drawing.Point(43, 129)
+        TelefonoLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         TelefonoLabel.Name = "TelefonoLabel"
-        TelefonoLabel.Size = New System.Drawing.Size(68, 17)
+        TelefonoLabel.Size = New System.Drawing.Size(93, 24)
         TelefonoLabel.TabIndex = 14
         TelefonoLabel.Text = "Telefono:"
         '
         'UserIdLabel
         '
         UserIdLabel.AutoSize = True
-        UserIdLabel.Location = New System.Drawing.Point(4, 118)
-        UserIdLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        UserIdLabel.Location = New System.Drawing.Point(43, 174)
+        UserIdLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         UserIdLabel.Name = "UserIdLabel"
-        UserIdLabel.Size = New System.Drawing.Size(57, 17)
+        UserIdLabel.Size = New System.Drawing.Size(77, 24)
         UserIdLabel.TabIndex = 16
         UserIdLabel.Text = "User Id:"
         '
         'TmpPwdLabel
         '
         TmpPwdLabel.AutoSize = True
-        TmpPwdLabel.Location = New System.Drawing.Point(4, 150)
-        TmpPwdLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        TmpPwdLabel.Location = New System.Drawing.Point(43, 222)
+        TmpPwdLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         TmpPwdLabel.Name = "TmpPwdLabel"
-        TmpPwdLabel.Size = New System.Drawing.Size(73, 17)
+        TmpPwdLabel.Size = New System.Drawing.Size(103, 24)
         TmpPwdLabel.TabIndex = 18
         TmpPwdLabel.Text = "Password:"
         '
         'AttivoLabel
         '
-        AttivoLabel.Location = New System.Drawing.Point(403, 178)
-        AttivoLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        AttivoLabel.Location = New System.Drawing.Point(589, 272)
+        AttivoLabel.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         AttivoLabel.Name = "AttivoLabel"
-        AttivoLabel.Size = New System.Drawing.Size(65, 24)
+        AttivoLabel.Size = New System.Drawing.Size(89, 36)
         AttivoLabel.TabIndex = 7
         AttivoLabel.Text = "Attivo:"
         AttivoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -192,20 +192,20 @@ Partial Class dlgUtente
         'Label1
         '
         Label1.AutoSize = True
-        Label1.Location = New System.Drawing.Point(6, 178)
-        Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Label1.Location = New System.Drawing.Point(43, 278)
+        Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Label1.Name = "Label1"
-        Label1.Size = New System.Drawing.Size(44, 17)
+        Label1.Size = New System.Drawing.Size(59, 24)
         Label1.TabIndex = 25
         Label1.Text = "Ruoli:"
         '
         'Label2
         '
         Label2.AutoSize = True
-        Label2.Location = New System.Drawing.Point(381, 118)
-        Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Label2.Location = New System.Drawing.Point(559, 177)
+        Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Label2.Name = "Label2"
-        Label2.Size = New System.Drawing.Size(87, 17)
+        Label2.Size = New System.Drawing.Size(122, 24)
         Label2.TabIndex = 27
         Label2.Text = "Arxivar user:"
         Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -213,10 +213,10 @@ Partial Class dlgUtente
         'Label3
         '
         Label3.AutoSize = True
-        Label3.Location = New System.Drawing.Point(384, 150)
-        Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Label3.Location = New System.Drawing.Point(563, 225)
+        Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Label3.Name = "Label3"
-        Label3.Size = New System.Drawing.Size(84, 17)
+        Label3.Size = New System.Drawing.Size(120, 24)
         Label3.TabIndex = 29
         Label3.Text = "Arxivar pwd:"
         Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -224,12 +224,13 @@ Partial Class dlgUtente
         'tsUtenti
         '
         Me.tsUtenti.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsUtenti.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsUtenti.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsUtenti.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsUtenti.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbAnnulla, Me.tsbOk, Me.tsbStampa})
-        Me.tsUtenti.Location = New System.Drawing.Point(0, 429)
+        Me.tsUtenti.Location = New System.Drawing.Point(0, 666)
         Me.tsUtenti.Name = "tsUtenti"
-        Me.tsUtenti.Size = New System.Drawing.Size(860, 45)
+        Me.tsUtenti.Size = New System.Drawing.Size(1244, 45)
         Me.tsUtenti.TabIndex = 0
         Me.tsUtenti.Text = "ToolStrip1"
         '
@@ -241,7 +242,7 @@ Partial Class dlgUtente
         Me.tsbAnnulla.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbAnnulla.Name = "tsbAnnulla"
         Me.tsbAnnulla.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbAnnulla.Size = New System.Drawing.Size(101, 42)
+        Me.tsbAnnulla.Size = New System.Drawing.Size(119, 42)
         Me.tsbAnnulla.Text = "&Annulla"
         '
         'tsbOk
@@ -252,7 +253,7 @@ Partial Class dlgUtente
         Me.tsbOk.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbOk.Name = "tsbOk"
         Me.tsbOk.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbOk.Size = New System.Drawing.Size(69, 42)
+        Me.tsbOk.Size = New System.Drawing.Size(76, 42)
         Me.tsbOk.Text = "&Ok"
         '
         'tsbStampa
@@ -261,7 +262,7 @@ Partial Class dlgUtente
         Me.tsbStampa.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStampa.Name = "tsbStampa"
-        Me.tsbStampa.Size = New System.Drawing.Size(96, 42)
+        Me.tsbStampa.Size = New System.Drawing.Size(116, 42)
         Me.tsbStampa.Text = "&Stampa"
         '
         'pnlEdit
@@ -298,20 +299,20 @@ Partial Class dlgUtente
         Me.pnlEdit.Controls.Add(AttivoLabel)
         Me.pnlEdit.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlEdit.Location = New System.Drawing.Point(0, 0)
-        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.pnlEdit.Name = "pnlEdit"
-        Me.pnlEdit.Size = New System.Drawing.Size(860, 429)
+        Me.pnlEdit.Size = New System.Drawing.Size(1244, 666)
         Me.pnlEdit.TabIndex = 6
         '
         'txtArxPwd
         '
         Me.txtArxPwd.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.txtArxPwd.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "ArxivarPassword", True))
-        Me.txtArxPwd.Location = New System.Drawing.Point(476, 146)
-        Me.txtArxPwd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtArxPwd.Location = New System.Drawing.Point(689, 219)
+        Me.txtArxPwd.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtArxPwd.Name = "txtArxPwd"
         Me.txtArxPwd.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtArxPwd.Size = New System.Drawing.Size(216, 22)
+        Me.txtArxPwd.Size = New System.Drawing.Size(296, 32)
         Me.txtArxPwd.TabIndex = 7
         '
         'bsUtente
@@ -322,10 +323,10 @@ Partial Class dlgUtente
         '
         Me.txtArxUserId.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.txtArxUserId.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "ArxivarUserId", True))
-        Me.txtArxUserId.Location = New System.Drawing.Point(476, 114)
-        Me.txtArxUserId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtArxUserId.Location = New System.Drawing.Point(689, 171)
+        Me.txtArxUserId.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtArxUserId.Name = "txtArxUserId"
-        Me.txtArxUserId.Size = New System.Drawing.Size(216, 22)
+        Me.txtArxUserId.Size = New System.Drawing.Size(296, 32)
         Me.txtArxUserId.TabIndex = 6
         '
         'lstRuoli
@@ -333,19 +334,19 @@ Partial Class dlgUtente
         Me.lstRuoli.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.lstRuoli.CheckOnClick = True
         Me.lstRuoli.FormattingEnabled = True
-        Me.lstRuoli.Location = New System.Drawing.Point(103, 178)
-        Me.lstRuoli.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lstRuoli.Location = New System.Drawing.Point(177, 272)
+        Me.lstRuoli.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.lstRuoli.Name = "lstRuoli"
-        Me.lstRuoli.Size = New System.Drawing.Size(259, 140)
+        Me.lstRuoli.Size = New System.Drawing.Size(355, 208)
         Me.lstRuoli.TabIndex = 8
         '
         'btnResetPwd
         '
-        Me.btnResetPwd.Image = Global.PoliecoSoci.My.Resources.Resources.Document_Settings_16_n_g
-        Me.btnResetPwd.Location = New System.Drawing.Point(319, 144)
-        Me.btnResetPwd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnResetPwd.Image = Global.PoliecoSoci.My.Resources.Resources.Document_Settings_32_h_g
+        Me.btnResetPwd.Location = New System.Drawing.Point(474, 216)
+        Me.btnResetPwd.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnResetPwd.Name = "btnResetPwd"
-        Me.btnResetPwd.Size = New System.Drawing.Size(43, 28)
+        Me.btnResetPwd.Size = New System.Drawing.Size(59, 42)
         Me.btnResetPwd.TabIndex = 9
         Me.btnResetPwd.UseVisualStyleBackColor = True
         '
@@ -353,10 +354,10 @@ Partial Class dlgUtente
         '
         Me.lPwd.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.lPwd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lPwd.Location = New System.Drawing.Point(319, 113)
-        Me.lPwd.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lPwd.Location = New System.Drawing.Point(474, 170)
+        Me.lPwd.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lPwd.Name = "lPwd"
-        Me.lPwd.Size = New System.Drawing.Size(42, 24)
+        Me.lPwd.Size = New System.Drawing.Size(57, 35)
         Me.lPwd.TabIndex = 24
         Me.lPwd.Text = "XXXXXXXXXX"
         Me.lPwd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -364,122 +365,123 @@ Partial Class dlgUtente
         'AttivoCheckBox
         '
         Me.AttivoCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.bsUtente, "IsAttivo", True))
-        Me.AttivoCheckBox.Location = New System.Drawing.Point(476, 176)
-        Me.AttivoCheckBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.AttivoCheckBox.Location = New System.Drawing.Point(689, 269)
+        Me.AttivoCheckBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.AttivoCheckBox.Name = "AttivoCheckBox"
-        Me.AttivoCheckBox.Size = New System.Drawing.Size(29, 30)
+        Me.AttivoCheckBox.Size = New System.Drawing.Size(40, 45)
         Me.AttivoCheckBox.TabIndex = 9
         '
         'txtPwd
         '
         Me.txtPwd.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.txtPwd.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "PasswordProvvisoria", True))
-        Me.txtPwd.Location = New System.Drawing.Point(103, 146)
-        Me.txtPwd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtPwd.Location = New System.Drawing.Point(177, 219)
+        Me.txtPwd.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtPwd.Name = "txtPwd"
         Me.txtPwd.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPwd.Size = New System.Drawing.Size(207, 22)
+        Me.txtPwd.Size = New System.Drawing.Size(283, 32)
         Me.txtPwd.TabIndex = 5
         '
         'txtUserId
         '
         Me.txtUserId.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.txtUserId.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "UserName", True))
-        Me.txtUserId.Location = New System.Drawing.Point(103, 114)
-        Me.txtUserId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtUserId.Location = New System.Drawing.Point(177, 171)
+        Me.txtUserId.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtUserId.Name = "txtUserId"
-        Me.txtUserId.Size = New System.Drawing.Size(207, 22)
+        Me.txtUserId.Size = New System.Drawing.Size(283, 32)
         Me.txtUserId.TabIndex = 4
         '
         'TelefonoTextBox
         '
         Me.TelefonoTextBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TelefonoTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "Telefono", True))
-        Me.TelefonoTextBox.Location = New System.Drawing.Point(103, 82)
-        Me.TelefonoTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TelefonoTextBox.Location = New System.Drawing.Point(177, 123)
+        Me.TelefonoTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TelefonoTextBox.Name = "TelefonoTextBox"
-        Me.TelefonoTextBox.Size = New System.Drawing.Size(257, 22)
+        Me.TelefonoTextBox.Size = New System.Drawing.Size(352, 32)
         Me.TelefonoTextBox.TabIndex = 2
         '
         'EmailTextBox
         '
         Me.EmailTextBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.EmailTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "Email", True))
-        Me.EmailTextBox.Location = New System.Drawing.Point(103, 50)
-        Me.EmailTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.EmailTextBox.Location = New System.Drawing.Point(177, 75)
+        Me.EmailTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.EmailTextBox.Name = "EmailTextBox"
-        Me.EmailTextBox.Size = New System.Drawing.Size(737, 22)
+        Me.EmailTextBox.Size = New System.Drawing.Size(1012, 32)
         Me.EmailTextBox.TabIndex = 1
         '
         'NumAccessiTextBox
         '
         Me.NumAccessiTextBox.BackColor = System.Drawing.Color.WhiteSmoke
         Me.NumAccessiTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "NumeroAccessi", True))
-        Me.NumAccessiTextBox.Location = New System.Drawing.Point(476, 366)
-        Me.NumAccessiTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.NumAccessiTextBox.Location = New System.Drawing.Point(697, 558)
+        Me.NumAccessiTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.NumAccessiTextBox.Name = "NumAccessiTextBox"
-        Me.NumAccessiTextBox.Size = New System.Drawing.Size(193, 22)
+        Me.NumAccessiTextBox.Size = New System.Drawing.Size(264, 32)
         Me.NumAccessiTextBox.TabIndex = 11
         '
         'CellulareTextBox
         '
         Me.CellulareTextBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.CellulareTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "Cellulare", True))
-        Me.CellulareTextBox.Location = New System.Drawing.Point(476, 82)
-        Me.CellulareTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CellulareTextBox.Location = New System.Drawing.Point(689, 123)
+        Me.CellulareTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.CellulareTextBox.Name = "CellulareTextBox"
-        Me.CellulareTextBox.Size = New System.Drawing.Size(364, 22)
+        Me.CellulareTextBox.Size = New System.Drawing.Size(499, 32)
         Me.CellulareTextBox.TabIndex = 3
         '
         'DataUltimoAccessoTextBox
         '
         Me.DataUltimoAccessoTextBox.BackColor = System.Drawing.Color.WhiteSmoke
         Me.DataUltimoAccessoTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "DataAccesso", True))
-        Me.DataUltimoAccessoTextBox.Location = New System.Drawing.Point(96, 370)
-        Me.DataUltimoAccessoTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataUltimoAccessoTextBox.Location = New System.Drawing.Point(177, 560)
+        Me.DataUltimoAccessoTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.DataUltimoAccessoTextBox.Name = "DataUltimoAccessoTextBox"
-        Me.DataUltimoAccessoTextBox.Size = New System.Drawing.Size(257, 22)
+        Me.DataUltimoAccessoTextBox.Size = New System.Drawing.Size(352, 32)
         Me.DataUltimoAccessoTextBox.TabIndex = 9
         '
         'DataRilascioPasswordTextBox
         '
         Me.DataRilascioPasswordTextBox.BackColor = System.Drawing.Color.WhiteSmoke
         Me.DataRilascioPasswordTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "DataRilascioPassword", True, System.Windows.Forms.DataSourceUpdateMode.OnValidation, Nothing, "F"))
-        Me.DataRilascioPasswordTextBox.Location = New System.Drawing.Point(476, 338)
-        Me.DataRilascioPasswordTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataRilascioPasswordTextBox.Location = New System.Drawing.Point(697, 509)
+        Me.DataRilascioPasswordTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.DataRilascioPasswordTextBox.Name = "DataRilascioPasswordTextBox"
-        Me.DataRilascioPasswordTextBox.Size = New System.Drawing.Size(359, 22)
+        Me.DataRilascioPasswordTextBox.Size = New System.Drawing.Size(492, 32)
         Me.DataRilascioPasswordTextBox.TabIndex = 10
         '
         'DataRegistrazioneTextBox
         '
         Me.DataRegistrazioneTextBox.BackColor = System.Drawing.Color.WhiteSmoke
         Me.DataRegistrazioneTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "DataRegistrazione", True, System.Windows.Forms.DataSourceUpdateMode.OnValidation, Nothing, "F"))
-        Me.DataRegistrazioneTextBox.Location = New System.Drawing.Point(98, 338)
-        Me.DataRegistrazioneTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataRegistrazioneTextBox.Location = New System.Drawing.Point(177, 509)
+        Me.DataRegistrazioneTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.DataRegistrazioneTextBox.Name = "DataRegistrazioneTextBox"
-        Me.DataRegistrazioneTextBox.Size = New System.Drawing.Size(257, 22)
+        Me.DataRegistrazioneTextBox.Size = New System.Drawing.Size(352, 32)
         Me.DataRegistrazioneTextBox.TabIndex = 8
         '
         'NomeTextBox
         '
         Me.NomeTextBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.NomeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsUtente, "Nome", True))
-        Me.NomeTextBox.Location = New System.Drawing.Point(103, 18)
-        Me.NomeTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.NomeTextBox.Location = New System.Drawing.Point(177, 27)
+        Me.NomeTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.NomeTextBox.Name = "NomeTextBox"
-        Me.NomeTextBox.Size = New System.Drawing.Size(737, 22)
+        Me.NomeTextBox.Size = New System.Drawing.Size(1012, 32)
         Me.NomeTextBox.TabIndex = 0
         '
         'dlgUtente
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(860, 474)
+        Me.ClientSize = New System.Drawing.Size(1244, 711)
         Me.Controls.Add(Me.pnlEdit)
         Me.Controls.Add(Me.tsUtenti)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "dlgUtente"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Anagrafica utente"

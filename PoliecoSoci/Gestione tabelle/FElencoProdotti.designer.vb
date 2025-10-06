@@ -53,12 +53,13 @@ Partial Class FElencoProdotti
         'tsMain
         '
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNuovo, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbStampa, Me.tsbSelect})
-        Me.tsMain.Location = New System.Drawing.Point(0, 569)
+        Me.tsMain.Location = New System.Drawing.Point(0, 876)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1169, 45)
+        Me.tsMain.Size = New System.Drawing.Size(1607, 45)
         Me.tsMain.TabIndex = 4
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -69,7 +70,7 @@ Partial Class FElencoProdotti
         Me.tsbNuovo.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbNuovo.Name = "tsbNuovo"
         Me.tsbNuovo.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbNuovo.Size = New System.Drawing.Size(92, 42)
+        Me.tsbNuovo.Size = New System.Drawing.Size(107, 42)
         Me.tsbNuovo.Text = "Nuova"
         Me.tsbNuovo.ToolTipText = "Nuovo scadenza"
         Me.tsbNuovo.Visible = False
@@ -80,7 +81,7 @@ Partial Class FElencoProdotti
         Me.tsbModifica.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbModifica.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbModifica.Name = "tsbModifica"
-        Me.tsbModifica.Size = New System.Drawing.Size(104, 42)
+        Me.tsbModifica.Size = New System.Drawing.Size(122, 42)
         Me.tsbModifica.Text = "Modifica"
         Me.tsbModifica.Visible = False
         '
@@ -90,7 +91,7 @@ Partial Class FElencoProdotti
         Me.tsbElimina.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbElimina.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbElimina.Name = "tsbElimina"
-        Me.tsbElimina.Size = New System.Drawing.Size(98, 42)
+        Me.tsbElimina.Size = New System.Drawing.Size(117, 42)
         Me.tsbElimina.Text = "Elimina "
         Me.tsbElimina.Visible = False
         '
@@ -108,7 +109,7 @@ Partial Class FElencoProdotti
         Me.tsbChiudi.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbChiudi.Name = "tsbChiudi"
         Me.tsbChiudi.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbChiudi.Size = New System.Drawing.Size(93, 42)
+        Me.tsbChiudi.Size = New System.Drawing.Size(108, 42)
         Me.tsbChiudi.Text = "&Chiudi"
         '
         'tsbStampa
@@ -117,7 +118,7 @@ Partial Class FElencoProdotti
         Me.tsbStampa.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStampa.Name = "tsbStampa"
-        Me.tsbStampa.Size = New System.Drawing.Size(96, 42)
+        Me.tsbStampa.Size = New System.Drawing.Size(116, 42)
         Me.tsbStampa.Text = "Stampa"
         Me.tsbStampa.Visible = False
         '
@@ -129,7 +130,7 @@ Partial Class FElencoProdotti
         Me.tsbSelect.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSelect.Name = "tsbSelect"
         Me.tsbSelect.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbSelect.Size = New System.Drawing.Size(115, 42)
+        Me.tsbSelect.Size = New System.Drawing.Size(139, 42)
         Me.tsbSelect.Text = "&Seleziona"
         '
         'DataGridViewBooleanImageColumn1
@@ -139,6 +140,7 @@ Partial Class FElencoProdotti
         Me.DataGridViewBooleanImageColumn1.HeaderText = "Crea automatico"
         Me.DataGridViewBooleanImageColumn1.ImageFalse = Nothing
         Me.DataGridViewBooleanImageColumn1.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_16_n_g
+        Me.DataGridViewBooleanImageColumn1.MinimumWidth = 6
         Me.DataGridViewBooleanImageColumn1.Name = "DataGridViewBooleanImageColumn1"
         Me.DataGridViewBooleanImageColumn1.ReadOnly = True
         Me.DataGridViewBooleanImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -149,29 +151,29 @@ Partial Class FElencoProdotti
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(4, 13)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(6, 26)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(45, 17)
+        Me.Label9.Size = New System.Drawing.Size(62, 24)
         Me.Label9.TabIndex = 36
         Me.Label9.Text = "Cerca"
         '
         'txtRic
         '
-        Me.txtRic.Location = New System.Drawing.Point(57, 13)
-        Me.txtRic.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtRic.Location = New System.Drawing.Point(80, 22)
+        Me.txtRic.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtRic.Name = "txtRic"
-        Me.txtRic.Size = New System.Drawing.Size(287, 22)
+        Me.txtRic.Size = New System.Drawing.Size(393, 32)
         Me.txtRic.TabIndex = 37
         '
         'btnRic
         '
         Me.btnRic.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnRic.Image = Global.PoliecoSoci.My.Resources.Resources.Search_16_n_g
-        Me.btnRic.Location = New System.Drawing.Point(351, 13)
-        Me.btnRic.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnRic.Image = Global.PoliecoSoci.My.Resources.Resources.Search_24_n_g
+        Me.btnRic.Location = New System.Drawing.Point(483, 20)
+        Me.btnRic.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.btnRic.Name = "btnRic"
-        Me.btnRic.Size = New System.Drawing.Size(44, 25)
+        Me.btnRic.Size = New System.Drawing.Size(60, 36)
         Me.btnRic.TabIndex = 77
         Me.btnRic.UseVisualStyleBackColor = True
         '
@@ -182,8 +184,9 @@ Partial Class FElencoProdotti
         Me.Panel1.Controls.Add(Me.Label9)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1169, 57)
+        Me.Panel1.Size = New System.Drawing.Size(1607, 86)
         Me.Panel1.TabIndex = 9
         '
         'dgvProd
@@ -200,13 +203,14 @@ Partial Class FElencoProdotti
         Me.dgvProd.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcCat, Me.dgvcProd})
         Me.dgvProd.DataSource = Me.bsProd
         Me.dgvProd.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvProd.Location = New System.Drawing.Point(0, 57)
-        Me.dgvProd.Margin = New System.Windows.Forms.Padding(4)
+        Me.dgvProd.Location = New System.Drawing.Point(0, 86)
+        Me.dgvProd.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.dgvProd.Name = "dgvProd"
         Me.dgvProd.ReadOnly = True
         Me.dgvProd.RowHeadersVisible = False
+        Me.dgvProd.RowHeadersWidth = 51
         Me.dgvProd.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvProd.Size = New System.Drawing.Size(1169, 512)
+        Me.dgvProd.Size = New System.Drawing.Size(1607, 790)
         Me.dgvProd.TabIndex = 80
         '
         'dgvcCat
@@ -215,6 +219,7 @@ Partial Class FElencoProdotti
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.dgvcCat.DefaultCellStyle = DataGridViewCellStyle2
         Me.dgvcCat.HeaderText = "Categoria"
+        Me.dgvcCat.MinimumWidth = 6
         Me.dgvcCat.Name = "dgvcCat"
         Me.dgvcCat.ReadOnly = True
         '
@@ -224,19 +229,21 @@ Partial Class FElencoProdotti
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.dgvcProd.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgvcProd.HeaderText = "Prodotto"
+        Me.dgvcProd.MinimumWidth = 6
         Me.dgvcProd.Name = "dgvcProd"
         Me.dgvcProd.ReadOnly = True
         '
         'FElencoProdotti
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1169, 614)
+        Me.ClientSize = New System.Drawing.Size(1607, 921)
         Me.Controls.Add(Me.dgvProd)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.tsMain)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "FElencoProdotti"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione prodotti"

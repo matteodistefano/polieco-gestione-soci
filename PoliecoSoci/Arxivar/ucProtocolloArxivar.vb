@@ -84,9 +84,10 @@ Public Class ucProtocolloArxivar
         End Set
     End Property
 
-    Private Sub ucProtocolloArxivar_Resize(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Resize
-        Me.Height = 20
-    End Sub
+
+    'Private Sub ucProtocolloArxivar_Resize(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Resize
+    '    Me.Height = 20
+    'End Sub
 
     Public Property BackColorTxt() As Color
         Get
