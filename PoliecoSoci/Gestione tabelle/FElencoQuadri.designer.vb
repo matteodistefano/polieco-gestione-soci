@@ -35,17 +35,17 @@ Partial Class FElencoQuadri
         Me.tsbStampa = New System.Windows.Forms.ToolStripButton()
         Me.tsbMateriali = New System.Windows.Forms.ToolStripButton()
         Me.dgvElenco = New System.Windows.Forms.DataGridView()
-        Me.bsQuadri = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.chkAttivi = New System.Windows.Forms.CheckBox()
-        Me.ccTipo = New mdsUIControls.ucCheckedCombo()
-        Me.DataGridViewBooleanImageColumn1 = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.dgvcCodice = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcSegno = New System.Windows.Forms.DataGridViewImageColumn()
         Me.dgvcPeriodo = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcUtilizzato = New mdsUIControls.DataGridViewBooleanImageColumn()
+        Me.bsQuadri = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.chkAttivi = New System.Windows.Forms.CheckBox()
+        Me.ccTipo = New mdsUIControls.ucCheckedCombo()
+        Me.DataGridViewBooleanImageColumn1 = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.tsMain.SuspendLayout()
         CType(Me.dgvElenco, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bsQuadri, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -59,7 +59,7 @@ Partial Class FElencoQuadri
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNuovo, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbSelect, Me.tsbStampa, Me.tsbMateriali})
-        Me.tsMain.Location = New System.Drawing.Point(0, 876)
+        Me.tsMain.Location = New System.Drawing.Point(0, 811)
         Me.tsMain.Name = "tsMain"
         Me.tsMain.Size = New System.Drawing.Size(1607, 45)
         Me.tsMain.TabIndex = 4
@@ -155,78 +155,14 @@ Partial Class FElencoQuadri
         Me.dgvElenco.DataSource = Me.bsQuadri
         Me.dgvElenco.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvElenco.Location = New System.Drawing.Point(0, 62)
-        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvElenco.Name = "dgvElenco"
         Me.dgvElenco.ReadOnly = True
         Me.dgvElenco.RowHeadersVisible = False
         Me.dgvElenco.RowHeadersWidth = 51
         Me.dgvElenco.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvElenco.Size = New System.Drawing.Size(1607, 814)
+        Me.dgvElenco.Size = New System.Drawing.Size(1607, 749)
         Me.dgvElenco.TabIndex = 6
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.chkAttivi)
-        Me.Panel1.Controls.Add(Me.ccTipo)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1607, 62)
-        Me.Panel1.TabIndex = 7
-        '
-        'chkAttivi
-        '
-        Me.chkAttivi.Checked = True
-        Me.chkAttivi.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkAttivi.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_32_n_p8
-        Me.chkAttivi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkAttivi.Location = New System.Drawing.Point(760, 8)
-        Me.chkAttivi.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.chkAttivi.Name = "chkAttivi"
-        Me.chkAttivi.Size = New System.Drawing.Size(205, 50)
-        Me.chkAttivi.TabIndex = 2
-        Me.chkAttivi.Text = "     Solo attivi"
-        Me.chkAttivi.UseVisualStyleBackColor = True
-        '
-        'ccTipo
-        '
-        Me.ccTipo.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
-        Me.ccTipo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
-        Me.ccTipo.Checked = False
-        Me.ccTipo.CheckText = "Solo tipo"
-        Me.ccTipo.CheckWidth = 179
-        Me.ccTipo.ComboText = ""
-        Me.ccTipo.DataSource = Nothing
-        Me.ccTipo.DisplayMember = ""
-        Me.ccTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ccTipo.Location = New System.Drawing.Point(18, 10)
-        Me.ccTipo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
-        Me.ccTipo.MaxDropDownItems = 8
-        Me.ccTipo.Name = "ccTipo"
-        Me.ccTipo.SelectedIndex = -1
-        Me.ccTipo.SelectedValue = Nothing
-        Me.ccTipo.Size = New System.Drawing.Size(705, 39)
-        Me.ccTipo.TabIndex = 1
-        Me.ccTipo.ValueFieldName = Nothing
-        Me.ccTipo.ValueMember = ""
-        Me.ccTipo.ValueType = mdsUIControls.ucCheckedCombo.ValueTypeEnum.TEXT
-        '
-        'DataGridViewBooleanImageColumn1
-        '
-        Me.DataGridViewBooleanImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.DataGridViewBooleanImageColumn1.DataPropertyName = "CreaAutomatico"
-        Me.DataGridViewBooleanImageColumn1.HeaderText = "Crea automatico"
-        Me.DataGridViewBooleanImageColumn1.ImageFalse = Nothing
-        Me.DataGridViewBooleanImageColumn1.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_16_n_g
-        Me.DataGridViewBooleanImageColumn1.MinimumWidth = 6
-        Me.DataGridViewBooleanImageColumn1.Name = "DataGridViewBooleanImageColumn1"
-        Me.DataGridViewBooleanImageColumn1.ReadOnly = True
-        Me.DataGridViewBooleanImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewBooleanImageColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewBooleanImageColumn1.ValueFalse = "False"
-        Me.DataGridViewBooleanImageColumn1.ValueTrue = "True"
-        Me.DataGridViewBooleanImageColumn1.Width = 60
         '
         'dgvcCodice
         '
@@ -293,17 +229,81 @@ Partial Class FElencoQuadri
         Me.dgvcUtilizzato.ValueTrue = "True"
         Me.dgvcUtilizzato.Width = 80
         '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.chkAttivi)
+        Me.Panel1.Controls.Add(Me.ccTipo)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1607, 62)
+        Me.Panel1.TabIndex = 7
+        '
+        'chkAttivi
+        '
+        Me.chkAttivi.Checked = True
+        Me.chkAttivi.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.chkAttivi.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_32_n_p8
+        Me.chkAttivi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.chkAttivi.Location = New System.Drawing.Point(760, 8)
+        Me.chkAttivi.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkAttivi.Name = "chkAttivi"
+        Me.chkAttivi.Size = New System.Drawing.Size(205, 50)
+        Me.chkAttivi.TabIndex = 2
+        Me.chkAttivi.Text = "     Solo attivi"
+        Me.chkAttivi.UseVisualStyleBackColor = True
+        '
+        'ccTipo
+        '
+        Me.ccTipo.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
+        Me.ccTipo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
+        Me.ccTipo.Checked = False
+        Me.ccTipo.CheckText = "Solo tipo"
+        Me.ccTipo.CheckWidth = 246
+        Me.ccTipo.ComboText = ""
+        Me.ccTipo.DataSource = Nothing
+        Me.ccTipo.DisplayMember = ""
+        Me.ccTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ccTipo.Location = New System.Drawing.Point(18, 10)
+        Me.ccTipo.Margin = New System.Windows.Forms.Padding(6)
+        Me.ccTipo.MaxDropDownItems = 8
+        Me.ccTipo.Name = "ccTipo"
+        Me.ccTipo.SelectedIndex = -1
+        Me.ccTipo.SelectedValue = Nothing
+        Me.ccTipo.Size = New System.Drawing.Size(705, 39)
+        Me.ccTipo.TabIndex = 1
+        Me.ccTipo.ValueFieldName = Nothing
+        Me.ccTipo.ValueMember = ""
+        Me.ccTipo.ValueType = mdsUIControls.ucCheckedCombo.ValueTypeEnum.TEXT
+        '
+        'DataGridViewBooleanImageColumn1
+        '
+        Me.DataGridViewBooleanImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.DataGridViewBooleanImageColumn1.DataPropertyName = "CreaAutomatico"
+        Me.DataGridViewBooleanImageColumn1.HeaderText = "Crea automatico"
+        Me.DataGridViewBooleanImageColumn1.ImageFalse = Nothing
+        Me.DataGridViewBooleanImageColumn1.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_16_n_g
+        Me.DataGridViewBooleanImageColumn1.MinimumWidth = 6
+        Me.DataGridViewBooleanImageColumn1.Name = "DataGridViewBooleanImageColumn1"
+        Me.DataGridViewBooleanImageColumn1.ReadOnly = True
+        Me.DataGridViewBooleanImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewBooleanImageColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewBooleanImageColumn1.ValueFalse = "False"
+        Me.DataGridViewBooleanImageColumn1.ValueTrue = "True"
+        Me.DataGridViewBooleanImageColumn1.Width = 60
+        '
         'FElencoQuadri
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1607, 921)
+        Me.ClientSize = New System.Drawing.Size(1607, 856)
         Me.Controls.Add(Me.dgvElenco)
         Me.Controls.Add(Me.tsMain)
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "FElencoQuadri"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione quadri dichiarazioni"

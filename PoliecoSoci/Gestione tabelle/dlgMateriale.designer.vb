@@ -187,7 +187,7 @@ Partial Class dlgMateriale
         Me.pnlEdit.Controls.Add(Me.txtCodice)
         Me.pnlEdit.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlEdit.Location = New System.Drawing.Point(0, 0)
-        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlEdit.Name = "pnlEdit"
         Me.pnlEdit.Size = New System.Drawing.Size(819, 355)
         Me.pnlEdit.TabIndex = 6
@@ -204,7 +204,7 @@ Partial Class dlgMateriale
         Me.cdiPeriodo.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.cdiPeriodo.MonthFormat = False
         Me.cdiPeriodo.Name = "cdiPeriodo"
-        Me.cdiPeriodo.Size = New System.Drawing.Size(425, 42)
+        Me.cdiPeriodo.Size = New System.Drawing.Size(425, 35)
         Me.cdiPeriodo.TabIndex = 7
         Me.cdiPeriodo.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiPeriodo.TxtBackColor = System.Drawing.SystemColors.Window
@@ -224,7 +224,7 @@ Partial Class dlgMateriale
         Me.txtDescrizione.BackColor = System.Drawing.Color.White
         Me.txtDescrizione.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsEntity, "Descrizione", True))
         Me.txtDescrizione.Location = New System.Drawing.Point(150, 117)
-        Me.txtDescrizione.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtDescrizione.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDescrizione.Name = "txtDescrizione"
         Me.txtDescrizione.Size = New System.Drawing.Size(630, 32)
         Me.txtDescrizione.TabIndex = 3
@@ -234,7 +234,7 @@ Partial Class dlgMateriale
         Me.txtPrezzo.BackColor = System.Drawing.Color.White
         Me.txtPrezzo.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsEntity, "Prezzo", True))
         Me.txtPrezzo.Location = New System.Drawing.Point(150, 210)
-        Me.txtPrezzo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtPrezzo.Margin = New System.Windows.Forms.Padding(6)
         Me.txtPrezzo.Name = "txtPrezzo"
         Me.txtPrezzo.Size = New System.Drawing.Size(198, 32)
         Me.txtPrezzo.TabIndex = 5
@@ -254,7 +254,7 @@ Partial Class dlgMateriale
         '
         Me.chkInteressi.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsEntity, "Utilizzato", True))
         Me.chkInteressi.Location = New System.Drawing.Point(750, 18)
-        Me.chkInteressi.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.chkInteressi.Margin = New System.Windows.Forms.Padding(6)
         Me.chkInteressi.Name = "chkInteressi"
         Me.chkInteressi.Size = New System.Drawing.Size(29, 45)
         Me.chkInteressi.TabIndex = 1
@@ -264,7 +264,7 @@ Partial Class dlgMateriale
         Me.txtCodice.BackColor = System.Drawing.Color.White
         Me.txtCodice.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsEntity, "Codice", True))
         Me.txtCodice.Location = New System.Drawing.Point(150, 27)
-        Me.txtCodice.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtCodice.Margin = New System.Windows.Forms.Padding(6)
         Me.txtCodice.Name = "txtCodice"
         Me.txtCodice.Size = New System.Drawing.Size(481, 32)
         Me.txtCodice.TabIndex = 0
@@ -278,7 +278,7 @@ Partial Class dlgMateriale
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgMateriale"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Materiale"

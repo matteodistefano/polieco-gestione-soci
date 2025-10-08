@@ -1487,6 +1487,9 @@
     <None Include="Resources\Back 16 n p8.png" />
     <None Include="Resources\Back 16 d p8.png" />
     <None Include="Resources\Green Checkmark 24 n p8.png" />
+    <None Include="Resources\Circle Blue 24 n p8.png" />
+    <None Include="Resources\Light Blue Round 24 n p8.png" />
+    <None Include="Resources\Info Round Blue 24 n p8.png" />
     <Content Include="View Icons 32 n i8.ico" />
   </ItemGroup>
   <ItemGroup>

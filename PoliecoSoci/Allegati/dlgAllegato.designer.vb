@@ -38,6 +38,13 @@ Partial Class dlgAllegato
         Me.Label3 = New System.Windows.Forms.Label()
         Me.bsDettaglio = New System.Windows.Forms.BindingSource(Me.components)
         Me.dgvDettaglio = New System.Windows.Forms.DataGridView()
+        Me.dgvcRagSoc = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcSede = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcRuolo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcCodCer = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcUM = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcQta = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tsSedi = New System.Windows.Forms.ToolStrip()
         Me.tsbSediAdd = New System.Windows.Forms.ToolStripButton()
         Me.tsbSediEdit = New System.Windows.Forms.ToolStripButton()
@@ -46,13 +53,6 @@ Partial Class dlgAllegato
         Me.lAnno = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.dgvcRagSoc = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcSede = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcRuolo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcCodCer = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcUM = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcQta = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tsMain.SuspendLayout()
         CType(Me.bsAllegato, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bsDettaglio, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -70,7 +70,7 @@ Partial Class dlgAllegato
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbExit, Me.tsbOk, Me.tsbDelete})
         Me.tsMain.Location = New System.Drawing.Point(0, 865)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1987, 69)
+        Me.tsMain.Size = New System.Drawing.Size(1573, 69)
         Me.tsMain.TabIndex = 1
         '
         'tsbExit
@@ -124,7 +124,7 @@ Partial Class dlgAllegato
         Me.lAzienda.Location = New System.Drawing.Point(22, 48)
         Me.lAzienda.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzienda.Name = "lAzienda"
-        Me.lAzienda.Size = New System.Drawing.Size(1917, 36)
+        Me.lAzienda.Size = New System.Drawing.Size(1503, 36)
         Me.lAzienda.TabIndex = 79
         Me.lAzienda.Text = "Materiale"
         Me.lAzienda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -139,7 +139,7 @@ Partial Class dlgAllegato
         Me.lDichiarazione.Location = New System.Drawing.Point(22, 136)
         Me.lDichiarazione.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lDichiarazione.Name = "lDichiarazione"
-        Me.lDichiarazione.Size = New System.Drawing.Size(248, 36)
+        Me.lDichiarazione.Size = New System.Drawing.Size(0, 36)
         Me.lDichiarazione.TabIndex = 81
         Me.lDichiarazione.Text = "Materiale"
         Me.lDichiarazione.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -195,13 +195,83 @@ Partial Class dlgAllegato
         Me.dgvDettaglio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvDettaglio.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcRagSoc, Me.dgvcSede, Me.dgvcRuolo, Me.dgvcCodCer, Me.dgvcDescrizione, Me.dgvcUM, Me.dgvcQta})
         Me.dgvDettaglio.Location = New System.Drawing.Point(28, 201)
-        Me.dgvDettaglio.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvDettaglio.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvDettaglio.Name = "dgvDettaglio"
         Me.dgvDettaglio.ReadOnly = True
         Me.dgvDettaglio.RowHeadersWidth = 20
         Me.dgvDettaglio.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvDettaglio.Size = New System.Drawing.Size(1871, 633)
+        Me.dgvDettaglio.Size = New System.Drawing.Size(1457, 633)
         Me.dgvDettaglio.TabIndex = 88
+        '
+        'dgvcRagSoc
+        '
+        Me.dgvcRagSoc.DataPropertyName = "AziendaRagioneSociale"
+        Me.dgvcRagSoc.FillWeight = 40.0!
+        Me.dgvcRagSoc.HeaderText = "Ragione sociale"
+        Me.dgvcRagSoc.MinimumWidth = 6
+        Me.dgvcRagSoc.Name = "dgvcRagSoc"
+        Me.dgvcRagSoc.ReadOnly = True
+        '
+        'dgvcSede
+        '
+        Me.dgvcSede.DataPropertyName = "AziendaDescrizioneSede"
+        Me.dgvcSede.FillWeight = 30.0!
+        Me.dgvcSede.HeaderText = "Sede"
+        Me.dgvcSede.MinimumWidth = 6
+        Me.dgvcSede.Name = "dgvcSede"
+        Me.dgvcSede.ReadOnly = True
+        '
+        'dgvcRuolo
+        '
+        Me.dgvcRuolo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcRuolo.DataPropertyName = "RuoloAziendaAllegato"
+        Me.dgvcRuolo.HeaderText = "Ruolo"
+        Me.dgvcRuolo.MinimumWidth = 6
+        Me.dgvcRuolo.Name = "dgvcRuolo"
+        Me.dgvcRuolo.ReadOnly = True
+        Me.dgvcRuolo.Width = 70
+        '
+        'dgvcCodCer
+        '
+        Me.dgvcCodCer.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcCodCer.DataPropertyName = "CodiceCer"
+        Me.dgvcCodCer.HeaderText = "Cod.CER"
+        Me.dgvcCodCer.MinimumWidth = 6
+        Me.dgvcCodCer.Name = "dgvcCodCer"
+        Me.dgvcCodCer.ReadOnly = True
+        Me.dgvcCodCer.Width = 110
+        '
+        'dgvcDescrizione
+        '
+        Me.dgvcDescrizione.DataPropertyName = "DescrizioneMateriale"
+        Me.dgvcDescrizione.FillWeight = 30.0!
+        Me.dgvcDescrizione.HeaderText = "Materiale"
+        Me.dgvcDescrizione.MinimumWidth = 6
+        Me.dgvcDescrizione.Name = "dgvcDescrizione"
+        Me.dgvcDescrizione.ReadOnly = True
+        '
+        'dgvcUM
+        '
+        Me.dgvcUM.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcUM.DataPropertyName = "UnitaMisura"
+        Me.dgvcUM.HeaderText = "U.M."
+        Me.dgvcUM.MinimumWidth = 6
+        Me.dgvcUM.Name = "dgvcUM"
+        Me.dgvcUM.ReadOnly = True
+        Me.dgvcUM.Width = 60
+        '
+        'dgvcQta
+        '
+        Me.dgvcQta.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcQta.DataPropertyName = "Quantita"
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle1.Format = "n2"
+        Me.dgvcQta.DefaultCellStyle = DataGridViewCellStyle1
+        Me.dgvcQta.HeaderText = "Qta"
+        Me.dgvcQta.MinimumWidth = 6
+        Me.dgvcQta.Name = "dgvcQta"
+        Me.dgvcQta.ReadOnly = True
+        Me.dgvcQta.Width = 125
         '
         'tsSedi
         '
@@ -214,7 +284,7 @@ Partial Class dlgAllegato
         Me.tsSedi.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsSedi.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbSediAdd, Me.tsbSediEdit, Me.tsbSediDel, Me.tsbAzienda})
         Me.tsSedi.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow
-        Me.tsSedi.Location = New System.Drawing.Point(1904, 201)
+        Me.tsSedi.Location = New System.Drawing.Point(1490, 201)
         Me.tsSedi.Name = "tsSedi"
         Me.tsSedi.Size = New System.Drawing.Size(66, 633)
         Me.tsSedi.TabIndex = 89
@@ -275,7 +345,7 @@ Partial Class dlgAllegato
         Me.lAnno.Location = New System.Drawing.Point(282, 136)
         Me.lAnno.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAnno.Name = "lAnno"
-        Me.lAnno.Size = New System.Drawing.Size(185, 36)
+        Me.lAnno.Size = New System.Drawing.Size(0, 36)
         Me.lAnno.TabIndex = 90
         Me.lAnno.Text = "Materiale"
         Me.lAnno.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -290,7 +360,7 @@ Partial Class dlgAllegato
         Me.Label4.Location = New System.Drawing.Point(480, 136)
         Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(344, 36)
+        Me.Label4.Size = New System.Drawing.Size(0, 36)
         Me.Label4.TabIndex = 91
         Me.Label4.Text = "Materiale"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -305,78 +375,16 @@ Partial Class dlgAllegato
         Me.Label6.Location = New System.Drawing.Point(837, 136)
         Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(250, 36)
+        Me.Label6.Size = New System.Drawing.Size(0, 36)
         Me.Label6.TabIndex = 92
         Me.Label6.Text = "Materiale"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'dgvcRagSoc
-        '
-        Me.dgvcRagSoc.DataPropertyName = "AziendaRagioneSociale"
-        Me.dgvcRagSoc.FillWeight = 40.0!
-        Me.dgvcRagSoc.HeaderText = "Ragione sociale"
-        Me.dgvcRagSoc.Name = "dgvcRagSoc"
-        Me.dgvcRagSoc.ReadOnly = True
-        '
-        'dgvcSede
-        '
-        Me.dgvcSede.DataPropertyName = "AziendaDescrizioneSede"
-        Me.dgvcSede.FillWeight = 30.0!
-        Me.dgvcSede.HeaderText = "Sede"
-        Me.dgvcSede.Name = "dgvcSede"
-        Me.dgvcSede.ReadOnly = True
-        '
-        'dgvcRuolo
-        '
-        Me.dgvcRuolo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcRuolo.DataPropertyName = "RuoloAziendaAllegato"
-        Me.dgvcRuolo.HeaderText = "Ruolo"
-        Me.dgvcRuolo.Name = "dgvcRuolo"
-        Me.dgvcRuolo.ReadOnly = True
-        Me.dgvcRuolo.Width = 70
-        '
-        'dgvcCodCer
-        '
-        Me.dgvcCodCer.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcCodCer.DataPropertyName = "CodiceCer"
-        Me.dgvcCodCer.HeaderText = "Cod.CER"
-        Me.dgvcCodCer.Name = "dgvcCodCer"
-        Me.dgvcCodCer.ReadOnly = True
-        Me.dgvcCodCer.Width = 110
-        '
-        'dgvcDescrizione
-        '
-        Me.dgvcDescrizione.DataPropertyName = "DescrizioneMateriale"
-        Me.dgvcDescrizione.FillWeight = 30.0!
-        Me.dgvcDescrizione.HeaderText = "Materiale"
-        Me.dgvcDescrizione.Name = "dgvcDescrizione"
-        Me.dgvcDescrizione.ReadOnly = True
-        '
-        'dgvcUM
-        '
-        Me.dgvcUM.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcUM.DataPropertyName = "UnitaMisura"
-        Me.dgvcUM.HeaderText = "U.M."
-        Me.dgvcUM.Name = "dgvcUM"
-        Me.dgvcUM.ReadOnly = True
-        Me.dgvcUM.Width = 60
-        '
-        'dgvcQta
-        '
-        Me.dgvcQta.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcQta.DataPropertyName = "Quantita"
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle1.Format = "n2"
-        Me.dgvcQta.DefaultCellStyle = DataGridViewCellStyle1
-        Me.dgvcQta.HeaderText = "Qta"
-        Me.dgvcQta.Name = "dgvcQta"
-        Me.dgvcQta.ReadOnly = True
         '
         'dlgAllegato
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1987, 934)
+        Me.ClientSize = New System.Drawing.Size(1573, 934)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lAnno)
@@ -392,7 +400,7 @@ Partial Class dlgAllegato
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgAllegato"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Allegato"

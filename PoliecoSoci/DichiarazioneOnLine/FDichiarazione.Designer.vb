@@ -300,110 +300,110 @@ Partial Class FDichiarazione
         'DataLabel
         '
         DataLabel.AutoSize = True
-        DataLabel.Location = New System.Drawing.Point(2, 46)
-        DataLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        DataLabel.Location = New System.Drawing.Point(4, 86)
+        DataLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         DataLabel.Name = "DataLabel"
-        DataLabel.Size = New System.Drawing.Size(33, 13)
+        DataLabel.Size = New System.Drawing.Size(57, 24)
         DataLabel.TabIndex = 0
         DataLabel.Text = "Data:"
         '
         'CognomeNomeLabel
         '
         CognomeNomeLabel.AutoSize = True
-        CognomeNomeLabel.Location = New System.Drawing.Point(188, 23)
-        CognomeNomeLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        CognomeNomeLabel.Location = New System.Drawing.Point(345, 42)
+        CognomeNomeLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         CognomeNomeLabel.Name = "CognomeNomeLabel"
-        CognomeNomeLabel.Size = New System.Drawing.Size(58, 13)
+        CognomeNomeLabel.Size = New System.Drawing.Size(113, 24)
         CognomeNomeLabel.TabIndex = 2
         CognomeNomeLabel.Text = "Firmatario :"
         '
         'QualificaLabel
         '
         QualificaLabel.AutoSize = True
-        QualificaLabel.Location = New System.Drawing.Point(617, 26)
-        QualificaLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        QualificaLabel.Location = New System.Drawing.Point(1132, 48)
+        QualificaLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         QualificaLabel.Name = "QualificaLabel"
-        QualificaLabel.Size = New System.Drawing.Size(51, 13)
+        QualificaLabel.Size = New System.Drawing.Size(93, 24)
         QualificaLabel.TabIndex = 4
         QualificaLabel.Text = "Qualifica:"
         '
         'RagioneSocialeLabel
         '
         RagioneSocialeLabel.AutoSize = True
-        RagioneSocialeLabel.Location = New System.Drawing.Point(2, 27)
-        RagioneSocialeLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        RagioneSocialeLabel.Location = New System.Drawing.Point(4, 50)
+        RagioneSocialeLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         RagioneSocialeLabel.Name = "RagioneSocialeLabel"
-        RagioneSocialeLabel.Size = New System.Drawing.Size(88, 13)
+        RagioneSocialeLabel.Size = New System.Drawing.Size(157, 24)
         RagioneSocialeLabel.TabIndex = 6
         RagioneSocialeLabel.Text = "Ragione Sociale:"
         '
         'SedeLegaleLabel
         '
         SedeLegaleLabel.AutoSize = True
-        SedeLegaleLabel.Location = New System.Drawing.Point(2, 49)
-        SedeLegaleLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        SedeLegaleLabel.Location = New System.Drawing.Point(4, 90)
+        SedeLegaleLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         SedeLegaleLabel.Name = "SedeLegaleLabel"
-        SedeLegaleLabel.Size = New System.Drawing.Size(70, 13)
+        SedeLegaleLabel.Size = New System.Drawing.Size(125, 24)
         SedeLegaleLabel.TabIndex = 8
         SedeLegaleLabel.Text = "Sede Legale:"
         '
         'PartitaIVALabel
         '
         PartitaIVALabel.AutoSize = True
-        PartitaIVALabel.Location = New System.Drawing.Point(4, 85)
-        PartitaIVALabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        PartitaIVALabel.Location = New System.Drawing.Point(7, 133)
+        PartitaIVALabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         PartitaIVALabel.Name = "PartitaIVALabel"
-        PartitaIVALabel.Size = New System.Drawing.Size(60, 13)
+        PartitaIVALabel.Size = New System.Drawing.Size(111, 24)
         PartitaIVALabel.TabIndex = 10
         PartitaIVALabel.Text = "Partita IVA:"
         '
         'TelefonoLabel
         '
         TelefonoLabel.AutoSize = True
-        TelefonoLabel.Location = New System.Drawing.Point(1, 106)
-        TelefonoLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        TelefonoLabel.Location = New System.Drawing.Point(1, 170)
+        TelefonoLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         TelefonoLabel.Name = "TelefonoLabel"
-        TelefonoLabel.Size = New System.Drawing.Size(52, 13)
+        TelefonoLabel.Size = New System.Drawing.Size(93, 24)
         TelefonoLabel.TabIndex = 12
         TelefonoLabel.Text = "Telefono:"
         '
         'FaxLabel
         '
         FaxLabel.AutoSize = True
-        FaxLabel.Location = New System.Drawing.Point(4, 128)
-        FaxLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        FaxLabel.Location = New System.Drawing.Point(7, 212)
+        FaxLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         FaxLabel.Name = "FaxLabel"
-        FaxLabel.Size = New System.Drawing.Size(27, 13)
+        FaxLabel.Size = New System.Drawing.Size(47, 24)
         FaxLabel.TabIndex = 14
         FaxLabel.Text = "Fax:"
         '
         'EmailLabel
         '
         EmailLabel.AutoSize = True
-        EmailLabel.Location = New System.Drawing.Point(4, 150)
-        EmailLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        EmailLabel.Location = New System.Drawing.Point(7, 253)
+        EmailLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         EmailLabel.Name = "EmailLabel"
-        EmailLabel.Size = New System.Drawing.Size(35, 13)
+        EmailLabel.Size = New System.Drawing.Size(65, 24)
         EmailLabel.TabIndex = 16
         EmailLabel.Text = "Email:"
         '
         'PeriodoLabel
         '
         PeriodoLabel.AutoSize = True
-        PeriodoLabel.Location = New System.Drawing.Point(2, 28)
-        PeriodoLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        PeriodoLabel.Location = New System.Drawing.Point(4, 51)
+        PeriodoLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         PeriodoLabel.Name = "PeriodoLabel"
-        PeriodoLabel.Size = New System.Drawing.Size(46, 13)
+        PeriodoLabel.Size = New System.Drawing.Size(84, 24)
         PeriodoLabel.TabIndex = 28
         PeriodoLabel.Text = "Periodo:"
         '
         'V_A1_1Label
         '
         V_A1_1Label.AutoSize = True
-        V_A1_1Label.Location = New System.Drawing.Point(8, 27)
-        V_A1_1Label.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        V_A1_1Label.Location = New System.Drawing.Point(15, 50)
+        V_A1_1Label.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         V_A1_1Label.Name = "V_A1_1Label"
-        V_A1_1Label.Size = New System.Drawing.Size(120, 13)
+        V_A1_1Label.Size = New System.Drawing.Size(228, 24)
         V_A1_1Label.TabIndex = 30
         V_A1_1Label.Text = "A1-1. Materia prima (Tn)"
         '
@@ -412,9 +412,9 @@ Partial Class FDichiarazione
         Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Label1.Location = New System.Drawing.Point(0, 0)
-        Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New System.Drawing.Size(984, 18)
+        Label1.Size = New System.Drawing.Size(1802, 32)
         Label1.TabIndex = 19
         Label1.Text = "Dati compilazione"
         Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -424,9 +424,9 @@ Partial Class FDichiarazione
         Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Label2.Location = New System.Drawing.Point(0, 0)
-        Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New System.Drawing.Size(987, 18)
+        Label2.Size = New System.Drawing.Size(1807, 32)
         Label2.TabIndex = 19
         Label2.Text = "Dati azienda"
         Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -434,60 +434,60 @@ Partial Class FDichiarazione
         'EmailCompilatoreLabel
         '
         EmailCompilatoreLabel.AutoSize = True
-        EmailCompilatoreLabel.Location = New System.Drawing.Point(188, 46)
-        EmailCompilatoreLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        EmailCompilatoreLabel.Location = New System.Drawing.Point(345, 86)
+        EmailCompilatoreLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         EmailCompilatoreLabel.Name = "EmailCompilatoreLabel"
-        EmailCompilatoreLabel.Size = New System.Drawing.Size(35, 13)
+        EmailCompilatoreLabel.Size = New System.Drawing.Size(65, 24)
         EmailCompilatoreLabel.TabIndex = 19
         EmailCompilatoreLabel.Text = "Email:"
         '
         'NoteLabel
         '
         NoteLabel.AutoSize = True
-        NoteLabel.Location = New System.Drawing.Point(2, 68)
-        NoteLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        NoteLabel.Location = New System.Drawing.Point(4, 126)
+        NoteLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         NoteLabel.Name = "NoteLabel"
-        NoteLabel.Size = New System.Drawing.Size(33, 13)
+        NoteLabel.Size = New System.Drawing.Size(58, 24)
         NoteLabel.TabIndex = 20
         NoteLabel.Text = "Note:"
         '
         'Label4
         '
         Label4.AutoSize = True
-        Label4.Location = New System.Drawing.Point(8, 48)
-        Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label4.Location = New System.Drawing.Point(15, 88)
+        Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New System.Drawing.Size(122, 13)
+        Label4.Size = New System.Drawing.Size(229, 24)
         Label4.TabIndex = 32
         Label4.Text = "A1-2. Prodotti [base](Kg)"
         '
         'Label5
         '
         Label5.AutoSize = True
-        Label5.Location = New System.Drawing.Point(8, 69)
-        Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label5.Location = New System.Drawing.Point(15, 128)
+        Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New System.Drawing.Size(138, 13)
+        Label5.Size = New System.Drawing.Size(260, 24)
         Label5.TabIndex = 34
         Label5.Text = "A1-3.1. Prodotti [riciclo] (Kg)"
         '
         'Label6
         '
         Label6.AutoSize = True
-        Label6.Location = New System.Drawing.Point(8, 90)
-        Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label6.Location = New System.Drawing.Point(15, 166)
+        Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New System.Drawing.Size(138, 13)
+        Label6.Size = New System.Drawing.Size(263, 24)
         Label6.TabIndex = 36
         Label6.Text = "A1-3.2. Prodotti [smalt.] (Kg)"
         '
         'Label7
         '
         Label7.AutoSize = True
-        Label7.Location = New System.Drawing.Point(8, 111)
-        Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label7.Location = New System.Drawing.Point(15, 206)
+        Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label7.Name = "Label7"
-        Label7.Size = New System.Drawing.Size(128, 13)
+        Label7.Size = New System.Drawing.Size(241, 24)
         Label7.TabIndex = 38
         Label7.Text = "A2. Prodotti [rigener.] (Kg)"
         '
@@ -496,9 +496,9 @@ Partial Class FDichiarazione
         Label10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Label10.Location = New System.Drawing.Point(0, 0)
-        Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label10.Name = "Label10"
-        Label10.Size = New System.Drawing.Size(133, 18)
+        Label10.Size = New System.Drawing.Size(243, 32)
         Label10.TabIndex = 19
         Label10.Text = "Periodo / Categorie"
         Label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -506,10 +506,10 @@ Partial Class FDichiarazione
         'Label3
         '
         Label3.AutoSize = True
-        Label3.Location = New System.Drawing.Point(2, 79)
-        Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label3.Location = New System.Drawing.Point(4, 146)
+        Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New System.Drawing.Size(55, 13)
+        Label3.Size = New System.Drawing.Size(102, 24)
         Label3.TabIndex = 30
         Label3.Text = "Categoria:"
         '
@@ -518,9 +518,9 @@ Partial Class FDichiarazione
         Label11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Label11.Location = New System.Drawing.Point(0, 0)
-        Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label11.Name = "Label11"
-        Label11.Size = New System.Drawing.Size(287, 18)
+        Label11.Size = New System.Drawing.Size(524, 32)
         Label11.TabIndex = 19
         Label11.Text = "Riepilogo"
         Label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -528,458 +528,458 @@ Partial Class FDichiarazione
         'Label12
         '
         Label12.AutoSize = True
-        Label12.Location = New System.Drawing.Point(1, 31)
-        Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label12.Location = New System.Drawing.Point(1, 43)
+        Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label12.Name = "Label12"
-        Label12.Size = New System.Drawing.Size(17, 13)
+        Label12.Size = New System.Drawing.Size(28, 24)
         Label12.TabIndex = 28
         Label12.Text = "A:"
         '
         'Label22
         '
         Label22.AutoSize = True
-        Label22.Location = New System.Drawing.Point(2, 50)
-        Label22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label22.Location = New System.Drawing.Point(4, 93)
+        Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label22.Name = "Label22"
-        Label22.Size = New System.Drawing.Size(27, 13)
+        Label22.Size = New System.Drawing.Size(45, 24)
         Label22.TabIndex = 42
         Label22.Text = "IVA:"
         '
         'Label25
         '
         Label25.AutoSize = True
-        Label25.Location = New System.Drawing.Point(190, 31)
-        Label25.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label25.Location = New System.Drawing.Point(348, 43)
+        Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label25.Name = "Label25"
-        Label25.Size = New System.Drawing.Size(13, 13)
+        Label25.Size = New System.Drawing.Size(21, 24)
         Label25.TabIndex = 46
         Label25.Text = "="
         '
         'Label26
         '
         Label26.AutoSize = True
-        Label26.Location = New System.Drawing.Point(96, 31)
-        Label26.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label26.Location = New System.Drawing.Point(176, 43)
+        Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label26.Name = "Label26"
-        Label26.Size = New System.Drawing.Size(13, 13)
+        Label26.Size = New System.Drawing.Size(21, 24)
         Label26.TabIndex = 47
         Label26.Text = "+"
         '
         'Label27
         '
         Label27.AutoSize = True
-        Label27.Location = New System.Drawing.Point(96, 52)
-        Label27.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label27.Location = New System.Drawing.Point(176, 82)
+        Label27.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label27.Name = "Label27"
-        Label27.Size = New System.Drawing.Size(13, 13)
+        Label27.Size = New System.Drawing.Size(21, 24)
         Label27.TabIndex = 53
         Label27.Text = "+"
         '
         'Label28
         '
         Label28.AutoSize = True
-        Label28.Location = New System.Drawing.Point(190, 52)
-        Label28.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label28.Location = New System.Drawing.Point(348, 82)
+        Label28.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label28.Name = "Label28"
-        Label28.Size = New System.Drawing.Size(13, 13)
+        Label28.Size = New System.Drawing.Size(21, 24)
         Label28.TabIndex = 52
         Label28.Text = "="
         '
         'Label32
         '
         Label32.AutoSize = True
-        Label32.Location = New System.Drawing.Point(1, 52)
-        Label32.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label32.Location = New System.Drawing.Point(1, 82)
+        Label32.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label32.Name = "Label32"
-        Label32.Size = New System.Drawing.Size(17, 13)
+        Label32.Size = New System.Drawing.Size(27, 24)
         Label32.TabIndex = 48
         Label32.Text = "B:"
         '
         'Label33
         '
         Label33.AutoSize = True
-        Label33.Location = New System.Drawing.Point(96, 74)
-        Label33.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label33.Location = New System.Drawing.Point(176, 122)
+        Label33.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label33.Name = "Label33"
-        Label33.Size = New System.Drawing.Size(13, 13)
+        Label33.Size = New System.Drawing.Size(21, 24)
         Label33.TabIndex = 59
         Label33.Text = "+"
         '
         'Label34
         '
         Label34.AutoSize = True
-        Label34.Location = New System.Drawing.Point(190, 74)
-        Label34.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label34.Location = New System.Drawing.Point(348, 122)
+        Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label34.Name = "Label34"
-        Label34.Size = New System.Drawing.Size(13, 13)
+        Label34.Size = New System.Drawing.Size(21, 24)
         Label34.TabIndex = 58
         Label34.Text = "="
         '
         'Label38
         '
         Label38.AutoSize = True
-        Label38.Location = New System.Drawing.Point(1, 74)
-        Label38.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label38.Location = New System.Drawing.Point(1, 122)
+        Label38.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label38.Name = "Label38"
-        Label38.Size = New System.Drawing.Size(17, 13)
+        Label38.Size = New System.Drawing.Size(28, 24)
         Label38.TabIndex = 54
         Label38.Text = "C:"
         '
         'Label39
         '
         Label39.AutoSize = True
-        Label39.Location = New System.Drawing.Point(96, 96)
-        Label39.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label39.Location = New System.Drawing.Point(176, 163)
+        Label39.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label39.Name = "Label39"
-        Label39.Size = New System.Drawing.Size(13, 13)
+        Label39.Size = New System.Drawing.Size(21, 24)
         Label39.TabIndex = 65
         Label39.Text = "+"
         '
         'Label40
         '
         Label40.AutoSize = True
-        Label40.Location = New System.Drawing.Point(190, 96)
-        Label40.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label40.Location = New System.Drawing.Point(348, 163)
+        Label40.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label40.Name = "Label40"
-        Label40.Size = New System.Drawing.Size(13, 13)
+        Label40.Size = New System.Drawing.Size(21, 24)
         Label40.TabIndex = 64
         Label40.Text = "="
         '
         'Label44
         '
         Label44.AutoSize = True
-        Label44.Location = New System.Drawing.Point(1, 96)
-        Label44.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label44.Location = New System.Drawing.Point(1, 163)
+        Label44.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label44.Name = "Label44"
-        Label44.Size = New System.Drawing.Size(18, 13)
+        Label44.Size = New System.Drawing.Size(28, 24)
         Label44.TabIndex = 60
         Label44.Text = "D:"
         '
         'Label45
         '
         Label45.AutoSize = True
-        Label45.Location = New System.Drawing.Point(96, 118)
-        Label45.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label45.Location = New System.Drawing.Point(176, 204)
+        Label45.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label45.Name = "Label45"
-        Label45.Size = New System.Drawing.Size(13, 13)
+        Label45.Size = New System.Drawing.Size(21, 24)
         Label45.TabIndex = 71
         Label45.Text = "+"
         '
         'Label46
         '
         Label46.AutoSize = True
-        Label46.Location = New System.Drawing.Point(190, 118)
-        Label46.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label46.Location = New System.Drawing.Point(348, 204)
+        Label46.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label46.Name = "Label46"
-        Label46.Size = New System.Drawing.Size(13, 13)
+        Label46.Size = New System.Drawing.Size(21, 24)
         Label46.TabIndex = 70
         Label46.Text = "="
         '
         'Label50
         '
         Label50.AutoSize = True
-        Label50.Location = New System.Drawing.Point(1, 118)
-        Label50.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label50.Location = New System.Drawing.Point(1, 204)
+        Label50.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label50.Name = "Label50"
-        Label50.Size = New System.Drawing.Size(17, 13)
+        Label50.Size = New System.Drawing.Size(26, 24)
         Label50.TabIndex = 66
         Label50.Text = "E:"
         '
         'Label51
         '
         Label51.AutoSize = True
-        Label51.Location = New System.Drawing.Point(96, 153)
-        Label51.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label51.Location = New System.Drawing.Point(176, 268)
+        Label51.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label51.Name = "Label51"
-        Label51.Size = New System.Drawing.Size(13, 13)
+        Label51.Size = New System.Drawing.Size(21, 24)
         Label51.TabIndex = 77
         Label51.Text = "+"
         '
         'Label52
         '
         Label52.AutoSize = True
-        Label52.Location = New System.Drawing.Point(190, 153)
-        Label52.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label52.Location = New System.Drawing.Point(348, 268)
+        Label52.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label52.Name = "Label52"
-        Label52.Size = New System.Drawing.Size(13, 13)
+        Label52.Size = New System.Drawing.Size(21, 24)
         Label52.TabIndex = 76
         Label52.Text = "="
         '
         'Label56
         '
         Label56.AutoSize = True
-        Label56.Location = New System.Drawing.Point(0, 136)
-        Label56.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label56.Location = New System.Drawing.Point(0, 236)
+        Label56.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label56.Name = "Label56"
-        Label56.Size = New System.Drawing.Size(33, 13)
+        Label56.Size = New System.Drawing.Size(60, 24)
         Label56.TabIndex = 72
         Label56.Text = "Totali"
         '
         'Label57
         '
         Label57.AutoSize = True
-        Label57.Location = New System.Drawing.Point(331, 27)
-        Label57.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label57.Location = New System.Drawing.Point(606, 50)
+        Label57.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label57.Name = "Label57"
-        Label57.Size = New System.Drawing.Size(13, 13)
+        Label57.Size = New System.Drawing.Size(21, 24)
         Label57.TabIndex = 50
         Label57.Text = "="
         '
         'Label58
         '
         Label58.AutoSize = True
-        Label58.Location = New System.Drawing.Point(331, 48)
-        Label58.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label58.Location = New System.Drawing.Point(606, 88)
+        Label58.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label58.Name = "Label58"
-        Label58.Size = New System.Drawing.Size(13, 13)
+        Label58.Size = New System.Drawing.Size(21, 24)
         Label58.TabIndex = 51
         Label58.Text = "="
         '
         'Label59
         '
         Label59.AutoSize = True
-        Label59.Location = New System.Drawing.Point(331, 70)
-        Label59.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label59.Location = New System.Drawing.Point(606, 129)
+        Label59.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label59.Name = "Label59"
-        Label59.Size = New System.Drawing.Size(13, 13)
+        Label59.Size = New System.Drawing.Size(21, 24)
         Label59.TabIndex = 52
         Label59.Text = "="
         '
         'Label60
         '
         Label60.AutoSize = True
-        Label60.Location = New System.Drawing.Point(331, 91)
-        Label60.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label60.Location = New System.Drawing.Point(606, 168)
+        Label60.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label60.Name = "Label60"
-        Label60.Size = New System.Drawing.Size(13, 13)
+        Label60.Size = New System.Drawing.Size(21, 24)
         Label60.TabIndex = 53
         Label60.Text = "="
         '
         'Label61
         '
         Label61.AutoSize = True
-        Label61.Location = New System.Drawing.Point(331, 112)
-        Label61.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label61.Location = New System.Drawing.Point(606, 207)
+        Label61.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label61.Name = "Label61"
-        Label61.Size = New System.Drawing.Size(13, 13)
+        Label61.Size = New System.Drawing.Size(21, 24)
         Label61.TabIndex = 54
         Label61.Text = "="
         '
         'Label62
         '
         Label62.AutoSize = True
-        Label62.Location = New System.Drawing.Point(338, 84)
-        Label62.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label62.Location = New System.Drawing.Point(620, 154)
+        Label62.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label62.Name = "Label62"
-        Label62.Size = New System.Drawing.Size(13, 13)
+        Label62.Size = New System.Drawing.Size(21, 24)
         Label62.TabIndex = 79
         Label62.Text = "="
         '
         'Label63
         '
         Label63.AutoSize = True
-        Label63.Location = New System.Drawing.Point(338, 64)
-        Label63.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label63.Location = New System.Drawing.Point(620, 118)
+        Label63.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label63.Name = "Label63"
-        Label63.Size = New System.Drawing.Size(13, 13)
+        Label63.Size = New System.Drawing.Size(21, 24)
         Label63.TabIndex = 78
         Label63.Text = "="
         '
         'Label64
         '
         Label64.AutoSize = True
-        Label64.Location = New System.Drawing.Point(338, 45)
-        Label64.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label64.Location = New System.Drawing.Point(620, 82)
+        Label64.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label64.Name = "Label64"
-        Label64.Size = New System.Drawing.Size(13, 13)
+        Label64.Size = New System.Drawing.Size(21, 24)
         Label64.TabIndex = 77
         Label64.Text = "="
         '
         'Label65
         '
         Label65.AutoSize = True
-        Label65.Location = New System.Drawing.Point(338, 25)
-        Label65.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label65.Location = New System.Drawing.Point(620, 46)
+        Label65.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label65.Name = "Label65"
-        Label65.Size = New System.Drawing.Size(13, 13)
+        Label65.Size = New System.Drawing.Size(21, 24)
         Label65.TabIndex = 76
         Label65.Text = "="
         '
         'Label66
         '
         Label66.AutoSize = True
-        Label66.Location = New System.Drawing.Point(338, 6)
-        Label66.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label66.Location = New System.Drawing.Point(620, 10)
+        Label66.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label66.Name = "Label66"
-        Label66.Size = New System.Drawing.Size(13, 13)
+        Label66.Size = New System.Drawing.Size(21, 24)
         Label66.TabIndex = 75
         Label66.Text = "="
         '
         'Label76
         '
         Label76.AutoSize = True
-        Label76.Location = New System.Drawing.Point(2, 3)
-        Label76.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label76.Location = New System.Drawing.Point(4, 6)
+        Label76.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label76.Name = "Label76"
-        Label76.Size = New System.Drawing.Size(120, 13)
+        Label76.Size = New System.Drawing.Size(227, 24)
         Label76.TabIndex = 55
         Label76.Text = "B1-1. Materia prima (Tn)"
         '
         'Label78
         '
         Label78.AutoSize = True
-        Label78.Location = New System.Drawing.Point(2, 23)
-        Label78.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label78.Location = New System.Drawing.Point(4, 42)
+        Label78.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label78.Name = "Label78"
-        Label78.Size = New System.Drawing.Size(122, 13)
+        Label78.Size = New System.Drawing.Size(226, 24)
         Label78.TabIndex = 57
         Label78.Text = "B1-2. Prodotti [base](Tn)"
         '
         'Label79
         '
         Label79.AutoSize = True
-        Label79.Location = New System.Drawing.Point(2, 81)
-        Label79.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label79.Location = New System.Drawing.Point(4, 150)
+        Label79.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label79.Name = "Label79"
-        Label79.Size = New System.Drawing.Size(128, 13)
+        Label79.Size = New System.Drawing.Size(238, 24)
         Label79.TabIndex = 63
         Label79.Text = "B2. Prodotti [rigener.] (Tn)"
         '
         'Label80
         '
         Label80.AutoSize = True
-        Label80.Location = New System.Drawing.Point(2, 42)
-        Label80.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label80.Location = New System.Drawing.Point(4, 78)
+        Label80.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label80.Name = "Label80"
-        Label80.Size = New System.Drawing.Size(138, 13)
+        Label80.Size = New System.Drawing.Size(257, 24)
         Label80.TabIndex = 59
         Label80.Text = "B1-3.1. Prodotti [riciclo] (Tn)"
         '
         'Label81
         '
         Label81.AutoSize = True
-        Label81.Location = New System.Drawing.Point(2, 62)
-        Label81.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label81.Location = New System.Drawing.Point(4, 114)
+        Label81.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label81.Name = "Label81"
-        Label81.Size = New System.Drawing.Size(138, 13)
+        Label81.Size = New System.Drawing.Size(260, 24)
         Label81.TabIndex = 61
         Label81.Text = "B1-3.2. Prodotti [smalt.] (Tn)"
         '
         'Label84
         '
         Label84.AutoSize = True
-        Label84.Location = New System.Drawing.Point(314, 30)
-        Label84.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label84.Location = New System.Drawing.Point(576, 56)
+        Label84.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label84.Name = "Label84"
-        Label84.Size = New System.Drawing.Size(13, 13)
+        Label84.Size = New System.Drawing.Size(21, 24)
         Label84.TabIndex = 80
         Label84.Text = "="
         '
         'Label86
         '
         Label86.AutoSize = True
-        Label86.Location = New System.Drawing.Point(7, 27)
-        Label86.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label86.Location = New System.Drawing.Point(12, 50)
+        Label86.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label86.Name = "Label86"
-        Label86.Size = New System.Drawing.Size(113, 13)
+        Label86.Size = New System.Drawing.Size(213, 24)
         Label86.TabIndex = 76
         Label86.Text = "C1. Peso dei rifiuti (Tn)"
         '
         'Label88
         '
         Label88.AutoSize = True
-        Label88.Location = New System.Drawing.Point(314, 27)
-        Label88.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label88.Location = New System.Drawing.Point(576, 50)
+        Label88.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label88.Name = "Label88"
-        Label88.Size = New System.Drawing.Size(13, 13)
+        Label88.Size = New System.Drawing.Size(21, 24)
         Label88.TabIndex = 85
         Label88.Text = "="
         '
         'Label90
         '
         Label90.AutoSize = True
-        Label90.Location = New System.Drawing.Point(7, 27)
-        Label90.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label90.Location = New System.Drawing.Point(12, 50)
+        Label90.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label90.Name = "Label90"
-        Label90.Size = New System.Drawing.Size(138, 13)
+        Label90.Size = New System.Drawing.Size(262, 24)
         Label90.TabIndex = 81
         Label90.Text = "D1. Peso materia prima (Tn)"
         '
         'Label92
         '
         Label92.AutoSize = True
-        Label92.Location = New System.Drawing.Point(314, 27)
-        Label92.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label92.Location = New System.Drawing.Point(576, 50)
+        Label92.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label92.Name = "Label92"
-        Label92.Size = New System.Drawing.Size(13, 13)
+        Label92.Size = New System.Drawing.Size(21, 24)
         Label92.TabIndex = 85
         Label92.Text = "="
         '
         'Label94
         '
         Label94.AutoSize = True
-        Label94.Location = New System.Drawing.Point(7, 27)
-        Label94.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label94.Location = New System.Drawing.Point(12, 50)
+        Label94.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label94.Name = "Label94"
-        Label94.Size = New System.Drawing.Size(113, 13)
+        Label94.Size = New System.Drawing.Size(211, 24)
         Label94.TabIndex = 81
         Label94.Text = "E1. Peso dei rifiuti (Tn)"
         '
         'Label8
         '
         Label8.AutoSize = True
-        Label8.Location = New System.Drawing.Point(2, 23)
-        Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label8.Location = New System.Drawing.Point(4, 42)
+        Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label8.Name = "Label8"
-        Label8.Size = New System.Drawing.Size(57, 13)
+        Label8.Size = New System.Drawing.Size(106, 24)
         Label8.TabIndex = 22
         Label8.Text = "Protocollo:"
         '
         'Label9
         '
         Label9.AutoSize = True
-        Label9.Location = New System.Drawing.Point(10, 7)
-        Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label9.Location = New System.Drawing.Point(18, 22)
+        Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label9.Name = "Label9"
-        Label9.Size = New System.Drawing.Size(35, 13)
+        Label9.Size = New System.Drawing.Size(63, 24)
         Label9.TabIndex = 36
         Label9.Text = "Stato:"
         '
         'Label13
         '
         Label13.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Label13.Location = New System.Drawing.Point(487, 24)
-        Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label13.Location = New System.Drawing.Point(892, 61)
+        Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label13.Name = "Label13"
-        Label13.Size = New System.Drawing.Size(2, 144)
+        Label13.Size = New System.Drawing.Size(4, 200)
         Label13.TabIndex = 84
         '
         'Label14
         '
         Label14.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Label14.Location = New System.Drawing.Point(532, 24)
-        Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label14.Location = New System.Drawing.Point(975, 61)
+        Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label14.Name = "Label14"
-        Label14.Size = New System.Drawing.Size(2, 144)
+        Label14.Size = New System.Drawing.Size(4, 200)
         Label14.TabIndex = 85
         '
         'Label21
         '
         Label21.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Label21.Location = New System.Drawing.Point(943, 24)
-        Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Label21.Location = New System.Drawing.Point(1728, 45)
+        Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label21.Name = "Label21"
-        Label21.Size = New System.Drawing.Size(3, 144)
+        Label21.Size = New System.Drawing.Size(6, 266)
         Label21.TabIndex = 92
         '
         'lStatoDOL
         '
         Me.lStatoDOL.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.lStatoDOL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lStatoDOL.Location = New System.Drawing.Point(49, 7)
+        Me.lStatoDOL.Location = New System.Drawing.Point(89, 14)
         Me.lStatoDOL.Margin = New System.Windows.Forms.Padding(0)
         Me.lStatoDOL.Name = "lStatoDOL"
-        Me.lStatoDOL.Size = New System.Drawing.Size(141, 23)
+        Me.lStatoDOL.Size = New System.Drawing.Size(256, 41)
         Me.lStatoDOL.TabIndex = 37
         Me.lStatoDOL.Text = "Periodo / Categorie"
         Me.lStatoDOL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -989,10 +989,10 @@ Partial Class FDichiarazione
         Me.lStatoAzienda.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.lStatoAzienda.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lStatoAzienda.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lStatoAzienda.Location = New System.Drawing.Point(189, 7)
+        Me.lStatoAzienda.Location = New System.Drawing.Point(346, 14)
         Me.lStatoAzienda.Margin = New System.Windows.Forms.Padding(0)
         Me.lStatoAzienda.Name = "lStatoAzienda"
-        Me.lStatoAzienda.Size = New System.Drawing.Size(160, 23)
+        Me.lStatoAzienda.Size = New System.Drawing.Size(292, 41)
         Me.lStatoAzienda.TabIndex = 38
         Me.lStatoAzienda.Text = "Azienda associata"
         Me.lStatoAzienda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1001,10 +1001,10 @@ Partial Class FDichiarazione
         '
         Me.lStatoAllegati.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.lStatoAllegati.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lStatoAllegati.Location = New System.Drawing.Point(349, 7)
+        Me.lStatoAllegati.Location = New System.Drawing.Point(639, 14)
         Me.lStatoAllegati.Margin = New System.Windows.Forms.Padding(0)
         Me.lStatoAllegati.Name = "lStatoAllegati"
-        Me.lStatoAllegati.Size = New System.Drawing.Size(205, 23)
+        Me.lStatoAllegati.Size = New System.Drawing.Size(375, 41)
         Me.lStatoAllegati.TabIndex = 39
         Me.lStatoAllegati.Text = "Allegati parzialmente validati"
         Me.lStatoAllegati.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1014,10 +1014,10 @@ Partial Class FDichiarazione
         Me.lStatoDichiarazione.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.lStatoDichiarazione.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lStatoDichiarazione.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lStatoDichiarazione.Location = New System.Drawing.Point(554, 7)
+        Me.lStatoDichiarazione.Location = New System.Drawing.Point(1016, 14)
         Me.lStatoDichiarazione.Margin = New System.Windows.Forms.Padding(0)
         Me.lStatoDichiarazione.Name = "lStatoDichiarazione"
-        Me.lStatoDichiarazione.Size = New System.Drawing.Size(197, 23)
+        Me.lStatoDichiarazione.Size = New System.Drawing.Size(360, 41)
         Me.lStatoDichiarazione.TabIndex = 40
         Me.lStatoDichiarazione.Text = "Dichiarazione"
         Me.lStatoDichiarazione.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1025,10 +1025,10 @@ Partial Class FDichiarazione
         'lFattA1_1
         '
         Me.lFattA1_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattA1_1.Location = New System.Drawing.Point(235, 27)
-        Me.lFattA1_1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattA1_1.Location = New System.Drawing.Point(430, 50)
+        Me.lFattA1_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattA1_1.Name = "lFattA1_1"
-        Me.lFattA1_1.Size = New System.Drawing.Size(74, 18)
+        Me.lFattA1_1.Size = New System.Drawing.Size(134, 32)
         Me.lFattA1_1.TabIndex = 40
         Me.lFattA1_1.Text = "x 256.66"
         Me.lFattA1_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1036,10 +1036,10 @@ Partial Class FDichiarazione
         'lTotA1_1
         '
         Me.lTotA1_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotA1_1.Location = New System.Drawing.Point(354, 27)
-        Me.lTotA1_1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotA1_1.Location = New System.Drawing.Point(649, 50)
+        Me.lTotA1_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotA1_1.Name = "lTotA1_1"
-        Me.lTotA1_1.Size = New System.Drawing.Size(74, 18)
+        Me.lTotA1_1.Size = New System.Drawing.Size(134, 32)
         Me.lTotA1_1.TabIndex = 41
         Me.lTotA1_1.Text = "x 256.66"
         Me.lTotA1_1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1047,10 +1047,10 @@ Partial Class FDichiarazione
         'lFattA1_2
         '
         Me.lFattA1_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattA1_2.Location = New System.Drawing.Point(235, 48)
-        Me.lFattA1_2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattA1_2.Location = New System.Drawing.Point(430, 88)
+        Me.lFattA1_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattA1_2.Name = "lFattA1_2"
-        Me.lFattA1_2.Size = New System.Drawing.Size(74, 18)
+        Me.lFattA1_2.Size = New System.Drawing.Size(134, 32)
         Me.lFattA1_2.TabIndex = 42
         Me.lFattA1_2.Text = "x 256.66"
         Me.lFattA1_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1058,10 +1058,10 @@ Partial Class FDichiarazione
         'lTotA1_2
         '
         Me.lTotA1_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotA1_2.Location = New System.Drawing.Point(354, 48)
-        Me.lTotA1_2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotA1_2.Location = New System.Drawing.Point(649, 88)
+        Me.lTotA1_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotA1_2.Name = "lTotA1_2"
-        Me.lTotA1_2.Size = New System.Drawing.Size(74, 18)
+        Me.lTotA1_2.Size = New System.Drawing.Size(134, 32)
         Me.lTotA1_2.TabIndex = 43
         Me.lTotA1_2.Text = "x 256.66"
         Me.lTotA1_2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1069,10 +1069,10 @@ Partial Class FDichiarazione
         'lTotA1_3_1
         '
         Me.lTotA1_3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotA1_3_1.Location = New System.Drawing.Point(354, 69)
-        Me.lTotA1_3_1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotA1_3_1.Location = New System.Drawing.Point(649, 128)
+        Me.lTotA1_3_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotA1_3_1.Name = "lTotA1_3_1"
-        Me.lTotA1_3_1.Size = New System.Drawing.Size(74, 18)
+        Me.lTotA1_3_1.Size = New System.Drawing.Size(134, 32)
         Me.lTotA1_3_1.TabIndex = 45
         Me.lTotA1_3_1.Text = "x 256.66"
         Me.lTotA1_3_1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1080,10 +1080,10 @@ Partial Class FDichiarazione
         'lFattA1_3_1
         '
         Me.lFattA1_3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattA1_3_1.Location = New System.Drawing.Point(235, 69)
-        Me.lFattA1_3_1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattA1_3_1.Location = New System.Drawing.Point(430, 128)
+        Me.lFattA1_3_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattA1_3_1.Name = "lFattA1_3_1"
-        Me.lFattA1_3_1.Size = New System.Drawing.Size(74, 18)
+        Me.lFattA1_3_1.Size = New System.Drawing.Size(134, 32)
         Me.lFattA1_3_1.TabIndex = 44
         Me.lFattA1_3_1.Text = "x 256.66"
         Me.lFattA1_3_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1091,10 +1091,10 @@ Partial Class FDichiarazione
         'lTotA1_3_2
         '
         Me.lTotA1_3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotA1_3_2.Location = New System.Drawing.Point(354, 90)
-        Me.lTotA1_3_2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotA1_3_2.Location = New System.Drawing.Point(649, 166)
+        Me.lTotA1_3_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotA1_3_2.Name = "lTotA1_3_2"
-        Me.lTotA1_3_2.Size = New System.Drawing.Size(74, 18)
+        Me.lTotA1_3_2.Size = New System.Drawing.Size(134, 32)
         Me.lTotA1_3_2.TabIndex = 47
         Me.lTotA1_3_2.Text = "x 256.66"
         Me.lTotA1_3_2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1102,10 +1102,10 @@ Partial Class FDichiarazione
         'lFattA1_3_2
         '
         Me.lFattA1_3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattA1_3_2.Location = New System.Drawing.Point(235, 90)
-        Me.lFattA1_3_2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattA1_3_2.Location = New System.Drawing.Point(430, 166)
+        Me.lFattA1_3_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattA1_3_2.Name = "lFattA1_3_2"
-        Me.lFattA1_3_2.Size = New System.Drawing.Size(74, 18)
+        Me.lFattA1_3_2.Size = New System.Drawing.Size(134, 32)
         Me.lFattA1_3_2.TabIndex = 46
         Me.lFattA1_3_2.Text = "x 256.66"
         Me.lFattA1_3_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1113,10 +1113,10 @@ Partial Class FDichiarazione
         'lTotA2
         '
         Me.lTotA2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotA2.Location = New System.Drawing.Point(354, 111)
-        Me.lTotA2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotA2.Location = New System.Drawing.Point(649, 206)
+        Me.lTotA2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotA2.Name = "lTotA2"
-        Me.lTotA2.Size = New System.Drawing.Size(74, 18)
+        Me.lTotA2.Size = New System.Drawing.Size(134, 32)
         Me.lTotA2.TabIndex = 49
         Me.lTotA2.Text = "x 256.66"
         Me.lTotA2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1124,10 +1124,10 @@ Partial Class FDichiarazione
         'lFattA2
         '
         Me.lFattA2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattA2.Location = New System.Drawing.Point(235, 111)
-        Me.lFattA2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattA2.Location = New System.Drawing.Point(430, 206)
+        Me.lFattA2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattA2.Name = "lFattA2"
-        Me.lFattA2.Size = New System.Drawing.Size(74, 18)
+        Me.lFattA2.Size = New System.Drawing.Size(134, 32)
         Me.lFattA2.TabIndex = 48
         Me.lFattA2.Text = "x 256.66"
         Me.lFattA2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1135,10 +1135,10 @@ Partial Class FDichiarazione
         'lRiepNettoA
         '
         Me.lRiepNettoA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepNettoA.Location = New System.Drawing.Point(17, 28)
-        Me.lRiepNettoA.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepNettoA.Location = New System.Drawing.Point(32, 37)
+        Me.lRiepNettoA.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepNettoA.Name = "lRiepNettoA"
-        Me.lRiepNettoA.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepNettoA.Size = New System.Drawing.Size(134, 32)
         Me.lRiepNettoA.TabIndex = 41
         Me.lRiepNettoA.Text = "125.256,00"
         Me.lRiepNettoA.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1146,10 +1146,10 @@ Partial Class FDichiarazione
         'lRiepIVAA
         '
         Me.lRiepIVAA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepIVAA.Location = New System.Drawing.Point(113, 28)
-        Me.lRiepIVAA.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepIVAA.Location = New System.Drawing.Point(208, 37)
+        Me.lRiepIVAA.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepIVAA.Name = "lRiepIVAA"
-        Me.lRiepIVAA.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepIVAA.Size = New System.Drawing.Size(134, 32)
         Me.lRiepIVAA.TabIndex = 44
         Me.lRiepIVAA.Text = "125.256,00"
         Me.lRiepIVAA.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1157,10 +1157,10 @@ Partial Class FDichiarazione
         'lRiepTotA
         '
         Me.lRiepTotA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepTotA.Location = New System.Drawing.Point(206, 28)
-        Me.lRiepTotA.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepTotA.Location = New System.Drawing.Point(378, 37)
+        Me.lRiepTotA.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepTotA.Name = "lRiepTotA"
-        Me.lRiepTotA.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepTotA.Size = New System.Drawing.Size(134, 32)
         Me.lRiepTotA.TabIndex = 45
         Me.lRiepTotA.Text = "125.256,00"
         Me.lRiepTotA.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1168,10 +1168,10 @@ Partial Class FDichiarazione
         'lRiepTotB
         '
         Me.lRiepTotB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepTotB.Location = New System.Drawing.Point(206, 50)
-        Me.lRiepTotB.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepTotB.Location = New System.Drawing.Point(378, 79)
+        Me.lRiepTotB.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepTotB.Name = "lRiepTotB"
-        Me.lRiepTotB.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepTotB.Size = New System.Drawing.Size(134, 32)
         Me.lRiepTotB.TabIndex = 51
         Me.lRiepTotB.Text = "125.256,00"
         Me.lRiepTotB.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1179,10 +1179,10 @@ Partial Class FDichiarazione
         'lRiepIVAB
         '
         Me.lRiepIVAB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepIVAB.Location = New System.Drawing.Point(113, 50)
-        Me.lRiepIVAB.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepIVAB.Location = New System.Drawing.Point(208, 79)
+        Me.lRiepIVAB.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepIVAB.Name = "lRiepIVAB"
-        Me.lRiepIVAB.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepIVAB.Size = New System.Drawing.Size(134, 32)
         Me.lRiepIVAB.TabIndex = 50
         Me.lRiepIVAB.Text = "125.256,00"
         Me.lRiepIVAB.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1190,10 +1190,10 @@ Partial Class FDichiarazione
         'lRiepNettoB
         '
         Me.lRiepNettoB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepNettoB.Location = New System.Drawing.Point(17, 50)
-        Me.lRiepNettoB.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepNettoB.Location = New System.Drawing.Point(32, 79)
+        Me.lRiepNettoB.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepNettoB.Name = "lRiepNettoB"
-        Me.lRiepNettoB.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepNettoB.Size = New System.Drawing.Size(134, 32)
         Me.lRiepNettoB.TabIndex = 49
         Me.lRiepNettoB.Text = "125.256,00"
         Me.lRiepNettoB.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1201,10 +1201,10 @@ Partial Class FDichiarazione
         'lRiepTotC
         '
         Me.lRiepTotC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepTotC.Location = New System.Drawing.Point(206, 72)
-        Me.lRiepTotC.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepTotC.Location = New System.Drawing.Point(378, 120)
+        Me.lRiepTotC.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepTotC.Name = "lRiepTotC"
-        Me.lRiepTotC.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepTotC.Size = New System.Drawing.Size(134, 32)
         Me.lRiepTotC.TabIndex = 57
         Me.lRiepTotC.Text = "125.256,00"
         Me.lRiepTotC.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1212,10 +1212,10 @@ Partial Class FDichiarazione
         'lRiepIVAC
         '
         Me.lRiepIVAC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepIVAC.Location = New System.Drawing.Point(113, 72)
-        Me.lRiepIVAC.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepIVAC.Location = New System.Drawing.Point(208, 120)
+        Me.lRiepIVAC.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepIVAC.Name = "lRiepIVAC"
-        Me.lRiepIVAC.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepIVAC.Size = New System.Drawing.Size(134, 32)
         Me.lRiepIVAC.TabIndex = 56
         Me.lRiepIVAC.Text = "125.256,00"
         Me.lRiepIVAC.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1223,10 +1223,10 @@ Partial Class FDichiarazione
         'lRiepNettoC
         '
         Me.lRiepNettoC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepNettoC.Location = New System.Drawing.Point(17, 72)
-        Me.lRiepNettoC.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepNettoC.Location = New System.Drawing.Point(32, 120)
+        Me.lRiepNettoC.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepNettoC.Name = "lRiepNettoC"
-        Me.lRiepNettoC.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepNettoC.Size = New System.Drawing.Size(134, 32)
         Me.lRiepNettoC.TabIndex = 55
         Me.lRiepNettoC.Text = "125.256,00"
         Me.lRiepNettoC.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1234,10 +1234,10 @@ Partial Class FDichiarazione
         'lRiepTotD
         '
         Me.lRiepTotD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepTotD.Location = New System.Drawing.Point(206, 93)
-        Me.lRiepTotD.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepTotD.Location = New System.Drawing.Point(378, 157)
+        Me.lRiepTotD.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepTotD.Name = "lRiepTotD"
-        Me.lRiepTotD.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepTotD.Size = New System.Drawing.Size(134, 32)
         Me.lRiepTotD.TabIndex = 63
         Me.lRiepTotD.Text = "125.256,00"
         Me.lRiepTotD.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1245,10 +1245,10 @@ Partial Class FDichiarazione
         'lRiepIVAD
         '
         Me.lRiepIVAD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepIVAD.Location = New System.Drawing.Point(113, 93)
-        Me.lRiepIVAD.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepIVAD.Location = New System.Drawing.Point(208, 157)
+        Me.lRiepIVAD.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepIVAD.Name = "lRiepIVAD"
-        Me.lRiepIVAD.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepIVAD.Size = New System.Drawing.Size(134, 32)
         Me.lRiepIVAD.TabIndex = 62
         Me.lRiepIVAD.Text = "125.256,00"
         Me.lRiepIVAD.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1256,10 +1256,10 @@ Partial Class FDichiarazione
         'lRiepNettoD
         '
         Me.lRiepNettoD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepNettoD.Location = New System.Drawing.Point(17, 93)
-        Me.lRiepNettoD.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepNettoD.Location = New System.Drawing.Point(32, 157)
+        Me.lRiepNettoD.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepNettoD.Name = "lRiepNettoD"
-        Me.lRiepNettoD.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepNettoD.Size = New System.Drawing.Size(134, 32)
         Me.lRiepNettoD.TabIndex = 61
         Me.lRiepNettoD.Text = "125.256,00"
         Me.lRiepNettoD.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1267,10 +1267,10 @@ Partial Class FDichiarazione
         'lRiepTotE
         '
         Me.lRiepTotE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepTotE.Location = New System.Drawing.Point(206, 115)
-        Me.lRiepTotE.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepTotE.Location = New System.Drawing.Point(378, 199)
+        Me.lRiepTotE.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepTotE.Name = "lRiepTotE"
-        Me.lRiepTotE.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepTotE.Size = New System.Drawing.Size(134, 32)
         Me.lRiepTotE.TabIndex = 69
         Me.lRiepTotE.Text = "125.256,00"
         Me.lRiepTotE.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1278,10 +1278,10 @@ Partial Class FDichiarazione
         'lRiepIVAE
         '
         Me.lRiepIVAE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepIVAE.Location = New System.Drawing.Point(113, 115)
-        Me.lRiepIVAE.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepIVAE.Location = New System.Drawing.Point(208, 199)
+        Me.lRiepIVAE.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepIVAE.Name = "lRiepIVAE"
-        Me.lRiepIVAE.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepIVAE.Size = New System.Drawing.Size(134, 32)
         Me.lRiepIVAE.TabIndex = 68
         Me.lRiepIVAE.Text = "125.256,00"
         Me.lRiepIVAE.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1289,10 +1289,10 @@ Partial Class FDichiarazione
         'lRiepNettoE
         '
         Me.lRiepNettoE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepNettoE.Location = New System.Drawing.Point(17, 115)
-        Me.lRiepNettoE.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepNettoE.Location = New System.Drawing.Point(32, 199)
+        Me.lRiepNettoE.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepNettoE.Name = "lRiepNettoE"
-        Me.lRiepNettoE.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepNettoE.Size = New System.Drawing.Size(134, 32)
         Me.lRiepNettoE.TabIndex = 67
         Me.lRiepNettoE.Text = "125.256,00"
         Me.lRiepNettoE.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1300,10 +1300,10 @@ Partial Class FDichiarazione
         'lRiepTot
         '
         Me.lRiepTot.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepTot.Location = New System.Drawing.Point(206, 150)
-        Me.lRiepTot.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepTot.Location = New System.Drawing.Point(378, 264)
+        Me.lRiepTot.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepTot.Name = "lRiepTot"
-        Me.lRiepTot.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepTot.Size = New System.Drawing.Size(134, 32)
         Me.lRiepTot.TabIndex = 75
         Me.lRiepTot.Text = "125.256,00"
         Me.lRiepTot.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1311,10 +1311,10 @@ Partial Class FDichiarazione
         'lRiepIVA
         '
         Me.lRiepIVA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepIVA.Location = New System.Drawing.Point(113, 150)
-        Me.lRiepIVA.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepIVA.Location = New System.Drawing.Point(208, 264)
+        Me.lRiepIVA.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepIVA.Name = "lRiepIVA"
-        Me.lRiepIVA.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepIVA.Size = New System.Drawing.Size(134, 32)
         Me.lRiepIVA.TabIndex = 74
         Me.lRiepIVA.Text = "125.256,00"
         Me.lRiepIVA.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1322,10 +1322,10 @@ Partial Class FDichiarazione
         'lRiepNetto
         '
         Me.lRiepNetto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lRiepNetto.Location = New System.Drawing.Point(17, 150)
-        Me.lRiepNetto.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRiepNetto.Location = New System.Drawing.Point(32, 264)
+        Me.lRiepNetto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRiepNetto.Name = "lRiepNetto"
-        Me.lRiepNetto.Size = New System.Drawing.Size(74, 18)
+        Me.lRiepNetto.Size = New System.Drawing.Size(134, 32)
         Me.lRiepNetto.TabIndex = 73
         Me.lRiepNetto.Text = "125.256,00"
         Me.lRiepNetto.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1333,10 +1333,10 @@ Partial Class FDichiarazione
         'lTotB2
         '
         Me.lTotB2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotB2.Location = New System.Drawing.Point(367, 81)
-        Me.lTotB2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotB2.Location = New System.Drawing.Point(672, 150)
+        Me.lTotB2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotB2.Name = "lTotB2"
-        Me.lTotB2.Size = New System.Drawing.Size(74, 18)
+        Me.lTotB2.Size = New System.Drawing.Size(134, 32)
         Me.lTotB2.TabIndex = 74
         Me.lTotB2.Text = "x 256.66"
         Me.lTotB2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1344,10 +1344,10 @@ Partial Class FDichiarazione
         'lFattB2
         '
         Me.lFattB2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattB2.Location = New System.Drawing.Point(243, 81)
-        Me.lFattB2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattB2.Location = New System.Drawing.Point(446, 150)
+        Me.lFattB2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattB2.Name = "lFattB2"
-        Me.lFattB2.Size = New System.Drawing.Size(74, 18)
+        Me.lFattB2.Size = New System.Drawing.Size(134, 32)
         Me.lFattB2.TabIndex = 73
         Me.lFattB2.Text = "x 256.66"
         Me.lFattB2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1355,10 +1355,10 @@ Partial Class FDichiarazione
         'lTotB1_3_2
         '
         Me.lTotB1_3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotB1_3_2.Location = New System.Drawing.Point(367, 62)
-        Me.lTotB1_3_2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotB1_3_2.Location = New System.Drawing.Point(672, 114)
+        Me.lTotB1_3_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotB1_3_2.Name = "lTotB1_3_2"
-        Me.lTotB1_3_2.Size = New System.Drawing.Size(74, 18)
+        Me.lTotB1_3_2.Size = New System.Drawing.Size(134, 32)
         Me.lTotB1_3_2.TabIndex = 72
         Me.lTotB1_3_2.Text = "x 256.66"
         Me.lTotB1_3_2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1366,10 +1366,10 @@ Partial Class FDichiarazione
         'lFattB1_3_2
         '
         Me.lFattB1_3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattB1_3_2.Location = New System.Drawing.Point(243, 62)
-        Me.lFattB1_3_2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattB1_3_2.Location = New System.Drawing.Point(446, 114)
+        Me.lFattB1_3_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattB1_3_2.Name = "lFattB1_3_2"
-        Me.lFattB1_3_2.Size = New System.Drawing.Size(74, 18)
+        Me.lFattB1_3_2.Size = New System.Drawing.Size(134, 32)
         Me.lFattB1_3_2.TabIndex = 71
         Me.lFattB1_3_2.Text = "x 256.66"
         Me.lFattB1_3_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1377,10 +1377,10 @@ Partial Class FDichiarazione
         'lTotB1_3_1
         '
         Me.lTotB1_3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotB1_3_1.Location = New System.Drawing.Point(367, 42)
-        Me.lTotB1_3_1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotB1_3_1.Location = New System.Drawing.Point(672, 78)
+        Me.lTotB1_3_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotB1_3_1.Name = "lTotB1_3_1"
-        Me.lTotB1_3_1.Size = New System.Drawing.Size(74, 18)
+        Me.lTotB1_3_1.Size = New System.Drawing.Size(134, 32)
         Me.lTotB1_3_1.TabIndex = 70
         Me.lTotB1_3_1.Text = "x 256.66"
         Me.lTotB1_3_1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1388,10 +1388,10 @@ Partial Class FDichiarazione
         'lFattB1_3_1
         '
         Me.lFattB1_3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattB1_3_1.Location = New System.Drawing.Point(243, 42)
-        Me.lFattB1_3_1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattB1_3_1.Location = New System.Drawing.Point(446, 78)
+        Me.lFattB1_3_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattB1_3_1.Name = "lFattB1_3_1"
-        Me.lFattB1_3_1.Size = New System.Drawing.Size(74, 18)
+        Me.lFattB1_3_1.Size = New System.Drawing.Size(134, 32)
         Me.lFattB1_3_1.TabIndex = 69
         Me.lFattB1_3_1.Text = "x 256.66"
         Me.lFattB1_3_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1399,10 +1399,10 @@ Partial Class FDichiarazione
         'lTotB1_2
         '
         Me.lTotB1_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotB1_2.Location = New System.Drawing.Point(367, 23)
-        Me.lTotB1_2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotB1_2.Location = New System.Drawing.Point(672, 42)
+        Me.lTotB1_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotB1_2.Name = "lTotB1_2"
-        Me.lTotB1_2.Size = New System.Drawing.Size(74, 18)
+        Me.lTotB1_2.Size = New System.Drawing.Size(134, 32)
         Me.lTotB1_2.TabIndex = 68
         Me.lTotB1_2.Text = "x 256.66"
         Me.lTotB1_2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1410,10 +1410,10 @@ Partial Class FDichiarazione
         'lFattB1_2
         '
         Me.lFattB1_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattB1_2.Location = New System.Drawing.Point(243, 23)
-        Me.lFattB1_2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattB1_2.Location = New System.Drawing.Point(446, 42)
+        Me.lFattB1_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattB1_2.Name = "lFattB1_2"
-        Me.lFattB1_2.Size = New System.Drawing.Size(74, 18)
+        Me.lFattB1_2.Size = New System.Drawing.Size(134, 32)
         Me.lFattB1_2.TabIndex = 67
         Me.lFattB1_2.Text = "x 256.66"
         Me.lFattB1_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1421,10 +1421,10 @@ Partial Class FDichiarazione
         'lTotB1_1
         '
         Me.lTotB1_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotB1_1.Location = New System.Drawing.Point(367, 3)
-        Me.lTotB1_1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotB1_1.Location = New System.Drawing.Point(672, 6)
+        Me.lTotB1_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotB1_1.Name = "lTotB1_1"
-        Me.lTotB1_1.Size = New System.Drawing.Size(74, 18)
+        Me.lTotB1_1.Size = New System.Drawing.Size(134, 32)
         Me.lTotB1_1.TabIndex = 66
         Me.lTotB1_1.Text = "x 256.66"
         Me.lTotB1_1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1432,10 +1432,10 @@ Partial Class FDichiarazione
         'lFattB1_1
         '
         Me.lFattB1_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattB1_1.Location = New System.Drawing.Point(243, 3)
-        Me.lFattB1_1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattB1_1.Location = New System.Drawing.Point(446, 6)
+        Me.lFattB1_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattB1_1.Name = "lFattB1_1"
-        Me.lFattB1_1.Size = New System.Drawing.Size(74, 18)
+        Me.lFattB1_1.Size = New System.Drawing.Size(134, 32)
         Me.lFattB1_1.TabIndex = 65
         Me.lFattB1_1.Text = "x 256.66"
         Me.lFattB1_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1443,10 +1443,10 @@ Partial Class FDichiarazione
         'lFattB1
         '
         Me.lFattB1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattB1.Location = New System.Drawing.Point(22, 25)
-        Me.lFattB1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattB1.Location = New System.Drawing.Point(40, 46)
+        Me.lFattB1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattB1.Name = "lFattB1"
-        Me.lFattB1.Size = New System.Drawing.Size(62, 18)
+        Me.lFattB1.Size = New System.Drawing.Size(112, 32)
         Me.lFattB1.TabIndex = 67
         Me.lFattB1.Text = "500,00 €"
         Me.lFattB1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1454,10 +1454,10 @@ Partial Class FDichiarazione
         'lTotC1
         '
         Me.lTotC1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotC1.Location = New System.Drawing.Point(331, 27)
-        Me.lTotC1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotC1.Location = New System.Drawing.Point(606, 50)
+        Me.lTotC1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotC1.Name = "lTotC1"
-        Me.lTotC1.Size = New System.Drawing.Size(74, 18)
+        Me.lTotC1.Size = New System.Drawing.Size(134, 32)
         Me.lTotC1.TabIndex = 79
         Me.lTotC1.Text = "x 256.66"
         Me.lTotC1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1465,10 +1465,10 @@ Partial Class FDichiarazione
         'lFattC1
         '
         Me.lFattC1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattC1.Location = New System.Drawing.Point(236, 29)
-        Me.lFattC1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattC1.Location = New System.Drawing.Point(433, 54)
+        Me.lFattC1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattC1.Name = "lFattC1"
-        Me.lFattC1.Size = New System.Drawing.Size(74, 18)
+        Me.lFattC1.Size = New System.Drawing.Size(134, 32)
         Me.lFattC1.TabIndex = 78
         Me.lFattC1.Text = "x 256.66"
         Me.lFattC1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1476,10 +1476,10 @@ Partial Class FDichiarazione
         'lTotD1
         '
         Me.lTotD1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotD1.Location = New System.Drawing.Point(331, 26)
-        Me.lTotD1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotD1.Location = New System.Drawing.Point(606, 48)
+        Me.lTotD1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotD1.Name = "lTotD1"
-        Me.lTotD1.Size = New System.Drawing.Size(74, 18)
+        Me.lTotD1.Size = New System.Drawing.Size(134, 32)
         Me.lTotD1.TabIndex = 84
         Me.lTotD1.Text = "x 256.66"
         Me.lTotD1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1487,10 +1487,10 @@ Partial Class FDichiarazione
         'lFattD1
         '
         Me.lFattD1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattD1.Location = New System.Drawing.Point(224, 27)
-        Me.lFattD1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattD1.Location = New System.Drawing.Point(411, 50)
+        Me.lFattD1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattD1.Name = "lFattD1"
-        Me.lFattD1.Size = New System.Drawing.Size(74, 18)
+        Me.lFattD1.Size = New System.Drawing.Size(134, 32)
         Me.lFattD1.TabIndex = 83
         Me.lFattD1.Text = "x 256.66"
         Me.lFattD1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1498,10 +1498,10 @@ Partial Class FDichiarazione
         'lTotE1
         '
         Me.lTotE1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lTotE1.Location = New System.Drawing.Point(331, 27)
-        Me.lTotE1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lTotE1.Location = New System.Drawing.Point(606, 50)
+        Me.lTotE1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lTotE1.Name = "lTotE1"
-        Me.lTotE1.Size = New System.Drawing.Size(74, 18)
+        Me.lTotE1.Size = New System.Drawing.Size(134, 32)
         Me.lTotE1.TabIndex = 84
         Me.lTotE1.Text = "x 256.66"
         Me.lTotE1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1509,10 +1509,10 @@ Partial Class FDichiarazione
         'lFattE1
         '
         Me.lFattE1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lFattE1.Location = New System.Drawing.Point(224, 27)
-        Me.lFattE1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lFattE1.Location = New System.Drawing.Point(411, 50)
+        Me.lFattE1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lFattE1.Name = "lFattE1"
-        Me.lFattE1.Size = New System.Drawing.Size(74, 18)
+        Me.lFattE1.Size = New System.Drawing.Size(134, 32)
         Me.lFattE1.TabIndex = 83
         Me.lFattE1.Text = "x 256.66"
         Me.lFattE1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1531,76 +1531,76 @@ Partial Class FDichiarazione
         '
         Me.txtFirmatario.BackColor = System.Drawing.Color.Beige
         Me.txtFirmatario.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "CognomeNome", True))
-        Me.txtFirmatario.Location = New System.Drawing.Point(250, 23)
-        Me.txtFirmatario.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFirmatario.Location = New System.Drawing.Point(458, 42)
+        Me.txtFirmatario.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtFirmatario.Name = "txtFirmatario"
         Me.txtFirmatario.ReadOnly = True
-        Me.txtFirmatario.Size = New System.Drawing.Size(340, 20)
+        Me.txtFirmatario.Size = New System.Drawing.Size(620, 32)
         Me.txtFirmatario.TabIndex = 1
         '
         'txtQualifica
         '
         Me.txtQualifica.BackColor = System.Drawing.Color.Beige
         Me.txtQualifica.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Qualifica", True))
-        Me.txtQualifica.Location = New System.Drawing.Point(672, 20)
-        Me.txtQualifica.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtQualifica.Location = New System.Drawing.Point(1232, 38)
+        Me.txtQualifica.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtQualifica.Name = "txtQualifica"
         Me.txtQualifica.ReadOnly = True
-        Me.txtQualifica.Size = New System.Drawing.Size(312, 20)
+        Me.txtQualifica.Size = New System.Drawing.Size(569, 32)
         Me.txtQualifica.TabIndex = 2
         '
         'txtRagioneSociale
         '
         Me.txtRagioneSociale.BackColor = System.Drawing.Color.Beige
         Me.txtRagioneSociale.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "RagioneSociale", True))
-        Me.txtRagioneSociale.Location = New System.Drawing.Point(91, 24)
-        Me.txtRagioneSociale.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtRagioneSociale.Location = New System.Drawing.Point(166, 45)
+        Me.txtRagioneSociale.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtRagioneSociale.Name = "txtRagioneSociale"
         Me.txtRagioneSociale.ReadOnly = True
-        Me.txtRagioneSociale.Size = New System.Drawing.Size(392, 20)
+        Me.txtRagioneSociale.Size = New System.Drawing.Size(715, 32)
         Me.txtRagioneSociale.TabIndex = 0
         '
         'txtSedelegale
         '
         Me.txtSedelegale.BackColor = System.Drawing.Color.Beige
         Me.txtSedelegale.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "SedeLegale", True))
-        Me.txtSedelegale.Location = New System.Drawing.Point(91, 45)
-        Me.txtSedelegale.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtSedelegale.Location = New System.Drawing.Point(166, 87)
+        Me.txtSedelegale.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtSedelegale.Multiline = True
         Me.txtSedelegale.Name = "txtSedelegale"
         Me.txtSedelegale.ReadOnly = True
-        Me.txtSedelegale.Size = New System.Drawing.Size(392, 36)
+        Me.txtSedelegale.Size = New System.Drawing.Size(715, 32)
         Me.txtSedelegale.TabIndex = 1
         '
         'txtPIVA
         '
         Me.txtPIVA.BackColor = System.Drawing.Color.Beige
         Me.txtPIVA.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "PartitaIVA", True))
-        Me.txtPIVA.Location = New System.Drawing.Point(91, 83)
-        Me.txtPIVA.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPIVA.Location = New System.Drawing.Point(166, 128)
+        Me.txtPIVA.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtPIVA.Name = "txtPIVA"
         Me.txtPIVA.ReadOnly = True
-        Me.txtPIVA.Size = New System.Drawing.Size(141, 20)
+        Me.txtPIVA.Size = New System.Drawing.Size(256, 32)
         Me.txtPIVA.TabIndex = 2
         '
         'txtPeriodo
         '
         Me.txtPeriodo.BackColor = System.Drawing.Color.Beige
         Me.txtPeriodo.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Periodo", True))
-        Me.txtPeriodo.Location = New System.Drawing.Point(64, 28)
-        Me.txtPeriodo.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPeriodo.Location = New System.Drawing.Point(117, 51)
+        Me.txtPeriodo.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtPeriodo.Name = "txtPeriodo"
-        Me.txtPeriodo.Size = New System.Drawing.Size(66, 20)
+        Me.txtPeriodo.Size = New System.Drawing.Size(118, 32)
         Me.txtPeriodo.TabIndex = 0
         '
         'txtA1_1
         '
         Me.txtA1_1.BackColor = System.Drawing.Color.Beige
         Me.txtA1_1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "V_A1_1", True))
-        Me.txtA1_1.Location = New System.Drawing.Point(147, 27)
-        Me.txtA1_1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtA1_1.Location = New System.Drawing.Point(270, 50)
+        Me.txtA1_1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtA1_1.Name = "txtA1_1"
-        Me.txtA1_1.Size = New System.Drawing.Size(84, 20)
+        Me.txtA1_1.Size = New System.Drawing.Size(151, 32)
         Me.txtA1_1.TabIndex = 0
         Me.txtA1_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -1620,32 +1620,32 @@ Partial Class FDichiarazione
         Me.pnlCompilazione.Controls.Add(CognomeNomeLabel)
         Me.pnlCompilazione.Controls.Add(Me.txtQualifica)
         Me.pnlCompilazione.Controls.Add(QualificaLabel)
-        Me.pnlCompilazione.Location = New System.Drawing.Point(9, 32)
-        Me.pnlCompilazione.Margin = New System.Windows.Forms.Padding(2)
+        Me.pnlCompilazione.Location = New System.Drawing.Point(16, 58)
+        Me.pnlCompilazione.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.pnlCompilazione.Name = "pnlCompilazione"
-        Me.pnlCompilazione.Size = New System.Drawing.Size(988, 111)
+        Me.pnlCompilazione.Size = New System.Drawing.Size(1810, 184)
         Me.pnlCompilazione.TabIndex = 0
         '
         'txtProtocollo
         '
         Me.txtProtocollo.BackColor = System.Drawing.Color.Beige
         Me.txtProtocollo.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Protocollo", True))
-        Me.txtProtocollo.Location = New System.Drawing.Point(64, 23)
-        Me.txtProtocollo.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtProtocollo.Location = New System.Drawing.Point(117, 42)
+        Me.txtProtocollo.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtProtocollo.Name = "txtProtocollo"
         Me.txtProtocollo.ReadOnly = True
-        Me.txtProtocollo.Size = New System.Drawing.Size(116, 20)
+        Me.txtProtocollo.Size = New System.Drawing.Size(209, 32)
         Me.txtProtocollo.TabIndex = 21
         '
         'txtEmailNotifica
         '
         Me.txtEmailNotifica.BackColor = System.Drawing.Color.Beige
         Me.txtEmailNotifica.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "EmailCompilatore", True))
-        Me.txtEmailNotifica.Location = New System.Drawing.Point(250, 46)
-        Me.txtEmailNotifica.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtEmailNotifica.Location = New System.Drawing.Point(458, 86)
+        Me.txtEmailNotifica.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtEmailNotifica.Name = "txtEmailNotifica"
         Me.txtEmailNotifica.ReadOnly = True
-        Me.txtEmailNotifica.Size = New System.Drawing.Size(734, 20)
+        Me.txtEmailNotifica.Size = New System.Drawing.Size(1342, 32)
         Me.txtEmailNotifica.TabIndex = 3
         Me.txtEmailNotifica.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Mail
         '
@@ -1656,25 +1656,25 @@ Partial Class FDichiarazione
         Me.txtData.DateFormat = Nothing
         Me.txtData.DateValue = Nothing
         Me.txtData.IsReadOnly = False
-        Me.txtData.Location = New System.Drawing.Point(64, 46)
-        Me.txtData.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtData.Location = New System.Drawing.Point(117, 86)
+        Me.txtData.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtData.Name = "txtData"
         Me.txtData.ReadOnly = True
         Me.txtData.SetNullDateToDbNull = False
-        Me.txtData.Size = New System.Drawing.Size(116, 20)
+        Me.txtData.Size = New System.Drawing.Size(209, 32)
         Me.txtData.TabIndex = 0
         '
         'txtNote
         '
         Me.txtNote.BackColor = System.Drawing.Color.Beige
         Me.txtNote.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Note", True))
-        Me.txtNote.Location = New System.Drawing.Point(64, 68)
-        Me.txtNote.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtNote.Location = New System.Drawing.Point(117, 126)
+        Me.txtNote.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtNote.Multiline = True
         Me.txtNote.Name = "txtNote"
         Me.txtNote.ReadOnly = True
         Me.txtNote.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtNote.Size = New System.Drawing.Size(920, 37)
+        Me.txtNote.Size = New System.Drawing.Size(1683, 52)
         Me.txtNote.TabIndex = 4
         '
         'pnlAzienda
@@ -1710,145 +1710,145 @@ Partial Class FDichiarazione
         Me.pnlAzienda.Controls.Add(TelefonoLabel)
         Me.pnlAzienda.Controls.Add(FaxLabel)
         Me.pnlAzienda.Controls.Add(EmailLabel)
-        Me.pnlAzienda.Location = New System.Drawing.Point(9, 148)
-        Me.pnlAzienda.Margin = New System.Windows.Forms.Padding(2)
+        Me.pnlAzienda.Location = New System.Drawing.Point(16, 249)
+        Me.pnlAzienda.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.pnlAzienda.Name = "pnlAzienda"
-        Me.pnlAzienda.Size = New System.Drawing.Size(988, 174)
+        Me.pnlAzienda.Size = New System.Drawing.Size(1810, 302)
         Me.pnlAzienda.TabIndex = 1
         '
         'lcmpAzEmail
         '
         Me.lcmpAzEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lcmpAzEmail.Location = New System.Drawing.Point(493, 148)
-        Me.lcmpAzEmail.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lcmpAzEmail.Location = New System.Drawing.Point(903, 260)
+        Me.lcmpAzEmail.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lcmpAzEmail.Name = "lcmpAzEmail"
-        Me.lcmpAzEmail.Size = New System.Drawing.Size(36, 18)
+        Me.lcmpAzEmail.Size = New System.Drawing.Size(64, 32)
         Me.lcmpAzEmail.TabIndex = 91
         Me.lcmpAzEmail.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lcmpAzFax
         '
         Me.lcmpAzFax.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lcmpAzFax.Location = New System.Drawing.Point(493, 125)
-        Me.lcmpAzFax.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lcmpAzFax.Location = New System.Drawing.Point(903, 218)
+        Me.lcmpAzFax.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lcmpAzFax.Name = "lcmpAzFax"
-        Me.lcmpAzFax.Size = New System.Drawing.Size(36, 18)
+        Me.lcmpAzFax.Size = New System.Drawing.Size(64, 32)
         Me.lcmpAzFax.TabIndex = 90
         Me.lcmpAzFax.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lcmpAzTelefono
         '
         Me.lcmpAzTelefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lcmpAzTelefono.Location = New System.Drawing.Point(493, 104)
-        Me.lcmpAzTelefono.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lcmpAzTelefono.Location = New System.Drawing.Point(903, 179)
+        Me.lcmpAzTelefono.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lcmpAzTelefono.Name = "lcmpAzTelefono"
-        Me.lcmpAzTelefono.Size = New System.Drawing.Size(36, 18)
+        Me.lcmpAzTelefono.Size = New System.Drawing.Size(64, 32)
         Me.lcmpAzTelefono.TabIndex = 89
         Me.lcmpAzTelefono.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lcmpAzPIVA
         '
         Me.lcmpAzPIVA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lcmpAzPIVA.Location = New System.Drawing.Point(493, 83)
-        Me.lcmpAzPIVA.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lcmpAzPIVA.Location = New System.Drawing.Point(903, 140)
+        Me.lcmpAzPIVA.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lcmpAzPIVA.Name = "lcmpAzPIVA"
-        Me.lcmpAzPIVA.Size = New System.Drawing.Size(36, 18)
+        Me.lcmpAzPIVA.Size = New System.Drawing.Size(64, 32)
         Me.lcmpAzPIVA.TabIndex = 88
         Me.lcmpAzPIVA.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lcmpAzSedeLegale
         '
         Me.lcmpAzSedeLegale.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lcmpAzSedeLegale.Location = New System.Drawing.Point(493, 45)
-        Me.lcmpAzSedeLegale.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lcmpAzSedeLegale.Location = New System.Drawing.Point(903, 69)
+        Me.lcmpAzSedeLegale.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lcmpAzSedeLegale.Name = "lcmpAzSedeLegale"
-        Me.lcmpAzSedeLegale.Size = New System.Drawing.Size(36, 36)
+        Me.lcmpAzSedeLegale.Size = New System.Drawing.Size(64, 65)
         Me.lcmpAzSedeLegale.TabIndex = 87
         Me.lcmpAzSedeLegale.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lcmpAzRagioneSociale
         '
         Me.lcmpAzRagioneSociale.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lcmpAzRagioneSociale.Location = New System.Drawing.Point(493, 25)
-        Me.lcmpAzRagioneSociale.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lcmpAzRagioneSociale.Location = New System.Drawing.Point(903, 33)
+        Me.lcmpAzRagioneSociale.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lcmpAzRagioneSociale.Name = "lcmpAzRagioneSociale"
-        Me.lcmpAzRagioneSociale.Size = New System.Drawing.Size(36, 18)
+        Me.lcmpAzRagioneSociale.Size = New System.Drawing.Size(64, 32)
         Me.lcmpAzRagioneSociale.TabIndex = 86
         Me.lcmpAzRagioneSociale.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtAzEmail
         '
         Me.txtAzEmail.BackColor = System.Drawing.Color.White
-        Me.txtAzEmail.Location = New System.Drawing.Point(537, 148)
-        Me.txtAzEmail.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtAzEmail.Location = New System.Drawing.Point(984, 248)
+        Me.txtAzEmail.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtAzEmail.Name = "txtAzEmail"
         Me.txtAzEmail.ReadOnly = True
-        Me.txtAzEmail.Size = New System.Drawing.Size(400, 20)
+        Me.txtAzEmail.Size = New System.Drawing.Size(730, 32)
         Me.txtAzEmail.TabIndex = 83
         Me.txtAzEmail.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Mail
         '
         'txtAzFax
         '
         Me.txtAzFax.BackColor = System.Drawing.Color.White
-        Me.txtAzFax.Location = New System.Drawing.Point(537, 125)
-        Me.txtAzFax.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtAzFax.Location = New System.Drawing.Point(984, 206)
+        Me.txtAzFax.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtAzFax.Name = "txtAzFax"
         Me.txtAzFax.ReadOnly = True
-        Me.txtAzFax.Size = New System.Drawing.Size(141, 20)
+        Me.txtAzFax.Size = New System.Drawing.Size(256, 32)
         Me.txtAzFax.TabIndex = 82
         Me.txtAzFax.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Telefono
         '
         'txtAzTelefono
         '
         Me.txtAzTelefono.BackColor = System.Drawing.Color.White
-        Me.txtAzTelefono.Location = New System.Drawing.Point(537, 104)
-        Me.txtAzTelefono.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtAzTelefono.Location = New System.Drawing.Point(984, 167)
+        Me.txtAzTelefono.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtAzTelefono.Name = "txtAzTelefono"
         Me.txtAzTelefono.ReadOnly = True
-        Me.txtAzTelefono.Size = New System.Drawing.Size(141, 20)
+        Me.txtAzTelefono.Size = New System.Drawing.Size(256, 32)
         Me.txtAzTelefono.TabIndex = 81
         Me.txtAzTelefono.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Telefono
         '
         'txtAzPIva
         '
         Me.txtAzPIva.BackColor = System.Drawing.Color.White
-        Me.txtAzPIva.Location = New System.Drawing.Point(537, 83)
-        Me.txtAzPIva.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtAzPIva.Location = New System.Drawing.Point(984, 128)
+        Me.txtAzPIva.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtAzPIva.Name = "txtAzPIva"
         Me.txtAzPIva.ReadOnly = True
-        Me.txtAzPIva.Size = New System.Drawing.Size(141, 20)
+        Me.txtAzPIva.Size = New System.Drawing.Size(256, 32)
         Me.txtAzPIva.TabIndex = 80
         '
         'txtAzSedeLegale
         '
         Me.txtAzSedeLegale.BackColor = System.Drawing.Color.White
-        Me.txtAzSedeLegale.Location = New System.Drawing.Point(537, 45)
-        Me.txtAzSedeLegale.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtAzSedeLegale.Location = New System.Drawing.Point(984, 87)
+        Me.txtAzSedeLegale.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtAzSedeLegale.Multiline = True
         Me.txtAzSedeLegale.Name = "txtAzSedeLegale"
         Me.txtAzSedeLegale.ReadOnly = True
-        Me.txtAzSedeLegale.Size = New System.Drawing.Size(400, 36)
+        Me.txtAzSedeLegale.Size = New System.Drawing.Size(730, 32)
         Me.txtAzSedeLegale.TabIndex = 79
         '
         'txtAzRagioneSociale
         '
         Me.txtAzRagioneSociale.BackColor = System.Drawing.Color.White
-        Me.txtAzRagioneSociale.Location = New System.Drawing.Point(537, 24)
-        Me.txtAzRagioneSociale.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtAzRagioneSociale.Location = New System.Drawing.Point(984, 45)
+        Me.txtAzRagioneSociale.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtAzRagioneSociale.Name = "txtAzRagioneSociale"
         Me.txtAzRagioneSociale.ReadOnly = True
-        Me.txtAzRagioneSociale.Size = New System.Drawing.Size(400, 20)
+        Me.txtAzRagioneSociale.Size = New System.Drawing.Size(730, 32)
         Me.txtAzRagioneSociale.TabIndex = 78
         '
         'btnAzDel
         '
         Me.btnAzDel.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnAzDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAzDel.Image = Global.DichiarazioneOnLine.My.Resources.Resources.Red_Delete_16_n_g
-        Me.btnAzDel.Location = New System.Drawing.Point(950, 49)
-        Me.btnAzDel.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnAzDel.Image = Global.DichiarazioneOnLine.My.Resources.Resources.Red_Delete_24_n_g
+        Me.btnAzDel.Location = New System.Drawing.Point(1742, 90)
+        Me.btnAzDel.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.btnAzDel.Name = "btnAzDel"
-        Me.btnAzDel.Size = New System.Drawing.Size(33, 20)
+        Me.btnAzDel.Size = New System.Drawing.Size(60, 38)
         Me.btnAzDel.TabIndex = 77
         Me.btnAzDel.UseVisualStyleBackColor = True
         '
@@ -1856,11 +1856,11 @@ Partial Class FDichiarazione
         '
         Me.btnAzAss.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnAzAss.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAzAss.Image = Global.DichiarazioneOnLine.My.Resources.Resources.Office_Block_16_n_g
-        Me.btnAzAss.Location = New System.Drawing.Point(950, 24)
-        Me.btnAzAss.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnAzAss.Image = Global.DichiarazioneOnLine.My.Resources.Resources.Office_Block_24_h_g
+        Me.btnAzAss.Location = New System.Drawing.Point(1742, 45)
+        Me.btnAzAss.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.btnAzAss.Name = "btnAzAss"
-        Me.btnAzAss.Size = New System.Drawing.Size(33, 20)
+        Me.btnAzAss.Size = New System.Drawing.Size(60, 38)
         Me.btnAzAss.TabIndex = 76
         Me.btnAzAss.UseVisualStyleBackColor = True
         '
@@ -1868,11 +1868,11 @@ Partial Class FDichiarazione
         '
         Me.txtEmailAzienda.BackColor = System.Drawing.Color.Beige
         Me.txtEmailAzienda.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Email", True))
-        Me.txtEmailAzienda.Location = New System.Drawing.Point(91, 148)
-        Me.txtEmailAzienda.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtEmailAzienda.Location = New System.Drawing.Point(166, 248)
+        Me.txtEmailAzienda.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtEmailAzienda.Name = "txtEmailAzienda"
         Me.txtEmailAzienda.ReadOnly = True
-        Me.txtEmailAzienda.Size = New System.Drawing.Size(392, 20)
+        Me.txtEmailAzienda.Size = New System.Drawing.Size(715, 32)
         Me.txtEmailAzienda.TabIndex = 5
         Me.txtEmailAzienda.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Mail
         '
@@ -1880,11 +1880,11 @@ Partial Class FDichiarazione
         '
         Me.txtFax.BackColor = System.Drawing.Color.Beige
         Me.txtFax.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Fax", True))
-        Me.txtFax.Location = New System.Drawing.Point(91, 125)
-        Me.txtFax.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFax.Location = New System.Drawing.Point(166, 206)
+        Me.txtFax.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtFax.Name = "txtFax"
         Me.txtFax.ReadOnly = True
-        Me.txtFax.Size = New System.Drawing.Size(141, 20)
+        Me.txtFax.Size = New System.Drawing.Size(256, 32)
         Me.txtFax.TabIndex = 4
         Me.txtFax.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Telefono
         '
@@ -1892,11 +1892,11 @@ Partial Class FDichiarazione
         '
         Me.txtTelefono.BackColor = System.Drawing.Color.Beige
         Me.txtTelefono.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Telefono", True))
-        Me.txtTelefono.Location = New System.Drawing.Point(91, 104)
-        Me.txtTelefono.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtTelefono.Location = New System.Drawing.Point(166, 167)
+        Me.txtTelefono.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtTelefono.Name = "txtTelefono"
         Me.txtTelefono.ReadOnly = True
-        Me.txtTelefono.Size = New System.Drawing.Size(141, 20)
+        Me.txtTelefono.Size = New System.Drawing.Size(256, 32)
         Me.txtTelefono.TabIndex = 3
         Me.txtTelefono.TipoDato = mdsUIControls.ucTxtCall.TipoEnum.Telefono
         '
@@ -1904,12 +1904,13 @@ Partial Class FDichiarazione
         '
         Me.tsMain.AutoSize = False
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbClose, Me.tsbRipristina, Me.tsbAnnulla, Me.tsbImporta, Me.tsbAllegati, Me.tsbAssociaDichiarazione, Me.tsbOpenDic})
-        Me.tsMain.Location = New System.Drawing.Point(0, 535)
+        Me.tsMain.Location = New System.Drawing.Point(0, 904)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1008, 37)
+        Me.tsMain.Size = New System.Drawing.Size(1848, 69)
         Me.tsMain.TabIndex = 35
         '
         'tsbClose
@@ -1921,7 +1922,7 @@ Partial Class FDichiarazione
         Me.tsbClose.Margin = New System.Windows.Forms.Padding(50, 1, 0, 2)
         Me.tsbClose.Name = "tsbClose"
         Me.tsbClose.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbClose.Size = New System.Drawing.Size(74, 34)
+        Me.tsbClose.Size = New System.Drawing.Size(98, 66)
         Me.tsbClose.Text = "Chiudi"
         '
         'tsbRipristina
@@ -1932,7 +1933,7 @@ Partial Class FDichiarazione
         Me.tsbRipristina.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbRipristina.Name = "tsbRipristina"
         Me.tsbRipristina.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbRipristina.Size = New System.Drawing.Size(88, 34)
+        Me.tsbRipristina.Size = New System.Drawing.Size(126, 66)
         Me.tsbRipristina.Text = "Ripristina"
         '
         'tsbAnnulla
@@ -1943,7 +1944,7 @@ Partial Class FDichiarazione
         Me.tsbAnnulla.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbAnnulla.Name = "tsbAnnulla"
         Me.tsbAnnulla.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbAnnulla.Size = New System.Drawing.Size(88, 34)
+        Me.tsbAnnulla.Size = New System.Drawing.Size(117, 66)
         Me.tsbAnnulla.Text = "Annulla"
         '
         'tsbImporta
@@ -1954,7 +1955,7 @@ Partial Class FDichiarazione
         Me.tsbImporta.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbImporta.Name = "tsbImporta"
         Me.tsbImporta.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbImporta.Size = New System.Drawing.Size(89, 34)
+        Me.tsbImporta.Size = New System.Drawing.Size(120, 66)
         Me.tsbImporta.Text = "Importa"
         '
         'tsbAllegati
@@ -1964,7 +1965,7 @@ Partial Class FDichiarazione
         Me.tsbAllegati.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbAllegati.Name = "tsbAllegati"
         Me.tsbAllegati.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbAllegati.Size = New System.Drawing.Size(128, 34)
+        Me.tsbAllegati.Size = New System.Drawing.Size(187, 66)
         Me.tsbAllegati.Text = "Elenchi Allegati"
         '
         'tsbAssociaDichiarazione
@@ -1975,7 +1976,7 @@ Partial Class FDichiarazione
         Me.tsbAssociaDichiarazione.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbAssociaDichiarazione.Name = "tsbAssociaDichiarazione"
         Me.tsbAssociaDichiarazione.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbAssociaDichiarazione.Size = New System.Drawing.Size(152, 34)
+        Me.tsbAssociaDichiarazione.Size = New System.Drawing.Size(236, 66)
         Me.tsbAssociaDichiarazione.Text = "Associa dichiarazione"
         '
         'tsbOpenDic
@@ -1986,17 +1987,17 @@ Partial Class FDichiarazione
         Me.tsbOpenDic.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbOpenDic.Name = "tsbOpenDic"
         Me.tsbOpenDic.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbOpenDic.Size = New System.Drawing.Size(142, 34)
+        Me.tsbOpenDic.Size = New System.Drawing.Size(210, 66)
         Me.tsbOpenDic.Text = "Apri dichiarazione"
         '
         'txtA1_2
         '
         Me.txtA1_2.BackColor = System.Drawing.Color.Beige
         Me.txtA1_2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "V_A1_2", True))
-        Me.txtA1_2.Location = New System.Drawing.Point(147, 48)
-        Me.txtA1_2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtA1_2.Location = New System.Drawing.Point(270, 88)
+        Me.txtA1_2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtA1_2.Name = "txtA1_2"
-        Me.txtA1_2.Size = New System.Drawing.Size(84, 20)
+        Me.txtA1_2.Size = New System.Drawing.Size(151, 32)
         Me.txtA1_2.TabIndex = 1
         Me.txtA1_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2004,10 +2005,10 @@ Partial Class FDichiarazione
         '
         Me.txtA1_3_1.BackColor = System.Drawing.Color.Beige
         Me.txtA1_3_1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "V_A1_3_1", True))
-        Me.txtA1_3_1.Location = New System.Drawing.Point(147, 69)
-        Me.txtA1_3_1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtA1_3_1.Location = New System.Drawing.Point(270, 128)
+        Me.txtA1_3_1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtA1_3_1.Name = "txtA1_3_1"
-        Me.txtA1_3_1.Size = New System.Drawing.Size(84, 20)
+        Me.txtA1_3_1.Size = New System.Drawing.Size(151, 32)
         Me.txtA1_3_1.TabIndex = 2
         Me.txtA1_3_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2015,10 +2016,10 @@ Partial Class FDichiarazione
         '
         Me.txtA1_3_2.BackColor = System.Drawing.Color.Beige
         Me.txtA1_3_2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "V_A1_3_2", True))
-        Me.txtA1_3_2.Location = New System.Drawing.Point(147, 90)
-        Me.txtA1_3_2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtA1_3_2.Location = New System.Drawing.Point(270, 166)
+        Me.txtA1_3_2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtA1_3_2.Name = "txtA1_3_2"
-        Me.txtA1_3_2.Size = New System.Drawing.Size(84, 20)
+        Me.txtA1_3_2.Size = New System.Drawing.Size(151, 32)
         Me.txtA1_3_2.TabIndex = 3
         Me.txtA1_3_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2026,10 +2027,10 @@ Partial Class FDichiarazione
         '
         Me.txtA2.BackColor = System.Drawing.Color.Beige
         Me.txtA2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "V_A2_1", True))
-        Me.txtA2.Location = New System.Drawing.Point(147, 111)
-        Me.txtA2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtA2.Location = New System.Drawing.Point(270, 206)
+        Me.txtA2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtA2.Name = "txtA2"
-        Me.txtA2.Size = New System.Drawing.Size(84, 20)
+        Me.txtA2.Size = New System.Drawing.Size(151, 32)
         Me.txtA2.TabIndex = 4
         Me.txtA2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2041,12 +2042,12 @@ Partial Class FDichiarazione
         Me.tcQuadri.Controls.Add(Me.tpQC)
         Me.tcQuadri.Controls.Add(Me.tpQD)
         Me.tcQuadri.Controls.Add(Me.tpQE)
-        Me.tcQuadri.ItemSize = New System.Drawing.Size(82, 30)
-        Me.tcQuadri.Location = New System.Drawing.Point(145, 328)
-        Me.tcQuadri.Margin = New System.Windows.Forms.Padding(2)
+        Me.tcQuadri.ItemSize = New System.Drawing.Size(110, 30)
+        Me.tcQuadri.Location = New System.Drawing.Point(265, 581)
+        Me.tcQuadri.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.tcQuadri.Name = "tcQuadri"
         Me.tcQuadri.SelectedIndex = 0
-        Me.tcQuadri.Size = New System.Drawing.Size(560, 205)
+        Me.tcQuadri.Size = New System.Drawing.Size(1027, 323)
         Me.tcQuadri.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
         Me.tcQuadri.TabIndex = 3
         '
@@ -2079,10 +2080,10 @@ Partial Class FDichiarazione
         Me.tpQA.Controls.Add(Label5)
         Me.tpQA.Controls.Add(Label6)
         Me.tpQA.Location = New System.Drawing.Point(4, 34)
-        Me.tpQA.Margin = New System.Windows.Forms.Padding(2)
+        Me.tpQA.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.tpQA.Name = "tpQA"
-        Me.tpQA.Padding = New System.Windows.Forms.Padding(2)
-        Me.tpQA.Size = New System.Drawing.Size(552, 167)
+        Me.tpQA.Padding = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.tpQA.Size = New System.Drawing.Size(1019, 285)
         Me.tpQA.TabIndex = 0
         Me.tpQA.Text = "Quadro A"
         '
@@ -2095,10 +2096,10 @@ Partial Class FDichiarazione
         Me.tpQB.Controls.Add(Me.rbB2)
         Me.tpQB.Controls.Add(Me.rbB1)
         Me.tpQB.Location = New System.Drawing.Point(4, 34)
-        Me.tpQB.Margin = New System.Windows.Forms.Padding(2)
+        Me.tpQB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.tpQB.Name = "tpQB"
-        Me.tpQB.Padding = New System.Windows.Forms.Padding(2)
-        Me.tpQB.Size = New System.Drawing.Size(552, 167)
+        Me.tpQB.Padding = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.tpQB.Size = New System.Drawing.Size(1019, 285)
         Me.tpQB.TabIndex = 1
         Me.tpQB.Text = "Quadro B"
         '
@@ -2106,19 +2107,19 @@ Partial Class FDichiarazione
         '
         Me.pnlRB2.Controls.Add(Me.rbB2_2)
         Me.pnlRB2.Controls.Add(Me.rbB2_1)
-        Me.pnlRB2.Location = New System.Drawing.Point(336, 4)
-        Me.pnlRB2.Margin = New System.Windows.Forms.Padding(2)
+        Me.pnlRB2.Location = New System.Drawing.Point(616, 8)
+        Me.pnlRB2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.pnlRB2.Name = "pnlRB2"
-        Me.pnlRB2.Size = New System.Drawing.Size(179, 39)
+        Me.pnlRB2.Size = New System.Drawing.Size(329, 72)
         Me.pnlRB2.TabIndex = 2
         '
         'rbB2_2
         '
         Me.rbB2_2.AutoSize = True
-        Me.rbB2_2.Location = New System.Drawing.Point(2, 21)
-        Me.rbB2_2.Margin = New System.Windows.Forms.Padding(2)
+        Me.rbB2_2.Location = New System.Drawing.Point(4, 39)
+        Me.rbB2_2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.rbB2_2.Name = "rbB2_2"
-        Me.rbB2_2.Size = New System.Drawing.Size(81, 17)
+        Me.rbB2_2.Size = New System.Drawing.Size(137, 28)
         Me.rbB2_2.TabIndex = 1
         Me.rbB2_2.TabStop = True
         Me.rbB2_2.Text = "Non assolto"
@@ -2127,10 +2128,10 @@ Partial Class FDichiarazione
         'rbB2_1
         '
         Me.rbB2_1.AutoSize = True
-        Me.rbB2_1.Location = New System.Drawing.Point(2, 2)
-        Me.rbB2_1.Margin = New System.Windows.Forms.Padding(2)
+        Me.rbB2_1.Location = New System.Drawing.Point(4, 3)
+        Me.rbB2_1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.rbB2_1.Name = "rbB2_1"
-        Me.rbB2_1.Size = New System.Drawing.Size(105, 17)
+        Me.rbB2_1.Size = New System.Drawing.Size(187, 28)
         Me.rbB2_1.TabIndex = 0
         Me.rbB2_1.TabStop = True
         Me.rbB2_1.Text = "Assolto alla fonte"
@@ -2163,20 +2164,20 @@ Partial Class FDichiarazione
         Me.pnlB_B22.Controls.Add(Label80)
         Me.pnlB_B22.Controls.Add(Label81)
         Me.pnlB_B22.Controls.Add(Me.txtB1_3_1)
-        Me.pnlB_B22.Location = New System.Drawing.Point(2, 46)
-        Me.pnlB_B22.Margin = New System.Windows.Forms.Padding(2)
+        Me.pnlB_B22.Location = New System.Drawing.Point(4, 86)
+        Me.pnlB_B22.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.pnlB_B22.Name = "pnlB_B22"
-        Me.pnlB_B22.Size = New System.Drawing.Size(546, 117)
+        Me.pnlB_B22.Size = New System.Drawing.Size(1001, 216)
         Me.pnlB_B22.TabIndex = 2
         '
         'txtB1_1
         '
         Me.txtB1_1.BackColor = System.Drawing.Color.Beige
         Me.txtB1_1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "V_B1_1", True))
-        Me.txtB1_1.Location = New System.Drawing.Point(142, 3)
-        Me.txtB1_1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtB1_1.Location = New System.Drawing.Point(260, 6)
+        Me.txtB1_1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtB1_1.Name = "txtB1_1"
-        Me.txtB1_1.Size = New System.Drawing.Size(97, 20)
+        Me.txtB1_1.Size = New System.Drawing.Size(174, 32)
         Me.txtB1_1.TabIndex = 0
         Me.txtB1_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2184,10 +2185,10 @@ Partial Class FDichiarazione
         '
         Me.txtB2.BackColor = System.Drawing.Color.Beige
         Me.txtB2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "V_B2_1", True))
-        Me.txtB2.Location = New System.Drawing.Point(142, 81)
-        Me.txtB2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtB2.Location = New System.Drawing.Point(260, 150)
+        Me.txtB2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtB2.Name = "txtB2"
-        Me.txtB2.Size = New System.Drawing.Size(97, 20)
+        Me.txtB2.Size = New System.Drawing.Size(174, 32)
         Me.txtB2.TabIndex = 4
         Me.txtB2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2195,10 +2196,10 @@ Partial Class FDichiarazione
         '
         Me.txtB1_2.BackColor = System.Drawing.Color.Beige
         Me.txtB1_2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "V_B1_2", True))
-        Me.txtB1_2.Location = New System.Drawing.Point(142, 23)
-        Me.txtB1_2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtB1_2.Location = New System.Drawing.Point(260, 42)
+        Me.txtB1_2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtB1_2.Name = "txtB1_2"
-        Me.txtB1_2.Size = New System.Drawing.Size(97, 20)
+        Me.txtB1_2.Size = New System.Drawing.Size(174, 32)
         Me.txtB1_2.TabIndex = 1
         Me.txtB1_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2206,10 +2207,10 @@ Partial Class FDichiarazione
         '
         Me.txtB1_3_2.BackColor = System.Drawing.Color.Beige
         Me.txtB1_3_2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "V_B1_3_2", True))
-        Me.txtB1_3_2.Location = New System.Drawing.Point(142, 62)
-        Me.txtB1_3_2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtB1_3_2.Location = New System.Drawing.Point(260, 114)
+        Me.txtB1_3_2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtB1_3_2.Name = "txtB1_3_2"
-        Me.txtB1_3_2.Size = New System.Drawing.Size(97, 20)
+        Me.txtB1_3_2.Size = New System.Drawing.Size(174, 32)
         Me.txtB1_3_2.TabIndex = 3
         Me.txtB1_3_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2217,20 +2218,20 @@ Partial Class FDichiarazione
         '
         Me.txtB1_3_1.BackColor = System.Drawing.Color.Beige
         Me.txtB1_3_1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "v_B1_3_1", True))
-        Me.txtB1_3_1.Location = New System.Drawing.Point(142, 42)
-        Me.txtB1_3_1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtB1_3_1.Location = New System.Drawing.Point(260, 78)
+        Me.txtB1_3_1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtB1_3_1.Name = "txtB1_3_1"
-        Me.txtB1_3_1.Size = New System.Drawing.Size(97, 20)
+        Me.txtB1_3_1.Size = New System.Drawing.Size(174, 32)
         Me.txtB1_3_1.TabIndex = 2
         Me.txtB1_3_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'rbB2
         '
         Me.rbB2.AutoSize = True
-        Me.rbB2.Location = New System.Drawing.Point(140, 5)
-        Me.rbB2.Margin = New System.Windows.Forms.Padding(2)
+        Me.rbB2.Location = New System.Drawing.Point(257, 9)
+        Me.rbB2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.rbB2.Name = "rbB2"
-        Me.rbB2.Size = New System.Drawing.Size(105, 17)
+        Me.rbB2.Size = New System.Drawing.Size(183, 28)
         Me.rbB2.TabIndex = 1
         Me.rbB2.Text = "Adesione singola"
         Me.rbB2.UseVisualStyleBackColor = True
@@ -2239,10 +2240,10 @@ Partial Class FDichiarazione
         '
         Me.rbB1.AutoSize = True
         Me.rbB1.Checked = True
-        Me.rbB1.Location = New System.Drawing.Point(4, 5)
-        Me.rbB1.Margin = New System.Windows.Forms.Padding(2)
+        Me.rbB1.Location = New System.Drawing.Point(7, 9)
+        Me.rbB1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.rbB1.Name = "rbB1"
-        Me.rbB1.Size = New System.Drawing.Size(134, 17)
+        Me.rbB1.Size = New System.Drawing.Size(238, 28)
         Me.rbB1.TabIndex = 0
         Me.rbB1.TabStop = True
         Me.rbB1.Text = "Associazione categoria"
@@ -2257,10 +2258,10 @@ Partial Class FDichiarazione
         Me.tpQC.Controls.Add(Me.lFattC1)
         Me.tpQC.Controls.Add(Me.txtC1)
         Me.tpQC.Location = New System.Drawing.Point(4, 34)
-        Me.tpQC.Margin = New System.Windows.Forms.Padding(2)
+        Me.tpQC.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.tpQC.Name = "tpQC"
-        Me.tpQC.Padding = New System.Windows.Forms.Padding(2)
-        Me.tpQC.Size = New System.Drawing.Size(552, 167)
+        Me.tpQC.Padding = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.tpQC.Size = New System.Drawing.Size(1019, 285)
         Me.tpQC.TabIndex = 2
         Me.tpQC.Text = "Quadro C"
         '
@@ -2268,10 +2269,10 @@ Partial Class FDichiarazione
         '
         Me.txtC1.BackColor = System.Drawing.Color.Beige
         Me.txtC1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "VC1", True))
-        Me.txtC1.Location = New System.Drawing.Point(146, 27)
-        Me.txtC1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtC1.Location = New System.Drawing.Point(268, 50)
+        Me.txtC1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtC1.Name = "txtC1"
-        Me.txtC1.Size = New System.Drawing.Size(74, 20)
+        Me.txtC1.Size = New System.Drawing.Size(132, 32)
         Me.txtC1.TabIndex = 77
         Me.txtC1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2284,10 +2285,10 @@ Partial Class FDichiarazione
         Me.tpQD.Controls.Add(Label90)
         Me.tpQD.Controls.Add(Me.lFattD1)
         Me.tpQD.Location = New System.Drawing.Point(4, 34)
-        Me.tpQD.Margin = New System.Windows.Forms.Padding(2)
+        Me.tpQD.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.tpQD.Name = "tpQD"
-        Me.tpQD.Padding = New System.Windows.Forms.Padding(2)
-        Me.tpQD.Size = New System.Drawing.Size(552, 167)
+        Me.tpQD.Padding = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.tpQD.Size = New System.Drawing.Size(1019, 285)
         Me.tpQD.TabIndex = 3
         Me.tpQD.Text = "Quadro D"
         '
@@ -2295,10 +2296,10 @@ Partial Class FDichiarazione
         '
         Me.txtD1.BackColor = System.Drawing.Color.Beige
         Me.txtD1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "VD1", True))
-        Me.txtD1.Location = New System.Drawing.Point(146, 27)
-        Me.txtD1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtD1.Location = New System.Drawing.Point(268, 50)
+        Me.txtD1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtD1.Name = "txtD1"
-        Me.txtD1.Size = New System.Drawing.Size(74, 20)
+        Me.txtD1.Size = New System.Drawing.Size(132, 32)
         Me.txtD1.TabIndex = 82
         Me.txtD1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2311,10 +2312,10 @@ Partial Class FDichiarazione
         Me.tpQE.Controls.Add(Me.lFattE1)
         Me.tpQE.Controls.Add(Me.txtE1)
         Me.tpQE.Location = New System.Drawing.Point(4, 34)
-        Me.tpQE.Margin = New System.Windows.Forms.Padding(2)
+        Me.tpQE.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.tpQE.Name = "tpQE"
-        Me.tpQE.Padding = New System.Windows.Forms.Padding(2)
-        Me.tpQE.Size = New System.Drawing.Size(552, 167)
+        Me.tpQE.Padding = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.tpQE.Size = New System.Drawing.Size(1019, 285)
         Me.tpQE.TabIndex = 4
         Me.tpQE.Text = "Quadro E"
         '
@@ -2322,10 +2323,10 @@ Partial Class FDichiarazione
         '
         Me.txtE1.BackColor = System.Drawing.Color.Beige
         Me.txtE1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "VE1", True))
-        Me.txtE1.Location = New System.Drawing.Point(146, 27)
-        Me.txtE1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtE1.Location = New System.Drawing.Point(268, 50)
+        Me.txtE1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtE1.Name = "txtE1"
-        Me.txtE1.Size = New System.Drawing.Size(74, 20)
+        Me.txtE1.Size = New System.Drawing.Size(132, 32)
         Me.txtE1.TabIndex = 82
         Me.txtE1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2343,20 +2344,20 @@ Partial Class FDichiarazione
         Me.pnlPeriodo.Controls.Add(PeriodoLabel)
         Me.pnlPeriodo.Controls.Add(Me.txtRiepIVA)
         Me.pnlPeriodo.Controls.Add(Label22)
-        Me.pnlPeriodo.Location = New System.Drawing.Point(9, 327)
-        Me.pnlPeriodo.Margin = New System.Windows.Forms.Padding(2)
+        Me.pnlPeriodo.Location = New System.Drawing.Point(16, 578)
+        Me.pnlPeriodo.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.pnlPeriodo.Name = "pnlPeriodo"
-        Me.pnlPeriodo.Size = New System.Drawing.Size(134, 202)
+        Me.pnlPeriodo.Size = New System.Drawing.Size(244, 322)
         Me.pnlPeriodo.TabIndex = 2
         '
         'chkCatE
         '
         Me.chkCatE.AutoSize = True
         Me.chkCatE.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsData, "CatE", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
-        Me.chkCatE.Location = New System.Drawing.Point(64, 150)
-        Me.chkCatE.Margin = New System.Windows.Forms.Padding(2)
+        Me.chkCatE.Location = New System.Drawing.Point(117, 278)
+        Me.chkCatE.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkCatE.Name = "chkCatE"
-        Me.chkCatE.Size = New System.Drawing.Size(55, 17)
+        Me.chkCatE.Size = New System.Drawing.Size(84, 28)
         Me.chkCatE.TabIndex = 5
         Me.chkCatE.Text = "Cat. E"
         Me.chkCatE.UseVisualStyleBackColor = True
@@ -2365,10 +2366,10 @@ Partial Class FDichiarazione
         '
         Me.chkCatD.AutoSize = True
         Me.chkCatD.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsData, "CatD", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
-        Me.chkCatD.Location = New System.Drawing.Point(64, 132)
-        Me.chkCatD.Margin = New System.Windows.Forms.Padding(2)
+        Me.chkCatD.Location = New System.Drawing.Point(117, 243)
+        Me.chkCatD.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkCatD.Name = "chkCatD"
-        Me.chkCatD.Size = New System.Drawing.Size(56, 17)
+        Me.chkCatD.Size = New System.Drawing.Size(86, 28)
         Me.chkCatD.TabIndex = 4
         Me.chkCatD.Text = "Cat. D"
         Me.chkCatD.UseVisualStyleBackColor = True
@@ -2377,10 +2378,10 @@ Partial Class FDichiarazione
         '
         Me.chkCatC.AutoSize = True
         Me.chkCatC.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsData, "CatC", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
-        Me.chkCatC.Location = New System.Drawing.Point(64, 115)
-        Me.chkCatC.Margin = New System.Windows.Forms.Padding(2)
+        Me.chkCatC.Location = New System.Drawing.Point(117, 213)
+        Me.chkCatC.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkCatC.Name = "chkCatC"
-        Me.chkCatC.Size = New System.Drawing.Size(55, 17)
+        Me.chkCatC.Size = New System.Drawing.Size(86, 28)
         Me.chkCatC.TabIndex = 3
         Me.chkCatC.Text = "Cat. C"
         Me.chkCatC.UseVisualStyleBackColor = True
@@ -2389,10 +2390,10 @@ Partial Class FDichiarazione
         '
         Me.chkCatB.AutoSize = True
         Me.chkCatB.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsData, "CatB", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
-        Me.chkCatB.Location = New System.Drawing.Point(64, 97)
-        Me.chkCatB.Margin = New System.Windows.Forms.Padding(2)
+        Me.chkCatB.Location = New System.Drawing.Point(117, 178)
+        Me.chkCatB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkCatB.Name = "chkCatB"
-        Me.chkCatB.Size = New System.Drawing.Size(55, 17)
+        Me.chkCatB.Size = New System.Drawing.Size(85, 28)
         Me.chkCatB.TabIndex = 2
         Me.chkCatB.Text = "Cat. B"
         Me.chkCatB.UseVisualStyleBackColor = True
@@ -2401,10 +2402,10 @@ Partial Class FDichiarazione
         '
         Me.chkCatA.AutoSize = True
         Me.chkCatA.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsData, "CatA", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
-        Me.chkCatA.Location = New System.Drawing.Point(64, 79)
-        Me.chkCatA.Margin = New System.Windows.Forms.Padding(2)
+        Me.chkCatA.Location = New System.Drawing.Point(117, 146)
+        Me.chkCatA.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkCatA.Name = "chkCatA"
-        Me.chkCatA.Size = New System.Drawing.Size(55, 17)
+        Me.chkCatA.Size = New System.Drawing.Size(86, 28)
         Me.chkCatA.TabIndex = 1
         Me.chkCatA.Text = "Cat. A"
         Me.chkCatA.UseVisualStyleBackColor = True
@@ -2413,10 +2414,10 @@ Partial Class FDichiarazione
         '
         Me.txtRiepIVA.BackColor = System.Drawing.Color.Beige
         Me.txtRiepIVA.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Iva", True))
-        Me.txtRiepIVA.Location = New System.Drawing.Point(64, 50)
-        Me.txtRiepIVA.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtRiepIVA.Location = New System.Drawing.Point(117, 93)
+        Me.txtRiepIVA.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtRiepIVA.Name = "txtRiepIVA"
-        Me.txtRiepIVA.Size = New System.Drawing.Size(66, 20)
+        Me.txtRiepIVA.Size = New System.Drawing.Size(118, 32)
         Me.txtRiepIVA.TabIndex = 0
         Me.txtRiepIVA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -2461,10 +2462,10 @@ Partial Class FDichiarazione
         Me.pnlRiepilogo.Controls.Add(Me.lRiepNettoA)
         Me.pnlRiepilogo.Controls.Add(Label11)
         Me.pnlRiepilogo.Controls.Add(Label12)
-        Me.pnlRiepilogo.Location = New System.Drawing.Point(709, 327)
-        Me.pnlRiepilogo.Margin = New System.Windows.Forms.Padding(2)
+        Me.pnlRiepilogo.Location = New System.Drawing.Point(1299, 555)
+        Me.pnlRiepilogo.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.pnlRiepilogo.Name = "pnlRiepilogo"
-        Me.pnlRiepilogo.Size = New System.Drawing.Size(288, 202)
+        Me.pnlRiepilogo.Size = New System.Drawing.Size(526, 345)
         Me.pnlRiepilogo.TabIndex = 4
         '
         'lRateizzazione
@@ -2472,10 +2473,10 @@ Partial Class FDichiarazione
         Me.lRateizzazione.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.lRateizzazione.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lRateizzazione.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lRateizzazione.Location = New System.Drawing.Point(17, 172)
-        Me.lRateizzazione.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lRateizzazione.Location = New System.Drawing.Point(32, 305)
+        Me.lRateizzazione.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lRateizzazione.Name = "lRateizzazione"
-        Me.lRateizzazione.Size = New System.Drawing.Size(263, 23)
+        Me.lRateizzazione.Size = New System.Drawing.Size(480, 28)
         Me.lRateizzazione.TabIndex = 78
         Me.lRateizzazione.Text = "RICHIESTA RATEIZZAZIONE"
         Me.lRateizzazione.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2483,9 +2484,9 @@ Partial Class FDichiarazione
         '
         'FDichiarazione
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1008, 572)
+        Me.ClientSize = New System.Drawing.Size(1848, 973)
         Me.Controls.Add(Me.lStatoDichiarazione)
         Me.Controls.Add(Me.lStatoAllegati)
         Me.Controls.Add(Me.lStatoAzienda)
@@ -2497,8 +2498,9 @@ Partial Class FDichiarazione
         Me.Controls.Add(Me.tsMain)
         Me.Controls.Add(Me.pnlAzienda)
         Me.Controls.Add(Me.pnlCompilazione)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Name = "FDichiarazione"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Dichiarazione compilata on line"

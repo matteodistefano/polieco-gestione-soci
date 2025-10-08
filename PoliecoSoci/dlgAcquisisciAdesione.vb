@@ -151,4 +151,5 @@ Public Class dlgAcquisisciAdesione
             MsgBox(ex.Message, vbCritical)
         End Try
     End Sub
+
 End Class

@@ -650,4 +650,8 @@ Public Class FDichiarazione
             MsgBox(ex.Message, MsgBoxStyle.Information)
         End Try
     End Sub
+
+    Private Sub bsData_CurrentChanged(sender As Object, e As EventArgs) Handles bsData.CurrentChanged
+
+    End Sub
 End Class

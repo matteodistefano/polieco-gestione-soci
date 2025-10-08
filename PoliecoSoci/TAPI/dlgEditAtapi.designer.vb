@@ -33,9 +33,9 @@ Partial Class dlgEditAtapi
         Me.cbLinee.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbLinee.FormattingEnabled = True
         Me.cbLinee.Location = New System.Drawing.Point(94, 22)
-        Me.cbLinee.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.cbLinee.Margin = New System.Windows.Forms.Padding(6)
         Me.cbLinee.Name = "cbLinee"
-        Me.cbLinee.Size = New System.Drawing.Size(719, 32)
+        Me.cbLinee.Size = New System.Drawing.Size(710, 32)
         Me.cbLinee.TabIndex = 0
         '
         'Label1
@@ -50,8 +50,8 @@ Partial Class dlgEditAtapi
         '
         'btnOk
         '
-        Me.btnOk.Location = New System.Drawing.Point(529, 96)
-        Me.btnOk.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnOk.Location = New System.Drawing.Point(496, 86)
+        Me.btnOk.Margin = New System.Windows.Forms.Padding(6)
         Me.btnOk.Name = "btnOk"
         Me.btnOk.Size = New System.Drawing.Size(138, 42)
         Me.btnOk.TabIndex = 2
@@ -60,8 +60,8 @@ Partial Class dlgEditAtapi
         '
         'btnUndo
         '
-        Me.btnUndo.Location = New System.Drawing.Point(678, 96)
-        Me.btnUndo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnUndo.Location = New System.Drawing.Point(666, 86)
+        Me.btnUndo.Margin = New System.Windows.Forms.Padding(6)
         Me.btnUndo.Name = "btnUndo"
         Me.btnUndo.Size = New System.Drawing.Size(138, 42)
         Me.btnUndo.TabIndex = 3
@@ -72,14 +72,14 @@ Partial Class dlgEditAtapi
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(837, 160)
+        Me.ClientSize = New System.Drawing.Size(814, 136)
         Me.Controls.Add(Me.btnUndo)
         Me.Controls.Add(Me.btnOk)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.cbLinee)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgEditAtapi"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Impostazione linea TAPI"

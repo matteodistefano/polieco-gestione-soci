@@ -71,9 +71,9 @@ Partial Class FElencoScadenze
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNuova, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbSelect, Me.tsbDuplica, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 876)
+        Me.tsMain.Location = New System.Drawing.Point(0, 842)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(2372, 45)
+        Me.tsMain.Size = New System.Drawing.Size(1607, 45)
         Me.tsMain.TabIndex = 4
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -167,13 +167,13 @@ Partial Class FElencoScadenze
         Me.dgvElenco.DataSource = Me.bsScadenze
         Me.dgvElenco.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvElenco.Location = New System.Drawing.Point(0, 62)
-        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvElenco.Name = "dgvElenco"
         Me.dgvElenco.ReadOnly = True
         Me.dgvElenco.RowHeadersVisible = False
         Me.dgvElenco.RowHeadersWidth = 51
         Me.dgvElenco.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvElenco.Size = New System.Drawing.Size(2372, 814)
+        Me.dgvElenco.Size = New System.Drawing.Size(1607, 780)
         Me.dgvElenco.TabIndex = 6
         '
         'DataGridViewBooleanImageColumn1
@@ -200,7 +200,7 @@ Partial Class FElencoScadenze
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(2372, 62)
+        Me.Panel1.Size = New System.Drawing.Size(1607, 62)
         Me.Panel1.TabIndex = 7
         '
         'chkAuto
@@ -220,7 +220,7 @@ Partial Class FElencoScadenze
         Me.ccAnno.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
         Me.ccAnno.Checked = False
         Me.ccAnno.CheckText = "Anno"
-        Me.ccAnno.CheckWidth = 96
+        Me.ccAnno.CheckWidth = 132
         Me.ccAnno.ComboText = ""
         Me.ccAnno.DataSource = Nothing
         Me.ccAnno.DisplayMember = ""
@@ -243,7 +243,7 @@ Partial Class FElencoScadenze
         Me.ccCategoria.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
         Me.ccCategoria.Checked = False
         Me.ccCategoria.CheckText = "Solo categoria"
-        Me.ccCategoria.CheckWidth = 179
+        Me.ccCategoria.CheckWidth = 246
         Me.ccCategoria.ComboText = ""
         Me.ccCategoria.DataSource = Nothing
         Me.ccCategoria.DisplayMember = ""
@@ -264,7 +264,7 @@ Partial Class FElencoScadenze
         '
         Me.dgvcCodice.DataPropertyName = "Codice"
         Me.dgvcCodice.HeaderText = "Codice"
-        Me.dgvcCodice.MinimumWidth = 800
+        Me.dgvcCodice.MinimumWidth = 6
         Me.dgvcCodice.Name = "dgvcCodice"
         Me.dgvcCodice.ReadOnly = True
         '
@@ -288,6 +288,7 @@ Partial Class FElencoScadenze
         Me.dgvcScadRifPer.MinimumWidth = 6
         Me.dgvcScadRifPer.Name = "dgvcScadRifPer"
         Me.dgvcScadRifPer.ReadOnly = True
+        Me.dgvcScadRifPer.Width = 125
         '
         'dgvcInizio
         '
@@ -382,14 +383,14 @@ Partial Class FElencoScadenze
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(2372, 921)
+        Me.ClientSize = New System.Drawing.Size(1607, 887)
         Me.Controls.Add(Me.dgvElenco)
         Me.Controls.Add(Me.tsMain)
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "FElencoScadenze"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione scadenze"

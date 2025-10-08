@@ -23,8 +23,8 @@ Partial Class dlgAttivita
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.tsMain = New System.Windows.Forms.ToolStrip()
         Me.tsbExit = New System.Windows.Forms.ToolStripButton()
         Me.tsbOk = New System.Windows.Forms.ToolStripButton()
@@ -52,11 +52,11 @@ Partial Class dlgAttivita
         Me.Label11 = New System.Windows.Forms.Label()
         Me.lLogo = New System.Windows.Forms.Label()
         Me.dgvAttrezzature = New System.Windows.Forms.DataGridView()
-        Me.bsAttrezzature = New System.Windows.Forms.BindingSource(Me.components)
         Me.dgvcAttSel = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.dgvcAttrDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcAttrLarghezza = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcAttrAltezza = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.bsAttrezzature = New System.Windows.Forms.BindingSource(Me.components)
         Me.tsMain.SuspendLayout()
         CType(Me.bsData, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvAttrezzature, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -134,7 +134,7 @@ Partial Class dlgAttivita
         Me.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbTipo.FormattingEnabled = True
         Me.cbTipo.Location = New System.Drawing.Point(138, 111)
-        Me.cbTipo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.cbTipo.Margin = New System.Windows.Forms.Padding(6)
         Me.cbTipo.Name = "cbTipo"
         Me.cbTipo.Size = New System.Drawing.Size(209, 32)
         Me.cbTipo.TabIndex = 0
@@ -155,7 +155,7 @@ Partial Class dlgAttivita
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtDescrizione.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Descrizione", True))
         Me.txtDescrizione.Location = New System.Drawing.Point(138, 210)
-        Me.txtDescrizione.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtDescrizione.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDescrizione.Multiline = True
         Me.txtDescrizione.Name = "txtDescrizione"
         Me.txtDescrizione.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -178,7 +178,7 @@ Partial Class dlgAttivita
         Me.cbCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbCategoria.FormattingEnabled = True
         Me.cbCategoria.Location = New System.Drawing.Point(138, 160)
-        Me.cbCategoria.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.cbCategoria.Margin = New System.Windows.Forms.Padding(6)
         Me.cbCategoria.Name = "cbCategoria"
         Me.cbCategoria.Size = New System.Drawing.Size(498, 32)
         Me.cbCategoria.TabIndex = 56
@@ -197,7 +197,7 @@ Partial Class dlgAttivita
         '
         Me.txtCodAteco.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "CodiceAteco", True))
         Me.txtCodAteco.Location = New System.Drawing.Point(138, 363)
-        Me.txtCodAteco.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtCodAteco.Margin = New System.Windows.Forms.Padding(6)
         Me.txtCodAteco.Name = "txtCodAteco"
         Me.txtCodAteco.Size = New System.Drawing.Size(235, 32)
         Me.txtCodAteco.TabIndex = 58
@@ -214,7 +214,7 @@ Partial Class dlgAttivita
         Me.cdiData.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.cdiData.MonthFormat = False
         Me.cdiData.Name = "cdiData"
-        Me.cdiData.Size = New System.Drawing.Size(407, 42)
+        Me.cdiData.Size = New System.Drawing.Size(407, 32)
         Me.cdiData.TabIndex = 59
         Me.cdiData.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiData.TxtBackColor = System.Drawing.SystemColors.Window
@@ -243,7 +243,7 @@ Partial Class dlgAttivita
         '
         Me.txtConsAnno.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "AnnoPrecedente", True))
         Me.txtConsAnno.Location = New System.Drawing.Point(139, 455)
-        Me.txtConsAnno.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtConsAnno.Margin = New System.Windows.Forms.Padding(6)
         Me.txtConsAnno.Name = "txtConsAnno"
         Me.txtConsAnno.Size = New System.Drawing.Size(187, 32)
         Me.txtConsAnno.TabIndex = 62
@@ -283,7 +283,7 @@ Partial Class dlgAttivita
         '
         Me.txtPrevAnno.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "AnnoCorrente", True))
         Me.txtPrevAnno.Location = New System.Drawing.Point(139, 500)
-        Me.txtPrevAnno.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtPrevAnno.Margin = New System.Windows.Forms.Padding(6)
         Me.txtPrevAnno.Name = "txtPrevAnno"
         Me.txtPrevAnno.Size = New System.Drawing.Size(187, 32)
         Me.txtPrevAnno.TabIndex = 66
@@ -293,7 +293,7 @@ Partial Class dlgAttivita
         '
         Me.txtConsQta.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "QuantitaAnnoPrecedente", True))
         Me.txtConsQta.Location = New System.Drawing.Point(339, 455)
-        Me.txtConsQta.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtConsQta.Margin = New System.Windows.Forms.Padding(6)
         Me.txtConsQta.Name = "txtConsQta"
         Me.txtConsQta.Size = New System.Drawing.Size(187, 32)
         Me.txtConsQta.TabIndex = 67
@@ -303,7 +303,7 @@ Partial Class dlgAttivita
         '
         Me.txtPrevQta.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "QuantitaAnnoCorrente", True))
         Me.txtPrevQta.Location = New System.Drawing.Point(339, 500)
-        Me.txtPrevQta.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtPrevQta.Margin = New System.Windows.Forms.Padding(6)
         Me.txtPrevQta.Name = "txtPrevQta"
         Me.txtPrevQta.Size = New System.Drawing.Size(187, 32)
         Me.txtPrevQta.TabIndex = 68
@@ -341,7 +341,7 @@ Partial Class dlgAttivita
         Me.dgvAttrezzature.DataSource = Me.bsAttrezzature
         Me.dgvAttrezzature.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter
         Me.dgvAttrezzature.Location = New System.Drawing.Point(697, 117)
-        Me.dgvAttrezzature.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvAttrezzature.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvAttrezzature.Name = "dgvAttrezzature"
         Me.dgvAttrezzature.RowHeadersWidth = 20
         Me.dgvAttrezzature.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
@@ -375,8 +375,8 @@ Partial Class dlgAttivita
         '
         Me.dgvcAttrLarghezza.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcAttrLarghezza.DataPropertyName = "Larghezza"
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.dgvcAttrLarghezza.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.dgvcAttrLarghezza.DefaultCellStyle = DataGridViewCellStyle1
         Me.dgvcAttrLarghezza.HeaderText = "Larghezza (mm)"
         Me.dgvcAttrLarghezza.MinimumWidth = 6
         Me.dgvcAttrLarghezza.Name = "dgvcAttrLarghezza"
@@ -386,9 +386,9 @@ Partial Class dlgAttivita
         '
         Me.dgvcAttrAltezza.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcAttrAltezza.DataPropertyName = "Altezza"
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle4.Format = "n2"
-        Me.dgvcAttrAltezza.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle2.Format = "n2"
+        Me.dgvcAttrAltezza.DefaultCellStyle = DataGridViewCellStyle2
         Me.dgvcAttrAltezza.HeaderText = "Altezza (mm)"
         Me.dgvcAttrAltezza.MinimumWidth = 6
         Me.dgvcAttrAltezza.Name = "dgvcAttrAltezza"
@@ -425,7 +425,7 @@ Partial Class dlgAttivita
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgAttivita"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Attività socio"

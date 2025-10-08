@@ -31,19 +31,22 @@ Partial Class dlgSelEvento
         Me.pnlMain.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlMain.Location = New System.Drawing.Point(0, 0)
+        Me.pnlMain.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pnlMain.Name = "pnlMain"
-        Me.pnlMain.Size = New System.Drawing.Size(588, 587)
+        Me.pnlMain.Size = New System.Drawing.Size(685, 632)
         Me.pnlMain.TabIndex = 0
         '
         'dlgSelEvento
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(588, 587)
+        Me.ClientSize = New System.Drawing.Size(685, 632)
         Me.Controls.Add(Me.pnlMain)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "dlgSelEvento"
         Me.Text = "dlgSelEvento"
         Me.ResumeLayout(False)

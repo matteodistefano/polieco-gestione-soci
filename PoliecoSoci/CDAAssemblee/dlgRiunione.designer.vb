@@ -78,8 +78,9 @@ Partial Class dlgRiunione
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbAnnulla, Me.tsbOk, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 745)
+        Me.tsMain.Location = New System.Drawing.Point(0, 583)
         Me.tsMain.Name = "tsMain"
         Me.tsMain.Size = New System.Drawing.Size(958, 45)
         Me.tsMain.TabIndex = 0
@@ -126,9 +127,9 @@ Partial Class dlgRiunione
         Me.pnlEdit.Controls.Add(Label5)
         Me.pnlEdit.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlEdit.Location = New System.Drawing.Point(0, 0)
-        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlEdit.Name = "pnlEdit"
-        Me.pnlEdit.Size = New System.Drawing.Size(958, 745)
+        Me.pnlEdit.Size = New System.Drawing.Size(958, 583)
         Me.pnlEdit.TabIndex = 6
         '
         'txtData
@@ -138,7 +139,7 @@ Partial Class dlgRiunione
         Me.txtData.DateValue = Nothing
         Me.txtData.IsReadOnly = False
         Me.txtData.Location = New System.Drawing.Point(98, 74)
-        Me.txtData.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtData.Margin = New System.Windows.Forms.Padding(4)
         Me.txtData.Name = "txtData"
         Me.txtData.SetNullDateToDbNull = False
         Me.txtData.Size = New System.Drawing.Size(172, 32)
@@ -152,11 +153,11 @@ Partial Class dlgRiunione
         Me.txtNote.BackColor = System.Drawing.Color.White
         Me.txtNote.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsEntity, "Note", True))
         Me.txtNote.Location = New System.Drawing.Point(98, 117)
-        Me.txtNote.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtNote.Margin = New System.Windows.Forms.Padding(6)
         Me.txtNote.Multiline = True
         Me.txtNote.Name = "txtNote"
         Me.txtNote.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtNote.Size = New System.Drawing.Size(841, 600)
+        Me.txtNote.Size = New System.Drawing.Size(841, 438)
         Me.txtNote.TabIndex = 3
         '
         'cbTipo
@@ -164,7 +165,7 @@ Partial Class dlgRiunione
         Me.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbTipo.FormattingEnabled = True
         Me.cbTipo.Location = New System.Drawing.Point(98, 27)
-        Me.cbTipo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cbTipo.Margin = New System.Windows.Forms.Padding(4)
         Me.cbTipo.Name = "cbTipo"
         Me.cbTipo.Size = New System.Drawing.Size(525, 32)
         Me.cbTipo.TabIndex = 0
@@ -173,12 +174,12 @@ Partial Class dlgRiunione
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(958, 790)
+        Me.ClientSize = New System.Drawing.Size(958, 628)
         Me.Controls.Add(Me.pnlEdit)
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgRiunione"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Riunione"

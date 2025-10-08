@@ -107,10 +107,10 @@ Partial Class FMain
         '
         Me.sStrip.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.sStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsslApp, Me.tsddUsers, Me.tsslCopyright})
-        Me.sStrip.Location = New System.Drawing.Point(0, 756)
+        Me.sStrip.Location = New System.Drawing.Point(0, 1149)
         Me.sStrip.Name = "sStrip"
-        Me.sStrip.Padding = New System.Windows.Forms.Padding(1, 0, 19, 0)
-        Me.sStrip.Size = New System.Drawing.Size(1360, 30)
+        Me.sStrip.Padding = New System.Windows.Forms.Padding(1, 0, 26, 0)
+        Me.sStrip.Size = New System.Drawing.Size(1870, 30)
         Me.sStrip.TabIndex = 6
         Me.sStrip.Text = "StatusStrip1"
         '
@@ -118,7 +118,7 @@ Partial Class FMain
         '
         Me.tsslApp.Font = New System.Drawing.Font("Roboto Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tsslApp.Name = "tsslApp"
-        Me.tsslApp.Size = New System.Drawing.Size(1034, 24)
+        Me.tsslApp.Size = New System.Drawing.Size(1537, 24)
         Me.tsslApp.Spring = True
         Me.tsslApp.Text = "ToolStripStatusLabel1"
         Me.tsslApp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -146,9 +146,9 @@ Partial Class FMain
         Me.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.pnlMain.Location = New System.Drawing.Point(0, 0)
-        Me.pnlMain.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pnlMain.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.pnlMain.Name = "pnlMain"
-        Me.pnlMain.Size = New System.Drawing.Size(1360, 756)
+        Me.pnlMain.Size = New System.Drawing.Size(1870, 1149)
         Me.pnlMain.TabIndex = 8
         '
         'tsMain
@@ -159,7 +159,7 @@ Partial Class FMain
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbSoci, Me.tsbDichiarazioni, Me.tsbCDAAss, Me.tsbStatistiche, Me.tsbNotifiche, Me.tsbAmministrazione, Me.tsbExit})
         Me.tsMain.Location = New System.Drawing.Point(0, 0)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1360, 111)
+        Me.tsMain.Size = New System.Drawing.Size(1870, 128)
         Me.tsMain.TabIndex = 10
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -170,7 +170,7 @@ Partial Class FMain
         Me.tsbSoci.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbSoci.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSoci.Name = "tsbSoci"
-        Me.tsbSoci.Size = New System.Drawing.Size(135, 108)
+        Me.tsbSoci.Size = New System.Drawing.Size(135, 125)
         Me.tsbSoci.Text = "Gestione soci"
         Me.tsbSoci.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -182,7 +182,7 @@ Partial Class FMain
         Me.tsbDichiarazioni.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbDichiarazioni.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbDichiarazioni.Name = "tsbDichiarazioni"
-        Me.tsbDichiarazioni.Size = New System.Drawing.Size(139, 108)
+        Me.tsbDichiarazioni.Size = New System.Drawing.Size(139, 125)
         Me.tsbDichiarazioni.Text = "Dichiarazioni"
         Me.tsbDichiarazioni.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -224,7 +224,7 @@ Partial Class FMain
         Me.tsbCDAAss.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbCDAAss.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbCDAAss.Name = "tsbCDAAss"
-        Me.tsbCDAAss.Size = New System.Drawing.Size(185, 108)
+        Me.tsbCDAAss.Size = New System.Drawing.Size(185, 125)
         Me.tsbCDAAss.Text = "CDA && Assemblee"
         Me.tsbCDAAss.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -282,14 +282,14 @@ Partial Class FMain
         Me.tsbStatistiche.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbStatistiche.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStatistiche.Name = "tsbStatistiche"
-        Me.tsbStatistiche.Size = New System.Drawing.Size(120, 108)
+        Me.tsbStatistiche.Size = New System.Drawing.Size(120, 125)
         Me.tsbStatistiche.Text = "Statistiche"
         Me.tsbStatistiche.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'tsmiStatQuantitativi
         '
         Me.tsmiStatQuantitativi.Name = "tsmiStatQuantitativi"
-        Me.tsmiStatQuantitativi.Size = New System.Drawing.Size(224, 28)
+        Me.tsmiStatQuantitativi.Size = New System.Drawing.Size(198, 28)
         Me.tsmiStatQuantitativi.Text = "Quantitativi"
         '
         'tsbNotifiche
@@ -300,7 +300,7 @@ Partial Class FMain
         Me.tsbNotifiche.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbNotifiche.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbNotifiche.Name = "tsbNotifiche"
-        Me.tsbNotifiche.Size = New System.Drawing.Size(201, 108)
+        Me.tsbNotifiche.Size = New System.Drawing.Size(201, 125)
         Me.tsbNotifiche.Text = "Controlli && Notifiche"
         Me.tsbNotifiche.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -341,7 +341,7 @@ Partial Class FMain
         Me.tsbAmministrazione.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbAmministrazione.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbAmministrazione.Name = "tsbAmministrazione"
-        Me.tsbAmministrazione.Size = New System.Drawing.Size(177, 108)
+        Me.tsbAmministrazione.Size = New System.Drawing.Size(177, 125)
         Me.tsbAmministrazione.Text = "Amministrazione"
         Me.tsbAmministrazione.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -609,16 +609,16 @@ Partial Class FMain
         Me.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbExit.Name = "tsbExit"
-        Me.tsbExit.Size = New System.Drawing.Size(70, 108)
+        Me.tsbExit.Size = New System.Drawing.Size(70, 125)
         Me.tsbExit.Text = "Uscita"
         Me.tsbExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(24, 161)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button1.Location = New System.Drawing.Point(33, 242)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(108, 52)
+        Me.Button1.Size = New System.Drawing.Size(148, 78)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
@@ -635,12 +635,13 @@ Partial Class FMain
         '
         'FMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1360, 786)
+        Me.ClientSize = New System.Drawing.Size(1870, 1179)
         Me.Controls.Add(Me.pnlMain)
         Me.Controls.Add(Me.sStrip)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "FMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione soci - Polieco"

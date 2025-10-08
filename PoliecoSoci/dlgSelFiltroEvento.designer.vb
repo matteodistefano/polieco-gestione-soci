@@ -147,7 +147,7 @@ Partial Class dlgSelFiltroEvento
         Me.pnlEdit.Controls.Add(EmailLabel)
         Me.pnlEdit.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlEdit.Location = New System.Drawing.Point(0, 0)
-        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlEdit.Name = "pnlEdit"
         Me.pnlEdit.Size = New System.Drawing.Size(931, 353)
         Me.pnlEdit.TabIndex = 0
@@ -174,7 +174,7 @@ Partial Class dlgSelFiltroEvento
         Me.cdiNotifica.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.cdiNotifica.MonthFormat = False
         Me.cdiNotifica.Name = "cdiNotifica"
-        Me.cdiNotifica.Size = New System.Drawing.Size(425, 42)
+        Me.cdiNotifica.Size = New System.Drawing.Size(425, 32)
         Me.cdiNotifica.TabIndex = 3
         Me.cdiNotifica.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiNotifica.TxtBackColor = System.Drawing.SystemColors.Window
@@ -231,7 +231,7 @@ Partial Class dlgSelFiltroEvento
         Me.cdiPeriodo.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.cdiPeriodo.MonthFormat = False
         Me.cdiPeriodo.Name = "cdiPeriodo"
-        Me.cdiPeriodo.Size = New System.Drawing.Size(425, 42)
+        Me.cdiPeriodo.Size = New System.Drawing.Size(425, 32)
         Me.cdiPeriodo.TabIndex = 1
         Me.cdiPeriodo.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiPeriodo.TxtBackColor = System.Drawing.SystemColors.Window
@@ -245,7 +245,7 @@ Partial Class dlgSelFiltroEvento
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgSelFiltroEvento"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Selezione evento"

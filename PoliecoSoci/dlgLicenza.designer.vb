@@ -53,7 +53,7 @@ Partial Class dlgLicenza
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbExit, Me.tsbOk})
         Me.tsMain.Location = New System.Drawing.Point(0, 540)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1474, 69)
+        Me.tsMain.Size = New System.Drawing.Size(1459, 69)
         Me.tsMain.TabIndex = 10
         '
         'tsbExit
@@ -114,7 +114,7 @@ Partial Class dlgLicenza
         Me.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbTipo.FormattingEnabled = True
         Me.cbTipo.Location = New System.Drawing.Point(138, 111)
-        Me.cbTipo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.cbTipo.Margin = New System.Windows.Forms.Padding(6)
         Me.cbTipo.Name = "cbTipo"
         Me.cbTipo.Size = New System.Drawing.Size(555, 32)
         Me.cbTipo.TabIndex = 0
@@ -165,11 +165,11 @@ Partial Class dlgLicenza
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtNote.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Note", True))
         Me.txtNote.Location = New System.Drawing.Point(136, 240)
-        Me.txtNote.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtNote.Margin = New System.Windows.Forms.Padding(6)
         Me.txtNote.Multiline = True
         Me.txtNote.Name = "txtNote"
         Me.txtNote.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtNote.Size = New System.Drawing.Size(1312, 270)
+        Me.txtNote.Size = New System.Drawing.Size(1297, 270)
         Me.txtNote.TabIndex = 58
         '
         'lLogo
@@ -190,7 +190,7 @@ Partial Class dlgLicenza
         Me.txtDataRichiesta.DateValue = Nothing
         Me.txtDataRichiesta.IsReadOnly = False
         Me.txtDataRichiesta.Location = New System.Drawing.Point(152, 160)
-        Me.txtDataRichiesta.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtDataRichiesta.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDataRichiesta.Name = "txtDataRichiesta"
         Me.txtDataRichiesta.SetNullDateToDbNull = False
         Me.txtDataRichiesta.Size = New System.Drawing.Size(215, 32)
@@ -203,7 +203,7 @@ Partial Class dlgLicenza
         Me.txtDataScadenza.DateValue = Nothing
         Me.txtDataScadenza.IsReadOnly = False
         Me.txtDataScadenza.Location = New System.Drawing.Point(579, 160)
-        Me.txtDataScadenza.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtDataScadenza.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDataScadenza.Name = "txtDataScadenza"
         Me.txtDataScadenza.SetNullDateToDbNull = False
         Me.txtDataScadenza.Size = New System.Drawing.Size(221, 32)
@@ -216,7 +216,7 @@ Partial Class dlgLicenza
         Me.txtDataRicevuta.DateValue = Nothing
         Me.txtDataRicevuta.IsReadOnly = False
         Me.txtDataRicevuta.Location = New System.Drawing.Point(1003, 160)
-        Me.txtDataRicevuta.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtDataRicevuta.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDataRicevuta.Name = "txtDataRicevuta"
         Me.txtDataRicevuta.SetNullDateToDbNull = False
         Me.txtDataRicevuta.Size = New System.Drawing.Size(217, 32)
@@ -226,7 +226,7 @@ Partial Class dlgLicenza
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1474, 609)
+        Me.ClientSize = New System.Drawing.Size(1459, 609)
         Me.Controls.Add(Me.txtDataRicevuta)
         Me.Controls.Add(Me.txtDataScadenza)
         Me.Controls.Add(Me.txtDataRichiesta)
@@ -243,7 +243,7 @@ Partial Class dlgLicenza
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgLicenza"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Licenza"

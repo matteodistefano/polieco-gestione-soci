@@ -23,8 +23,8 @@ Partial Class dlgProdottiDichiarati
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.tsMain = New System.Windows.Forms.ToolStrip()
         Me.tsbExit = New System.Windows.Forms.ToolStripButton()
         Me.tsbOk = New System.Windows.Forms.ToolStripButton()
@@ -38,6 +38,9 @@ Partial Class dlgProdottiDichiarati
         Me.Label3 = New System.Windows.Forms.Label()
         Me.bsProdotti = New System.Windows.Forms.BindingSource(Me.components)
         Me.dgvProdotti = New System.Windows.Forms.DataGridView()
+        Me.dgvcDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcQtaVer = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcQtaRic = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tsProdotti = New System.Windows.Forms.ToolStrip()
         Me.tsbProdAdd = New System.Windows.Forms.ToolStripButton()
         Me.tsbProdEdit = New System.Windows.Forms.ToolStripButton()
@@ -48,9 +51,6 @@ Partial Class dlgProdottiDichiarati
         Me.Label6 = New System.Windows.Forms.Label()
         Me.dgslQV = New mdsUIControls.DataGridSummaryLabel()
         Me.dgslQR = New mdsUIControls.DataGridSummaryLabel()
-        Me.dgvcQtaRic = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcQtaVer = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tsMain.SuspendLayout()
         CType(Me.bsDichiarazione, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bsProdotti, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -66,9 +66,9 @@ Partial Class dlgProdottiDichiarati
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbExit, Me.tsbOk})
-        Me.tsMain.Location = New System.Drawing.Point(0, 865)
+        Me.tsMain.Location = New System.Drawing.Point(0, 816)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1987, 69)
+        Me.tsMain.Size = New System.Drawing.Size(1743, 69)
         Me.tsMain.TabIndex = 1
         '
         'tsbExit
@@ -113,7 +113,7 @@ Partial Class dlgProdottiDichiarati
         Me.lAzienda.Location = New System.Drawing.Point(22, 48)
         Me.lAzienda.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzienda.Name = "lAzienda"
-        Me.lAzienda.Size = New System.Drawing.Size(1917, 36)
+        Me.lAzienda.Size = New System.Drawing.Size(1673, 36)
         Me.lAzienda.TabIndex = 79
         Me.lAzienda.Text = "Materiale"
         Me.lAzienda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -128,7 +128,7 @@ Partial Class dlgProdottiDichiarati
         Me.lDichiarazione.Location = New System.Drawing.Point(22, 136)
         Me.lDichiarazione.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lDichiarazione.Name = "lDichiarazione"
-        Me.lDichiarazione.Size = New System.Drawing.Size(248, 36)
+        Me.lDichiarazione.Size = New System.Drawing.Size(217, 36)
         Me.lDichiarazione.TabIndex = 81
         Me.lDichiarazione.Text = "Materiale"
         Me.lDichiarazione.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -156,7 +156,7 @@ Partial Class dlgProdottiDichiarati
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(832, 106)
+        Me.Label5.Location = New System.Drawing.Point(765, 106)
         Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(97, 24)
@@ -184,13 +184,49 @@ Partial Class dlgProdottiDichiarati
         Me.dgvProdotti.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvProdotti.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcDescrizione, Me.dgvcQtaVer, Me.dgvcQtaRic})
         Me.dgvProdotti.Location = New System.Drawing.Point(28, 201)
-        Me.dgvProdotti.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvProdotti.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvProdotti.Name = "dgvProdotti"
         Me.dgvProdotti.ReadOnly = True
         Me.dgvProdotti.RowHeadersWidth = 20
         Me.dgvProdotti.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvProdotti.Size = New System.Drawing.Size(1871, 537)
+        Me.dgvProdotti.Size = New System.Drawing.Size(1627, 488)
         Me.dgvProdotti.TabIndex = 88
+        '
+        'dgvcDescrizione
+        '
+        Me.dgvcDescrizione.DataPropertyName = "Descrizione"
+        Me.dgvcDescrizione.FillWeight = 40.0!
+        Me.dgvcDescrizione.HeaderText = "Descrizione"
+        Me.dgvcDescrizione.MinimumWidth = 6
+        Me.dgvcDescrizione.Name = "dgvcDescrizione"
+        Me.dgvcDescrizione.ReadOnly = True
+        '
+        'dgvcQtaVer
+        '
+        Me.dgvcQtaVer.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcQtaVer.DataPropertyName = "QtaVergine"
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle1.Format = "n2"
+        Me.dgvcQtaVer.DefaultCellStyle = DataGridViewCellStyle1
+        Me.dgvcQtaVer.HeaderText = "Q.ta Vergine"
+        Me.dgvcQtaVer.MinimumWidth = 6
+        Me.dgvcQtaVer.Name = "dgvcQtaVer"
+        Me.dgvcQtaVer.ReadOnly = True
+        Me.dgvcQtaVer.Width = 90
+        '
+        'dgvcQtaRic
+        '
+        Me.dgvcQtaRic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcQtaRic.DataPropertyName = "QtaRiciclato"
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle2.Format = "n2"
+        Me.dgvcQtaRic.DefaultCellStyle = DataGridViewCellStyle2
+        Me.dgvcQtaRic.FillWeight = 30.0!
+        Me.dgvcQtaRic.HeaderText = "Q.ta Riciclato"
+        Me.dgvcQtaRic.MinimumWidth = 6
+        Me.dgvcQtaRic.Name = "dgvcQtaRic"
+        Me.dgvcQtaRic.ReadOnly = True
+        Me.dgvcQtaRic.Width = 90
         '
         'tsProdotti
         '
@@ -203,9 +239,9 @@ Partial Class dlgProdottiDichiarati
         Me.tsProdotti.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsProdotti.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbProdAdd, Me.tsbProdEdit, Me.tsbProdDel, Me.tsbAzienda})
         Me.tsProdotti.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow
-        Me.tsProdotti.Location = New System.Drawing.Point(1904, 201)
+        Me.tsProdotti.Location = New System.Drawing.Point(1660, 201)
         Me.tsProdotti.Name = "tsProdotti"
-        Me.tsProdotti.Size = New System.Drawing.Size(66, 633)
+        Me.tsProdotti.Size = New System.Drawing.Size(66, 584)
         Me.tsProdotti.TabIndex = 89
         '
         'tsbProdAdd
@@ -267,7 +303,7 @@ Partial Class dlgProdottiDichiarati
         Me.lAnno.Location = New System.Drawing.Point(282, 136)
         Me.lAnno.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAnno.Name = "lAnno"
-        Me.lAnno.Size = New System.Drawing.Size(185, 36)
+        Me.lAnno.Size = New System.Drawing.Size(151, 36)
         Me.lAnno.TabIndex = 90
         Me.lAnno.Text = "Materiale"
         Me.lAnno.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -282,7 +318,7 @@ Partial Class dlgProdottiDichiarati
         Me.Label4.Location = New System.Drawing.Point(480, 136)
         Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(344, 36)
+        Me.Label4.Size = New System.Drawing.Size(211, 36)
         Me.Label4.TabIndex = 91
         Me.Label4.Text = "Materiale"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -294,10 +330,10 @@ Partial Class dlgProdottiDichiarati
         Me.Label6.BackColor = System.Drawing.Color.White
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsDichiarazione, "CodCategoria", True))
-        Me.Label6.Location = New System.Drawing.Point(837, 136)
+        Me.Label6.Location = New System.Drawing.Point(770, 136)
         Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(250, 36)
+        Me.Label6.Size = New System.Drawing.Size(130, 36)
         Me.Label6.TabIndex = 92
         Me.Label6.Text = "Materiale"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -309,7 +345,7 @@ Partial Class dlgProdottiDichiarati
         Me.dgslQV.GridColumn = Nothing
         Me.dgslQV.GridMargin = 10
         Me.dgslQV.HorizontalOffset = 0
-        Me.dgslQV.Location = New System.Drawing.Point(1346, 768)
+        Me.dgslQV.Location = New System.Drawing.Point(1104, 769)
         Me.dgslQV.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.dgslQV.Name = "dgslQV"
         Me.dgslQV.PartialSummaryActive = False
@@ -329,7 +365,7 @@ Partial Class dlgProdottiDichiarati
         Me.dgslQR.GridColumn = Nothing
         Me.dgslQR.GridMargin = 10
         Me.dgslQR.HorizontalOffset = 0
-        Me.dgslQR.Location = New System.Drawing.Point(1583, 768)
+        Me.dgslQR.Location = New System.Drawing.Point(1368, 769)
         Me.dgslQR.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.dgslQR.Name = "dgslQR"
         Me.dgslQR.PartialSummaryActive = False
@@ -342,44 +378,11 @@ Partial Class dlgProdottiDichiarati
         Me.dgslQR.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.dgslQR.WeightColumn = Nothing
         '
-        'dgvcQtaRic
-        '
-        Me.dgvcQtaRic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcQtaRic.DataPropertyName = "QtaRiciclato"
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle2.Format = "n2"
-        Me.dgvcQtaRic.DefaultCellStyle = DataGridViewCellStyle2
-        Me.dgvcQtaRic.FillWeight = 30.0!
-        Me.dgvcQtaRic.HeaderText = "Q.ta Riciclato"
-        Me.dgvcQtaRic.Name = "dgvcQtaRic"
-        Me.dgvcQtaRic.ReadOnly = True
-        Me.dgvcQtaRic.Width = 90
-        '
-        'dgvcQtaVer
-        '
-        Me.dgvcQtaVer.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcQtaVer.DataPropertyName = "QtaVergine"
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle1.Format = "n2"
-        Me.dgvcQtaVer.DefaultCellStyle = DataGridViewCellStyle1
-        Me.dgvcQtaVer.HeaderText = "Q.ta Vergine"
-        Me.dgvcQtaVer.Name = "dgvcQtaVer"
-        Me.dgvcQtaVer.ReadOnly = True
-        Me.dgvcQtaVer.Width = 90
-        '
-        'dgvcDescrizione
-        '
-        Me.dgvcDescrizione.DataPropertyName = "Descrizione"
-        Me.dgvcDescrizione.FillWeight = 40.0!
-        Me.dgvcDescrizione.HeaderText = "Descrizione"
-        Me.dgvcDescrizione.Name = "dgvcDescrizione"
-        Me.dgvcDescrizione.ReadOnly = True
-        '
         'dlgProdottiDichiarati
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1987, 934)
+        Me.ClientSize = New System.Drawing.Size(1743, 885)
         Me.Controls.Add(Me.dgslQR)
         Me.Controls.Add(Me.dgslQV)
         Me.Controls.Add(Me.Label6)
@@ -397,7 +400,7 @@ Partial Class dlgProdottiDichiarati
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgProdottiDichiarati"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Allegato"

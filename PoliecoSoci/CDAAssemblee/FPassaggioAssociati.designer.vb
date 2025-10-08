@@ -101,7 +101,7 @@ Partial Class FPassaggioAssociati
         Me.dgvElenco.ReadOnly = True
         Me.dgvElenco.RowHeadersWidth = 20
         Me.dgvElenco.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvElenco.Size = New System.Drawing.Size(1607, 748)
+        Me.dgvElenco.Size = New System.Drawing.Size(1607, 672)
         Me.dgvElenco.TabIndex = 6
         '
         'dgvcMotivo
@@ -243,7 +243,7 @@ Partial Class FPassaggioAssociati
         Me.ccMotivo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
         Me.ccMotivo.Checked = False
         Me.ccMotivo.CheckText = "Solo "
-        Me.ccMotivo.CheckWidth = 113
+        Me.ccMotivo.CheckWidth = 155
         Me.ccMotivo.ComboText = ""
         Me.ccMotivo.DataSource = Nothing
         Me.ccMotivo.DisplayMember = ""
@@ -268,7 +268,7 @@ Partial Class FPassaggioAssociati
         Me.pnlBottom.Controls.Add(Me.lTot)
         Me.pnlBottom.Controls.Add(Me.Label1)
         Me.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnlBottom.Location = New System.Drawing.Point(0, 810)
+        Me.pnlBottom.Location = New System.Drawing.Point(0, 734)
         Me.pnlBottom.Margin = New System.Windows.Forms.Padding(4)
         Me.pnlBottom.Name = "pnlBottom"
         Me.pnlBottom.Size = New System.Drawing.Size(1607, 66)
@@ -473,7 +473,7 @@ Partial Class FPassaggioAssociati
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbModifica, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbSelAll, Me.tsbAction, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 876)
+        Me.tsMain.Location = New System.Drawing.Point(0, 800)
         Me.tsMain.Name = "tsMain"
         Me.tsMain.Size = New System.Drawing.Size(1607, 45)
         Me.tsMain.TabIndex = 4
@@ -483,7 +483,7 @@ Partial Class FPassaggioAssociati
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1607, 921)
+        Me.ClientSize = New System.Drawing.Size(1607, 845)
         Me.Controls.Add(Me.dgvElenco)
         Me.Controls.Add(Me.pnlBottom)
         Me.Controls.Add(Me.tsMain)

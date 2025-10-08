@@ -24,15 +24,23 @@ Partial Class FLibroSoci
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FLibroSoci))
         Me.dgvElenco = New System.Windows.Forms.DataGridView()
+        Me.dgvcMotivo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcCodice = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcRagSoc = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcIndirizzo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcCategoria = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcPIva = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcCodFisc = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.bsElenco = New System.Windows.Forms.BindingSource(Me.components)
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnUpdate = New System.Windows.Forms.Button()
@@ -59,14 +67,6 @@ Partial Class FLibroSoci
         Me.tsbSelAll = New System.Windows.Forms.ToolStripButton()
         Me.tsbStampa = New System.Windows.Forms.ToolStripButton()
         Me.tsMain = New System.Windows.Forms.ToolStrip()
-        Me.dgvcMotivo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcCodice = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcRagSoc = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcIndirizzo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcCategoria = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcPIva = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcCodFisc = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.dgvElenco, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bsElenco, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -96,13 +96,104 @@ Partial Class FLibroSoci
         Me.dgvElenco.DefaultCellStyle = DataGridViewCellStyle5
         Me.dgvElenco.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvElenco.Location = New System.Drawing.Point(0, 106)
-        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvElenco.Name = "dgvElenco"
         Me.dgvElenco.ReadOnly = True
         Me.dgvElenco.RowHeadersWidth = 20
         Me.dgvElenco.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvElenco.Size = New System.Drawing.Size(1642, 704)
+        Me.dgvElenco.Size = New System.Drawing.Size(1556, 639)
         Me.dgvElenco.TabIndex = 6
+        '
+        'dgvcMotivo
+        '
+        Me.dgvcMotivo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcMotivo.DataPropertyName = "Motivo"
+        Me.dgvcMotivo.HeaderText = "Motivo"
+        Me.dgvcMotivo.MinimumWidth = 6
+        Me.dgvcMotivo.Name = "dgvcMotivo"
+        Me.dgvcMotivo.ReadOnly = True
+        Me.dgvcMotivo.Width = 160
+        '
+        'dgvcNumero
+        '
+        Me.dgvcNumero.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcNumero.DataPropertyName = "Numero"
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.Format = "n0"
+        DataGridViewCellStyle1.NullValue = "-"
+        Me.dgvcNumero.DefaultCellStyle = DataGridViewCellStyle1
+        Me.dgvcNumero.HeaderText = "Numero"
+        Me.dgvcNumero.MinimumWidth = 6
+        Me.dgvcNumero.Name = "dgvcNumero"
+        Me.dgvcNumero.ReadOnly = True
+        Me.dgvcNumero.Width = 125
+        '
+        'dgvcCodice
+        '
+        Me.dgvcCodice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcCodice.DataPropertyName = "Id"
+        Me.dgvcCodice.FillWeight = 194.5946!
+        Me.dgvcCodice.HeaderText = "Codice"
+        Me.dgvcCodice.MinimumWidth = 6
+        Me.dgvcCodice.Name = "dgvcCodice"
+        Me.dgvcCodice.ReadOnly = True
+        Me.dgvcCodice.Width = 80
+        '
+        'dgvcRagSoc
+        '
+        Me.dgvcRagSoc.DataPropertyName = "RagioneSociale"
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcRagSoc.DefaultCellStyle = DataGridViewCellStyle2
+        Me.dgvcRagSoc.FillWeight = 81.08109!
+        Me.dgvcRagSoc.HeaderText = "Ragione Sociale"
+        Me.dgvcRagSoc.MinimumWidth = 6
+        Me.dgvcRagSoc.Name = "dgvcRagSoc"
+        Me.dgvcRagSoc.ReadOnly = True
+        '
+        'dgvcIndirizzo
+        '
+        Me.dgvcIndirizzo.DataPropertyName = "DescrIndirizzo"
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcIndirizzo.DefaultCellStyle = DataGridViewCellStyle3
+        Me.dgvcIndirizzo.HeaderText = "Indirizzo"
+        Me.dgvcIndirizzo.MinimumWidth = 6
+        Me.dgvcIndirizzo.Name = "dgvcIndirizzo"
+        Me.dgvcIndirizzo.ReadOnly = True
+        '
+        'dgvcCategoria
+        '
+        Me.dgvcCategoria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcCategoria.DataPropertyName = "CodCategoria"
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.dgvcCategoria.DefaultCellStyle = DataGridViewCellStyle4
+        Me.dgvcCategoria.FillWeight = 81.08109!
+        Me.dgvcCategoria.HeaderText = "Categoria"
+        Me.dgvcCategoria.MinimumWidth = 6
+        Me.dgvcCategoria.Name = "dgvcCategoria"
+        Me.dgvcCategoria.ReadOnly = True
+        Me.dgvcCategoria.Width = 125
+        '
+        'dgvcPIva
+        '
+        Me.dgvcPIva.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcPIva.DataPropertyName = "PartitaIVA"
+        Me.dgvcPIva.FillWeight = 81.08109!
+        Me.dgvcPIva.HeaderText = "Partita IVA"
+        Me.dgvcPIva.MinimumWidth = 6
+        Me.dgvcPIva.Name = "dgvcPIva"
+        Me.dgvcPIva.ReadOnly = True
+        Me.dgvcPIva.Width = 140
+        '
+        'dgvcCodFisc
+        '
+        Me.dgvcCodFisc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcCodFisc.DataPropertyName = "CodiceFiscale"
+        Me.dgvcCodFisc.FillWeight = 81.08109!
+        Me.dgvcCodFisc.HeaderText = "Codice Fiscale"
+        Me.dgvcCodFisc.MinimumWidth = 6
+        Me.dgvcCodFisc.Name = "dgvcCodFisc"
+        Me.dgvcCodFisc.ReadOnly = True
+        Me.dgvcCodFisc.Width = 200
         '
         'Panel1
         '
@@ -115,7 +206,7 @@ Partial Class FLibroSoci
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1642, 106)
+        Me.Panel1.Size = New System.Drawing.Size(1556, 106)
         Me.Panel1.TabIndex = 7
         '
         'btnUpdate
@@ -123,7 +214,7 @@ Partial Class FLibroSoci
         Me.btnUpdate.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnUpdate.Image = Global.PoliecoSoci.My.Resources.Resources.Refresh_32_n_g
         Me.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnUpdate.Location = New System.Drawing.Point(1496, 12)
+        Me.btnUpdate.Location = New System.Drawing.Point(1410, 12)
         Me.btnUpdate.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(133, 78)
@@ -180,10 +271,10 @@ Partial Class FLibroSoci
         Me.pnlBottom.Controls.Add(Me.lTot)
         Me.pnlBottom.Controls.Add(Me.Label1)
         Me.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnlBottom.Location = New System.Drawing.Point(0, 810)
+        Me.pnlBottom.Location = New System.Drawing.Point(0, 745)
         Me.pnlBottom.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.pnlBottom.Name = "pnlBottom"
-        Me.pnlBottom.Size = New System.Drawing.Size(1642, 66)
+        Me.pnlBottom.Size = New System.Drawing.Size(1556, 66)
         Me.pnlBottom.TabIndex = 8
         '
         'lSel
@@ -377,106 +468,17 @@ Partial Class FLibroSoci
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbModifica, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbSelAll, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 876)
+        Me.tsMain.Location = New System.Drawing.Point(0, 811)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1642, 45)
+        Me.tsMain.Size = New System.Drawing.Size(1556, 45)
         Me.tsMain.TabIndex = 4
         Me.tsMain.Text = "ToolStrip1"
-        '
-        'dgvcMotivo
-        '
-        Me.dgvcMotivo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcMotivo.DataPropertyName = "Motivo"
-        Me.dgvcMotivo.HeaderText = "Motivo"
-        Me.dgvcMotivo.MinimumWidth = 6
-        Me.dgvcMotivo.Name = "dgvcMotivo"
-        Me.dgvcMotivo.ReadOnly = True
-        Me.dgvcMotivo.Width = 160
-        '
-        'dgvcNumero
-        '
-        Me.dgvcNumero.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcNumero.DataPropertyName = "Numero"
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle1.Format = "n0"
-        DataGridViewCellStyle1.NullValue = "-"
-        Me.dgvcNumero.DefaultCellStyle = DataGridViewCellStyle1
-        Me.dgvcNumero.HeaderText = "Numero"
-        Me.dgvcNumero.MinimumWidth = 6
-        Me.dgvcNumero.Name = "dgvcNumero"
-        Me.dgvcNumero.ReadOnly = True
-        '
-        'dgvcCodice
-        '
-        Me.dgvcCodice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcCodice.DataPropertyName = "Id"
-        Me.dgvcCodice.FillWeight = 194.5946!
-        Me.dgvcCodice.HeaderText = "Codice"
-        Me.dgvcCodice.MinimumWidth = 6
-        Me.dgvcCodice.Name = "dgvcCodice"
-        Me.dgvcCodice.ReadOnly = True
-        Me.dgvcCodice.Width = 80
-        '
-        'dgvcRagSoc
-        '
-        Me.dgvcRagSoc.DataPropertyName = "RagioneSociale"
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcRagSoc.DefaultCellStyle = DataGridViewCellStyle2
-        Me.dgvcRagSoc.FillWeight = 81.08109!
-        Me.dgvcRagSoc.HeaderText = "Ragione Sociale"
-        Me.dgvcRagSoc.MinimumWidth = 6
-        Me.dgvcRagSoc.Name = "dgvcRagSoc"
-        Me.dgvcRagSoc.ReadOnly = True
-        '
-        'dgvcIndirizzo
-        '
-        Me.dgvcIndirizzo.DataPropertyName = "DescrIndirizzo"
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcIndirizzo.DefaultCellStyle = DataGridViewCellStyle3
-        Me.dgvcIndirizzo.HeaderText = "Indirizzo"
-        Me.dgvcIndirizzo.MinimumWidth = 6
-        Me.dgvcIndirizzo.Name = "dgvcIndirizzo"
-        Me.dgvcIndirizzo.ReadOnly = True
-        '
-        'dgvcCategoria
-        '
-        Me.dgvcCategoria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcCategoria.DataPropertyName = "CodCategoria"
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.dgvcCategoria.DefaultCellStyle = DataGridViewCellStyle4
-        Me.dgvcCategoria.FillWeight = 81.08109!
-        Me.dgvcCategoria.HeaderText = "Categoria"
-        Me.dgvcCategoria.MinimumWidth = 6
-        Me.dgvcCategoria.Name = "dgvcCategoria"
-        Me.dgvcCategoria.ReadOnly = True
-        '
-        'dgvcPIva
-        '
-        Me.dgvcPIva.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcPIva.DataPropertyName = "PartitaIVA"
-        Me.dgvcPIva.FillWeight = 81.08109!
-        Me.dgvcPIva.HeaderText = "Partita IVA"
-        Me.dgvcPIva.MinimumWidth = 6
-        Me.dgvcPIva.Name = "dgvcPIva"
-        Me.dgvcPIva.ReadOnly = True
-        Me.dgvcPIva.Width = 140
-        '
-        'dgvcCodFisc
-        '
-        Me.dgvcCodFisc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcCodFisc.DataPropertyName = "CodiceFiscale"
-        Me.dgvcCodFisc.FillWeight = 81.08109!
-        Me.dgvcCodFisc.HeaderText = "Codice Fiscale"
-        Me.dgvcCodFisc.MinimumWidth = 6
-        Me.dgvcCodFisc.Name = "dgvcCodFisc"
-        Me.dgvcCodFisc.ReadOnly = True
-        Me.dgvcCodFisc.Width = 200
         '
         'FLibroSoci
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1642, 921)
+        Me.ClientSize = New System.Drawing.Size(1556, 856)
         Me.Controls.Add(Me.dgvElenco)
         Me.Controls.Add(Me.pnlBottom)
         Me.Controls.Add(Me.tsMain)
@@ -484,7 +486,7 @@ Partial Class FLibroSoci
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "FLibroSoci"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Passaggio associati"

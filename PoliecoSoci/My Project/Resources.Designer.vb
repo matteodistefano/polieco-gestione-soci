@@ -673,6 +673,16 @@ Namespace My.Resources
         '''<summary>
         '''  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Circle_Blue_24_n_p8() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Circle_Blue_24_n_p8", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Close_X_Red_16_n_p8() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Close_X_Red_16_n_p8", resourceCulture)
@@ -1563,6 +1573,16 @@ Namespace My.Resources
         '''<summary>
         '''  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Info_Round_Blue_24_n_p8() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Info_Round_Blue_24_n_p8", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Invoice_32_n_g() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Invoice_32_n_g", resourceCulture)
@@ -1596,6 +1616,16 @@ Namespace My.Resources
         Friend ReadOnly Property Light_Blue_Round_16_n_g() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Light_Blue_Round_16_n_g", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Light_Blue_Round_24_n_p8() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Light_Blue_Round_24_n_p8", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

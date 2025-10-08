@@ -1186,6 +1186,10 @@ Public Class FElencoSoci
         End Try
     End Sub
 
+    Private Sub cdiAttPeriodo_Load(sender As Object, e As EventArgs) Handles cdiAttPeriodo.Load
+
+    End Sub
+
     Private Sub btnProdDel_Click(sender As Object, e As EventArgs) Handles btnProdDel.Click
         Try
             Do While lvwProdotti.SelectedItems.Count > 0

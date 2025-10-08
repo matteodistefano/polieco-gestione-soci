@@ -24,10 +24,10 @@ Partial Class FManagerUtenti
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FManagerUtenti))
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FManagerUtenti))
         Me.tsUtenti = New System.Windows.Forms.ToolStrip()
         Me.tsbNuovo = New System.Windows.Forms.ToolStripButton()
         Me.tsbModifica = New System.Windows.Forms.ToolStripButton()
@@ -36,13 +36,13 @@ Partial Class FManagerUtenti
         Me.tsbChiudi = New System.Windows.Forms.ToolStripButton()
         Me.tsbStampa = New System.Windows.Forms.ToolStripButton()
         Me.dgvUtenti = New System.Windows.Forms.DataGridView()
-        Me.bsUtenti = New System.Windows.Forms.BindingSource(Me.components)
-        Me.ilUsers = New System.Windows.Forms.ImageList(Me.components)
         Me.dgvcNome = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcUltimoAccesso = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcNAccessi = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcRuolo = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcStato = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.bsUtenti = New System.Windows.Forms.BindingSource(Me.components)
+        Me.ilUsers = New System.Windows.Forms.ImageList(Me.components)
         Me.tsUtenti.SuspendLayout()
         CType(Me.dgvUtenti, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bsUtenti, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -55,9 +55,9 @@ Partial Class FManagerUtenti
         Me.tsUtenti.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsUtenti.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsUtenti.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNuovo, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbStampa})
-        Me.tsUtenti.Location = New System.Drawing.Point(0, 876)
+        Me.tsUtenti.Location = New System.Drawing.Point(0, 778)
         Me.tsUtenti.Name = "tsUtenti"
-        Me.tsUtenti.Size = New System.Drawing.Size(1607, 45)
+        Me.tsUtenti.Size = New System.Drawing.Size(1111, 45)
         Me.tsUtenti.TabIndex = 4
         Me.tsUtenti.Text = "ToolStrip1"
         '
@@ -130,22 +130,14 @@ Partial Class FManagerUtenti
         Me.dgvUtenti.DataSource = Me.bsUtenti
         Me.dgvUtenti.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvUtenti.Location = New System.Drawing.Point(0, 0)
-        Me.dgvUtenti.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvUtenti.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvUtenti.Name = "dgvUtenti"
         Me.dgvUtenti.ReadOnly = True
         Me.dgvUtenti.RowHeadersVisible = False
         Me.dgvUtenti.RowHeadersWidth = 51
         Me.dgvUtenti.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvUtenti.Size = New System.Drawing.Size(1607, 876)
+        Me.dgvUtenti.Size = New System.Drawing.Size(1111, 778)
         Me.dgvUtenti.TabIndex = 6
-        '
-        'ilUsers
-        '
-        Me.ilUsers.ImageStream = CType(resources.GetObject("ilUsers.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.ilUsers.TransparentColor = System.Drawing.Color.Transparent
-        Me.ilUsers.Images.SetKeyName(0, "NO-ATTIVO")
-        Me.ilUsers.Images.SetKeyName(1, "PWD-OK")
-        Me.ilUsers.Images.SetKeyName(2, "PWD-PROVVISORIA")
         '
         'dgvcNome
         '
@@ -203,16 +195,24 @@ Partial Class FManagerUtenti
         Me.dgvcStato.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dgvcStato.Width = 80
         '
+        'ilUsers
+        '
+        Me.ilUsers.ImageStream = CType(resources.GetObject("ilUsers.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ilUsers.TransparentColor = System.Drawing.Color.Transparent
+        Me.ilUsers.Images.SetKeyName(0, "NO-ATTIVO")
+        Me.ilUsers.Images.SetKeyName(1, "PWD-OK")
+        Me.ilUsers.Images.SetKeyName(2, "PWD-PROVVISORIA")
+        '
         'FManagerUtenti
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1607, 921)
+        Me.ClientSize = New System.Drawing.Size(1111, 823)
         Me.Controls.Add(Me.dgvUtenti)
         Me.Controls.Add(Me.tsUtenti)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "FManagerUtenti"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione utenti"

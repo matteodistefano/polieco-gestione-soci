@@ -105,7 +105,7 @@ Public Class FMain
 
             Dim F As New mdsUIControls.FVisData
             F.OnLoadData = Function() tb
-
+            F.Font = Me.Font
             F.Text = "Notifiche"
             F.Message = "Elenco notifiche aperte in scadenza entro i prossimi " & NNG & " giorni."
             F.HideOkButton()
@@ -136,6 +136,7 @@ Public Class FMain
 
             Dim F As New mdsUIControls.FVisData
             F.OnLoadData = Function() DAL.Managers.SociManager.GetNuoviSociInScadenza(NNG)
+            F.Font = Me.Font
 
             If F.OnLoadData.Invoke().Rows.Count = 0 Then Return
 

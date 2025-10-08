@@ -235,7 +235,7 @@ Partial Class dlgQuadro
         Me.pnlEdit.Controls.Add(Me.txtCodice)
         Me.pnlEdit.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlEdit.Location = New System.Drawing.Point(0, 0)
-        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlEdit.Name = "pnlEdit"
         Me.pnlEdit.Size = New System.Drawing.Size(1026, 743)
         Me.pnlEdit.TabIndex = 6
@@ -245,7 +245,7 @@ Partial Class dlgQuadro
         Me.btnMatDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMatDown.Image = Global.PoliecoSoci.My.Resources.Resources.Blue_Arrow_Down_32_n_g
         Me.btnMatDown.Location = New System.Drawing.Point(968, 578)
-        Me.btnMatDown.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnMatDown.Margin = New System.Windows.Forms.Padding(4)
         Me.btnMatDown.Name = "btnMatDown"
         Me.btnMatDown.Size = New System.Drawing.Size(40, 45)
         Me.btnMatDown.TabIndex = 59
@@ -256,7 +256,7 @@ Partial Class dlgQuadro
         Me.btnMatUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMatUp.Image = Global.PoliecoSoci.My.Resources.Resources.Blue_Arrow_Up_32_n_g
         Me.btnMatUp.Location = New System.Drawing.Point(968, 531)
-        Me.btnMatUp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnMatUp.Margin = New System.Windows.Forms.Padding(4)
         Me.btnMatUp.Name = "btnMatUp"
         Me.btnMatUp.Size = New System.Drawing.Size(40, 45)
         Me.btnMatUp.TabIndex = 58
@@ -270,7 +270,7 @@ Partial Class dlgQuadro
         Me.dgvMateriali.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvMateriali.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcMatPos, Me.dgvMatCodice, Me.dgvcMatPrezzo, Me.dgvcMatDal, Me.dgvcMatAl})
         Me.dgvMateriali.Location = New System.Drawing.Point(142, 351)
-        Me.dgvMateriali.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dgvMateriali.Margin = New System.Windows.Forms.Padding(4)
         Me.dgvMateriali.Name = "dgvMateriali"
         Me.dgvMateriali.RowHeadersWidth = 10
         Me.dgvMateriali.RowTemplate.Height = 24
@@ -344,7 +344,7 @@ Partial Class dlgQuadro
         Me.btnMatDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMatDel.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_32_n_g
         Me.btnMatDel.Location = New System.Drawing.Point(968, 396)
-        Me.btnMatDel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnMatDel.Margin = New System.Windows.Forms.Padding(4)
         Me.btnMatDel.Name = "btnMatDel"
         Me.btnMatDel.Size = New System.Drawing.Size(40, 45)
         Me.btnMatDel.TabIndex = 56
@@ -355,7 +355,7 @@ Partial Class dlgQuadro
         Me.btnMatAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMatAdd.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Plus_32_n_g
         Me.btnMatAdd.Location = New System.Drawing.Point(968, 351)
-        Me.btnMatAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnMatAdd.Margin = New System.Windows.Forms.Padding(4)
         Me.btnMatAdd.Name = "btnMatAdd"
         Me.btnMatAdd.Size = New System.Drawing.Size(40, 45)
         Me.btnMatAdd.TabIndex = 55
@@ -366,7 +366,7 @@ Partial Class dlgQuadro
         Me.rbS1.AutoSize = True
         Me.rbS1.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Minus_32_n_g
         Me.rbS1.Location = New System.Drawing.Point(209, 302)
-        Me.rbS1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.rbS1.Margin = New System.Windows.Forms.Padding(4)
         Me.rbS1.Name = "rbS1"
         Me.rbS1.Size = New System.Drawing.Size(49, 32)
         Me.rbS1.TabIndex = 53
@@ -378,7 +378,7 @@ Partial Class dlgQuadro
         Me.rbS0.AutoSize = True
         Me.rbS0.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Plus_32_n_g
         Me.rbS0.Location = New System.Drawing.Point(142, 302)
-        Me.rbS0.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.rbS0.Margin = New System.Windows.Forms.Padding(4)
         Me.rbS0.Name = "rbS0"
         Me.rbS0.Size = New System.Drawing.Size(49, 32)
         Me.rbS0.TabIndex = 52
@@ -390,7 +390,7 @@ Partial Class dlgQuadro
         Me.txtProcedura.BackColor = System.Drawing.Color.White
         Me.txtProcedura.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsEntity, "Procedura", True))
         Me.txtProcedura.Location = New System.Drawing.Point(142, 162)
-        Me.txtProcedura.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtProcedura.Margin = New System.Windows.Forms.Padding(6)
         Me.txtProcedura.Multiline = True
         Me.txtProcedura.Name = "txtProcedura"
         Me.txtProcedura.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -406,10 +406,10 @@ Partial Class dlgQuadro
         Me.cdiPeriodo.DateFormat = "dd/MM/yyyy"
         Me.cdiPeriodo.IntervalCodition = mdsUIControls.ctlDateIntervalHorizontal.IntervalConditionEnum.STANDARD
         Me.cdiPeriodo.Location = New System.Drawing.Point(142, 633)
-        Me.cdiPeriodo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.cdiPeriodo.Margin = New System.Windows.Forms.Padding(6)
         Me.cdiPeriodo.MonthFormat = False
         Me.cdiPeriodo.Name = "cdiPeriodo"
-        Me.cdiPeriodo.Size = New System.Drawing.Size(426, 42)
+        Me.cdiPeriodo.Size = New System.Drawing.Size(426, 34)
         Me.cdiPeriodo.TabIndex = 6
         Me.cdiPeriodo.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiPeriodo.TxtBackColor = System.Drawing.SystemColors.Window
@@ -419,7 +419,7 @@ Partial Class dlgQuadro
         Me.txtDescrizione.BackColor = System.Drawing.Color.White
         Me.txtDescrizione.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsEntity, "Descrizione", True))
         Me.txtDescrizione.Location = New System.Drawing.Point(142, 117)
-        Me.txtDescrizione.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtDescrizione.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDescrizione.Name = "txtDescrizione"
         Me.txtDescrizione.Size = New System.Drawing.Size(865, 32)
         Me.txtDescrizione.TabIndex = 3
@@ -429,7 +429,7 @@ Partial Class dlgQuadro
         Me.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbTipo.FormattingEnabled = True
         Me.cbTipo.Location = New System.Drawing.Point(142, 70)
-        Me.cbTipo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cbTipo.Margin = New System.Windows.Forms.Padding(4)
         Me.cbTipo.Name = "cbTipo"
         Me.cbTipo.Size = New System.Drawing.Size(865, 32)
         Me.cbTipo.TabIndex = 2
@@ -438,7 +438,7 @@ Partial Class dlgQuadro
         '
         Me.chkInteressi.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Me.bsEntity, "Utilizzato", True))
         Me.chkInteressi.Location = New System.Drawing.Point(978, 22)
-        Me.chkInteressi.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.chkInteressi.Margin = New System.Windows.Forms.Padding(6)
         Me.chkInteressi.Name = "chkInteressi"
         Me.chkInteressi.Size = New System.Drawing.Size(30, 45)
         Me.chkInteressi.TabIndex = 1
@@ -448,7 +448,7 @@ Partial Class dlgQuadro
         Me.txtCodice.BackColor = System.Drawing.Color.White
         Me.txtCodice.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsEntity, "Codice", True))
         Me.txtCodice.Location = New System.Drawing.Point(142, 27)
-        Me.txtCodice.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtCodice.Margin = New System.Windows.Forms.Padding(6)
         Me.txtCodice.Name = "txtCodice"
         Me.txtCodice.Size = New System.Drawing.Size(122, 32)
         Me.txtCodice.TabIndex = 0
@@ -526,7 +526,7 @@ Partial Class dlgQuadro
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgQuadro"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Quadro dichiarazione periodica"

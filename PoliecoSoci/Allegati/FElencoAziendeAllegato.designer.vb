@@ -39,6 +39,13 @@ Partial Class FElencoAziendeAllegato
         Me.tsbChiudi = New System.Windows.Forms.ToolStripButton()
         Me.tsbStampa = New System.Windows.Forms.ToolStripButton()
         Me.dgvElenco = New System.Windows.Forms.DataGridView()
+        Me.dgvcId = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcRagSoc = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcSede = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcPartitaIva = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcFornitore = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.dgvcRicevitore = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.dgvcTipo = New System.Windows.Forms.DataGridViewImageColumn()
         Me.cmGrid = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.tsmiAzienda = New System.Windows.Forms.ToolStripMenuItem()
         Me.bsData = New System.Windows.Forms.BindingSource(Me.components)
@@ -55,13 +62,6 @@ Partial Class FElencoAziendeAllegato
         Me.mcTipo = New mdsUIControls.MultiCheck(Me.components)
         Me.DataGridViewBooleanImageColumn1 = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.mcRuolo = New mdsUIControls.MultiCheck(Me.components)
-        Me.dgvcId = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcRagSoc = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcSede = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcPartitaIva = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcFornitore = New System.Windows.Forms.DataGridViewImageColumn()
-        Me.dgvcRicevitore = New System.Windows.Forms.DataGridViewImageColumn()
-        Me.dgvcTipo = New System.Windows.Forms.DataGridViewImageColumn()
         Label1 = New System.Windows.Forms.Label()
         Label2 = New System.Windows.Forms.Label()
         Label4 = New System.Windows.Forms.Label()
@@ -131,7 +131,7 @@ Partial Class FElencoAziendeAllegato
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbSeleziona, Me.tsbNuova, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 1149)
+        Me.tsMain.Location = New System.Drawing.Point(0, 837)
         Me.tsMain.Name = "tsMain"
         Me.tsMain.Size = New System.Drawing.Size(1764, 45)
         Me.tsMain.TabIndex = 4
@@ -220,13 +220,86 @@ Partial Class FElencoAziendeAllegato
         Me.dgvElenco.DataSource = Me.bsData
         Me.dgvElenco.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvElenco.Location = New System.Drawing.Point(0, 174)
-        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvElenco.Name = "dgvElenco"
         Me.dgvElenco.ReadOnly = True
         Me.dgvElenco.RowHeadersWidth = 20
         Me.dgvElenco.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvElenco.Size = New System.Drawing.Size(1764, 975)
+        Me.dgvElenco.Size = New System.Drawing.Size(1764, 663)
         Me.dgvElenco.TabIndex = 6
+        '
+        'dgvcId
+        '
+        Me.dgvcId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcId.DataPropertyName = "Id"
+        Me.dgvcId.HeaderText = "Id"
+        Me.dgvcId.MinimumWidth = 6
+        Me.dgvcId.Name = "dgvcId"
+        Me.dgvcId.ReadOnly = True
+        Me.dgvcId.Width = 80
+        '
+        'dgvcRagSoc
+        '
+        Me.dgvcRagSoc.DataPropertyName = "RagioneSociale"
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.dgvcRagSoc.DefaultCellStyle = DataGridViewCellStyle1
+        Me.dgvcRagSoc.FillWeight = 60.0!
+        Me.dgvcRagSoc.HeaderText = "Azienda"
+        Me.dgvcRagSoc.MinimumWidth = 6
+        Me.dgvcRagSoc.Name = "dgvcRagSoc"
+        Me.dgvcRagSoc.ReadOnly = True
+        '
+        'dgvcSede
+        '
+        Me.dgvcSede.DataPropertyName = "Localita"
+        Me.dgvcSede.FillWeight = 40.0!
+        Me.dgvcSede.HeaderText = "Sede"
+        Me.dgvcSede.MinimumWidth = 6
+        Me.dgvcSede.Name = "dgvcSede"
+        Me.dgvcSede.ReadOnly = True
+        '
+        'dgvcPartitaIva
+        '
+        Me.dgvcPartitaIva.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcPartitaIva.DataPropertyName = "PartitaIva"
+        Me.dgvcPartitaIva.HeaderText = "Partita IVA"
+        Me.dgvcPartitaIva.MinimumWidth = 6
+        Me.dgvcPartitaIva.Name = "dgvcPartitaIva"
+        Me.dgvcPartitaIva.ReadOnly = True
+        Me.dgvcPartitaIva.Width = 160
+        '
+        'dgvcFornitore
+        '
+        Me.dgvcFornitore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcFornitore.HeaderText = "Forn."
+        Me.dgvcFornitore.MinimumWidth = 6
+        Me.dgvcFornitore.Name = "dgvcFornitore"
+        Me.dgvcFornitore.ReadOnly = True
+        Me.dgvcFornitore.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcFornitore.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcFornitore.Width = 90
+        '
+        'dgvcRicevitore
+        '
+        Me.dgvcRicevitore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcRicevitore.HeaderText = "Ric."
+        Me.dgvcRicevitore.MinimumWidth = 6
+        Me.dgvcRicevitore.Name = "dgvcRicevitore"
+        Me.dgvcRicevitore.ReadOnly = True
+        Me.dgvcRicevitore.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcRicevitore.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcRicevitore.Width = 90
+        '
+        'dgvcTipo
+        '
+        Me.dgvcTipo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcTipo.HeaderText = "Tipo"
+        Me.dgvcTipo.MinimumWidth = 6
+        Me.dgvcTipo.Name = "dgvcTipo"
+        Me.dgvcTipo.ReadOnly = True
+        Me.dgvcTipo.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcTipo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcTipo.Width = 60
         '
         'cmGrid
         '
@@ -294,7 +367,7 @@ Partial Class FElencoAziendeAllegato
         Me.btnReset.Image = Global.PoliecoSoci.My.Resources.Resources.Show_Grid_24_n_g
         Me.btnReset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnReset.Location = New System.Drawing.Point(1585, 87)
-        Me.btnReset.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnReset.Margin = New System.Windows.Forms.Padding(6)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(160, 66)
         Me.btnReset.TabIndex = 38
@@ -307,7 +380,7 @@ Partial Class FElencoAziendeAllegato
         Me.btnCerca.Image = Global.PoliecoSoci.My.Resources.Resources.Search_32_n_g
         Me.btnCerca.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnCerca.Location = New System.Drawing.Point(1585, 14)
-        Me.btnCerca.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnCerca.Margin = New System.Windows.Forms.Padding(6)
         Me.btnCerca.Name = "btnCerca"
         Me.btnCerca.Size = New System.Drawing.Size(160, 62)
         Me.btnCerca.TabIndex = 37
@@ -374,6 +447,7 @@ Partial Class FElencoAziendeAllegato
         Me.DataGridViewBooleanImageColumn1.HeaderText = "Crea automatico"
         Me.DataGridViewBooleanImageColumn1.ImageFalse = Nothing
         Me.DataGridViewBooleanImageColumn1.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_16_n_g
+        Me.DataGridViewBooleanImageColumn1.MinimumWidth = 6
         Me.DataGridViewBooleanImageColumn1.Name = "DataGridViewBooleanImageColumn1"
         Me.DataGridViewBooleanImageColumn1.ReadOnly = True
         Me.DataGridViewBooleanImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -386,84 +460,18 @@ Partial Class FElencoAziendeAllegato
         Me.mcRuolo.AllowAllUnchecked = False
         Me.mcRuolo.UseContextMenu = False
         '
-        'dgvcId
-        '
-        Me.dgvcId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcId.DataPropertyName = "Id"
-        Me.dgvcId.HeaderText = "Id"
-        Me.dgvcId.Name = "dgvcId"
-        Me.dgvcId.ReadOnly = True
-        Me.dgvcId.Width = 80
-        '
-        'dgvcRagSoc
-        '
-        Me.dgvcRagSoc.DataPropertyName = "RagioneSociale"
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        Me.dgvcRagSoc.DefaultCellStyle = DataGridViewCellStyle1
-        Me.dgvcRagSoc.FillWeight = 60.0!
-        Me.dgvcRagSoc.HeaderText = "Azienda"
-        Me.dgvcRagSoc.Name = "dgvcRagSoc"
-        Me.dgvcRagSoc.ReadOnly = True
-        '
-        'dgvcSede
-        '
-        Me.dgvcSede.DataPropertyName = "Localita"
-        Me.dgvcSede.FillWeight = 40.0!
-        Me.dgvcSede.HeaderText = "Sede"
-        Me.dgvcSede.Name = "dgvcSede"
-        Me.dgvcSede.ReadOnly = True
-        '
-        'dgvcPartitaIva
-        '
-        Me.dgvcPartitaIva.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcPartitaIva.DataPropertyName = "PartitaIva"
-        Me.dgvcPartitaIva.HeaderText = "Partita IVA"
-        Me.dgvcPartitaIva.Name = "dgvcPartitaIva"
-        Me.dgvcPartitaIva.ReadOnly = True
-        Me.dgvcPartitaIva.Width = 160
-        '
-        'dgvcFornitore
-        '
-        Me.dgvcFornitore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcFornitore.HeaderText = "Forn."
-        Me.dgvcFornitore.Name = "dgvcFornitore"
-        Me.dgvcFornitore.ReadOnly = True
-        Me.dgvcFornitore.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcFornitore.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcFornitore.Width = 90
-        '
-        'dgvcRicevitore
-        '
-        Me.dgvcRicevitore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcRicevitore.HeaderText = "Ric."
-        Me.dgvcRicevitore.Name = "dgvcRicevitore"
-        Me.dgvcRicevitore.ReadOnly = True
-        Me.dgvcRicevitore.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcRicevitore.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcRicevitore.Width = 90
-        '
-        'dgvcTipo
-        '
-        Me.dgvcTipo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcTipo.HeaderText = "Tipo"
-        Me.dgvcTipo.Name = "dgvcTipo"
-        Me.dgvcTipo.ReadOnly = True
-        Me.dgvcTipo.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcTipo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcTipo.Width = 60
-        '
         'FElencoAziendeAllegato
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1764, 1194)
+        Me.ClientSize = New System.Drawing.Size(1764, 882)
         Me.Controls.Add(Me.dgvElenco)
         Me.Controls.Add(Me.tsMain)
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "FElencoAziendeAllegato"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Elenco aziende riferite negli allegati"

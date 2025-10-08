@@ -50,7 +50,7 @@ Partial Class dlgStampaEsportaSoci
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbAnnulla, Me.tsbOk, Me.tsbStop})
         Me.tsMain.Location = New System.Drawing.Point(0, 335)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(905, 45)
+        Me.tsMain.Size = New System.Drawing.Size(896, 45)
         Me.tsMain.TabIndex = 0
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -97,16 +97,16 @@ Partial Class dlgStampaEsportaSoci
         Me.pnlEdit.Controls.Add(Me.rbSt0)
         Me.pnlEdit.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlEdit.Location = New System.Drawing.Point(0, 0)
-        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pnlEdit.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlEdit.Name = "pnlEdit"
-        Me.pnlEdit.Size = New System.Drawing.Size(905, 335)
+        Me.pnlEdit.Size = New System.Drawing.Size(896, 335)
         Me.pnlEdit.TabIndex = 6
         '
         'chkGeneraEvento
         '
         Me.chkGeneraEvento.AutoSize = True
         Me.chkGeneraEvento.Location = New System.Drawing.Point(54, 153)
-        Me.chkGeneraEvento.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkGeneraEvento.Margin = New System.Windows.Forms.Padding(4)
         Me.chkGeneraEvento.Name = "chkGeneraEvento"
         Me.chkGeneraEvento.Size = New System.Drawing.Size(422, 28)
         Me.chkGeneraEvento.TabIndex = 49
@@ -119,7 +119,7 @@ Partial Class dlgStampaEsportaSoci
         Me.pnlLog.Controls.Add(Me.lblLog)
         Me.pnlLog.Controls.Add(Me.pBar)
         Me.pnlLog.Location = New System.Drawing.Point(22, 214)
-        Me.pnlLog.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pnlLog.Margin = New System.Windows.Forms.Padding(4)
         Me.pnlLog.Name = "pnlLog"
         Me.pnlLog.Size = New System.Drawing.Size(866, 75)
         Me.pnlLog.TabIndex = 48
@@ -140,7 +140,7 @@ Partial Class dlgStampaEsportaSoci
         '
         Me.pBar.Dock = System.Windows.Forms.DockStyle.Top
         Me.pBar.Location = New System.Drawing.Point(0, 0)
-        Me.pBar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pBar.Margin = New System.Windows.Forms.Padding(4)
         Me.pBar.Name = "pBar"
         Me.pBar.Size = New System.Drawing.Size(866, 34)
         Me.pBar.TabIndex = 0
@@ -150,7 +150,7 @@ Partial Class dlgStampaEsportaSoci
         Me.cbModelloWord.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbModelloWord.FormattingEnabled = True
         Me.cbModelloWord.Location = New System.Drawing.Point(352, 99)
-        Me.cbModelloWord.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cbModelloWord.Margin = New System.Windows.Forms.Padding(4)
         Me.cbModelloWord.Name = "cbModelloWord"
         Me.cbModelloWord.Size = New System.Drawing.Size(535, 32)
         Me.cbModelloWord.TabIndex = 47
@@ -159,7 +159,7 @@ Partial Class dlgStampaEsportaSoci
         '
         Me.rbSt2.AutoSize = True
         Me.rbSt2.Location = New System.Drawing.Point(22, 99)
-        Me.rbSt2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.rbSt2.Margin = New System.Windows.Forms.Padding(4)
         Me.rbSt2.Name = "rbSt2"
         Me.rbSt2.Size = New System.Drawing.Size(321, 28)
         Me.rbSt2.TabIndex = 45
@@ -170,7 +170,7 @@ Partial Class dlgStampaEsportaSoci
         '
         Me.rbSt1.AutoSize = True
         Me.rbSt1.Location = New System.Drawing.Point(22, 58)
-        Me.rbSt1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.rbSt1.Margin = New System.Windows.Forms.Padding(4)
         Me.rbSt1.Name = "rbSt1"
         Me.rbSt1.Size = New System.Drawing.Size(177, 28)
         Me.rbSt1.TabIndex = 44
@@ -182,7 +182,7 @@ Partial Class dlgStampaEsportaSoci
         Me.rbSt0.AutoSize = True
         Me.rbSt0.Checked = True
         Me.rbSt0.Location = New System.Drawing.Point(22, 18)
-        Me.rbSt0.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.rbSt0.Margin = New System.Windows.Forms.Padding(4)
         Me.rbSt0.Name = "rbSt0"
         Me.rbSt0.Size = New System.Drawing.Size(165, 28)
         Me.rbSt0.TabIndex = 43
@@ -194,12 +194,12 @@ Partial Class dlgStampaEsportaSoci
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(905, 380)
+        Me.ClientSize = New System.Drawing.Size(896, 380)
         Me.Controls.Add(Me.pnlEdit)
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgStampaEsportaSoci"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Stampa / Esporta"

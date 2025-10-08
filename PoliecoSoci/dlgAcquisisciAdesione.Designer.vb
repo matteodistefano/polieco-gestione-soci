@@ -24,7 +24,7 @@ Partial Class dlgAcquisisciAdesione
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim QualificaLabel As System.Windows.Forms.Label
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.tsMain = New System.Windows.Forms.ToolStrip()
         Me.tsbClose = New System.Windows.Forms.ToolStripButton()
         Me.tsbAnalizza = New System.Windows.Forms.ToolStripButton()
@@ -62,7 +62,7 @@ Partial Class dlgAcquisisciAdesione
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbClose, Me.tsbAnalizza, Me.tsbCrea})
         Me.tsMain.Location = New System.Drawing.Point(0, 540)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1350, 69)
+        Me.tsMain.Size = New System.Drawing.Size(1360, 69)
         Me.tsMain.TabIndex = 36
         '
         'tsbClose
@@ -104,18 +104,18 @@ Partial Class dlgAcquisisciAdesione
         Me.pnlTop.Location = New System.Drawing.Point(0, 0)
         Me.pnlTop.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.pnlTop.Name = "pnlTop"
-        Me.pnlTop.Size = New System.Drawing.Size(1350, 86)
+        Me.pnlTop.Size = New System.Drawing.Size(1360, 86)
         Me.pnlTop.TabIndex = 38
         '
         'ucFile
         '
         Me.ucFile.BackColorTxt = System.Drawing.SystemColors.Window
-        Me.ucFile.Location = New System.Drawing.Point(155, 21)
+        Me.ucFile.Location = New System.Drawing.Point(155, 24)
         Me.ucFile.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.ucFile.Name = "ucFile"
         Me.ucFile.Path = ""
         Me.ucFile.ReadOnly = False
-        Me.ucFile.Size = New System.Drawing.Size(1173, 22)
+        Me.ucFile.Size = New System.Drawing.Size(1192, 22)
         Me.ucFile.TabIndex = 6
         Me.ucFile.TipoRicerca = mdsUIControls.ucFileSel.tagTipoRicerca.TP_FILE_OPEN
         '
@@ -127,22 +127,22 @@ Partial Class dlgAcquisisciAdesione
         Me.dgvDati.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgvcProprieta, Me.dgvcValore})
         Me.dgvDati.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvDati.Location = New System.Drawing.Point(0, 86)
-        Me.dgvDati.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvDati.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvDati.Name = "dgvDati"
         Me.dgvDati.RowHeadersVisible = False
         Me.dgvDati.RowHeadersWidth = 51
-        Me.dgvDati.Size = New System.Drawing.Size(1350, 454)
+        Me.dgvDati.Size = New System.Drawing.Size(1360, 454)
         Me.dgvDati.TabIndex = 39
         '
         'dgvcProprieta
         '
         Me.dgvcProprieta.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcProprieta.DataPropertyName = "Proprieta"
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black
-        Me.dgvcProprieta.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.WhiteSmoke
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.WhiteSmoke
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
+        Me.dgvcProprieta.DefaultCellStyle = DataGridViewCellStyle1
         Me.dgvcProprieta.HeaderText = "Proprieta"
         Me.dgvcProprieta.MinimumWidth = 6
         Me.dgvcProprieta.Name = "dgvcProprieta"
@@ -161,7 +161,7 @@ Partial Class dlgAcquisisciAdesione
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1350, 609)
+        Me.ClientSize = New System.Drawing.Size(1360, 609)
         Me.Controls.Add(Me.dgvDati)
         Me.Controls.Add(Me.pnlTop)
         Me.Controls.Add(Me.tsMain)

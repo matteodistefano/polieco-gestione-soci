@@ -57,9 +57,9 @@ Partial Class FElencoProdotti
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNuovo, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbStampa, Me.tsbSelect})
-        Me.tsMain.Location = New System.Drawing.Point(0, 876)
+        Me.tsMain.Location = New System.Drawing.Point(0, 778)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1607, 45)
+        Me.tsMain.Size = New System.Drawing.Size(1483, 45)
         Me.tsMain.TabIndex = 4
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -161,7 +161,7 @@ Partial Class FElencoProdotti
         'txtRic
         '
         Me.txtRic.Location = New System.Drawing.Point(80, 22)
-        Me.txtRic.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtRic.Margin = New System.Windows.Forms.Padding(6)
         Me.txtRic.Name = "txtRic"
         Me.txtRic.Size = New System.Drawing.Size(393, 32)
         Me.txtRic.TabIndex = 37
@@ -184,9 +184,9 @@ Partial Class FElencoProdotti
         Me.Panel1.Controls.Add(Me.Label9)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1607, 86)
+        Me.Panel1.Size = New System.Drawing.Size(1483, 86)
         Me.Panel1.TabIndex = 9
         '
         'dgvProd
@@ -204,13 +204,13 @@ Partial Class FElencoProdotti
         Me.dgvProd.DataSource = Me.bsProd
         Me.dgvProd.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvProd.Location = New System.Drawing.Point(0, 86)
-        Me.dgvProd.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvProd.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvProd.Name = "dgvProd"
         Me.dgvProd.ReadOnly = True
         Me.dgvProd.RowHeadersVisible = False
         Me.dgvProd.RowHeadersWidth = 51
         Me.dgvProd.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvProd.Size = New System.Drawing.Size(1607, 790)
+        Me.dgvProd.Size = New System.Drawing.Size(1483, 692)
         Me.dgvProd.TabIndex = 80
         '
         'dgvcCat
@@ -237,13 +237,13 @@ Partial Class FElencoProdotti
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1607, 921)
+        Me.ClientSize = New System.Drawing.Size(1483, 823)
         Me.Controls.Add(Me.dgvProd)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "FElencoProdotti"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione prodotti"

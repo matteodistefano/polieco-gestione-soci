@@ -66,7 +66,7 @@ Partial Class dlgEventoAzienda
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbExit, Me.tsbOk})
-        Me.tsMain.Location = New System.Drawing.Point(0, 918)
+        Me.tsMain.Location = New System.Drawing.Point(0, 811)
         Me.tsMain.Name = "tsMain"
         Me.tsMain.Size = New System.Drawing.Size(1474, 69)
         Me.tsMain.TabIndex = 10
@@ -152,11 +152,11 @@ Partial Class dlgEventoAzienda
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtNote.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Note", True))
         Me.txtNote.Location = New System.Drawing.Point(138, 606)
-        Me.txtNote.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtNote.Margin = New System.Windows.Forms.Padding(6)
         Me.txtNote.Multiline = True
         Me.txtNote.Name = "txtNote"
         Me.txtNote.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtNote.Size = New System.Drawing.Size(1312, 242)
+        Me.txtNote.Size = New System.Drawing.Size(1312, 105)
         Me.txtNote.TabIndex = 12
         '
         'lLogo
@@ -178,7 +178,7 @@ Partial Class dlgEventoAzienda
         Me.txtDataRichiesta.DateValue = Nothing
         Me.txtDataRichiesta.IsReadOnly = False
         Me.txtDataRichiesta.Location = New System.Drawing.Point(138, 153)
-        Me.txtDataRichiesta.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtDataRichiesta.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDataRichiesta.Name = "txtDataRichiesta"
         Me.txtDataRichiesta.SetNullDateToDbNull = False
         Me.txtDataRichiesta.Size = New System.Drawing.Size(180, 32)
@@ -190,7 +190,7 @@ Partial Class dlgEventoAzienda
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Causale", True))
         Me.TextBox1.Location = New System.Drawing.Point(136, 267)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -223,7 +223,7 @@ Partial Class dlgEventoAzienda
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Incaricato", True))
         Me.TextBox2.Location = New System.Drawing.Point(136, 423)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.TextBox2.Size = New System.Drawing.Size(1312, 32)
@@ -244,8 +244,8 @@ Partial Class dlgEventoAzienda
         Me.TextBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Valore", True, System.Windows.Forms.DataSourceUpdateMode.OnValidation, Nothing, "C2"))
-        Me.TextBox3.Location = New System.Drawing.Point(138, 861)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TextBox3.Location = New System.Drawing.Point(138, 754)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.TextBox3.Size = New System.Drawing.Size(218, 32)
@@ -256,7 +256,7 @@ Partial Class dlgEventoAzienda
         '
         Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(7, 861)
+        Me.Label8.Location = New System.Drawing.Point(7, 754)
         Me.Label8.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(80, 24)
@@ -301,7 +301,7 @@ Partial Class dlgEventoAzienda
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtScadenza.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsData, "Scadenza", True))
         Me.txtScadenza.Location = New System.Drawing.Point(136, 470)
-        Me.txtScadenza.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtScadenza.Margin = New System.Windows.Forms.Padding(6)
         Me.txtScadenza.Multiline = True
         Me.txtScadenza.Name = "txtScadenza"
         Me.txtScadenza.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -312,7 +312,7 @@ Partial Class dlgEventoAzienda
         '
         Me.Label12.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(1018, 870)
+        Me.Label12.Location = New System.Drawing.Point(1018, 763)
         Me.Label12.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(107, 24)
@@ -340,7 +340,7 @@ Partial Class dlgEventoAzienda
         Me.txtDataNotifica.DateValue = Nothing
         Me.txtDataNotifica.IsReadOnly = False
         Me.txtDataNotifica.Location = New System.Drawing.Point(914, 147)
-        Me.txtDataNotifica.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtDataNotifica.Margin = New System.Windows.Forms.Padding(6)
         Me.txtDataNotifica.Name = "txtDataNotifica"
         Me.txtDataNotifica.SetNullDateToDbNull = False
         Me.txtDataNotifica.Size = New System.Drawing.Size(180, 32)
@@ -362,7 +362,8 @@ Partial Class dlgEventoAzienda
         Me.ucArxivar.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ucArxivar.BackColorTxt = System.Drawing.SystemColors.Window
         Me.ucArxivar.DataBindings.Add(New System.Windows.Forms.Binding("Protocollo", Me.bsData, "RifArxivar", True))
-        Me.ucArxivar.Location = New System.Drawing.Point(1132, 866)
+        Me.ucArxivar.Font = New System.Drawing.Font("Roboto", 12.0!)
+        Me.ucArxivar.Location = New System.Drawing.Point(1132, 759)
         Me.ucArxivar.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.ucArxivar.Name = "ucArxivar"
         Me.ucArxivar.Protocollo = ""
@@ -370,7 +371,7 @@ Partial Class dlgEventoAzienda
         Me.ucArxivar.ReadOnly = False
         Me.ucArxivar.SearchDocumentMode = ArxivarWCFWrapper.ucProtocolloArxivar.SearchDocumentModeEnum.BY_DOC_NUMBER_AND_ID
         Me.ucArxivar.ShowContextMenu = False
-        Me.ucArxivar.Size = New System.Drawing.Size(319, 20)
+        Me.ucArxivar.Size = New System.Drawing.Size(319, 32)
         Me.ucArxivar.TabIndex = 14
         '
         'chkChiuso
@@ -402,7 +403,7 @@ Partial Class dlgEventoAzienda
         '
         Me.cbRuoloNotifica.FormattingEnabled = True
         Me.cbRuoloNotifica.Location = New System.Drawing.Point(914, 195)
-        Me.cbRuoloNotifica.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.cbRuoloNotifica.Margin = New System.Windows.Forms.Padding(6)
         Me.cbRuoloNotifica.Name = "cbRuoloNotifica"
         Me.cbRuoloNotifica.Size = New System.Drawing.Size(533, 32)
         Me.cbRuoloNotifica.TabIndex = 8
@@ -411,7 +412,7 @@ Partial Class dlgEventoAzienda
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1474, 987)
+        Me.ClientSize = New System.Drawing.Size(1474, 880)
         Me.Controls.Add(Me.cbRuoloNotifica)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.chkChiuso)
@@ -442,7 +443,7 @@ Partial Class dlgEventoAzienda
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgEventoAzienda"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Evento"

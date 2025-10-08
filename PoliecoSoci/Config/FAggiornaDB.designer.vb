@@ -28,7 +28,7 @@ Partial Class FAggiornaDB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(575, 304)
+        Me.ClientSize = New System.Drawing.Size(608, 320)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(6)

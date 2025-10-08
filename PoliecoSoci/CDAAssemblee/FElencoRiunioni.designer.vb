@@ -37,6 +37,9 @@ Partial Class FElencoRiunioni
         Me.tsbSelect = New System.Windows.Forms.ToolStripButton()
         Me.tsbStampa = New System.Windows.Forms.ToolStripButton()
         Me.dgvElenco = New System.Windows.Forms.DataGridView()
+        Me.dgvcData = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcTesto = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.bsRiunioni = New System.Windows.Forms.BindingSource(Me.components)
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.txtNote = New System.Windows.Forms.TextBox()
@@ -45,9 +48,6 @@ Partial Class FElencoRiunioni
         Me.cdiPeriodo = New mdsUIControls.ctlDateIntervalHorizontal()
         Me.ccTipo = New mdsUIControls.ucCheckedCombo()
         Me.DataGridViewBooleanImageColumn1 = New mdsUIControls.DataGridViewBooleanImageColumn()
-        Me.dgvcData = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcTesto = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tsMain.SuspendLayout()
         CType(Me.dgvElenco, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bsRiunioni, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -59,10 +59,11 @@ Partial Class FElencoRiunioni
         Me.tsMain.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.tsMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNuova, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbSelect, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 876)
+        Me.tsMain.Location = New System.Drawing.Point(0, 692)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1607, 45)
+        Me.tsMain.Size = New System.Drawing.Size(1428, 45)
         Me.tsMain.TabIndex = 4
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -147,13 +148,47 @@ Partial Class FElencoRiunioni
         Me.dgvElenco.DataSource = Me.bsRiunioni
         Me.dgvElenco.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvElenco.Location = New System.Drawing.Point(0, 62)
-        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvElenco.Name = "dgvElenco"
         Me.dgvElenco.ReadOnly = True
         Me.dgvElenco.RowHeadersWidth = 20
         Me.dgvElenco.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvElenco.Size = New System.Drawing.Size(1607, 814)
+        Me.dgvElenco.Size = New System.Drawing.Size(1428, 630)
         Me.dgvElenco.TabIndex = 6
+        '
+        'dgvcData
+        '
+        Me.dgvcData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcData.DataPropertyName = "Data"
+        DataGridViewCellStyle2.Format = "d"
+        Me.dgvcData.DefaultCellStyle = DataGridViewCellStyle2
+        Me.dgvcData.HeaderText = "Data"
+        Me.dgvcData.MinimumWidth = 6
+        Me.dgvcData.Name = "dgvcData"
+        Me.dgvcData.ReadOnly = True
+        Me.dgvcData.Width = 250
+        '
+        'dgvcTipo
+        '
+        Me.dgvcTipo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcTipo.DataPropertyName = "DescrTipo"
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcTipo.DefaultCellStyle = DataGridViewCellStyle3
+        Me.dgvcTipo.HeaderText = "Tipo"
+        Me.dgvcTipo.MinimumWidth = 6
+        Me.dgvcTipo.Name = "dgvcTipo"
+        Me.dgvcTipo.ReadOnly = True
+        Me.dgvcTipo.Width = 200
+        '
+        'dgvcTesto
+        '
+        Me.dgvcTesto.DataPropertyName = "Note"
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcTesto.DefaultCellStyle = DataGridViewCellStyle4
+        Me.dgvcTesto.HeaderText = "Note"
+        Me.dgvcTesto.MinimumWidth = 6
+        Me.dgvcTesto.Name = "dgvcTesto"
+        Me.dgvcTesto.ReadOnly = True
         '
         'Panel1
         '
@@ -164,15 +199,15 @@ Partial Class FElencoRiunioni
         Me.Panel1.Controls.Add(Me.ccTipo)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1607, 62)
+        Me.Panel1.Size = New System.Drawing.Size(1428, 62)
         Me.Panel1.TabIndex = 7
         '
         'txtNote
         '
         Me.txtNote.Location = New System.Drawing.Point(1022, 14)
-        Me.txtNote.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtNote.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNote.Name = "txtNote"
         Me.txtNote.Size = New System.Drawing.Size(306, 32)
         Me.txtNote.TabIndex = 5
@@ -204,14 +239,13 @@ Partial Class FElencoRiunioni
         Me.cdiPeriodo.DateFormat = "dd/MM/yyyy"
         Me.cdiPeriodo.IntervalCodition = mdsUIControls.ctlDateIntervalHorizontal.IntervalConditionEnum.STANDARD
         Me.cdiPeriodo.Location = New System.Drawing.Point(520, 10)
-        Me.cdiPeriodo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.cdiPeriodo.Margin = New System.Windows.Forms.Padding(6)
         Me.cdiPeriodo.MonthFormat = False
         Me.cdiPeriodo.Name = "cdiPeriodo"
         Me.cdiPeriodo.Size = New System.Drawing.Size(400, 42)
         Me.cdiPeriodo.TabIndex = 2
         Me.cdiPeriodo.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiPeriodo.TxtBackColor = System.Drawing.SystemColors.Window
-        AddHandler Me.cdiPeriodo.Load, AddressOf Me.cdiPeriodo_Load
         '
         'ccTipo
         '
@@ -219,13 +253,13 @@ Partial Class FElencoRiunioni
         Me.ccTipo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
         Me.ccTipo.Checked = False
         Me.ccTipo.CheckText = "Solo "
-        Me.ccTipo.CheckWidth = 82
+        Me.ccTipo.CheckWidth = 113
         Me.ccTipo.ComboText = ""
         Me.ccTipo.DataSource = Nothing
         Me.ccTipo.DisplayMember = ""
         Me.ccTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ccTipo.Location = New System.Drawing.Point(18, 10)
-        Me.ccTipo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.ccTipo.Margin = New System.Windows.Forms.Padding(6)
         Me.ccTipo.MaxDropDownItems = 8
         Me.ccTipo.Name = "ccTipo"
         Me.ccTipo.SelectedIndex = -1
@@ -243,6 +277,7 @@ Partial Class FElencoRiunioni
         Me.DataGridViewBooleanImageColumn1.HeaderText = "Crea automatico"
         Me.DataGridViewBooleanImageColumn1.ImageFalse = Nothing
         Me.DataGridViewBooleanImageColumn1.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Green_Checkmark_16_n_g
+        Me.DataGridViewBooleanImageColumn1.MinimumWidth = 6
         Me.DataGridViewBooleanImageColumn1.Name = "DataGridViewBooleanImageColumn1"
         Me.DataGridViewBooleanImageColumn1.ReadOnly = True
         Me.DataGridViewBooleanImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -250,49 +285,18 @@ Partial Class FElencoRiunioni
         Me.DataGridViewBooleanImageColumn1.ValueTrue = "True"
         Me.DataGridViewBooleanImageColumn1.Width = 60
         '
-        'dgvcData
-        '
-        Me.dgvcData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcData.DataPropertyName = "Data"
-        DataGridViewCellStyle2.Format = "d"
-        Me.dgvcData.DefaultCellStyle = DataGridViewCellStyle2
-        Me.dgvcData.HeaderText = "Data"
-        Me.dgvcData.Name = "dgvcData"
-        Me.dgvcData.ReadOnly = True
-        Me.dgvcData.Width = 250
-        '
-        'dgvcTipo
-        '
-        Me.dgvcTipo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcTipo.DataPropertyName = "DescrTipo"
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcTipo.DefaultCellStyle = DataGridViewCellStyle3
-        Me.dgvcTipo.HeaderText = "Tipo"
-        Me.dgvcTipo.Name = "dgvcTipo"
-        Me.dgvcTipo.ReadOnly = True
-        Me.dgvcTipo.Width = 200
-        '
-        'dgvcTesto
-        '
-        Me.dgvcTesto.DataPropertyName = "Note"
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcTesto.DefaultCellStyle = DataGridViewCellStyle4
-        Me.dgvcTesto.HeaderText = "Note"
-        Me.dgvcTesto.Name = "dgvcTesto"
-        Me.dgvcTesto.ReadOnly = True
-        '
         'FElencoRiunioni
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1607, 921)
+        Me.ClientSize = New System.Drawing.Size(1428, 737)
         Me.Controls.Add(Me.dgvElenco)
         Me.Controls.Add(Me.tsMain)
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "FElencoRiunioni"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Assemblee & CDA"

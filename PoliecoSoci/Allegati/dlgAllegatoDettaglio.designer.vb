@@ -76,9 +76,9 @@ Partial Class dlgAllegatoDettaglio
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbExit, Me.tsbOk})
-        Me.tsMain.Location = New System.Drawing.Point(0, 1109)
+        Me.tsMain.Location = New System.Drawing.Point(0, 842)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1646, 69)
+        Me.tsMain.Size = New System.Drawing.Size(1502, 69)
         Me.tsMain.TabIndex = 1
         '
         'tsbExit
@@ -109,10 +109,10 @@ Partial Class dlgAllegatoDettaglio
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lDichiarazione.BackColor = System.Drawing.Color.White
         Me.lDichiarazione.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lDichiarazione.Location = New System.Drawing.Point(22, 128)
+        Me.lDichiarazione.Location = New System.Drawing.Point(22, 115)
         Me.lDichiarazione.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lDichiarazione.Name = "lDichiarazione"
-        Me.lDichiarazione.Size = New System.Drawing.Size(1576, 36)
+        Me.lDichiarazione.Size = New System.Drawing.Size(1432, 36)
         Me.lDichiarazione.TabIndex = 1
         Me.lDichiarazione.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -135,14 +135,14 @@ Partial Class dlgAllegatoDettaglio
         Me.lAzienda.Location = New System.Drawing.Point(22, 40)
         Me.lAzienda.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzienda.Name = "lAzienda"
-        Me.lAzienda.Size = New System.Drawing.Size(1576, 36)
+        Me.lAzienda.Size = New System.Drawing.Size(1432, 36)
         Me.lAzienda.TabIndex = 0
         Me.lAzienda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(22, 104)
+        Me.Label3.Location = New System.Drawing.Point(22, 91)
         Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(131, 24)
@@ -170,11 +170,11 @@ Partial Class dlgAllegatoDettaglio
         Me.gbAzienda.Controls.Add(Me.Label9)
         Me.gbAzienda.Controls.Add(Me.lAzRagioneSociale)
         Me.gbAzienda.Controls.Add(Me.Label6)
-        Me.gbAzienda.Location = New System.Drawing.Point(22, 208)
-        Me.gbAzienda.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.gbAzienda.Location = New System.Drawing.Point(22, 180)
+        Me.gbAzienda.Margin = New System.Windows.Forms.Padding(6)
         Me.gbAzienda.Name = "gbAzienda"
-        Me.gbAzienda.Padding = New System.Windows.Forms.Padding(6, 6, 6, 6)
-        Me.gbAzienda.Size = New System.Drawing.Size(1602, 336)
+        Me.gbAzienda.Padding = New System.Windows.Forms.Padding(6)
+        Me.gbAzienda.Size = New System.Drawing.Size(1458, 336)
         Me.gbAzienda.TabIndex = 2
         Me.gbAzienda.TabStop = False
         Me.gbAzienda.Text = "Azienda"
@@ -188,7 +188,7 @@ Partial Class dlgAllegatoDettaglio
         Me.lAzPartitaIva.Location = New System.Drawing.Point(1071, 126)
         Me.lAzPartitaIva.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzPartitaIva.Name = "lAzPartitaIva"
-        Me.lAzPartitaIva.Size = New System.Drawing.Size(431, 36)
+        Me.lAzPartitaIva.Size = New System.Drawing.Size(287, 36)
         Me.lAzPartitaIva.TabIndex = 3
         Me.lAzPartitaIva.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -207,7 +207,7 @@ Partial Class dlgAllegatoDettaglio
         Me.cbRuolo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbRuolo.FormattingEnabled = True
         Me.cbRuolo.Location = New System.Drawing.Point(11, 57)
-        Me.cbRuolo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.cbRuolo.Margin = New System.Windows.Forms.Padding(6)
         Me.cbRuolo.Name = "cbRuolo"
         Me.cbRuolo.Size = New System.Drawing.Size(291, 32)
         Me.cbRuolo.TabIndex = 0
@@ -216,8 +216,8 @@ Partial Class dlgAllegatoDettaglio
         '
         Me.btnSetAzienda.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnSetAzienda.Image = Global.PoliecoSoci.My.Resources.Resources.Back_24_n_g
-        Me.btnSetAzienda.Location = New System.Drawing.Point(1518, 126)
-        Me.btnSetAzienda.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnSetAzienda.Location = New System.Drawing.Point(1374, 126)
+        Me.btnSetAzienda.Margin = New System.Windows.Forms.Padding(6)
         Me.btnSetAzienda.Name = "btnSetAzienda"
         Me.btnSetAzienda.Size = New System.Drawing.Size(73, 184)
         Me.btnSetAzienda.TabIndex = 1
@@ -228,7 +228,7 @@ Partial Class dlgAllegatoDettaglio
         Me.lAzNazione.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lAzNazione.BackColor = System.Drawing.Color.White
         Me.lAzNazione.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lAzNazione.Location = New System.Drawing.Point(1189, 272)
+        Me.lAzNazione.Location = New System.Drawing.Point(1045, 272)
         Me.lAzNazione.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzNazione.Name = "lAzNazione"
         Me.lAzNazione.Size = New System.Drawing.Size(311, 36)
@@ -239,7 +239,7 @@ Partial Class dlgAllegatoDettaglio
         '
         Me.Label19.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(1184, 242)
+        Me.Label19.Location = New System.Drawing.Point(1040, 242)
         Me.Label19.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(83, 24)
@@ -251,7 +251,7 @@ Partial Class dlgAllegatoDettaglio
         Me.lAzProvincia.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lAzProvincia.BackColor = System.Drawing.Color.White
         Me.lAzProvincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lAzProvincia.Location = New System.Drawing.Point(1057, 272)
+        Me.lAzProvincia.Location = New System.Drawing.Point(913, 272)
         Me.lAzProvincia.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzProvincia.Name = "lAzProvincia"
         Me.lAzProvincia.Size = New System.Drawing.Size(119, 36)
@@ -262,7 +262,7 @@ Partial Class dlgAllegatoDettaglio
         '
         Me.Label17.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(1049, 248)
+        Me.Label17.Location = New System.Drawing.Point(905, 248)
         Me.Label17.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(55, 24)
@@ -274,7 +274,7 @@ Partial Class dlgAllegatoDettaglio
         Me.lAzCap.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lAzCap.BackColor = System.Drawing.Color.White
         Me.lAzCap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lAzCap.Location = New System.Drawing.Point(857, 272)
+        Me.lAzCap.Location = New System.Drawing.Point(713, 272)
         Me.lAzCap.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzCap.Name = "lAzCap"
         Me.lAzCap.Size = New System.Drawing.Size(179, 36)
@@ -285,7 +285,7 @@ Partial Class dlgAllegatoDettaglio
         '
         Me.Label15.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(851, 242)
+        Me.Label15.Location = New System.Drawing.Point(707, 242)
         Me.Label15.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(49, 24)
@@ -311,7 +311,7 @@ Partial Class dlgAllegatoDettaglio
         Me.lAzLocalita.Location = New System.Drawing.Point(11, 272)
         Me.lAzLocalita.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzLocalita.Name = "lAzLocalita"
-        Me.lAzLocalita.Size = New System.Drawing.Size(832, 36)
+        Me.lAzLocalita.Size = New System.Drawing.Size(688, 36)
         Me.lAzLocalita.TabIndex = 5
         Me.lAzLocalita.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -334,7 +334,7 @@ Partial Class dlgAllegatoDettaglio
         Me.lAzIndirizzo.Location = New System.Drawing.Point(11, 195)
         Me.lAzIndirizzo.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzIndirizzo.Name = "lAzIndirizzo"
-        Me.lAzIndirizzo.Size = New System.Drawing.Size(1491, 36)
+        Me.lAzIndirizzo.Size = New System.Drawing.Size(1347, 36)
         Me.lAzIndirizzo.TabIndex = 4
         Me.lAzIndirizzo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -357,7 +357,7 @@ Partial Class dlgAllegatoDettaglio
         Me.lAzRagioneSociale.Location = New System.Drawing.Point(11, 126)
         Me.lAzRagioneSociale.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lAzRagioneSociale.Name = "lAzRagioneSociale"
-        Me.lAzRagioneSociale.Size = New System.Drawing.Size(1047, 36)
+        Me.lAzRagioneSociale.Size = New System.Drawing.Size(903, 36)
         Me.lAzRagioneSociale.TabIndex = 2
         Me.lAzRagioneSociale.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -377,6 +377,7 @@ Partial Class dlgAllegatoDettaglio
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.gbMateriale.Controls.Add(Me.txtContributo)
+        Me.gbMateriale.Controls.Add(Me.Label26)
         Me.gbMateriale.Controls.Add(Me.ldescrQta)
         Me.gbMateriale.Controls.Add(Me.lDescrContributo)
         Me.gbMateriale.Controls.Add(Me.lCerDescrizione)
@@ -385,11 +386,11 @@ Partial Class dlgAllegatoDettaglio
         Me.gbMateriale.Controls.Add(Me.lCerCodice)
         Me.gbMateriale.Controls.Add(Me.Label21)
         Me.gbMateriale.Controls.Add(Me.btnSetMateriale)
-        Me.gbMateriale.Location = New System.Drawing.Point(28, 555)
-        Me.gbMateriale.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.gbMateriale.Location = New System.Drawing.Point(28, 527)
+        Me.gbMateriale.Margin = New System.Windows.Forms.Padding(6)
         Me.gbMateriale.Name = "gbMateriale"
-        Me.gbMateriale.Padding = New System.Windows.Forms.Padding(6, 6, 6, 6)
-        Me.gbMateriale.Size = New System.Drawing.Size(1596, 230)
+        Me.gbMateriale.Padding = New System.Windows.Forms.Padding(6)
+        Me.gbMateriale.Size = New System.Drawing.Size(1452, 287)
         Me.gbMateriale.TabIndex = 3
         Me.gbMateriale.TabStop = False
         Me.gbMateriale.Text = "Materiale"
@@ -399,7 +400,7 @@ Partial Class dlgAllegatoDettaglio
         Me.txtContributo.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsDettaglio, "ContributoApplicato", True))
         Me.txtContributo.ForzaControlloTastiValuta = False
         Me.txtContributo.Location = New System.Drawing.Point(253, 66)
-        Me.txtContributo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtContributo.Margin = New System.Windows.Forms.Padding(6)
         Me.txtContributo.Name = "txtContributo"
         Me.txtContributo.NullDateValue = mdsUIControls.mdsTextBoxFMT.NullDateSetting.[NOTHING]
         Me.txtContributo.NullNumberValue = New Decimal(New Integer() {0, 0, 0, 0})
@@ -434,10 +435,10 @@ Partial Class dlgAllegatoDettaglio
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lCerDescrizione.BackColor = System.Drawing.Color.White
         Me.lCerDescrizione.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lCerDescrizione.Location = New System.Drawing.Point(253, 153)
+        Me.lCerDescrizione.Location = New System.Drawing.Point(253, 129)
         Me.lCerDescrizione.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lCerDescrizione.Name = "lCerDescrizione"
-        Me.lCerDescrizione.Size = New System.Drawing.Size(1238, 36)
+        Me.lCerDescrizione.Size = New System.Drawing.Size(1094, 36)
         Me.lCerDescrizione.TabIndex = 4
         Me.lCerDescrizione.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -445,7 +446,7 @@ Partial Class dlgAllegatoDettaglio
         '
         Me.TextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsDettaglio, "Quantita", True))
         Me.TextBox1.Location = New System.Drawing.Point(11, 66)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(208, 32)
         Me.TextBox1.TabIndex = 0
@@ -454,7 +455,7 @@ Partial Class dlgAllegatoDettaglio
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(248, 129)
+        Me.Label23.Location = New System.Drawing.Point(248, 105)
         Me.Label23.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(114, 24)
@@ -465,7 +466,7 @@ Partial Class dlgAllegatoDettaglio
         '
         Me.lCerCodice.BackColor = System.Drawing.Color.White
         Me.lCerCodice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lCerCodice.Location = New System.Drawing.Point(11, 152)
+        Me.lCerCodice.Location = New System.Drawing.Point(11, 128)
         Me.lCerCodice.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lCerCodice.Name = "lCerCodice"
         Me.lCerCodice.Size = New System.Drawing.Size(201, 36)
@@ -475,7 +476,7 @@ Partial Class dlgAllegatoDettaglio
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(11, 128)
+        Me.Label21.Location = New System.Drawing.Point(11, 104)
         Me.Label21.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(112, 24)
@@ -486,8 +487,8 @@ Partial Class dlgAllegatoDettaglio
         '
         Me.btnSetMateriale.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnSetMateriale.Image = Global.PoliecoSoci.My.Resources.Resources.Back_24_n_g
-        Me.btnSetMateriale.Location = New System.Drawing.Point(1503, 141)
-        Me.btnSetMateriale.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnSetMateriale.Location = New System.Drawing.Point(1359, 117)
+        Me.btnSetMateriale.Margin = New System.Windows.Forms.Padding(6)
         Me.btnSetMateriale.Name = "btnSetMateriale"
         Me.btnSetMateriale.Size = New System.Drawing.Size(73, 58)
         Me.btnSetMateriale.TabIndex = 2
@@ -499,18 +500,18 @@ Partial Class dlgAllegatoDettaglio
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.bsDettaglio, "Note", True))
-        Me.TextBox2.Location = New System.Drawing.Point(38, 842)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TextBox2.Location = New System.Drawing.Point(37, 736)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox2.Size = New System.Drawing.Size(1567, 247)
+        Me.TextBox2.Size = New System.Drawing.Size(1423, 66)
         Me.TextBox2.TabIndex = 0
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(33, 813)
+        Me.Label26.Location = New System.Drawing.Point(11, 179)
         Me.Label26.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(53, 24)
@@ -520,7 +521,7 @@ Partial Class dlgAllegatoDettaglio
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(40, 682)
+        Me.Label24.Location = New System.Drawing.Point(40, 654)
         Me.Label24.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(145, 24)
@@ -531,9 +532,8 @@ Partial Class dlgAllegatoDettaglio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1646, 1178)
+        Me.ClientSize = New System.Drawing.Size(1502, 911)
         Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.Label26)
         Me.Controls.Add(Me.gbMateriale)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.gbAzienda)
@@ -544,7 +544,7 @@ Partial Class dlgAllegatoDettaglio
         Me.Controls.Add(Me.tsMain)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgAllegatoDettaglio"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Dettaglio allegato"
