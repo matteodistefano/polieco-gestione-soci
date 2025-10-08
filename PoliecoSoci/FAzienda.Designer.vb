@@ -25,9 +25,18 @@ Partial Class FAzienda
         Me.components = New System.ComponentModel.Container()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FAzienda))
+        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -42,15 +51,6 @@ Partial Class FAzienda
         Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FAzienda))
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.pnlHeader = New mdsUIControls.ctlExtendedPanel()
         Me.txtDataUnaTantum = New mdsUIControls.mdsDate()
         Me.bsAzienda = New System.Windows.Forms.BindingSource(Me.components)
@@ -164,14 +164,6 @@ Partial Class FAzienda
         Me.Label23 = New System.Windows.Forms.Label()
         Me.pnlAttivita = New System.Windows.Forms.Panel()
         Me.dgvAttivita = New System.Windows.Forms.DataGridView()
-        Me.dgvcAttTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcAttCategoria = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcAttDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcAttDataIni = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDataFine = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcAttConsuntivo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcAttPreventivo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcAttAttrezzatura = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.bsAttivita = New System.Windows.Forms.BindingSource(Me.components)
         Me.tsAttivita = New System.Windows.Forms.ToolStrip()
         Me.tsbAttAdd = New System.Windows.Forms.ToolStripButton()
@@ -181,21 +173,6 @@ Partial Class FAzienda
         Me.tpDichiarazioni = New System.Windows.Forms.TabPage()
         Me.pnlDichiarazioni = New System.Windows.Forms.Panel()
         Me.dgvDichiarazioni = New System.Windows.Forms.DataGridView()
-        Me.dgvcDicAnno = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDicCategoria = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDicPeriodo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDicDataRic = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDicImporto = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDicPagato = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDicData = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDicScadDic = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDicScadPag = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDicProroga = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcDicProd = New mdsUIControls.DataGridViewBooleanImageColumn()
-        Me.dgvcDicDocs = New System.Windows.Forms.DataGridViewImageColumn()
-        Me.dgvcDicAllegato = New mdsUIControls.DataGridViewBooleanImageColumn()
-        Me.dgvcDicRegDic = New System.Windows.Forms.DataGridViewImageColumn()
-        Me.dgvcDicRegPag = New System.Windows.Forms.DataGridViewImageColumn()
         Me.bsDichiarazioni = New System.Windows.Forms.BindingSource(Me.components)
         Me.pnlDicFooter = New System.Windows.Forms.Panel()
         Me.tsDichiarazioni = New System.Windows.Forms.ToolStrip()
@@ -212,20 +189,6 @@ Partial Class FAzienda
         Me.tpEventi = New System.Windows.Forms.TabPage()
         Me.pnlEventi = New System.Windows.Forms.Panel()
         Me.dgvEventi = New System.Windows.Forms.DataGridView()
-        Me.dgvcEvStato = New System.Windows.Forms.DataGridViewImageColumn()
-        Me.dgvcEvIsUrgente = New mdsUIControls.DataGridViewBooleanImageColumn()
-        Me.dgvcEvData = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvNotifica = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvRuoloNotifica = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvUtente = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvMotivazione = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvIncaricato = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvNote = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvScadenza = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvValore = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEvDocs = New mdsUIControls.DataGridViewBooleanImageColumn()
-        Me.dgvcEvSys = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.bsEventi = New System.Windows.Forms.BindingSource(Me.components)
         Me.tsEventi = New System.Windows.Forms.ToolStrip()
         Me.tsbEvAdd = New System.Windows.Forms.ToolStripButton()
@@ -289,10 +252,47 @@ Partial Class FAzienda
         Me.DataGridViewBooleanImageColumn1 = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.DataGridViewBooleanImageColumn2 = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.bsNotePNet = New System.Windows.Forms.BindingSource(Me.components)
+        Me.dgvcAttTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcAttCategoria = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcAttDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcAttDataIni = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDataFine = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcAttConsuntivo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcAttPreventivo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcAttAttrezzatura = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.dgvcLicDescrizione = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcLicDataRichiesta = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcLicDataScadenza = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcLicDataRicevuta = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicAnno = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicCategoria = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicPeriodo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicDataRic = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicImporto = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicPagato = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicData = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicScadDic = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicScadPag = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicProroga = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcDicProd = New mdsUIControls.DataGridViewBooleanImageColumn()
+        Me.dgvcDicDocs = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.dgvcDicAllegato = New mdsUIControls.DataGridViewBooleanImageColumn()
+        Me.dgvcDicRegDic = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.dgvcDicRegPag = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.dgvcEvStato = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.dgvcEvIsUrgente = New mdsUIControls.DataGridViewBooleanImageColumn()
+        Me.dgvcEvData = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvNotifica = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvRuoloNotifica = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvTipo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvUtente = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvMotivazione = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvIncaricato = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvNote = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvScadenza = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvValore = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEvDocs = New mdsUIControls.DataGridViewBooleanImageColumn()
+        Me.dgvcEvSys = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.pnlHeader.SuspendLayout()
         CType(Me.bsAzienda, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tbMain.SuspendLayout()
@@ -1568,6 +1568,7 @@ Partial Class FAzienda
         '
         Me.tsbLicAdd.AutoSize = False
         Me.tsbLicAdd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.tsbLicAdd.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tsbLicAdd.Image = Global.PoliecoSoci.My.Resources.Resources.Green_Plus_24_n_g
         Me.tsbLicAdd.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbLicAdd.ImageTransparentColor = System.Drawing.Color.Magenta
@@ -1640,96 +1641,6 @@ Partial Class FAzienda
         Me.dgvAttivita.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvAttivita.Size = New System.Drawing.Size(1774, 208)
         Me.dgvAttivita.TabIndex = 37
-        '
-        'dgvcAttTipo
-        '
-        Me.dgvcAttTipo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcAttTipo.DataPropertyName = "CodTipoAttivita"
-        Me.dgvcAttTipo.HeaderText = "Tipo"
-        Me.dgvcAttTipo.MinimumWidth = 6
-        Me.dgvcAttTipo.Name = "dgvcAttTipo"
-        Me.dgvcAttTipo.ReadOnly = True
-        Me.dgvcAttTipo.Width = 50
-        '
-        'dgvcAttCategoria
-        '
-        Me.dgvcAttCategoria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcAttCategoria.DataPropertyName = "CodCategoria"
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.dgvcAttCategoria.DefaultCellStyle = DataGridViewCellStyle6
-        Me.dgvcAttCategoria.HeaderText = "Categoria"
-        Me.dgvcAttCategoria.MinimumWidth = 6
-        Me.dgvcAttCategoria.Name = "dgvcAttCategoria"
-        Me.dgvcAttCategoria.ReadOnly = True
-        Me.dgvcAttCategoria.Width = 90
-        '
-        'dgvcAttDescrizione
-        '
-        Me.dgvcAttDescrizione.DataPropertyName = "Descrizione"
-        Me.dgvcAttDescrizione.HeaderText = "Descrizione"
-        Me.dgvcAttDescrizione.MinimumWidth = 6
-        Me.dgvcAttDescrizione.Name = "dgvcAttDescrizione"
-        Me.dgvcAttDescrizione.ReadOnly = True
-        '
-        'dgvcAttDataIni
-        '
-        Me.dgvcAttDataIni.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcAttDataIni.DataPropertyName = "DataIniziale"
-        DataGridViewCellStyle7.Format = "d"
-        Me.dgvcAttDataIni.DefaultCellStyle = DataGridViewCellStyle7
-        Me.dgvcAttDataIni.HeaderText = "Dal"
-        Me.dgvcAttDataIni.MinimumWidth = 6
-        Me.dgvcAttDataIni.Name = "dgvcAttDataIni"
-        Me.dgvcAttDataIni.ReadOnly = True
-        Me.dgvcAttDataIni.Width = 90
-        '
-        'dgvcDataFine
-        '
-        Me.dgvcDataFine.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDataFine.DataPropertyName = "DataFinale"
-        DataGridViewCellStyle8.Format = "d"
-        Me.dgvcDataFine.DefaultCellStyle = DataGridViewCellStyle8
-        Me.dgvcDataFine.HeaderText = "Al"
-        Me.dgvcDataFine.MinimumWidth = 6
-        Me.dgvcDataFine.Name = "dgvcDataFine"
-        Me.dgvcDataFine.ReadOnly = True
-        Me.dgvcDataFine.Width = 90
-        '
-        'dgvcAttConsuntivo
-        '
-        Me.dgvcAttConsuntivo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcAttConsuntivo.DataPropertyName = "DescrConsuntivo"
-        Me.dgvcAttConsuntivo.HeaderText = "Consuntivo (Tn)"
-        Me.dgvcAttConsuntivo.MinimumWidth = 6
-        Me.dgvcAttConsuntivo.Name = "dgvcAttConsuntivo"
-        Me.dgvcAttConsuntivo.ReadOnly = True
-        Me.dgvcAttConsuntivo.Width = 120
-        '
-        'dgvcAttPreventivo
-        '
-        Me.dgvcAttPreventivo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcAttPreventivo.DataPropertyName = "DescrPreventivo"
-        Me.dgvcAttPreventivo.HeaderText = "Preventivo (Tn)"
-        Me.dgvcAttPreventivo.MinimumWidth = 6
-        Me.dgvcAttPreventivo.Name = "dgvcAttPreventivo"
-        Me.dgvcAttPreventivo.ReadOnly = True
-        Me.dgvcAttPreventivo.Width = 120
-        '
-        'dgvcAttAttrezzatura
-        '
-        Me.dgvcAttAttrezzatura.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcAttAttrezzatura.DataPropertyName = "HasAttrezzatura"
-        Me.dgvcAttAttrezzatura.HeaderText = "Attr."
-        Me.dgvcAttAttrezzatura.ImageFalse = Nothing
-        Me.dgvcAttAttrezzatura.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Options_3_16_n_g
-        Me.dgvcAttAttrezzatura.MinimumWidth = 6
-        Me.dgvcAttAttrezzatura.Name = "dgvcAttAttrezzatura"
-        Me.dgvcAttAttrezzatura.ReadOnly = True
-        Me.dgvcAttAttrezzatura.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcAttAttrezzatura.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcAttAttrezzatura.ValueFalse = "False"
-        Me.dgvcAttAttrezzatura.ValueTrue = "True"
-        Me.dgvcAttAttrezzatura.Width = 30
         '
         'tsAttivita
         '
@@ -1838,183 +1749,8 @@ Partial Class FAzienda
         Me.dgvDichiarazioni.Size = New System.Drawing.Size(1772, 609)
         Me.dgvDichiarazioni.TabIndex = 36
         '
-        'dgvcDicAnno
+        'bsDichiarazioni
         '
-        Me.dgvcDicAnno.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicAnno.DataPropertyName = "Anno"
-        Me.dgvcDicAnno.HeaderText = "Anno"
-        Me.dgvcDicAnno.MinimumWidth = 6
-        Me.dgvcDicAnno.Name = "dgvcDicAnno"
-        Me.dgvcDicAnno.ReadOnly = True
-        '
-        'dgvcDicCategoria
-        '
-        Me.dgvcDicCategoria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicCategoria.DataPropertyName = "CodCategoria"
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.dgvcDicCategoria.DefaultCellStyle = DataGridViewCellStyle9
-        Me.dgvcDicCategoria.HeaderText = "Cat."
-        Me.dgvcDicCategoria.MinimumWidth = 6
-        Me.dgvcDicCategoria.Name = "dgvcDicCategoria"
-        Me.dgvcDicCategoria.ReadOnly = True
-        Me.dgvcDicCategoria.Visible = False
-        Me.dgvcDicCategoria.Width = 40
-        '
-        'dgvcDicPeriodo
-        '
-        Me.dgvcDicPeriodo.DataPropertyName = "Periodo"
-        Me.dgvcDicPeriodo.HeaderText = "Periodo"
-        Me.dgvcDicPeriodo.MinimumWidth = 600
-        Me.dgvcDicPeriodo.Name = "dgvcDicPeriodo"
-        Me.dgvcDicPeriodo.ReadOnly = True
-        '
-        'dgvcDicDataRic
-        '
-        Me.dgvcDicDataRic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicDataRic.DataPropertyName = "DataRicezione"
-        DataGridViewCellStyle10.Format = "d"
-        Me.dgvcDicDataRic.DefaultCellStyle = DataGridViewCellStyle10
-        Me.dgvcDicDataRic.HeaderText = "Data ricezione"
-        Me.dgvcDicDataRic.MinimumWidth = 6
-        Me.dgvcDicDataRic.Name = "dgvcDicDataRic"
-        Me.dgvcDicDataRic.ReadOnly = True
-        Me.dgvcDicDataRic.Width = 120
-        '
-        'dgvcDicImporto
-        '
-        Me.dgvcDicImporto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicImporto.DataPropertyName = "ImportoRuolo"
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle11.Format = "c2"
-        Me.dgvcDicImporto.DefaultCellStyle = DataGridViewCellStyle11
-        Me.dgvcDicImporto.HeaderText = "Importo dovuto"
-        Me.dgvcDicImporto.MinimumWidth = 6
-        Me.dgvcDicImporto.Name = "dgvcDicImporto"
-        Me.dgvcDicImporto.ReadOnly = True
-        Me.dgvcDicImporto.Width = 110
-        '
-        'dgvcDicPagato
-        '
-        Me.dgvcDicPagato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicPagato.DataPropertyName = "ImportoPagato"
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle12.Format = "c2"
-        Me.dgvcDicPagato.DefaultCellStyle = DataGridViewCellStyle12
-        Me.dgvcDicPagato.HeaderText = "Importo Pagato"
-        Me.dgvcDicPagato.MinimumWidth = 6
-        Me.dgvcDicPagato.Name = "dgvcDicPagato"
-        Me.dgvcDicPagato.ReadOnly = True
-        Me.dgvcDicPagato.Width = 110
-        '
-        'dgvcDicData
-        '
-        Me.dgvcDicData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicData.DataPropertyName = "DataPagamento"
-        DataGridViewCellStyle13.Format = "d"
-        Me.dgvcDicData.DefaultCellStyle = DataGridViewCellStyle13
-        Me.dgvcDicData.HeaderText = "Data"
-        Me.dgvcDicData.MinimumWidth = 6
-        Me.dgvcDicData.Name = "dgvcDicData"
-        Me.dgvcDicData.ReadOnly = True
-        Me.dgvcDicData.Width = 120
-        '
-        'dgvcDicScadDic
-        '
-        Me.dgvcDicScadDic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicScadDic.DataPropertyName = "DataScadenzaDichiarazione"
-        DataGridViewCellStyle14.Format = "d"
-        Me.dgvcDicScadDic.DefaultCellStyle = DataGridViewCellStyle14
-        Me.dgvcDicScadDic.HeaderText = "Scadenza consegna dichiarazione"
-        Me.dgvcDicScadDic.MinimumWidth = 6
-        Me.dgvcDicScadDic.Name = "dgvcDicScadDic"
-        Me.dgvcDicScadDic.ReadOnly = True
-        Me.dgvcDicScadDic.Width = 200
-        '
-        'dgvcDicScadPag
-        '
-        Me.dgvcDicScadPag.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicScadPag.DataPropertyName = "DataScadenzaPagamento"
-        DataGridViewCellStyle15.Format = "d"
-        Me.dgvcDicScadPag.DefaultCellStyle = DataGridViewCellStyle15
-        Me.dgvcDicScadPag.HeaderText = "Scadenza pagamento"
-        Me.dgvcDicScadPag.MinimumWidth = 6
-        Me.dgvcDicScadPag.Name = "dgvcDicScadPag"
-        Me.dgvcDicScadPag.ReadOnly = True
-        Me.dgvcDicScadPag.Width = 120
-        '
-        'dgvcDicProroga
-        '
-        Me.dgvcDicProroga.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicProroga.DataPropertyName = "DataProroga"
-        DataGridViewCellStyle16.Format = "d"
-        Me.dgvcDicProroga.DefaultCellStyle = DataGridViewCellStyle16
-        Me.dgvcDicProroga.HeaderText = "Proroga"
-        Me.dgvcDicProroga.MinimumWidth = 6
-        Me.dgvcDicProroga.Name = "dgvcDicProroga"
-        Me.dgvcDicProroga.ReadOnly = True
-        Me.dgvcDicProroga.Width = 120
-        '
-        'dgvcDicProd
-        '
-        Me.dgvcDicProd.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicProd.DataPropertyName = "HasProdottiDichiarati"
-        Me.dgvcDicProd.HeaderText = "Prod."
-        Me.dgvcDicProd.ImageFalse = Nothing
-        Me.dgvcDicProd.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Fill_Color_Rainbow_16_n_g
-        Me.dgvcDicProd.MinimumWidth = 6
-        Me.dgvcDicProd.Name = "dgvcDicProd"
-        Me.dgvcDicProd.ReadOnly = True
-        Me.dgvcDicProd.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvcDicProd.ValueFalse = "False"
-        Me.dgvcDicProd.ValueTrue = "True"
-        Me.dgvcDicProd.Width = 80
-        '
-        'dgvcDicDocs
-        '
-        Me.dgvcDicDocs.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicDocs.DataPropertyName = "HasDocument"
-        Me.dgvcDicDocs.HeaderText = "Doc."
-        Me.dgvcDicDocs.MinimumWidth = 6
-        Me.dgvcDicDocs.Name = "dgvcDicDocs"
-        Me.dgvcDicDocs.ReadOnly = True
-        Me.dgvcDicDocs.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcDicDocs.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcDicDocs.Width = 80
-        '
-        'dgvcDicAllegato
-        '
-        Me.dgvcDicAllegato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicAllegato.DataPropertyName = "HasAllegato"
-        Me.dgvcDicAllegato.HeaderText = "All."
-        Me.dgvcDicAllegato.ImageFalse = Nothing
-        Me.dgvcDicAllegato.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Attachment_16_n_g
-        Me.dgvcDicAllegato.MinimumWidth = 6
-        Me.dgvcDicAllegato.Name = "dgvcDicAllegato"
-        Me.dgvcDicAllegato.ReadOnly = True
-        Me.dgvcDicAllegato.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvcDicAllegato.ValueFalse = "False"
-        Me.dgvcDicAllegato.ValueTrue = "True"
-        Me.dgvcDicAllegato.Width = 60
-        '
-        'dgvcDicRegDic
-        '
-        Me.dgvcDicRegDic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicRegDic.HeaderText = "R.D."
-        Me.dgvcDicRegDic.MinimumWidth = 6
-        Me.dgvcDicRegDic.Name = "dgvcDicRegDic"
-        Me.dgvcDicRegDic.ReadOnly = True
-        Me.dgvcDicRegDic.ToolTipText = "Regolarita dichiarazione"
-        Me.dgvcDicRegDic.Width = 60
-        '
-        'dgvcDicRegPag
-        '
-        Me.dgvcDicRegPag.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicRegPag.HeaderText = "R.P."
-        Me.dgvcDicRegPag.MinimumWidth = 6
-        Me.dgvcDicRegPag.Name = "dgvcDicRegPag"
-        Me.dgvcDicRegPag.ReadOnly = True
-        Me.dgvcDicRegPag.ToolTipText = "Regolarità pagamenti"
-        Me.dgvcDicRegPag.Width = 60
         '
         'pnlDicFooter
         '
@@ -2052,13 +1788,13 @@ Partial Class FAzienda
         'tsmDicGenAuto
         '
         Me.tsmDicGenAuto.Name = "tsmDicGenAuto"
-        Me.tsmDicGenAuto.Size = New System.Drawing.Size(184, 28)
+        Me.tsmDicGenAuto.Size = New System.Drawing.Size(224, 28)
         Me.tsmDicGenAuto.Text = "Automatico"
         '
         'tsmDicGenSel
         '
         Me.tsmDicGenSel.Name = "tsmDicGenSel"
-        Me.tsmDicGenSel.Size = New System.Drawing.Size(184, 28)
+        Me.tsmDicGenSel.Size = New System.Drawing.Size(224, 28)
         Me.tsmDicGenSel.Text = "Seleziona"
         '
         'tsbDicEdit
@@ -2179,172 +1915,6 @@ Partial Class FAzienda
         Me.dgvEventi.Size = New System.Drawing.Size(1772, 573)
         Me.dgvEventi.TabIndex = 36
         '
-        'dgvcEvStato
-        '
-        Me.dgvcEvStato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvStato.DataPropertyName = "Stato"
-        Me.dgvcEvStato.HeaderText = "Stato"
-        Me.dgvcEvStato.MinimumWidth = 6
-        Me.dgvcEvStato.Name = "dgvcEvStato"
-        Me.dgvcEvStato.ReadOnly = True
-        Me.dgvcEvStato.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvStato.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcEvStato.Width = 70
-        '
-        'dgvcEvIsUrgente
-        '
-        Me.dgvcEvIsUrgente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvIsUrgente.DataPropertyName = "IsUrgente"
-        Me.dgvcEvIsUrgente.HeaderText = "Urg."
-        Me.dgvcEvIsUrgente.ImageFalse = Nothing
-        Me.dgvcEvIsUrgente.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Alert_or_Warning_2_16_n_g
-        Me.dgvcEvIsUrgente.MinimumWidth = 6
-        Me.dgvcEvIsUrgente.Name = "dgvcEvIsUrgente"
-        Me.dgvcEvIsUrgente.ReadOnly = True
-        Me.dgvcEvIsUrgente.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvIsUrgente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcEvIsUrgente.ValueFalse = "False"
-        Me.dgvcEvIsUrgente.ValueTrue = "True"
-        Me.dgvcEvIsUrgente.Width = 80
-        '
-        'dgvcEvData
-        '
-        Me.dgvcEvData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvData.DataPropertyName = "Data"
-        DataGridViewCellStyle17.Format = "d"
-        Me.dgvcEvData.DefaultCellStyle = DataGridViewCellStyle17
-        Me.dgvcEvData.HeaderText = "Data"
-        Me.dgvcEvData.MinimumWidth = 6
-        Me.dgvcEvData.Name = "dgvcEvData"
-        Me.dgvcEvData.ReadOnly = True
-        Me.dgvcEvData.Width = 125
-        '
-        'dgvcEvNotifica
-        '
-        Me.dgvcEvNotifica.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvNotifica.DataPropertyName = "DataAvviso"
-        DataGridViewCellStyle18.Format = "d"
-        Me.dgvcEvNotifica.DefaultCellStyle = DataGridViewCellStyle18
-        Me.dgvcEvNotifica.HeaderText = "Notifica"
-        Me.dgvcEvNotifica.MinimumWidth = 6
-        Me.dgvcEvNotifica.Name = "dgvcEvNotifica"
-        Me.dgvcEvNotifica.ReadOnly = True
-        Me.dgvcEvNotifica.Width = 125
-        '
-        'dgvcEvRuoloNotifica
-        '
-        Me.dgvcEvRuoloNotifica.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvRuoloNotifica.DataPropertyName = "RuoloNotifica"
-        Me.dgvcEvRuoloNotifica.HeaderText = "Ruolo not."
-        Me.dgvcEvRuoloNotifica.MinimumWidth = 6
-        Me.dgvcEvRuoloNotifica.Name = "dgvcEvRuoloNotifica"
-        Me.dgvcEvRuoloNotifica.ReadOnly = True
-        Me.dgvcEvRuoloNotifica.ToolTipText = "Ruolo notifica"
-        Me.dgvcEvRuoloNotifica.Width = 120
-        '
-        'dgvcEvTipo
-        '
-        Me.dgvcEvTipo.DataPropertyName = "DescrTipo"
-        Me.dgvcEvTipo.HeaderText = "Tipo"
-        Me.dgvcEvTipo.MinimumWidth = 6
-        Me.dgvcEvTipo.Name = "dgvcEvTipo"
-        Me.dgvcEvTipo.ReadOnly = True
-        '
-        'dgvcEvUtente
-        '
-        Me.dgvcEvUtente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvUtente.DataPropertyName = "DescrUtente"
-        Me.dgvcEvUtente.HeaderText = "Utente"
-        Me.dgvcEvUtente.MinimumWidth = 6
-        Me.dgvcEvUtente.Name = "dgvcEvUtente"
-        Me.dgvcEvUtente.ReadOnly = True
-        Me.dgvcEvUtente.Width = 140
-        '
-        'dgvcEvMotivazione
-        '
-        Me.dgvcEvMotivazione.DataPropertyName = "Causale"
-        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvMotivazione.DefaultCellStyle = DataGridViewCellStyle19
-        Me.dgvcEvMotivazione.HeaderText = "Motivazione"
-        Me.dgvcEvMotivazione.MinimumWidth = 6
-        Me.dgvcEvMotivazione.Name = "dgvcEvMotivazione"
-        Me.dgvcEvMotivazione.ReadOnly = True
-        '
-        'dgvcEvIncaricato
-        '
-        Me.dgvcEvIncaricato.DataPropertyName = "Incaricato"
-        Me.dgvcEvIncaricato.HeaderText = "Incaricato"
-        Me.dgvcEvIncaricato.MinimumWidth = 6
-        Me.dgvcEvIncaricato.Name = "dgvcEvIncaricato"
-        Me.dgvcEvIncaricato.ReadOnly = True
-        '
-        'dgvcEvNote
-        '
-        Me.dgvcEvNote.DataPropertyName = "Note"
-        DataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvNote.DefaultCellStyle = DataGridViewCellStyle20
-        Me.dgvcEvNote.HeaderText = "Note"
-        Me.dgvcEvNote.MinimumWidth = 6
-        Me.dgvcEvNote.Name = "dgvcEvNote"
-        Me.dgvcEvNote.ReadOnly = True
-        '
-        'dgvcEvScadenza
-        '
-        Me.dgvcEvScadenza.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvScadenza.DataPropertyName = "Scadenza"
-        DataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvScadenza.DefaultCellStyle = DataGridViewCellStyle21
-        Me.dgvcEvScadenza.HeaderText = "Scadenza"
-        Me.dgvcEvScadenza.MinimumWidth = 6
-        Me.dgvcEvScadenza.Name = "dgvcEvScadenza"
-        Me.dgvcEvScadenza.ReadOnly = True
-        Me.dgvcEvScadenza.Width = 180
-        '
-        'dgvcEvValore
-        '
-        Me.dgvcEvValore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvValore.DataPropertyName = "Valore"
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle22.Format = "c2"
-        Me.dgvcEvValore.DefaultCellStyle = DataGridViewCellStyle22
-        Me.dgvcEvValore.HeaderText = "Valore"
-        Me.dgvcEvValore.MinimumWidth = 6
-        Me.dgvcEvValore.Name = "dgvcEvValore"
-        Me.dgvcEvValore.ReadOnly = True
-        Me.dgvcEvValore.Width = 80
-        '
-        'dgvcEvDocs
-        '
-        Me.dgvcEvDocs.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvDocs.DataPropertyName = "HasDocument"
-        Me.dgvcEvDocs.HeaderText = "Doc"
-        Me.dgvcEvDocs.ImageFalse = Nothing
-        Me.dgvcEvDocs.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Arxivar16
-        Me.dgvcEvDocs.MinimumWidth = 6
-        Me.dgvcEvDocs.Name = "dgvcEvDocs"
-        Me.dgvcEvDocs.ReadOnly = True
-        Me.dgvcEvDocs.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvDocs.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcEvDocs.ValueFalse = "False"
-        Me.dgvcEvDocs.ValueTrue = "True"
-        Me.dgvcEvDocs.Width = 60
-        '
-        'dgvcEvSys
-        '
-        Me.dgvcEvSys.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEvSys.DataPropertyName = "IsManuale"
-        Me.dgvcEvSys.HeaderText = "Sys"
-        Me.dgvcEvSys.ImageFalse = Global.PoliecoSoci.My.Resources.Resources.Options_3_16_n_g
-        Me.dgvcEvSys.ImageTrue = Nothing
-        Me.dgvcEvSys.MinimumWidth = 6
-        Me.dgvcEvSys.Name = "dgvcEvSys"
-        Me.dgvcEvSys.ReadOnly = True
-        Me.dgvcEvSys.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcEvSys.ToolTipText = "Evento di sistema"
-        Me.dgvcEvSys.ValueFalse = "False"
-        Me.dgvcEvSys.ValueTrue = "True"
-        Me.dgvcEvSys.Width = 60
-        '
         'tsEventi
         '
         Me.tsEventi.AutoSize = False
@@ -2411,9 +1981,10 @@ Partial Class FAzienda
         '
         Me.tsbEvDocArxivar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.tsbEvDocArxivar.Image = Global.PoliecoSoci.My.Resources.Resources.Arxivar32
+        Me.tsbEvDocArxivar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbEvDocArxivar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbEvDocArxivar.Name = "tsbEvDocArxivar"
-        Me.tsbEvDocArxivar.Size = New System.Drawing.Size(64, 24)
+        Me.tsbEvDocArxivar.Size = New System.Drawing.Size(64, 36)
         Me.tsbEvDocArxivar.Text = "Documenti Arxivar"
         '
         'Label37
@@ -2676,7 +2247,6 @@ Partial Class FAzienda
         '
         'Il32
         '
-        Me.Il32.ColorDepth = System.Windows.Forms.ColorDepth.Depth24Bit
         Me.Il32.ImageStream = CType(resources.GetObject("Il32.ImageStream"), System.Windows.Forms.ImageListStreamer)
         Me.Il32.TransparentColor = System.Drawing.Color.Transparent
         Me.Il32.Images.SetKeyName(0, "Contact 32 n g.gif")
@@ -2718,20 +2288,20 @@ Partial Class FAzienda
         Me.tsbArxivar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbArxivar.Name = "tsbArxivar"
         Me.tsbArxivar.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbArxivar.Size = New System.Drawing.Size(224, 40)
+        Me.tsbArxivar.Size = New System.Drawing.Size(225, 40)
         Me.tsbArxivar.Text = "Documenti Arxivar"
         Me.tsbArxivar.ToolTipText = "Documenti Arxivar"
         '
         'tsmiArxProfila
         '
         Me.tsmiArxProfila.Name = "tsmiArxProfila"
-        Me.tsmiArxProfila.Size = New System.Drawing.Size(303, 28)
+        Me.tsmiArxProfila.Size = New System.Drawing.Size(317, 28)
         Me.tsmiArxProfila.Text = "Profila nuovo documento"
         '
         'tsmiArxApri
         '
         Me.tsmiArxApri.Name = "tsmiArxApri"
-        Me.tsmiArxApri.Size = New System.Drawing.Size(303, 28)
+        Me.tsmiArxApri.Size = New System.Drawing.Size(317, 28)
         Me.tsmiArxApri.Text = "Apri documenti socio"
         '
         'tsbStampa
@@ -2742,31 +2312,31 @@ Partial Class FAzienda
         Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStampa.Name = "tsbStampa"
         Me.tsbStampa.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbStampa.Size = New System.Drawing.Size(129, 40)
+        Me.tsbStampa.Size = New System.Drawing.Size(130, 40)
         Me.tsbStampa.Text = "Stampa"
         Me.tsbStampa.ToolTipText = "Stampa"
         '
         'tsmiSchedaSocio
         '
         Me.tsmiSchedaSocio.Name = "tsmiSchedaSocio"
-        Me.tsmiSchedaSocio.Size = New System.Drawing.Size(286, 28)
+        Me.tsmiSchedaSocio.Size = New System.Drawing.Size(300, 28)
         Me.tsmiSchedaSocio.Text = "Scheda socio"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(283, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(297, 6)
         '
         'tsmiPrintDoc
         '
         Me.tsmiPrintDoc.Name = "tsmiPrintDoc"
-        Me.tsmiPrintDoc.Size = New System.Drawing.Size(286, 28)
+        Me.tsmiPrintDoc.Size = New System.Drawing.Size(300, 28)
         Me.tsmiPrintDoc.Text = "Documentazione"
         '
         'tsmiPrintLA
         '
         Me.tsmiPrintLA.Name = "tsmiPrintLA"
-        Me.tsmiPrintLA.Size = New System.Drawing.Size(286, 28)
+        Me.tsmiPrintLA.Size = New System.Drawing.Size(300, 28)
         Me.tsmiPrintLA.Text = "Lettera di accettazione"
         '
         'tsbOk
@@ -2982,6 +2552,96 @@ Partial Class FAzienda
         Me.DataGridViewBooleanImageColumn2.ValueTrue = "True"
         Me.DataGridViewBooleanImageColumn2.Width = 70
         '
+        'dgvcAttTipo
+        '
+        Me.dgvcAttTipo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcAttTipo.DataPropertyName = "CodTipoAttivita"
+        Me.dgvcAttTipo.HeaderText = "Tipo"
+        Me.dgvcAttTipo.MinimumWidth = 6
+        Me.dgvcAttTipo.Name = "dgvcAttTipo"
+        Me.dgvcAttTipo.ReadOnly = True
+        Me.dgvcAttTipo.Width = 60
+        '
+        'dgvcAttCategoria
+        '
+        Me.dgvcAttCategoria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcAttCategoria.DataPropertyName = "CodCategoria"
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.dgvcAttCategoria.DefaultCellStyle = DataGridViewCellStyle6
+        Me.dgvcAttCategoria.HeaderText = "Categoria"
+        Me.dgvcAttCategoria.MinimumWidth = 6
+        Me.dgvcAttCategoria.Name = "dgvcAttCategoria"
+        Me.dgvcAttCategoria.ReadOnly = True
+        Me.dgvcAttCategoria.Width = 120
+        '
+        'dgvcAttDescrizione
+        '
+        Me.dgvcAttDescrizione.DataPropertyName = "Descrizione"
+        Me.dgvcAttDescrizione.HeaderText = "Descrizione"
+        Me.dgvcAttDescrizione.MinimumWidth = 6
+        Me.dgvcAttDescrizione.Name = "dgvcAttDescrizione"
+        Me.dgvcAttDescrizione.ReadOnly = True
+        '
+        'dgvcAttDataIni
+        '
+        Me.dgvcAttDataIni.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcAttDataIni.DataPropertyName = "DataIniziale"
+        DataGridViewCellStyle7.Format = "d"
+        Me.dgvcAttDataIni.DefaultCellStyle = DataGridViewCellStyle7
+        Me.dgvcAttDataIni.HeaderText = "Dal"
+        Me.dgvcAttDataIni.MinimumWidth = 6
+        Me.dgvcAttDataIni.Name = "dgvcAttDataIni"
+        Me.dgvcAttDataIni.ReadOnly = True
+        Me.dgvcAttDataIni.Width = 90
+        '
+        'dgvcDataFine
+        '
+        Me.dgvcDataFine.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDataFine.DataPropertyName = "DataFinale"
+        DataGridViewCellStyle8.Format = "d"
+        Me.dgvcDataFine.DefaultCellStyle = DataGridViewCellStyle8
+        Me.dgvcDataFine.HeaderText = "Al"
+        Me.dgvcDataFine.MinimumWidth = 6
+        Me.dgvcDataFine.Name = "dgvcDataFine"
+        Me.dgvcDataFine.ReadOnly = True
+        Me.dgvcDataFine.Width = 90
+        '
+        'dgvcAttConsuntivo
+        '
+        Me.dgvcAttConsuntivo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcAttConsuntivo.DataPropertyName = "DescrConsuntivo"
+        Me.dgvcAttConsuntivo.HeaderText = "Consuntivo (Tn)"
+        Me.dgvcAttConsuntivo.MinimumWidth = 6
+        Me.dgvcAttConsuntivo.Name = "dgvcAttConsuntivo"
+        Me.dgvcAttConsuntivo.ReadOnly = True
+        Me.dgvcAttConsuntivo.Width = 180
+        '
+        'dgvcAttPreventivo
+        '
+        Me.dgvcAttPreventivo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcAttPreventivo.DataPropertyName = "DescrPreventivo"
+        Me.dgvcAttPreventivo.HeaderText = "Preventivo (Tn)"
+        Me.dgvcAttPreventivo.MinimumWidth = 6
+        Me.dgvcAttPreventivo.Name = "dgvcAttPreventivo"
+        Me.dgvcAttPreventivo.ReadOnly = True
+        Me.dgvcAttPreventivo.Width = 180
+        '
+        'dgvcAttAttrezzatura
+        '
+        Me.dgvcAttAttrezzatura.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcAttAttrezzatura.DataPropertyName = "HasAttrezzatura"
+        Me.dgvcAttAttrezzatura.HeaderText = "Attr."
+        Me.dgvcAttAttrezzatura.ImageFalse = Nothing
+        Me.dgvcAttAttrezzatura.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Options_3_16_n_g
+        Me.dgvcAttAttrezzatura.MinimumWidth = 6
+        Me.dgvcAttAttrezzatura.Name = "dgvcAttAttrezzatura"
+        Me.dgvcAttAttrezzatura.ReadOnly = True
+        Me.dgvcAttAttrezzatura.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcAttAttrezzatura.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcAttAttrezzatura.ValueFalse = "False"
+        Me.dgvcAttAttrezzatura.ValueTrue = "True"
+        Me.dgvcAttAttrezzatura.Width = 80
+        '
         'dgvcLicDescrizione
         '
         Me.dgvcLicDescrizione.DataPropertyName = "DescrLicenza"
@@ -3000,7 +2660,7 @@ Partial Class FAzienda
         Me.dgvcLicDataRichiesta.MinimumWidth = 6
         Me.dgvcLicDataRichiesta.Name = "dgvcLicDataRichiesta"
         Me.dgvcLicDataRichiesta.ReadOnly = True
-        Me.dgvcLicDataRichiesta.Width = 110
+        Me.dgvcLicDataRichiesta.Width = 180
         '
         'dgvcLicDataScadenza
         '
@@ -3012,7 +2672,7 @@ Partial Class FAzienda
         Me.dgvcLicDataScadenza.MinimumWidth = 6
         Me.dgvcLicDataScadenza.Name = "dgvcLicDataScadenza"
         Me.dgvcLicDataScadenza.ReadOnly = True
-        Me.dgvcLicDataScadenza.Width = 110
+        Me.dgvcLicDataScadenza.Width = 180
         '
         'dgvcLicDataRicevuta
         '
@@ -3024,7 +2684,351 @@ Partial Class FAzienda
         Me.dgvcLicDataRicevuta.MinimumWidth = 6
         Me.dgvcLicDataRicevuta.Name = "dgvcLicDataRicevuta"
         Me.dgvcLicDataRicevuta.ReadOnly = True
-        Me.dgvcLicDataRicevuta.Width = 110
+        Me.dgvcLicDataRicevuta.Width = 180
+        '
+        'dgvcDicAnno
+        '
+        Me.dgvcDicAnno.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicAnno.DataPropertyName = "Anno"
+        Me.dgvcDicAnno.HeaderText = "Anno"
+        Me.dgvcDicAnno.MinimumWidth = 6
+        Me.dgvcDicAnno.Name = "dgvcDicAnno"
+        Me.dgvcDicAnno.ReadOnly = True
+        Me.dgvcDicAnno.Width = 125
+        '
+        'dgvcDicCategoria
+        '
+        Me.dgvcDicCategoria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicCategoria.DataPropertyName = "CodCategoria"
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.dgvcDicCategoria.DefaultCellStyle = DataGridViewCellStyle9
+        Me.dgvcDicCategoria.HeaderText = "Cat."
+        Me.dgvcDicCategoria.MinimumWidth = 6
+        Me.dgvcDicCategoria.Name = "dgvcDicCategoria"
+        Me.dgvcDicCategoria.ReadOnly = True
+        Me.dgvcDicCategoria.Visible = False
+        Me.dgvcDicCategoria.Width = 40
+        '
+        'dgvcDicPeriodo
+        '
+        Me.dgvcDicPeriodo.DataPropertyName = "Periodo"
+        Me.dgvcDicPeriodo.HeaderText = "Periodo"
+        Me.dgvcDicPeriodo.MinimumWidth = 6
+        Me.dgvcDicPeriodo.Name = "dgvcDicPeriodo"
+        Me.dgvcDicPeriodo.ReadOnly = True
+        '
+        'dgvcDicDataRic
+        '
+        Me.dgvcDicDataRic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicDataRic.DataPropertyName = "DataRicezione"
+        DataGridViewCellStyle10.Format = "d"
+        Me.dgvcDicDataRic.DefaultCellStyle = DataGridViewCellStyle10
+        Me.dgvcDicDataRic.HeaderText = "Data ricezione"
+        Me.dgvcDicDataRic.MinimumWidth = 6
+        Me.dgvcDicDataRic.Name = "dgvcDicDataRic"
+        Me.dgvcDicDataRic.ReadOnly = True
+        Me.dgvcDicDataRic.Width = 120
+        '
+        'dgvcDicImporto
+        '
+        Me.dgvcDicImporto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicImporto.DataPropertyName = "ImportoRuolo"
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle11.Format = "c2"
+        Me.dgvcDicImporto.DefaultCellStyle = DataGridViewCellStyle11
+        Me.dgvcDicImporto.HeaderText = "Importo dovuto"
+        Me.dgvcDicImporto.MinimumWidth = 6
+        Me.dgvcDicImporto.Name = "dgvcDicImporto"
+        Me.dgvcDicImporto.ReadOnly = True
+        Me.dgvcDicImporto.Width = 110
+        '
+        'dgvcDicPagato
+        '
+        Me.dgvcDicPagato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicPagato.DataPropertyName = "ImportoPagato"
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle12.Format = "c2"
+        Me.dgvcDicPagato.DefaultCellStyle = DataGridViewCellStyle12
+        Me.dgvcDicPagato.HeaderText = "Importo Pagato"
+        Me.dgvcDicPagato.MinimumWidth = 6
+        Me.dgvcDicPagato.Name = "dgvcDicPagato"
+        Me.dgvcDicPagato.ReadOnly = True
+        Me.dgvcDicPagato.Width = 110
+        '
+        'dgvcDicData
+        '
+        Me.dgvcDicData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicData.DataPropertyName = "DataPagamento"
+        DataGridViewCellStyle13.Format = "d"
+        Me.dgvcDicData.DefaultCellStyle = DataGridViewCellStyle13
+        Me.dgvcDicData.HeaderText = "Data"
+        Me.dgvcDicData.MinimumWidth = 6
+        Me.dgvcDicData.Name = "dgvcDicData"
+        Me.dgvcDicData.ReadOnly = True
+        Me.dgvcDicData.Width = 120
+        '
+        'dgvcDicScadDic
+        '
+        Me.dgvcDicScadDic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicScadDic.DataPropertyName = "DataScadenzaDichiarazione"
+        DataGridViewCellStyle14.Format = "d"
+        Me.dgvcDicScadDic.DefaultCellStyle = DataGridViewCellStyle14
+        Me.dgvcDicScadDic.HeaderText = "Scadenza consegna dichiarazione"
+        Me.dgvcDicScadDic.MinimumWidth = 6
+        Me.dgvcDicScadDic.Name = "dgvcDicScadDic"
+        Me.dgvcDicScadDic.ReadOnly = True
+        Me.dgvcDicScadDic.Width = 200
+        '
+        'dgvcDicScadPag
+        '
+        Me.dgvcDicScadPag.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicScadPag.DataPropertyName = "DataScadenzaPagamento"
+        DataGridViewCellStyle15.Format = "d"
+        Me.dgvcDicScadPag.DefaultCellStyle = DataGridViewCellStyle15
+        Me.dgvcDicScadPag.HeaderText = "Scadenza pagamento"
+        Me.dgvcDicScadPag.MinimumWidth = 6
+        Me.dgvcDicScadPag.Name = "dgvcDicScadPag"
+        Me.dgvcDicScadPag.ReadOnly = True
+        Me.dgvcDicScadPag.Width = 120
+        '
+        'dgvcDicProroga
+        '
+        Me.dgvcDicProroga.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicProroga.DataPropertyName = "DataProroga"
+        DataGridViewCellStyle16.Format = "d"
+        Me.dgvcDicProroga.DefaultCellStyle = DataGridViewCellStyle16
+        Me.dgvcDicProroga.HeaderText = "Proroga"
+        Me.dgvcDicProroga.MinimumWidth = 6
+        Me.dgvcDicProroga.Name = "dgvcDicProroga"
+        Me.dgvcDicProroga.ReadOnly = True
+        Me.dgvcDicProroga.Width = 120
+        '
+        'dgvcDicProd
+        '
+        Me.dgvcDicProd.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicProd.DataPropertyName = "HasProdottiDichiarati"
+        Me.dgvcDicProd.HeaderText = "Prod."
+        Me.dgvcDicProd.ImageFalse = Nothing
+        Me.dgvcDicProd.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Fill_Color_Rainbow_16_n_g
+        Me.dgvcDicProd.MinimumWidth = 6
+        Me.dgvcDicProd.Name = "dgvcDicProd"
+        Me.dgvcDicProd.ReadOnly = True
+        Me.dgvcDicProd.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvcDicProd.ValueFalse = "False"
+        Me.dgvcDicProd.ValueTrue = "True"
+        Me.dgvcDicProd.Width = 80
+        '
+        'dgvcDicDocs
+        '
+        Me.dgvcDicDocs.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicDocs.DataPropertyName = "HasDocument"
+        Me.dgvcDicDocs.HeaderText = "Doc."
+        Me.dgvcDicDocs.MinimumWidth = 6
+        Me.dgvcDicDocs.Name = "dgvcDicDocs"
+        Me.dgvcDicDocs.ReadOnly = True
+        Me.dgvcDicDocs.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcDicDocs.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        '
+        'dgvcDicAllegato
+        '
+        Me.dgvcDicAllegato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicAllegato.DataPropertyName = "HasAllegato"
+        Me.dgvcDicAllegato.HeaderText = "All."
+        Me.dgvcDicAllegato.ImageFalse = Nothing
+        Me.dgvcDicAllegato.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Attachment_16_n_g
+        Me.dgvcDicAllegato.MinimumWidth = 6
+        Me.dgvcDicAllegato.Name = "dgvcDicAllegato"
+        Me.dgvcDicAllegato.ReadOnly = True
+        Me.dgvcDicAllegato.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvcDicAllegato.ValueFalse = "False"
+        Me.dgvcDicAllegato.ValueTrue = "True"
+        Me.dgvcDicAllegato.Width = 60
+        '
+        'dgvcDicRegDic
+        '
+        Me.dgvcDicRegDic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicRegDic.HeaderText = "R.D."
+        Me.dgvcDicRegDic.MinimumWidth = 6
+        Me.dgvcDicRegDic.Name = "dgvcDicRegDic"
+        Me.dgvcDicRegDic.ReadOnly = True
+        Me.dgvcDicRegDic.ToolTipText = "Regolarita dichiarazione"
+        Me.dgvcDicRegDic.Width = 60
+        '
+        'dgvcDicRegPag
+        '
+        Me.dgvcDicRegPag.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicRegPag.HeaderText = "R.P."
+        Me.dgvcDicRegPag.MinimumWidth = 6
+        Me.dgvcDicRegPag.Name = "dgvcDicRegPag"
+        Me.dgvcDicRegPag.ReadOnly = True
+        Me.dgvcDicRegPag.ToolTipText = "Regolarità pagamenti"
+        Me.dgvcDicRegPag.Width = 60
+        '
+        'dgvcEvStato
+        '
+        Me.dgvcEvStato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvStato.DataPropertyName = "Stato"
+        Me.dgvcEvStato.HeaderText = "Stato"
+        Me.dgvcEvStato.MinimumWidth = 6
+        Me.dgvcEvStato.Name = "dgvcEvStato"
+        Me.dgvcEvStato.ReadOnly = True
+        Me.dgvcEvStato.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvStato.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcEvStato.Width = 70
+        '
+        'dgvcEvIsUrgente
+        '
+        Me.dgvcEvIsUrgente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvIsUrgente.DataPropertyName = "IsUrgente"
+        Me.dgvcEvIsUrgente.HeaderText = "Urg."
+        Me.dgvcEvIsUrgente.ImageFalse = Nothing
+        Me.dgvcEvIsUrgente.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Alert_or_Warning_2_16_n_g
+        Me.dgvcEvIsUrgente.MinimumWidth = 6
+        Me.dgvcEvIsUrgente.Name = "dgvcEvIsUrgente"
+        Me.dgvcEvIsUrgente.ReadOnly = True
+        Me.dgvcEvIsUrgente.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvIsUrgente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcEvIsUrgente.ValueFalse = "False"
+        Me.dgvcEvIsUrgente.ValueTrue = "True"
+        Me.dgvcEvIsUrgente.Width = 80
+        '
+        'dgvcEvData
+        '
+        Me.dgvcEvData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvData.DataPropertyName = "Data"
+        DataGridViewCellStyle17.Format = "d"
+        Me.dgvcEvData.DefaultCellStyle = DataGridViewCellStyle17
+        Me.dgvcEvData.HeaderText = "Data"
+        Me.dgvcEvData.MinimumWidth = 6
+        Me.dgvcEvData.Name = "dgvcEvData"
+        Me.dgvcEvData.ReadOnly = True
+        Me.dgvcEvData.Width = 125
+        '
+        'dgvcEvNotifica
+        '
+        Me.dgvcEvNotifica.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvNotifica.DataPropertyName = "DataAvviso"
+        DataGridViewCellStyle18.Format = "d"
+        Me.dgvcEvNotifica.DefaultCellStyle = DataGridViewCellStyle18
+        Me.dgvcEvNotifica.HeaderText = "Notifica"
+        Me.dgvcEvNotifica.MinimumWidth = 6
+        Me.dgvcEvNotifica.Name = "dgvcEvNotifica"
+        Me.dgvcEvNotifica.ReadOnly = True
+        Me.dgvcEvNotifica.Width = 125
+        '
+        'dgvcEvRuoloNotifica
+        '
+        Me.dgvcEvRuoloNotifica.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvRuoloNotifica.DataPropertyName = "RuoloNotifica"
+        Me.dgvcEvRuoloNotifica.HeaderText = "Ruolo not."
+        Me.dgvcEvRuoloNotifica.MinimumWidth = 6
+        Me.dgvcEvRuoloNotifica.Name = "dgvcEvRuoloNotifica"
+        Me.dgvcEvRuoloNotifica.ReadOnly = True
+        Me.dgvcEvRuoloNotifica.ToolTipText = "Ruolo notifica"
+        Me.dgvcEvRuoloNotifica.Width = 150
+        '
+        'dgvcEvTipo
+        '
+        Me.dgvcEvTipo.DataPropertyName = "DescrTipo"
+        Me.dgvcEvTipo.HeaderText = "Tipo"
+        Me.dgvcEvTipo.MinimumWidth = 6
+        Me.dgvcEvTipo.Name = "dgvcEvTipo"
+        Me.dgvcEvTipo.ReadOnly = True
+        '
+        'dgvcEvUtente
+        '
+        Me.dgvcEvUtente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvUtente.DataPropertyName = "DescrUtente"
+        Me.dgvcEvUtente.HeaderText = "Utente"
+        Me.dgvcEvUtente.MinimumWidth = 6
+        Me.dgvcEvUtente.Name = "dgvcEvUtente"
+        Me.dgvcEvUtente.ReadOnly = True
+        Me.dgvcEvUtente.Width = 140
+        '
+        'dgvcEvMotivazione
+        '
+        Me.dgvcEvMotivazione.DataPropertyName = "Causale"
+        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvMotivazione.DefaultCellStyle = DataGridViewCellStyle19
+        Me.dgvcEvMotivazione.HeaderText = "Motivazione"
+        Me.dgvcEvMotivazione.MinimumWidth = 6
+        Me.dgvcEvMotivazione.Name = "dgvcEvMotivazione"
+        Me.dgvcEvMotivazione.ReadOnly = True
+        '
+        'dgvcEvIncaricato
+        '
+        Me.dgvcEvIncaricato.DataPropertyName = "Incaricato"
+        Me.dgvcEvIncaricato.HeaderText = "Incaricato"
+        Me.dgvcEvIncaricato.MinimumWidth = 6
+        Me.dgvcEvIncaricato.Name = "dgvcEvIncaricato"
+        Me.dgvcEvIncaricato.ReadOnly = True
+        '
+        'dgvcEvNote
+        '
+        Me.dgvcEvNote.DataPropertyName = "Note"
+        DataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvNote.DefaultCellStyle = DataGridViewCellStyle20
+        Me.dgvcEvNote.HeaderText = "Note"
+        Me.dgvcEvNote.MinimumWidth = 6
+        Me.dgvcEvNote.Name = "dgvcEvNote"
+        Me.dgvcEvNote.ReadOnly = True
+        '
+        'dgvcEvScadenza
+        '
+        Me.dgvcEvScadenza.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvScadenza.DataPropertyName = "Scadenza"
+        DataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvScadenza.DefaultCellStyle = DataGridViewCellStyle21
+        Me.dgvcEvScadenza.HeaderText = "Scadenza"
+        Me.dgvcEvScadenza.MinimumWidth = 6
+        Me.dgvcEvScadenza.Name = "dgvcEvScadenza"
+        Me.dgvcEvScadenza.ReadOnly = True
+        Me.dgvcEvScadenza.Width = 180
+        '
+        'dgvcEvValore
+        '
+        Me.dgvcEvValore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvValore.DataPropertyName = "Valore"
+        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle22.Format = "c2"
+        Me.dgvcEvValore.DefaultCellStyle = DataGridViewCellStyle22
+        Me.dgvcEvValore.HeaderText = "Valore"
+        Me.dgvcEvValore.MinimumWidth = 6
+        Me.dgvcEvValore.Name = "dgvcEvValore"
+        Me.dgvcEvValore.ReadOnly = True
+        Me.dgvcEvValore.Width = 80
+        '
+        'dgvcEvDocs
+        '
+        Me.dgvcEvDocs.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvDocs.DataPropertyName = "HasDocument"
+        Me.dgvcEvDocs.HeaderText = "Doc"
+        Me.dgvcEvDocs.ImageFalse = Nothing
+        Me.dgvcEvDocs.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Arxivar16
+        Me.dgvcEvDocs.MinimumWidth = 6
+        Me.dgvcEvDocs.Name = "dgvcEvDocs"
+        Me.dgvcEvDocs.ReadOnly = True
+        Me.dgvcEvDocs.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvDocs.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcEvDocs.ValueFalse = "False"
+        Me.dgvcEvDocs.ValueTrue = "True"
+        Me.dgvcEvDocs.Width = 60
+        '
+        'dgvcEvSys
+        '
+        Me.dgvcEvSys.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEvSys.DataPropertyName = "IsManuale"
+        Me.dgvcEvSys.HeaderText = "Sys"
+        Me.dgvcEvSys.ImageFalse = Global.PoliecoSoci.My.Resources.Resources.Options_3_16_n_g
+        Me.dgvcEvSys.ImageTrue = Nothing
+        Me.dgvcEvSys.MinimumWidth = 6
+        Me.dgvcEvSys.Name = "dgvcEvSys"
+        Me.dgvcEvSys.ReadOnly = True
+        Me.dgvcEvSys.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcEvSys.ToolTipText = "Evento di sistema"
+        Me.dgvcEvSys.ValueFalse = "False"
+        Me.dgvcEvSys.ValueTrue = "True"
+        Me.dgvcEvSys.Width = 60
         '
         'FAzienda
         '
@@ -3232,14 +3236,6 @@ Partial Class FAzienda
     Friend WithEvents DataGridViewTextBoxColumn15 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn16 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn17 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcAttTipo As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcAttCategoria As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcAttDescrizione As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcAttDataIni As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcDataFine As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcAttConsuntivo As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcAttPreventivo As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgvcAttAttrezzatura As mdsUIControls.DataGridViewBooleanImageColumn
     Friend WithEvents DataGridViewBooleanImageColumn1 As mdsUIControls.DataGridViewBooleanImageColumn
     Friend WithEvents pnlDichiarazioni As System.Windows.Forms.Panel
     Friend WithEvents dgvDichiarazioni As System.Windows.Forms.DataGridView
@@ -3310,6 +3306,19 @@ Partial Class FAzienda
     Friend WithEvents dgvcSedeLocalita As DataGridViewTextBoxColumn
     Friend WithEvents dgvcSedeProvincia As DataGridViewTextBoxColumn
     Friend WithEvents dgvcSedeDescrizione As DataGridViewTextBoxColumn
+    Protected WithEvents dgvEventi As DataGridView
+    Friend WithEvents dgvcLicDescrizione As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcLicDataRichiesta As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcLicDataScadenza As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcLicDataRicevuta As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcAttTipo As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcAttCategoria As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcAttDescrizione As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcAttDataIni As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcDataFine As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcAttConsuntivo As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcAttPreventivo As DataGridViewTextBoxColumn
+    Friend WithEvents dgvcAttAttrezzatura As mdsUIControls.DataGridViewBooleanImageColumn
     Friend WithEvents dgvcDicAnno As DataGridViewTextBoxColumn
     Friend WithEvents dgvcDicCategoria As DataGridViewTextBoxColumn
     Friend WithEvents dgvcDicPeriodo As DataGridViewTextBoxColumn
@@ -3325,7 +3334,6 @@ Partial Class FAzienda
     Friend WithEvents dgvcDicAllegato As mdsUIControls.DataGridViewBooleanImageColumn
     Friend WithEvents dgvcDicRegDic As DataGridViewImageColumn
     Friend WithEvents dgvcDicRegPag As DataGridViewImageColumn
-    Protected WithEvents dgvEventi As DataGridView
     Friend WithEvents dgvcEvStato As DataGridViewImageColumn
     Friend WithEvents dgvcEvIsUrgente As mdsUIControls.DataGridViewBooleanImageColumn
     Friend WithEvents dgvcEvData As DataGridViewTextBoxColumn
@@ -3340,8 +3348,4 @@ Partial Class FAzienda
     Friend WithEvents dgvcEvValore As DataGridViewTextBoxColumn
     Friend WithEvents dgvcEvDocs As mdsUIControls.DataGridViewBooleanImageColumn
     Friend WithEvents dgvcEvSys As mdsUIControls.DataGridViewBooleanImageColumn
-    Friend WithEvents dgvcLicDescrizione As DataGridViewTextBoxColumn
-    Friend WithEvents dgvcLicDataRichiesta As DataGridViewTextBoxColumn
-    Friend WithEvents dgvcLicDataScadenza As DataGridViewTextBoxColumn
-    Friend WithEvents dgvcLicDataRicevuta As DataGridViewTextBoxColumn
 End Class

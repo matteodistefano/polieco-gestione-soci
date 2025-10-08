@@ -1490,6 +1490,7 @@
     <None Include="Resources\Circle Blue 24 n p8.png" />
     <None Include="Resources\Light Blue Round 24 n p8.png" />
     <None Include="Resources\Info Round Blue 24 n p8.png" />
+    <None Include="Resources\Help Blue 24 n p8.png" />
     <Content Include="View Icons 32 n i8.ico" />
   </ItemGroup>
   <ItemGroup>

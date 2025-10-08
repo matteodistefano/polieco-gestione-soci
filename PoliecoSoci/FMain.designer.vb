@@ -146,7 +146,7 @@ Partial Class FMain
         Me.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlMain.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.pnlMain.Location = New System.Drawing.Point(0, 0)
-        Me.pnlMain.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pnlMain.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlMain.Name = "pnlMain"
         Me.pnlMain.Size = New System.Drawing.Size(1870, 1149)
         Me.pnlMain.TabIndex = 8
@@ -170,7 +170,8 @@ Partial Class FMain
         Me.tsbSoci.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbSoci.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbSoci.Name = "tsbSoci"
-        Me.tsbSoci.Size = New System.Drawing.Size(135, 125)
+        Me.tsbSoci.Padding = New System.Windows.Forms.Padding(0, 0, 10, 0)
+        Me.tsbSoci.Size = New System.Drawing.Size(145, 125)
         Me.tsbSoci.Text = "Gestione soci"
         Me.tsbSoci.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -182,7 +183,8 @@ Partial Class FMain
         Me.tsbDichiarazioni.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbDichiarazioni.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbDichiarazioni.Name = "tsbDichiarazioni"
-        Me.tsbDichiarazioni.Size = New System.Drawing.Size(139, 125)
+        Me.tsbDichiarazioni.Padding = New System.Windows.Forms.Padding(0, 0, 10, 0)
+        Me.tsbDichiarazioni.Size = New System.Drawing.Size(149, 125)
         Me.tsbDichiarazioni.Text = "Dichiarazioni"
         Me.tsbDichiarazioni.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -224,7 +226,8 @@ Partial Class FMain
         Me.tsbCDAAss.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbCDAAss.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbCDAAss.Name = "tsbCDAAss"
-        Me.tsbCDAAss.Size = New System.Drawing.Size(185, 125)
+        Me.tsbCDAAss.Padding = New System.Windows.Forms.Padding(0, 0, 10, 0)
+        Me.tsbCDAAss.Size = New System.Drawing.Size(195, 125)
         Me.tsbCDAAss.Text = "CDA && Assemblee"
         Me.tsbCDAAss.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -282,14 +285,15 @@ Partial Class FMain
         Me.tsbStatistiche.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbStatistiche.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbStatistiche.Name = "tsbStatistiche"
-        Me.tsbStatistiche.Size = New System.Drawing.Size(120, 125)
+        Me.tsbStatistiche.Padding = New System.Windows.Forms.Padding(0, 0, 10, 0)
+        Me.tsbStatistiche.Size = New System.Drawing.Size(130, 125)
         Me.tsbStatistiche.Text = "Statistiche"
         Me.tsbStatistiche.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'tsmiStatQuantitativi
         '
         Me.tsmiStatQuantitativi.Name = "tsmiStatQuantitativi"
-        Me.tsmiStatQuantitativi.Size = New System.Drawing.Size(198, 28)
+        Me.tsmiStatQuantitativi.Size = New System.Drawing.Size(224, 28)
         Me.tsmiStatQuantitativi.Text = "Quantitativi"
         '
         'tsbNotifiche
@@ -300,7 +304,8 @@ Partial Class FMain
         Me.tsbNotifiche.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbNotifiche.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbNotifiche.Name = "tsbNotifiche"
-        Me.tsbNotifiche.Size = New System.Drawing.Size(201, 125)
+        Me.tsbNotifiche.Padding = New System.Windows.Forms.Padding(0, 0, 10, 0)
+        Me.tsbNotifiche.Size = New System.Drawing.Size(211, 125)
         Me.tsbNotifiche.Text = "Controlli && Notifiche"
         Me.tsbNotifiche.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -341,7 +346,8 @@ Partial Class FMain
         Me.tsbAmministrazione.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.tsbAmministrazione.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tsbAmministrazione.Name = "tsbAmministrazione"
-        Me.tsbAmministrazione.Size = New System.Drawing.Size(177, 125)
+        Me.tsbAmministrazione.Padding = New System.Windows.Forms.Padding(0, 0, 10, 0)
+        Me.tsbAmministrazione.Size = New System.Drawing.Size(187, 125)
         Me.tsbAmministrazione.Text = "Amministrazione"
         Me.tsbAmministrazione.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -641,7 +647,7 @@ Partial Class FMain
         Me.Controls.Add(Me.pnlMain)
         Me.Controls.Add(Me.sStrip)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "FMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestione soci - Polieco"

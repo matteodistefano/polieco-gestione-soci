@@ -33,15 +33,14 @@ Partial Class FRicercaQuantitativi
         Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FRicercaQuantitativi))
         Me.tsMain = New System.Windows.Forms.ToolStrip()
+        Me.tsbDettaglio = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tsbChiudi = New System.Windows.Forms.ToolStripButton()
+        Me.tsbStampa = New System.Windows.Forms.ToolStripButton()
         Me.dgvElenco = New System.Windows.Forms.DataGridView()
-        Me.dgvcRagSoc = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcAnno = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcProv = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcCat = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcMateria = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcPeso = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.bsData = New System.Windows.Forms.BindingSource(Me.components)
         Me.pnlTop = New System.Windows.Forms.Panel()
+        Me.btnHelpImporto = New System.Windows.Forms.Button()
         Me.chkNoNull = New System.Windows.Forms.CheckBox()
         Me.cbUm = New System.Windows.Forms.ComboBox()
         Me.txtPeso = New System.Windows.Forms.TextBox()
@@ -53,6 +52,8 @@ Partial Class FRicercaQuantitativi
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.chkCatE = New System.Windows.Forms.CheckBox()
+        Me.btnReset = New System.Windows.Forms.Button()
+        Me.btnCerca = New System.Windows.Forms.Button()
         Me.chkCatD = New System.Windows.Forms.CheckBox()
         Me.chkCatC = New System.Windows.Forms.CheckBox()
         Me.chkCatB = New System.Windows.Forms.CheckBox()
@@ -65,21 +66,20 @@ Partial Class FRicercaQuantitativi
         Me.dgslPeso = New mdsUIControls.DataGridSummaryLabel()
         Me.lTotVoci = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.bsData = New System.Windows.Forms.BindingSource(Me.components)
-        Me.tsbDettaglio = New System.Windows.Forms.ToolStripButton()
-        Me.tsbChiudi = New System.Windows.Forms.ToolStripButton()
-        Me.tsbStampa = New System.Windows.Forms.ToolStripButton()
-        Me.btnHelpImporto = New System.Windows.Forms.Button()
-        Me.btnReset = New System.Windows.Forms.Button()
-        Me.btnCerca = New System.Windows.Forms.Button()
         Me.DataGridViewBooleanImageColumn1 = New mdsUIControls.DataGridViewBooleanImageColumn()
+        Me.dgvcRagSoc = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcAnno = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcProv = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcCat = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcMateria = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcPeso = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Label1 = New System.Windows.Forms.Label()
         Label5 = New System.Windows.Forms.Label()
         Me.tsMain.SuspendLayout()
         CType(Me.dgvElenco, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.bsData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlTop.SuspendLayout()
         Me.pnlBottom.SuspendLayout()
-        CType(Me.bsData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -109,16 +109,46 @@ Partial Class FRicercaQuantitativi
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbDettaglio, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 1019)
+        Me.tsMain.Location = New System.Drawing.Point(0, 917)
         Me.tsMain.Name = "tsMain"
         Me.tsMain.Size = New System.Drawing.Size(1518, 45)
         Me.tsMain.TabIndex = 4
         Me.tsMain.Text = "ToolStrip1"
         '
+        'tsbDettaglio
+        '
+        Me.tsbDettaglio.Image = Global.PoliecoSoci.My.Resources.Resources.Pencil_32_n_g
+        Me.tsbDettaglio.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbDettaglio.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbDettaglio.Name = "tsbDettaglio"
+        Me.tsbDettaglio.Size = New System.Drawing.Size(127, 42)
+        Me.tsbDettaglio.Text = "Dettaglio"
+        '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
         Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 45)
+        '
+        'tsbChiudi
+        '
+        Me.tsbChiudi.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.tsbChiudi.Image = Global.PoliecoSoci.My.Resources.Resources.SE_Arrow_32_n_g
+        Me.tsbChiudi.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbChiudi.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbChiudi.Name = "tsbChiudi"
+        Me.tsbChiudi.Padding = New System.Windows.Forms.Padding(3)
+        Me.tsbChiudi.Size = New System.Drawing.Size(108, 42)
+        Me.tsbChiudi.Text = "&Chiudi"
+        '
+        'tsbStampa
+        '
+        Me.tsbStampa.Image = Global.PoliecoSoci.My.Resources.Resources.Printer_32_n_g
+        Me.tsbStampa.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbStampa.Margin = New System.Windows.Forms.Padding(60, 1, 0, 2)
+        Me.tsbStampa.Name = "tsbStampa"
+        Me.tsbStampa.Size = New System.Drawing.Size(116, 42)
+        Me.tsbStampa.Text = "Stampa"
         '
         'dgvElenco
         '
@@ -140,79 +170,8 @@ Partial Class FRicercaQuantitativi
         Me.dgvElenco.RowHeadersVisible = False
         Me.dgvElenco.RowHeadersWidth = 51
         Me.dgvElenco.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvElenco.Size = New System.Drawing.Size(1518, 776)
+        Me.dgvElenco.Size = New System.Drawing.Size(1518, 674)
         Me.dgvElenco.TabIndex = 6
-        '
-        'dgvcRagSoc
-        '
-        Me.dgvcRagSoc.DataPropertyName = "RagioneSociale"
-        Me.dgvcRagSoc.HeaderText = "Ragione sociale"
-        Me.dgvcRagSoc.MinimumWidth = 800
-        Me.dgvcRagSoc.Name = "dgvcRagSoc"
-        Me.dgvcRagSoc.ReadOnly = True
-        '
-        'dgvcAnno
-        '
-        Me.dgvcAnno.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcAnno.DataPropertyName = "Anno"
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.dgvcAnno.DefaultCellStyle = DataGridViewCellStyle2
-        Me.dgvcAnno.HeaderText = "Anno"
-        Me.dgvcAnno.MinimumWidth = 6
-        Me.dgvcAnno.Name = "dgvcAnno"
-        Me.dgvcAnno.ReadOnly = True
-        Me.dgvcAnno.Width = 80
-        '
-        'dgvcProv
-        '
-        Me.dgvcProv.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcProv.DataPropertyName = "Provincia"
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.dgvcProv.DefaultCellStyle = DataGridViewCellStyle3
-        Me.dgvcProv.FillWeight = 50.0!
-        Me.dgvcProv.HeaderText = "Prov."
-        Me.dgvcProv.MinimumWidth = 6
-        Me.dgvcProv.Name = "dgvcProv"
-        Me.dgvcProv.ReadOnly = True
-        Me.dgvcProv.Width = 60
-        '
-        'dgvcCat
-        '
-        Me.dgvcCat.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcCat.DataPropertyName = "CodCategoria"
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.dgvcCat.DefaultCellStyle = DataGridViewCellStyle4
-        Me.dgvcCat.HeaderText = "Categoria"
-        Me.dgvcCat.MinimumWidth = 6
-        Me.dgvcCat.Name = "dgvcCat"
-        Me.dgvcCat.ReadOnly = True
-        Me.dgvcCat.Width = 110
-        '
-        'dgvcMateria
-        '
-        Me.dgvcMateria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcMateria.DataPropertyName = "CodTipo"
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        Me.dgvcMateria.DefaultCellStyle = DataGridViewCellStyle5
-        Me.dgvcMateria.FillWeight = 50.0!
-        Me.dgvcMateria.HeaderText = "Materia"
-        Me.dgvcMateria.MinimumWidth = 6
-        Me.dgvcMateria.Name = "dgvcMateria"
-        Me.dgvcMateria.ReadOnly = True
-        Me.dgvcMateria.Width = 240
-        '
-        'dgvcPeso
-        '
-        Me.dgvcPeso.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcPeso.DataPropertyName = "_ValoreTn"
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle6.Format = "n2"
-        Me.dgvcPeso.DefaultCellStyle = DataGridViewCellStyle6
-        Me.dgvcPeso.HeaderText = "Peso (Tn)"
-        Me.dgvcPeso.MinimumWidth = 6
-        Me.dgvcPeso.Name = "dgvcPeso"
-        Me.dgvcPeso.ReadOnly = True
-        Me.dgvcPeso.Width = 120
         '
         'pnlTop
         '
@@ -244,6 +203,17 @@ Partial Class FRicercaQuantitativi
         Me.pnlTop.Name = "pnlTop"
         Me.pnlTop.Size = New System.Drawing.Size(1518, 162)
         Me.pnlTop.TabIndex = 7
+        '
+        'btnHelpImporto
+        '
+        Me.btnHelpImporto.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnHelpImporto.Image = Global.PoliecoSoci.My.Resources.Resources.Info_Round_Blue_24_n_p8
+        Me.btnHelpImporto.Location = New System.Drawing.Point(1275, 10)
+        Me.btnHelpImporto.Margin = New System.Windows.Forms.Padding(6)
+        Me.btnHelpImporto.Name = "btnHelpImporto"
+        Me.btnHelpImporto.Size = New System.Drawing.Size(34, 33)
+        Me.btnHelpImporto.TabIndex = 50
+        Me.btnHelpImporto.UseVisualStyleBackColor = True
         '
         'chkNoNull
         '
@@ -364,6 +334,32 @@ Partial Class FRicercaQuantitativi
         Me.chkCatE.Text = "E"
         Me.chkCatE.UseVisualStyleBackColor = True
         '
+        'btnReset
+        '
+        Me.btnReset.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnReset.Image = Global.PoliecoSoci.My.Resources.Resources.Show_Grid_24_n_g
+        Me.btnReset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnReset.Location = New System.Drawing.Point(1341, 87)
+        Me.btnReset.Margin = New System.Windows.Forms.Padding(6)
+        Me.btnReset.Name = "btnReset"
+        Me.btnReset.Size = New System.Drawing.Size(160, 66)
+        Me.btnReset.TabIndex = 38
+        Me.btnReset.Text = "       Ripristina"
+        Me.btnReset.UseVisualStyleBackColor = True
+        '
+        'btnCerca
+        '
+        Me.btnCerca.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnCerca.Image = Global.PoliecoSoci.My.Resources.Resources.Search_32_n_g
+        Me.btnCerca.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnCerca.Location = New System.Drawing.Point(1341, 14)
+        Me.btnCerca.Margin = New System.Windows.Forms.Padding(6)
+        Me.btnCerca.Name = "btnCerca"
+        Me.btnCerca.Size = New System.Drawing.Size(160, 62)
+        Me.btnCerca.TabIndex = 37
+        Me.btnCerca.Text = "    Cerca"
+        Me.btnCerca.UseVisualStyleBackColor = True
+        '
         'chkCatD
         '
         Me.chkCatD.AutoSize = True
@@ -422,7 +418,7 @@ Partial Class FRicercaQuantitativi
         Me.ccAnno.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
         Me.ccAnno.Checked = False
         Me.ccAnno.CheckText = "Anno:"
-        Me.ccAnno.CheckWidth = 160
+        Me.ccAnno.CheckWidth = 220
         Me.ccAnno.ComboText = ""
         Me.ccAnno.DataSource = Nothing
         Me.ccAnno.DisplayMember = ""
@@ -451,7 +447,7 @@ Partial Class FRicercaQuantitativi
         Me.pnlBottom.Controls.Add(Me.lTotVoci)
         Me.pnlBottom.Controls.Add(Me.Label3)
         Me.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnlBottom.Location = New System.Drawing.Point(0, 938)
+        Me.pnlBottom.Location = New System.Drawing.Point(0, 836)
         Me.pnlBottom.Margin = New System.Windows.Forms.Padding(4)
         Me.pnlBottom.Name = "pnlBottom"
         Me.pnlBottom.Size = New System.Drawing.Size(1518, 81)
@@ -509,73 +505,6 @@ Partial Class FRicercaQuantitativi
         Me.Label3.TabIndex = 42
         Me.Label3.Text = "Totale voci:"
         '
-        'tsbDettaglio
-        '
-        Me.tsbDettaglio.Image = Global.PoliecoSoci.My.Resources.Resources.Pencil_32_n_g
-        Me.tsbDettaglio.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbDettaglio.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbDettaglio.Name = "tsbDettaglio"
-        Me.tsbDettaglio.Size = New System.Drawing.Size(127, 42)
-        Me.tsbDettaglio.Text = "Dettaglio"
-        '
-        'tsbChiudi
-        '
-        Me.tsbChiudi.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbChiudi.Image = Global.PoliecoSoci.My.Resources.Resources.SE_Arrow_32_n_g
-        Me.tsbChiudi.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbChiudi.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbChiudi.Name = "tsbChiudi"
-        Me.tsbChiudi.Padding = New System.Windows.Forms.Padding(3)
-        Me.tsbChiudi.Size = New System.Drawing.Size(108, 42)
-        Me.tsbChiudi.Text = "&Chiudi"
-        '
-        'tsbStampa
-        '
-        Me.tsbStampa.Image = Global.PoliecoSoci.My.Resources.Resources.Printer_32_n_g
-        Me.tsbStampa.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbStampa.Margin = New System.Windows.Forms.Padding(60, 1, 0, 2)
-        Me.tsbStampa.Name = "tsbStampa"
-        Me.tsbStampa.Size = New System.Drawing.Size(116, 42)
-        Me.tsbStampa.Text = "Stampa"
-        '
-        'btnHelpImporto
-        '
-        Me.btnHelpImporto.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnHelpImporto.Image = Global.PoliecoSoci.My.Resources.Resources.Info_Round_Blue_24_n_p8
-        Me.btnHelpImporto.Location = New System.Drawing.Point(1275, 10)
-        Me.btnHelpImporto.Margin = New System.Windows.Forms.Padding(6)
-        Me.btnHelpImporto.Name = "btnHelpImporto"
-        Me.btnHelpImporto.Size = New System.Drawing.Size(34, 33)
-        Me.btnHelpImporto.TabIndex = 50
-        Me.btnHelpImporto.UseVisualStyleBackColor = True
-        '
-        'btnReset
-        '
-        Me.btnReset.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnReset.Image = Global.PoliecoSoci.My.Resources.Resources.Show_Grid_24_n_g
-        Me.btnReset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnReset.Location = New System.Drawing.Point(1341, 87)
-        Me.btnReset.Margin = New System.Windows.Forms.Padding(6)
-        Me.btnReset.Name = "btnReset"
-        Me.btnReset.Size = New System.Drawing.Size(160, 66)
-        Me.btnReset.TabIndex = 38
-        Me.btnReset.Text = "       Ripristina"
-        Me.btnReset.UseVisualStyleBackColor = True
-        '
-        'btnCerca
-        '
-        Me.btnCerca.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnCerca.Image = Global.PoliecoSoci.My.Resources.Resources.Search_32_n_g
-        Me.btnCerca.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCerca.Location = New System.Drawing.Point(1341, 14)
-        Me.btnCerca.Margin = New System.Windows.Forms.Padding(6)
-        Me.btnCerca.Name = "btnCerca"
-        Me.btnCerca.Size = New System.Drawing.Size(160, 62)
-        Me.btnCerca.TabIndex = 37
-        Me.btnCerca.Text = "    Cerca"
-        Me.btnCerca.UseVisualStyleBackColor = True
-        '
         'DataGridViewBooleanImageColumn1
         '
         Me.DataGridViewBooleanImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
@@ -591,11 +520,82 @@ Partial Class FRicercaQuantitativi
         Me.DataGridViewBooleanImageColumn1.ValueTrue = "True"
         Me.DataGridViewBooleanImageColumn1.Width = 60
         '
+        'dgvcRagSoc
+        '
+        Me.dgvcRagSoc.DataPropertyName = "RagioneSociale"
+        Me.dgvcRagSoc.HeaderText = "Ragione sociale"
+        Me.dgvcRagSoc.MinimumWidth = 800
+        Me.dgvcRagSoc.Name = "dgvcRagSoc"
+        Me.dgvcRagSoc.ReadOnly = True
+        '
+        'dgvcAnno
+        '
+        Me.dgvcAnno.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcAnno.DataPropertyName = "Anno"
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.dgvcAnno.DefaultCellStyle = DataGridViewCellStyle2
+        Me.dgvcAnno.HeaderText = "Anno"
+        Me.dgvcAnno.MinimumWidth = 6
+        Me.dgvcAnno.Name = "dgvcAnno"
+        Me.dgvcAnno.ReadOnly = True
+        Me.dgvcAnno.Width = 80
+        '
+        'dgvcProv
+        '
+        Me.dgvcProv.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcProv.DataPropertyName = "Provincia"
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.dgvcProv.DefaultCellStyle = DataGridViewCellStyle3
+        Me.dgvcProv.FillWeight = 50.0!
+        Me.dgvcProv.HeaderText = "Prov."
+        Me.dgvcProv.MinimumWidth = 6
+        Me.dgvcProv.Name = "dgvcProv"
+        Me.dgvcProv.ReadOnly = True
+        Me.dgvcProv.Width = 60
+        '
+        'dgvcCat
+        '
+        Me.dgvcCat.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcCat.DataPropertyName = "CodCategoria"
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.dgvcCat.DefaultCellStyle = DataGridViewCellStyle4
+        Me.dgvcCat.HeaderText = "Categoria"
+        Me.dgvcCat.MinimumWidth = 6
+        Me.dgvcCat.Name = "dgvcCat"
+        Me.dgvcCat.ReadOnly = True
+        Me.dgvcCat.Width = 110
+        '
+        'dgvcMateria
+        '
+        Me.dgvcMateria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcMateria.DataPropertyName = "CodTipo"
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.dgvcMateria.DefaultCellStyle = DataGridViewCellStyle5
+        Me.dgvcMateria.FillWeight = 50.0!
+        Me.dgvcMateria.HeaderText = "Materia"
+        Me.dgvcMateria.MinimumWidth = 6
+        Me.dgvcMateria.Name = "dgvcMateria"
+        Me.dgvcMateria.ReadOnly = True
+        Me.dgvcMateria.Width = 240
+        '
+        'dgvcPeso
+        '
+        Me.dgvcPeso.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcPeso.DataPropertyName = "_ValoreTn"
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle6.Format = "n2"
+        Me.dgvcPeso.DefaultCellStyle = DataGridViewCellStyle6
+        Me.dgvcPeso.HeaderText = "Peso (Tn)"
+        Me.dgvcPeso.MinimumWidth = 6
+        Me.dgvcPeso.Name = "dgvcPeso"
+        Me.dgvcPeso.ReadOnly = True
+        Me.dgvcPeso.Width = 140
+        '
         'FRicercaQuantitativi
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1524, 1064)
+        Me.ClientSize = New System.Drawing.Size(1524, 962)
         Me.Controls.Add(Me.dgvElenco)
         Me.Controls.Add(Me.pnlBottom)
         Me.Controls.Add(Me.tsMain)
@@ -611,11 +611,11 @@ Partial Class FRicercaQuantitativi
         Me.tsMain.ResumeLayout(False)
         Me.tsMain.PerformLayout()
         CType(Me.dgvElenco, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.bsData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlTop.ResumeLayout(False)
         Me.pnlTop.PerformLayout()
         Me.pnlBottom.ResumeLayout(False)
         Me.pnlBottom.PerformLayout()
-        CType(Me.bsData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

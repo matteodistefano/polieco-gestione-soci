@@ -37,12 +37,12 @@ Partial Class dlgSplash
         '
         Me.lTitle.AutoSize = True
         Me.lTitle.BackColor = System.Drawing.Color.Transparent
-        Me.lTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lTitle.Font = New System.Drawing.Font("Roboto Condensed Medium", 25.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.lTitle.ForeColor = System.Drawing.Color.DarkGreen
-        Me.lTitle.Location = New System.Drawing.Point(4, 374)
+        Me.lTitle.Location = New System.Drawing.Point(26, 254)
         Me.lTitle.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lTitle.Name = "lTitle"
-        Me.lTitle.Size = New System.Drawing.Size(404, 69)
+        Me.lTitle.Size = New System.Drawing.Size(243, 51)
         Me.lTitle.TabIndex = 0
         Me.lTitle.Text = "Gestione soci"
         '
@@ -50,7 +50,7 @@ Partial Class dlgSplash
         '
         Me.lCredits.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lCredits.BackColor = System.Drawing.Color.Transparent
-        Me.lCredits.Location = New System.Drawing.Point(407, 496)
+        Me.lCredits.Location = New System.Drawing.Point(191, 374)
         Me.lCredits.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lCredits.Name = "lCredits"
         Me.lCredits.Size = New System.Drawing.Size(490, 42)
@@ -62,10 +62,10 @@ Partial Class dlgSplash
         '
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.ForeColor = System.Drawing.Color.DarkGreen
-        Me.Label1.Location = New System.Drawing.Point(610, 26)
+        Me.Label1.Location = New System.Drawing.Point(474, 16)
         Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(126, 24)
+        Me.Label1.Size = New System.Drawing.Size(127, 24)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "User name"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -74,7 +74,7 @@ Partial Class dlgSplash
         '
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.ForeColor = System.Drawing.Color.DarkGreen
-        Me.Label2.Location = New System.Drawing.Point(610, 98)
+        Me.Label2.Location = New System.Drawing.Point(474, 88)
         Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(126, 24)
@@ -84,19 +84,19 @@ Partial Class dlgSplash
         '
         'txtUser
         '
-        Me.txtUser.Location = New System.Drawing.Point(616, 56)
-        Me.txtUser.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtUser.Location = New System.Drawing.Point(478, 46)
+        Me.txtUser.Margin = New System.Windows.Forms.Padding(6)
         Me.txtUser.Name = "txtUser"
-        Me.txtUser.Size = New System.Drawing.Size(269, 32)
+        Me.txtUser.Size = New System.Drawing.Size(200, 32)
         Me.txtUser.TabIndex = 0
         '
         'txtPassword
         '
-        Me.txtPassword.Location = New System.Drawing.Point(616, 128)
-        Me.txtPassword.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtPassword.Location = New System.Drawing.Point(478, 118)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(6)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(269, 32)
+        Me.txtPassword.Size = New System.Drawing.Size(200, 32)
         Me.txtPassword.TabIndex = 1
         '
         'btnOk
@@ -106,8 +106,8 @@ Partial Class dlgSplash
         Me.btnOk.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.btnOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnOk.Image = Global.PoliecoSoci.My.Resources.Resources.OK_32_n_g
-        Me.btnOk.Location = New System.Drawing.Point(776, 176)
-        Me.btnOk.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnOk.Location = New System.Drawing.Point(566, 161)
+        Me.btnOk.Margin = New System.Windows.Forms.Padding(6)
         Me.btnOk.Name = "btnOk"
         Me.btnOk.Size = New System.Drawing.Size(51, 42)
         Me.btnOk.TabIndex = 2
@@ -120,8 +120,8 @@ Partial Class dlgSplash
         Me.btnUndo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.btnUndo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnUndo.Image = Global.PoliecoSoci.My.Resources.Resources.Undo_32_n_g
-        Me.btnUndo.Location = New System.Drawing.Point(837, 176)
-        Me.btnUndo.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnUndo.Location = New System.Drawing.Point(627, 161)
+        Me.btnUndo.Margin = New System.Windows.Forms.Padding(6)
         Me.btnUndo.Name = "btnUndo"
         Me.btnUndo.Size = New System.Drawing.Size(51, 42)
         Me.btnUndo.TabIndex = 3
@@ -132,11 +132,11 @@ Partial Class dlgSplash
         Me.txtLog.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.txtLog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtLog.ForeColor = System.Drawing.Color.DarkGreen
-        Me.txtLog.Location = New System.Drawing.Point(616, 230)
-        Me.txtLog.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txtLog.Location = New System.Drawing.Point(334, 224)
+        Me.txtLog.Margin = New System.Windows.Forms.Padding(6)
         Me.txtLog.Multiline = True
         Me.txtLog.Name = "txtLog"
-        Me.txtLog.Size = New System.Drawing.Size(278, 250)
+        Me.txtLog.Size = New System.Drawing.Size(344, 144)
         Me.txtLog.TabIndex = 8
         Me.txtLog.Visible = False
         '
@@ -146,7 +146,7 @@ Partial Class dlgSplash
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.PoliecoSoci.My.Resources.Resources.Splash2020
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(918, 555)
+        Me.ClientSize = New System.Drawing.Size(702, 433)
         Me.Controls.Add(Me.txtLog)
         Me.Controls.Add(Me.btnUndo)
         Me.Controls.Add(Me.btnOk)
@@ -160,7 +160,7 @@ Partial Class dlgSplash
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "dlgSplash"
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

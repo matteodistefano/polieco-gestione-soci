@@ -23,22 +23,22 @@ Partial Class FElencoDichiarazioni
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle33 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle34 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle35 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle36 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle37 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle38 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle39 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle40 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle41 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle42 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle43 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle44 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle45 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle46 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle47 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle48 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.pnlGrid = New System.Windows.Forms.Panel()
         Me.dgvDic = New System.Windows.Forms.DataGridView()
         Me.dgvcDicAnno = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -56,15 +56,22 @@ Partial Class FElencoDichiarazioni
         Me.dgvcDicPagato = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcDicDataPag = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgvcDicDocs = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.dgvcDicAllegato = New mdsUIControls.DataGridViewBooleanImageColumn()
         Me.dgvcDicRegDic = New System.Windows.Forms.DataGridViewImageColumn()
         Me.dgvcDicRegPag = New System.Windows.Forms.DataGridViewImageColumn()
         Me.pnlHeader = New System.Windows.Forms.Panel()
+        Me.chkStPag2 = New System.Windows.Forms.CheckBox()
         Me.lDataPag = New System.Windows.Forms.Label()
         Me.cdiDataPag = New mdsUIControls.ctlDateIntervalHorizontal()
         Me.lScadPag = New System.Windows.Forms.Label()
         Me.cdiDataScadPag = New mdsUIControls.ctlDateIntervalHorizontal()
+        Me.chkStPag1 = New System.Windows.Forms.CheckBox()
+        Me.chkStPag0 = New System.Windows.Forms.CheckBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.chkStAz2 = New System.Windows.Forms.CheckBox()
+        Me.chkStAz1 = New System.Windows.Forms.CheckBox()
+        Me.chkStAz0 = New System.Windows.Forms.CheckBox()
         Me.chkCatE = New System.Windows.Forms.CheckBox()
         Me.chkCatD = New System.Windows.Forms.CheckBox()
         Me.chkCatC = New System.Windows.Forms.CheckBox()
@@ -74,10 +81,15 @@ Partial Class FElencoDichiarazioni
         Me.Label17 = New System.Windows.Forms.Label()
         Me.lScadDic = New System.Windows.Forms.Label()
         Me.cdiDataScadDic = New mdsUIControls.ctlDateIntervalHorizontal()
+        Me.chkStDic1 = New System.Windows.Forms.CheckBox()
         Me.lDataRicezione = New System.Windows.Forms.Label()
         Me.cdiDataRic = New mdsUIControls.ctlDateIntervalHorizontal()
+        Me.chkStDic2 = New System.Windows.Forms.CheckBox()
         Me.cbAnno = New System.Windows.Forms.ComboBox()
         Me.lAnno = New System.Windows.Forms.Label()
+        Me.chkStDic0 = New System.Windows.Forms.CheckBox()
+        Me.btnReset = New System.Windows.Forms.Button()
+        Me.btnCerca = New System.Windows.Forms.Button()
         Me.txtCodice = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtRagSoc = New System.Windows.Forms.TextBox()
@@ -89,7 +101,14 @@ Partial Class FElencoDichiarazioni
         Me.Label1 = New System.Windows.Forms.Label()
         Me.pagerMov = New mdsUIControls.ucPager()
         Me.tsMain = New System.Windows.Forms.ToolStrip()
+        Me.tsbModifica = New System.Windows.Forms.ToolStripButton()
+        Me.tsbChiudi = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tsbAzienda = New System.Windows.Forms.ToolStripButton()
+        Me.tsbAltreAziende = New System.Windows.Forms.ToolStripButton()
+        Me.tsArxivar = New System.Windows.Forms.ToolStripButton()
+        Me.tsbStampa = New System.Windows.Forms.ToolStripButton()
+        Me.tsAcquisisci = New System.Windows.Forms.ToolStripButton()
         Me.Ttip = New System.Windows.Forms.ToolTip(Me.components)
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -110,25 +129,6 @@ Partial Class FElencoDichiarazioni
         Me.mcStPag = New mdsUIControls.MultiCheck(Me.components)
         Me.mcCategoria = New mdsUIControls.MultiCheck(Me.components)
         Me.DataGridViewBooleanImageColumn1 = New mdsUIControls.DataGridViewBooleanImageColumn()
-        Me.dgvcDicAllegato = New mdsUIControls.DataGridViewBooleanImageColumn()
-        Me.chkStPag2 = New System.Windows.Forms.CheckBox()
-        Me.chkStPag1 = New System.Windows.Forms.CheckBox()
-        Me.chkStPag0 = New System.Windows.Forms.CheckBox()
-        Me.chkStAz2 = New System.Windows.Forms.CheckBox()
-        Me.chkStAz1 = New System.Windows.Forms.CheckBox()
-        Me.chkStAz0 = New System.Windows.Forms.CheckBox()
-        Me.chkStDic1 = New System.Windows.Forms.CheckBox()
-        Me.chkStDic2 = New System.Windows.Forms.CheckBox()
-        Me.chkStDic0 = New System.Windows.Forms.CheckBox()
-        Me.btnReset = New System.Windows.Forms.Button()
-        Me.btnCerca = New System.Windows.Forms.Button()
-        Me.tsbModifica = New System.Windows.Forms.ToolStripButton()
-        Me.tsbChiudi = New System.Windows.Forms.ToolStripButton()
-        Me.tsbAzienda = New System.Windows.Forms.ToolStripButton()
-        Me.tsbAltreAziende = New System.Windows.Forms.ToolStripButton()
-        Me.tsArxivar = New System.Windows.Forms.ToolStripButton()
-        Me.tsbStampa = New System.Windows.Forms.ToolStripButton()
-        Me.tsAcquisisci = New System.Windows.Forms.ToolStripButton()
         Me.bsDic = New System.Windows.Forms.BindingSource(Me.components)
         Me.pnlGrid.SuspendLayout()
         CType(Me.dgvDic, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -145,7 +145,7 @@ Partial Class FElencoDichiarazioni
         Me.pnlGrid.Location = New System.Drawing.Point(0, 298)
         Me.pnlGrid.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlGrid.Name = "pnlGrid"
-        Me.pnlGrid.Size = New System.Drawing.Size(2255, 671)
+        Me.pnlGrid.Size = New System.Drawing.Size(2039, 543)
         Me.pnlGrid.TabIndex = 1
         '
         'dgvDic
@@ -162,7 +162,7 @@ Partial Class FElencoDichiarazioni
         Me.dgvDic.ReadOnly = True
         Me.dgvDic.RowHeadersWidth = 20
         Me.dgvDic.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvDic.Size = New System.Drawing.Size(2255, 671)
+        Me.dgvDic.Size = New System.Drawing.Size(2039, 543)
         Me.dgvDic.TabIndex = 37
         '
         'dgvcDicAnno
@@ -207,8 +207,8 @@ Partial Class FElencoDichiarazioni
         '
         Me.dgvcDicCategoria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicCategoria.DataPropertyName = "CodCategoria"
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.dgvcDicCategoria.DefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.dgvcDicCategoria.DefaultCellStyle = DataGridViewCellStyle33
         Me.dgvcDicCategoria.HeaderText = "Cat."
         Me.dgvcDicCategoria.MinimumWidth = 6
         Me.dgvcDicCategoria.Name = "dgvcDicCategoria"
@@ -227,9 +227,9 @@ Partial Class FElencoDichiarazioni
         '
         Me.dgvcDicNNProd.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicNNProd.DataPropertyName = "NumProdotti"
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle2.Format = "n0"
-        Me.dgvcDicNNProd.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle34.Format = "n0"
+        Me.dgvcDicNNProd.DefaultCellStyle = DataGridViewCellStyle34
         Me.dgvcDicNNProd.HeaderText = "Numero prodotti"
         Me.dgvcDicNNProd.MinimumWidth = 6
         Me.dgvcDicNNProd.Name = "dgvcDicNNProd"
@@ -240,8 +240,8 @@ Partial Class FElencoDichiarazioni
         '
         Me.dgvcDicDataRic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicDataRic.DataPropertyName = "DataRicezione"
-        DataGridViewCellStyle3.Format = "d"
-        Me.dgvcDicDataRic.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle35.Format = "d"
+        Me.dgvcDicDataRic.DefaultCellStyle = DataGridViewCellStyle35
         Me.dgvcDicDataRic.HeaderText = "Data ricezione"
         Me.dgvcDicDataRic.MinimumWidth = 6
         Me.dgvcDicDataRic.Name = "dgvcDicDataRic"
@@ -252,8 +252,8 @@ Partial Class FElencoDichiarazioni
         '
         Me.dgvcDicScadDic.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicScadDic.DataPropertyName = "DataScadenzaDichiarazione"
-        DataGridViewCellStyle4.Format = "d"
-        Me.dgvcDicScadDic.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle36.Format = "d"
+        Me.dgvcDicScadDic.DefaultCellStyle = DataGridViewCellStyle36
         Me.dgvcDicScadDic.HeaderText = "Scadenza consegna dichiarazione"
         Me.dgvcDicScadDic.MinimumWidth = 6
         Me.dgvcDicScadDic.Name = "dgvcDicScadDic"
@@ -264,8 +264,8 @@ Partial Class FElencoDichiarazioni
         '
         Me.dgvcDicScadPag.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicScadPag.DataPropertyName = "DataScadenzaPagamento"
-        DataGridViewCellStyle5.Format = "d"
-        Me.dgvcDicScadPag.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle37.Format = "d"
+        Me.dgvcDicScadPag.DefaultCellStyle = DataGridViewCellStyle37
         Me.dgvcDicScadPag.HeaderText = "Scadenza pagamento"
         Me.dgvcDicScadPag.MinimumWidth = 6
         Me.dgvcDicScadPag.Name = "dgvcDicScadPag"
@@ -276,8 +276,8 @@ Partial Class FElencoDichiarazioni
         '
         Me.dgvcDicProroga.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicProroga.DataPropertyName = "DataProroga"
-        DataGridViewCellStyle6.Format = "d"
-        Me.dgvcDicProroga.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle38.Format = "d"
+        Me.dgvcDicProroga.DefaultCellStyle = DataGridViewCellStyle38
         Me.dgvcDicProroga.HeaderText = "Proroga"
         Me.dgvcDicProroga.MinimumWidth = 6
         Me.dgvcDicProroga.Name = "dgvcDicProroga"
@@ -288,9 +288,9 @@ Partial Class FElencoDichiarazioni
         '
         Me.dgvcDicImporto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicImporto.DataPropertyName = "ImportoRuolo"
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle7.Format = "c2"
-        Me.dgvcDicImporto.DefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle39.Format = "c2"
+        Me.dgvcDicImporto.DefaultCellStyle = DataGridViewCellStyle39
         Me.dgvcDicImporto.HeaderText = "Importo dovuto"
         Me.dgvcDicImporto.MinimumWidth = 6
         Me.dgvcDicImporto.Name = "dgvcDicImporto"
@@ -301,9 +301,9 @@ Partial Class FElencoDichiarazioni
         '
         Me.dgvcDicPagato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicPagato.DataPropertyName = "ImportoPagato"
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle8.Format = "c2"
-        Me.dgvcDicPagato.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle40.Format = "c2"
+        Me.dgvcDicPagato.DefaultCellStyle = DataGridViewCellStyle40
         Me.dgvcDicPagato.HeaderText = "Importo Pagato"
         Me.dgvcDicPagato.MinimumWidth = 6
         Me.dgvcDicPagato.Name = "dgvcDicPagato"
@@ -314,8 +314,8 @@ Partial Class FElencoDichiarazioni
         '
         Me.dgvcDicDataPag.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.dgvcDicDataPag.DataPropertyName = "DataPagamento"
-        DataGridViewCellStyle9.Format = "d"
-        Me.dgvcDicDataPag.DefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle41.Format = "d"
+        Me.dgvcDicDataPag.DefaultCellStyle = DataGridViewCellStyle41
         Me.dgvcDicDataPag.HeaderText = "Data pagamento"
         Me.dgvcDicDataPag.MinimumWidth = 6
         Me.dgvcDicDataPag.Name = "dgvcDicDataPag"
@@ -333,6 +333,21 @@ Partial Class FElencoDichiarazioni
         Me.dgvcDicDocs.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.dgvcDicDocs.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         Me.dgvcDicDocs.Width = 60
+        '
+        'dgvcDicAllegato
+        '
+        Me.dgvcDicAllegato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcDicAllegato.DataPropertyName = "HasAllegato"
+        Me.dgvcDicAllegato.HeaderText = "All."
+        Me.dgvcDicAllegato.ImageFalse = Nothing
+        Me.dgvcDicAllegato.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Attachment_16_n_g
+        Me.dgvcDicAllegato.MinimumWidth = 6
+        Me.dgvcDicAllegato.Name = "dgvcDicAllegato"
+        Me.dgvcDicAllegato.ReadOnly = True
+        Me.dgvcDicAllegato.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvcDicAllegato.ValueFalse = "0"
+        Me.dgvcDicAllegato.ValueTrue = "1"
+        Me.dgvcDicAllegato.Width = 50
         '
         'dgvcDicRegDic
         '
@@ -396,8 +411,21 @@ Partial Class FElencoDichiarazioni
         Me.pnlHeader.Location = New System.Drawing.Point(0, 0)
         Me.pnlHeader.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlHeader.Name = "pnlHeader"
-        Me.pnlHeader.Size = New System.Drawing.Size(2255, 298)
+        Me.pnlHeader.Size = New System.Drawing.Size(2039, 298)
         Me.pnlHeader.TabIndex = 2
+        '
+        'chkStPag2
+        '
+        Me.chkStPag2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.chkStPag2.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Red_Round_24_n_g
+        Me.chkStPag2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.chkStPag2.Location = New System.Drawing.Point(1753, 126)
+        Me.chkStPag2.Margin = New System.Windows.Forms.Padding(6)
+        Me.chkStPag2.Name = "chkStPag2"
+        Me.chkStPag2.Size = New System.Drawing.Size(66, 46)
+        Me.chkStPag2.TabIndex = 56
+        Me.Ttip.SetToolTip(Me.chkStPag2, "Almeno una dichiarazione non regolare")
+        Me.chkStPag2.UseVisualStyleBackColor = True
         '
         'lDataPag
         '
@@ -419,7 +447,7 @@ Partial Class FElencoDichiarazioni
         Me.cdiDataPag.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.cdiDataPag.MonthFormat = False
         Me.cdiDataPag.Name = "cdiDataPag"
-        Me.cdiDataPag.Size = New System.Drawing.Size(447, 42)
+        Me.cdiDataPag.Size = New System.Drawing.Size(447, 35)
         Me.cdiDataPag.TabIndex = 55
         Me.cdiDataPag.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiDataPag.TxtBackColor = System.Drawing.SystemColors.Window
@@ -444,16 +472,44 @@ Partial Class FElencoDichiarazioni
         Me.cdiDataScadPag.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.cdiDataScadPag.MonthFormat = False
         Me.cdiDataScadPag.Name = "cdiDataScadPag"
-        Me.cdiDataScadPag.Size = New System.Drawing.Size(447, 42)
+        Me.cdiDataScadPag.Size = New System.Drawing.Size(447, 32)
         Me.cdiDataScadPag.TabIndex = 53
         Me.cdiDataScadPag.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiDataScadPag.TxtBackColor = System.Drawing.SystemColors.Window
+        '
+        'chkStPag1
+        '
+        Me.chkStPag1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.chkStPag1.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Yellow_Round_24_n_g
+        Me.chkStPag1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.chkStPag1.Location = New System.Drawing.Point(1676, 126)
+        Me.chkStPag1.Margin = New System.Windows.Forms.Padding(6)
+        Me.chkStPag1.Name = "chkStPag1"
+        Me.chkStPag1.Size = New System.Drawing.Size(66, 46)
+        Me.chkStPag1.TabIndex = 51
+        Me.Ttip.SetToolTip(Me.chkStPag1, "Almeno un pagamento non regolare")
+        Me.chkStPag1.UseVisualStyleBackColor = True
+        '
+        'chkStPag0
+        '
+        Me.chkStPag0.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.chkStPag0.Checked = True
+        Me.chkStPag0.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.chkStPag0.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_24_n_g
+        Me.chkStPag0.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.chkStPag0.Location = New System.Drawing.Point(1599, 127)
+        Me.chkStPag0.Margin = New System.Windows.Forms.Padding(6)
+        Me.chkStPag0.Name = "chkStPag0"
+        Me.chkStPag0.Size = New System.Drawing.Size(66, 46)
+        Me.chkStPag0.TabIndex = 50
+        Me.Ttip.SetToolTip(Me.chkStPag0, "Tutte le dichiarazioni regolari")
+        Me.chkStPag0.UseVisualStyleBackColor = True
         '
         'Label4
         '
         Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(1591, 136)
+        Me.Label4.Location = New System.Drawing.Point(1401, 136)
         Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(165, 24)
@@ -464,17 +520,60 @@ Partial Class FElencoDichiarazioni
         '
         Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(1591, 31)
+        Me.Label3.Location = New System.Drawing.Point(1401, 31)
         Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(133, 24)
         Me.Label3.TabIndex = 48
         Me.Label3.Text = "Stato azienda"
         '
+        'chkStAz2
+        '
+        Me.chkStAz2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.chkStAz2.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Red_Round_24_n_g
+        Me.chkStAz2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.chkStAz2.Location = New System.Drawing.Point(1753, 21)
+        Me.chkStAz2.Margin = New System.Windows.Forms.Padding(6)
+        Me.chkStAz2.Name = "chkStAz2"
+        Me.chkStAz2.Size = New System.Drawing.Size(66, 46)
+        Me.chkStAz2.TabIndex = 47
+        Me.Ttip.SetToolTip(Me.chkStAz2, "Socio uscito")
+        Me.chkStAz2.UseVisualStyleBackColor = True
+        '
+        'chkStAz1
+        '
+        Me.chkStAz1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.chkStAz1.Checked = True
+        Me.chkStAz1.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.chkStAz1.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Blue_Round_24_n_p8
+        Me.chkStAz1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.chkStAz1.Location = New System.Drawing.Point(1676, 21)
+        Me.chkStAz1.Margin = New System.Windows.Forms.Padding(6)
+        Me.chkStAz1.Name = "chkStAz1"
+        Me.chkStAz1.Size = New System.Drawing.Size(66, 46)
+        Me.chkStAz1.TabIndex = 46
+        Me.Ttip.SetToolTip(Me.chkStAz1, "Nuovo socio")
+        Me.chkStAz1.UseVisualStyleBackColor = True
+        '
+        'chkStAz0
+        '
+        Me.chkStAz0.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.chkStAz0.Checked = True
+        Me.chkStAz0.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.chkStAz0.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_24_n_g
+        Me.chkStAz0.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.chkStAz0.Location = New System.Drawing.Point(1599, 21)
+        Me.chkStAz0.Margin = New System.Windows.Forms.Padding(6)
+        Me.chkStAz0.Name = "chkStAz0"
+        Me.chkStAz0.Size = New System.Drawing.Size(66, 46)
+        Me.chkStAz0.TabIndex = 45
+        Me.Ttip.SetToolTip(Me.chkStAz0, "Socio attivo")
+        Me.chkStAz0.UseVisualStyleBackColor = True
+        '
         'chkCatE
         '
         Me.chkCatE.AutoSize = True
-        Me.chkCatE.Location = New System.Drawing.Point(1243, 160)
+        Me.chkCatE.Location = New System.Drawing.Point(1206, 160)
         Me.chkCatE.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkCatE.Name = "chkCatE"
         Me.chkCatE.Size = New System.Drawing.Size(135, 28)
@@ -485,7 +584,7 @@ Partial Class FElencoDichiarazioni
         'chkCatD
         '
         Me.chkCatD.AutoSize = True
-        Me.chkCatD.Location = New System.Drawing.Point(1243, 126)
+        Me.chkCatD.Location = New System.Drawing.Point(1206, 126)
         Me.chkCatD.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkCatD.Name = "chkCatD"
         Me.chkCatD.Size = New System.Drawing.Size(137, 28)
@@ -496,7 +595,7 @@ Partial Class FElencoDichiarazioni
         'chkCatC
         '
         Me.chkCatC.AutoSize = True
-        Me.chkCatC.Location = New System.Drawing.Point(1243, 90)
+        Me.chkCatC.Location = New System.Drawing.Point(1206, 90)
         Me.chkCatC.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkCatC.Name = "chkCatC"
         Me.chkCatC.Size = New System.Drawing.Size(137, 28)
@@ -507,7 +606,7 @@ Partial Class FElencoDichiarazioni
         'chkCatB
         '
         Me.chkCatB.AutoSize = True
-        Me.chkCatB.Location = New System.Drawing.Point(1243, 56)
+        Me.chkCatB.Location = New System.Drawing.Point(1206, 56)
         Me.chkCatB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkCatB.Name = "chkCatB"
         Me.chkCatB.Size = New System.Drawing.Size(136, 28)
@@ -518,7 +617,7 @@ Partial Class FElencoDichiarazioni
         'chkCatA
         '
         Me.chkCatA.AutoSize = True
-        Me.chkCatA.Location = New System.Drawing.Point(1243, 21)
+        Me.chkCatA.Location = New System.Drawing.Point(1206, 21)
         Me.chkCatA.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.chkCatA.Name = "chkCatA"
         Me.chkCatA.Size = New System.Drawing.Size(137, 28)
@@ -529,7 +628,7 @@ Partial Class FElencoDichiarazioni
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(1138, 21)
+        Me.Label26.Location = New System.Drawing.Point(1101, 21)
         Me.Label26.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(97, 24)
@@ -540,7 +639,7 @@ Partial Class FElencoDichiarazioni
         '
         Me.Label17.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(1591, 82)
+        Me.Label17.Location = New System.Drawing.Point(1401, 82)
         Me.Label17.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(182, 24)
@@ -567,10 +666,23 @@ Partial Class FElencoDichiarazioni
         Me.cdiDataScadDic.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.cdiDataScadDic.MonthFormat = False
         Me.cdiDataScadDic.Name = "cdiDataScadDic"
-        Me.cdiDataScadDic.Size = New System.Drawing.Size(447, 42)
+        Me.cdiDataScadDic.Size = New System.Drawing.Size(447, 32)
         Me.cdiDataScadDic.TabIndex = 20
         Me.cdiDataScadDic.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiDataScadDic.TxtBackColor = System.Drawing.SystemColors.Window
+        '
+        'chkStDic1
+        '
+        Me.chkStDic1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.chkStDic1.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Yellow_Round_24_n_g
+        Me.chkStDic1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.chkStDic1.Location = New System.Drawing.Point(1676, 72)
+        Me.chkStDic1.Margin = New System.Windows.Forms.Padding(6)
+        Me.chkStDic1.Name = "chkStDic1"
+        Me.chkStDic1.Size = New System.Drawing.Size(66, 46)
+        Me.chkStDic1.TabIndex = 37
+        Me.Ttip.SetToolTip(Me.chkStDic1, "Almeno un pagamento non regolare")
+        Me.chkStDic1.UseVisualStyleBackColor = True
         '
         'lDataRicezione
         '
@@ -592,10 +704,23 @@ Partial Class FElencoDichiarazioni
         Me.cdiDataRic.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.cdiDataRic.MonthFormat = False
         Me.cdiDataRic.Name = "cdiDataRic"
-        Me.cdiDataRic.Size = New System.Drawing.Size(447, 42)
+        Me.cdiDataRic.Size = New System.Drawing.Size(447, 32)
         Me.cdiDataRic.TabIndex = 18
         Me.cdiDataRic.TxtAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.cdiDataRic.TxtBackColor = System.Drawing.SystemColors.Window
+        '
+        'chkStDic2
+        '
+        Me.chkStDic2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.chkStDic2.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Red_Round_24_n_g
+        Me.chkStDic2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.chkStDic2.Location = New System.Drawing.Point(1753, 72)
+        Me.chkStDic2.Margin = New System.Windows.Forms.Padding(6)
+        Me.chkStDic2.Name = "chkStDic2"
+        Me.chkStDic2.Size = New System.Drawing.Size(66, 46)
+        Me.chkStDic2.TabIndex = 35
+        Me.Ttip.SetToolTip(Me.chkStDic2, "Almeno una dichiarazione non regolare")
+        Me.chkStDic2.UseVisualStyleBackColor = True
         '
         'cbAnno
         '
@@ -618,9 +743,51 @@ Partial Class FElencoDichiarazioni
         Me.lAnno.TabIndex = 11
         Me.lAnno.Text = "Anno"
         '
+        'chkStDic0
+        '
+        Me.chkStDic0.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.chkStDic0.Checked = True
+        Me.chkStDic0.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.chkStDic0.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_24_n_g
+        Me.chkStDic0.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.chkStDic0.Location = New System.Drawing.Point(1599, 72)
+        Me.chkStDic0.Margin = New System.Windows.Forms.Padding(6)
+        Me.chkStDic0.Name = "chkStDic0"
+        Me.chkStDic0.Size = New System.Drawing.Size(66, 46)
+        Me.chkStDic0.TabIndex = 33
+        Me.Ttip.SetToolTip(Me.chkStDic0, "Tutte le dichiarazioni regolari")
+        Me.chkStDic0.UseVisualStyleBackColor = True
+        '
+        'btnReset
+        '
+        Me.btnReset.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnReset.Image = Global.PoliecoSoci.My.Resources.Resources.Show_Grid_24_n_g
+        Me.btnReset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnReset.Location = New System.Drawing.Point(1858, 93)
+        Me.btnReset.Margin = New System.Windows.Forms.Padding(6)
+        Me.btnReset.Name = "btnReset"
+        Me.btnReset.Size = New System.Drawing.Size(160, 66)
+        Me.btnReset.TabIndex = 10
+        Me.btnReset.Text = "       Ripristina"
+        Me.Ttip.SetToolTip(Me.btnReset, "Ripristina i filtri alle impostazioni predefinite")
+        Me.btnReset.UseVisualStyleBackColor = True
+        '
+        'btnCerca
+        '
+        Me.btnCerca.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnCerca.Image = Global.PoliecoSoci.My.Resources.Resources.Search_32_n_g
+        Me.btnCerca.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnCerca.Location = New System.Drawing.Point(1858, 18)
+        Me.btnCerca.Margin = New System.Windows.Forms.Padding(6)
+        Me.btnCerca.Name = "btnCerca"
+        Me.btnCerca.Size = New System.Drawing.Size(160, 62)
+        Me.btnCerca.TabIndex = 9
+        Me.btnCerca.Text = "    Cerca"
+        Me.btnCerca.UseVisualStyleBackColor = True
+        '
         'txtCodice
         '
-        Me.txtCodice.Location = New System.Drawing.Point(881, 21)
+        Me.txtCodice.Location = New System.Drawing.Point(844, 21)
         Me.txtCodice.Margin = New System.Windows.Forms.Padding(6)
         Me.txtCodice.Name = "txtCodice"
         Me.txtCodice.Size = New System.Drawing.Size(224, 32)
@@ -629,7 +796,7 @@ Partial Class FElencoDichiarazioni
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(717, 21)
+        Me.Label2.Location = New System.Drawing.Point(680, 21)
         Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(146, 24)
@@ -638,7 +805,7 @@ Partial Class FElencoDichiarazioni
         '
         'txtRagSoc
         '
-        Me.txtRagSoc.Location = New System.Drawing.Point(881, 66)
+        Me.txtRagSoc.Location = New System.Drawing.Point(844, 66)
         Me.txtRagSoc.Margin = New System.Windows.Forms.Padding(6)
         Me.txtRagSoc.Name = "txtRagSoc"
         Me.txtRagSoc.Size = New System.Drawing.Size(224, 32)
@@ -647,7 +814,7 @@ Partial Class FElencoDichiarazioni
         'lRagioneSociale
         '
         Me.lRagioneSociale.AutoSize = True
-        Me.lRagioneSociale.Location = New System.Drawing.Point(717, 66)
+        Me.lRagioneSociale.Location = New System.Drawing.Point(680, 66)
         Me.lRagioneSociale.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lRagioneSociale.Name = "lRagioneSociale"
         Me.lRagioneSociale.Size = New System.Drawing.Size(150, 24)
@@ -662,10 +829,10 @@ Partial Class FElencoDichiarazioni
         Me.pnlBottom.Controls.Add(Me.Label1)
         Me.pnlBottom.Controls.Add(Me.pagerMov)
         Me.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnlBottom.Location = New System.Drawing.Point(0, 969)
+        Me.pnlBottom.Location = New System.Drawing.Point(0, 841)
         Me.pnlBottom.Margin = New System.Windows.Forms.Padding(6)
         Me.pnlBottom.Name = "pnlBottom"
-        Me.pnlBottom.Size = New System.Drawing.Size(2255, 110)
+        Me.pnlBottom.Size = New System.Drawing.Size(2039, 110)
         Me.pnlBottom.TabIndex = 0
         '
         'txtTotPagato
@@ -725,23 +892,100 @@ Partial Class FElencoDichiarazioni
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbModifica, Me.tsbChiudi, Me.ToolStripSeparator1, Me.tsbAzienda, Me.tsbAltreAziende, Me.tsArxivar, Me.tsbStampa, Me.tsAcquisisci})
-        Me.tsMain.Location = New System.Drawing.Point(0, 1079)
+        Me.tsMain.Location = New System.Drawing.Point(0, 951)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(2255, 43)
+        Me.tsMain.Size = New System.Drawing.Size(2039, 43)
         Me.tsMain.TabIndex = 4
         Me.tsMain.Text = "ToolStrip1"
+        '
+        'tsbModifica
+        '
+        Me.tsbModifica.Image = Global.PoliecoSoci.My.Resources.Resources.Edit_32_n_g
+        Me.tsbModifica.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbModifica.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbModifica.Name = "tsbModifica"
+        Me.tsbModifica.Padding = New System.Windows.Forms.Padding(2)
+        Me.tsbModifica.Size = New System.Drawing.Size(171, 40)
+        Me.tsbModifica.Text = "Dichiarazione"
+        Me.tsbModifica.ToolTipText = "Modifica"
+        '
+        'tsbChiudi
+        '
+        Me.tsbChiudi.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.tsbChiudi.Image = Global.PoliecoSoci.My.Resources.Resources.SE_Arrow_32_n_g
+        Me.tsbChiudi.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbChiudi.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbChiudi.Name = "tsbChiudi"
+        Me.tsbChiudi.Padding = New System.Windows.Forms.Padding(2)
+        Me.tsbChiudi.Size = New System.Drawing.Size(106, 40)
+        Me.tsbChiudi.Text = "Chiudi"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
         Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 43)
         '
+        'tsbAzienda
+        '
+        Me.tsbAzienda.Image = Global.PoliecoSoci.My.Resources.Resources.Factory_32_n_g
+        Me.tsbAzienda.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbAzienda.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbAzienda.Name = "tsbAzienda"
+        Me.tsbAzienda.Padding = New System.Windows.Forms.Padding(2)
+        Me.tsbAzienda.Size = New System.Drawing.Size(122, 40)
+        Me.tsbAzienda.Text = "Azienda"
+        Me.tsbAzienda.ToolTipText = "Allegati"
+        '
+        'tsbAltreAziende
+        '
+        Me.tsbAltreAziende.Image = Global.PoliecoSoci.My.Resources.Resources.Attachment_32_n_g
+        Me.tsbAltreAziende.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbAltreAziende.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbAltreAziende.Name = "tsbAltreAziende"
+        Me.tsbAltreAziende.Padding = New System.Windows.Forms.Padding(2)
+        Me.tsbAltreAziende.Size = New System.Drawing.Size(118, 40)
+        Me.tsbAltreAziende.Text = "Allegati"
+        Me.tsbAltreAziende.ToolTipText = "Allegati"
+        '
+        'tsArxivar
+        '
+        Me.tsArxivar.Image = Global.PoliecoSoci.My.Resources.Resources.Arxivar32
+        Me.tsArxivar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsArxivar.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsArxivar.Name = "tsArxivar"
+        Me.tsArxivar.Padding = New System.Windows.Forms.Padding(2)
+        Me.tsArxivar.Size = New System.Drawing.Size(147, 40)
+        Me.tsArxivar.Text = "Documenti"
+        '
+        'tsbStampa
+        '
+        Me.tsbStampa.Enabled = False
+        Me.tsbStampa.Image = Global.PoliecoSoci.My.Resources.Resources.Printer_32_n_g
+        Me.tsbStampa.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsbStampa.Name = "tsbStampa"
+        Me.tsbStampa.Padding = New System.Windows.Forms.Padding(2)
+        Me.tsbStampa.Size = New System.Drawing.Size(204, 40)
+        Me.tsbStampa.Text = "Stampa - Esporta"
+        Me.tsbStampa.ToolTipText = "Stampa"
+        '
+        'tsAcquisisci
+        '
+        Me.tsAcquisisci.Image = Global.PoliecoSoci.My.Resources.Resources.Database_Check_In_32_n_g
+        Me.tsAcquisisci.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.tsAcquisisci.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tsAcquisisci.Margin = New System.Windows.Forms.Padding(20, 1, 0, 2)
+        Me.tsAcquisisci.Name = "tsAcquisisci"
+        Me.tsAcquisisci.Padding = New System.Windows.Forms.Padding(2)
+        Me.tsAcquisisci.Size = New System.Drawing.Size(211, 40)
+        Me.tsAcquisisci.Text = "Acquisisci allegati"
+        '
         'DataGridViewTextBoxColumn1
         '
         Me.DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.DataGridViewTextBoxColumn1.DataPropertyName = "CbTipoConto"
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.DataGridViewTextBoxColumn1.DefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DataGridViewTextBoxColumn1.DefaultCellStyle = DataGridViewCellStyle42
         Me.DataGridViewTextBoxColumn1.HeaderText = "Tipo"
         Me.DataGridViewTextBoxColumn1.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
@@ -763,8 +1007,8 @@ Partial Class FElencoDichiarazioni
         '
         Me.DataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.DataGridViewTextBoxColumn3.DataPropertyName = "CbDescrizione"
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.DataGridViewTextBoxColumn3.DefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DataGridViewTextBoxColumn3.DefaultCellStyle = DataGridViewCellStyle43
         Me.DataGridViewTextBoxColumn3.FillWeight = 30.0!
         Me.DataGridViewTextBoxColumn3.HeaderText = "Conto"
         Me.DataGridViewTextBoxColumn3.MinimumWidth = 6
@@ -776,9 +1020,9 @@ Partial Class FElencoDichiarazioni
         '
         Me.DataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.DataGridViewTextBoxColumn4.DataPropertyName = "Competenza"
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle12.Format = "d"
-        Me.DataGridViewTextBoxColumn4.DefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle44.Format = "d"
+        Me.DataGridViewTextBoxColumn4.DefaultCellStyle = DataGridViewCellStyle44
         Me.DataGridViewTextBoxColumn4.FillWeight = 30.0!
         Me.DataGridViewTextBoxColumn4.HeaderText = "Competenza"
         Me.DataGridViewTextBoxColumn4.MinimumWidth = 6
@@ -790,8 +1034,8 @@ Partial Class FElencoDichiarazioni
         '
         Me.DataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.DataGridViewTextBoxColumn5.DataPropertyName = "CbCodProvincia"
-        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridViewTextBoxColumn5.DefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle45.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridViewTextBoxColumn5.DefaultCellStyle = DataGridViewCellStyle45
         Me.DataGridViewTextBoxColumn5.HeaderText = "Prov."
         Me.DataGridViewTextBoxColumn5.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
@@ -802,9 +1046,9 @@ Partial Class FElencoDichiarazioni
         '
         Me.DataGridViewTextBoxColumn6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.DataGridViewTextBoxColumn6.DataPropertyName = "DataImportazione"
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle14.Format = "d"
-        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle46.Format = "d"
+        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle46
         Me.DataGridViewTextBoxColumn6.HeaderText = "Data imp."
         Me.DataGridViewTextBoxColumn6.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
@@ -815,9 +1059,9 @@ Partial Class FElencoDichiarazioni
         '
         Me.DataGridViewTextBoxColumn7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.DataGridViewTextBoxColumn7.DataPropertyName = "DataSaldoFinale"
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle15.Format = "d"
-        Me.DataGridViewTextBoxColumn7.DefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle47.Format = "d"
+        Me.DataGridViewTextBoxColumn7.DefaultCellStyle = DataGridViewCellStyle47
         Me.DataGridViewTextBoxColumn7.HeaderText = "Data saldo"
         Me.DataGridViewTextBoxColumn7.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
@@ -828,10 +1072,10 @@ Partial Class FElencoDichiarazioni
         '
         Me.DataGridViewTextBoxColumn8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.DataGridViewTextBoxColumn8.DataPropertyName = "SaldoContabileFinale"
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle16.Format = "C2"
-        DataGridViewCellStyle16.NullValue = Nothing
-        Me.DataGridViewTextBoxColumn8.DefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle48.Format = "C2"
+        DataGridViewCellStyle48.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn8.DefaultCellStyle = DataGridViewCellStyle48
         Me.DataGridViewTextBoxColumn8.HeaderText = "Saldo"
         Me.DataGridViewTextBoxColumn8.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn8.Name = "DataGridViewTextBoxColumn8"
@@ -935,255 +1179,11 @@ Partial Class FElencoDichiarazioni
         Me.DataGridViewBooleanImageColumn1.ValueTrue = "1"
         Me.DataGridViewBooleanImageColumn1.Width = 30
         '
-        'dgvcDicAllegato
-        '
-        Me.dgvcDicAllegato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcDicAllegato.DataPropertyName = "HasAllegato"
-        Me.dgvcDicAllegato.HeaderText = "All."
-        Me.dgvcDicAllegato.ImageFalse = Nothing
-        Me.dgvcDicAllegato.ImageTrue = Global.PoliecoSoci.My.Resources.Resources.Attachment_16_n_g
-        Me.dgvcDicAllegato.MinimumWidth = 6
-        Me.dgvcDicAllegato.Name = "dgvcDicAllegato"
-        Me.dgvcDicAllegato.ReadOnly = True
-        Me.dgvcDicAllegato.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvcDicAllegato.ValueFalse = "0"
-        Me.dgvcDicAllegato.ValueTrue = "1"
-        Me.dgvcDicAllegato.Width = 50
-        '
-        'chkStPag2
-        '
-        Me.chkStPag2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.chkStPag2.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Red_Round_24_n_g
-        Me.chkStPag2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkStPag2.Location = New System.Drawing.Point(1958, 126)
-        Me.chkStPag2.Margin = New System.Windows.Forms.Padding(6)
-        Me.chkStPag2.Name = "chkStPag2"
-        Me.chkStPag2.Size = New System.Drawing.Size(66, 46)
-        Me.chkStPag2.TabIndex = 56
-        Me.Ttip.SetToolTip(Me.chkStPag2, "Almeno una dichiarazione non regolare")
-        Me.chkStPag2.UseVisualStyleBackColor = True
-        '
-        'chkStPag1
-        '
-        Me.chkStPag1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.chkStPag1.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Yellow_Round_24_n_g
-        Me.chkStPag1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkStPag1.Location = New System.Drawing.Point(1881, 126)
-        Me.chkStPag1.Margin = New System.Windows.Forms.Padding(6)
-        Me.chkStPag1.Name = "chkStPag1"
-        Me.chkStPag1.Size = New System.Drawing.Size(66, 46)
-        Me.chkStPag1.TabIndex = 51
-        Me.Ttip.SetToolTip(Me.chkStPag1, "Almeno un pagamento non regolare")
-        Me.chkStPag1.UseVisualStyleBackColor = True
-        '
-        'chkStPag0
-        '
-        Me.chkStPag0.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.chkStPag0.Checked = True
-        Me.chkStPag0.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkStPag0.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_24_n_g
-        Me.chkStPag0.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkStPag0.Location = New System.Drawing.Point(1804, 127)
-        Me.chkStPag0.Margin = New System.Windows.Forms.Padding(6)
-        Me.chkStPag0.Name = "chkStPag0"
-        Me.chkStPag0.Size = New System.Drawing.Size(66, 46)
-        Me.chkStPag0.TabIndex = 50
-        Me.Ttip.SetToolTip(Me.chkStPag0, "Tutte le dichiarazioni regolari")
-        Me.chkStPag0.UseVisualStyleBackColor = True
-        '
-        'chkStAz2
-        '
-        Me.chkStAz2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.chkStAz2.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Red_Round_24_n_g
-        Me.chkStAz2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkStAz2.Location = New System.Drawing.Point(1958, 21)
-        Me.chkStAz2.Margin = New System.Windows.Forms.Padding(6)
-        Me.chkStAz2.Name = "chkStAz2"
-        Me.chkStAz2.Size = New System.Drawing.Size(66, 46)
-        Me.chkStAz2.TabIndex = 47
-        Me.Ttip.SetToolTip(Me.chkStAz2, "Socio uscito")
-        Me.chkStAz2.UseVisualStyleBackColor = True
-        '
-        'chkStAz1
-        '
-        Me.chkStAz1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.chkStAz1.Checked = True
-        Me.chkStAz1.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkStAz1.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Blue_Round_24_n_p8
-        Me.chkStAz1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkStAz1.Location = New System.Drawing.Point(1881, 21)
-        Me.chkStAz1.Margin = New System.Windows.Forms.Padding(6)
-        Me.chkStAz1.Name = "chkStAz1"
-        Me.chkStAz1.Size = New System.Drawing.Size(66, 46)
-        Me.chkStAz1.TabIndex = 46
-        Me.Ttip.SetToolTip(Me.chkStAz1, "Nuovo socio")
-        Me.chkStAz1.UseVisualStyleBackColor = True
-        '
-        'chkStAz0
-        '
-        Me.chkStAz0.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.chkStAz0.Checked = True
-        Me.chkStAz0.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkStAz0.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_24_n_g
-        Me.chkStAz0.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkStAz0.Location = New System.Drawing.Point(1804, 21)
-        Me.chkStAz0.Margin = New System.Windows.Forms.Padding(6)
-        Me.chkStAz0.Name = "chkStAz0"
-        Me.chkStAz0.Size = New System.Drawing.Size(66, 46)
-        Me.chkStAz0.TabIndex = 45
-        Me.Ttip.SetToolTip(Me.chkStAz0, "Socio attivo")
-        Me.chkStAz0.UseVisualStyleBackColor = True
-        '
-        'chkStDic1
-        '
-        Me.chkStDic1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.chkStDic1.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Yellow_Round_24_n_g
-        Me.chkStDic1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkStDic1.Location = New System.Drawing.Point(1881, 72)
-        Me.chkStDic1.Margin = New System.Windows.Forms.Padding(6)
-        Me.chkStDic1.Name = "chkStDic1"
-        Me.chkStDic1.Size = New System.Drawing.Size(66, 46)
-        Me.chkStDic1.TabIndex = 37
-        Me.Ttip.SetToolTip(Me.chkStDic1, "Almeno un pagamento non regolare")
-        Me.chkStDic1.UseVisualStyleBackColor = True
-        '
-        'chkStDic2
-        '
-        Me.chkStDic2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.chkStDic2.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Red_Round_24_n_g
-        Me.chkStDic2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkStDic2.Location = New System.Drawing.Point(1958, 72)
-        Me.chkStDic2.Margin = New System.Windows.Forms.Padding(6)
-        Me.chkStDic2.Name = "chkStDic2"
-        Me.chkStDic2.Size = New System.Drawing.Size(66, 46)
-        Me.chkStDic2.TabIndex = 35
-        Me.Ttip.SetToolTip(Me.chkStDic2, "Almeno una dichiarazione non regolare")
-        Me.chkStDic2.UseVisualStyleBackColor = True
-        '
-        'chkStDic0
-        '
-        Me.chkStDic0.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.chkStDic0.Checked = True
-        Me.chkStDic0.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkStDic0.Image = Global.PoliecoSoci.My.Resources.Resources.Light_Green_Round_24_n_g
-        Me.chkStDic0.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.chkStDic0.Location = New System.Drawing.Point(1804, 72)
-        Me.chkStDic0.Margin = New System.Windows.Forms.Padding(6)
-        Me.chkStDic0.Name = "chkStDic0"
-        Me.chkStDic0.Size = New System.Drawing.Size(66, 46)
-        Me.chkStDic0.TabIndex = 33
-        Me.Ttip.SetToolTip(Me.chkStDic0, "Tutte le dichiarazioni regolari")
-        Me.chkStDic0.UseVisualStyleBackColor = True
-        '
-        'btnReset
-        '
-        Me.btnReset.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnReset.Image = Global.PoliecoSoci.My.Resources.Resources.Show_Grid_24_n_g
-        Me.btnReset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnReset.Location = New System.Drawing.Point(2074, 93)
-        Me.btnReset.Margin = New System.Windows.Forms.Padding(6)
-        Me.btnReset.Name = "btnReset"
-        Me.btnReset.Size = New System.Drawing.Size(160, 66)
-        Me.btnReset.TabIndex = 10
-        Me.btnReset.Text = "       Ripristina"
-        Me.Ttip.SetToolTip(Me.btnReset, "Ripristina i filtri alle impostazioni predefinite")
-        Me.btnReset.UseVisualStyleBackColor = True
-        '
-        'btnCerca
-        '
-        Me.btnCerca.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnCerca.Image = Global.PoliecoSoci.My.Resources.Resources.Search_32_n_g
-        Me.btnCerca.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCerca.Location = New System.Drawing.Point(2074, 18)
-        Me.btnCerca.Margin = New System.Windows.Forms.Padding(6)
-        Me.btnCerca.Name = "btnCerca"
-        Me.btnCerca.Size = New System.Drawing.Size(160, 62)
-        Me.btnCerca.TabIndex = 9
-        Me.btnCerca.Text = "    Cerca"
-        Me.btnCerca.UseVisualStyleBackColor = True
-        '
-        'tsbModifica
-        '
-        Me.tsbModifica.Image = Global.PoliecoSoci.My.Resources.Resources.Edit_32_n_g
-        Me.tsbModifica.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbModifica.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbModifica.Name = "tsbModifica"
-        Me.tsbModifica.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbModifica.Size = New System.Drawing.Size(171, 40)
-        Me.tsbModifica.Text = "Dichiarazione"
-        Me.tsbModifica.ToolTipText = "Modifica"
-        '
-        'tsbChiudi
-        '
-        Me.tsbChiudi.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tsbChiudi.Image = Global.PoliecoSoci.My.Resources.Resources.SE_Arrow_32_n_g
-        Me.tsbChiudi.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbChiudi.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbChiudi.Name = "tsbChiudi"
-        Me.tsbChiudi.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbChiudi.Size = New System.Drawing.Size(106, 40)
-        Me.tsbChiudi.Text = "Chiudi"
-        '
-        'tsbAzienda
-        '
-        Me.tsbAzienda.Image = Global.PoliecoSoci.My.Resources.Resources.Factory_32_n_g
-        Me.tsbAzienda.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbAzienda.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbAzienda.Name = "tsbAzienda"
-        Me.tsbAzienda.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbAzienda.Size = New System.Drawing.Size(122, 40)
-        Me.tsbAzienda.Text = "Azienda"
-        Me.tsbAzienda.ToolTipText = "Allegati"
-        '
-        'tsbAltreAziende
-        '
-        Me.tsbAltreAziende.Image = Global.PoliecoSoci.My.Resources.Resources.Attachment_32_n_g
-        Me.tsbAltreAziende.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbAltreAziende.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbAltreAziende.Name = "tsbAltreAziende"
-        Me.tsbAltreAziende.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbAltreAziende.Size = New System.Drawing.Size(118, 40)
-        Me.tsbAltreAziende.Text = "Allegati"
-        Me.tsbAltreAziende.ToolTipText = "Allegati"
-        '
-        'tsArxivar
-        '
-        Me.tsArxivar.Image = Global.PoliecoSoci.My.Resources.Resources.Arxivar32
-        Me.tsArxivar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsArxivar.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsArxivar.Name = "tsArxivar"
-        Me.tsArxivar.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsArxivar.Size = New System.Drawing.Size(147, 40)
-        Me.tsArxivar.Text = "Documenti"
-        '
-        'tsbStampa
-        '
-        Me.tsbStampa.Enabled = False
-        Me.tsbStampa.Image = Global.PoliecoSoci.My.Resources.Resources.Printer_32_n_g
-        Me.tsbStampa.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsbStampa.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbStampa.Name = "tsbStampa"
-        Me.tsbStampa.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsbStampa.Size = New System.Drawing.Size(204, 40)
-        Me.tsbStampa.Text = "Stampa - Esporta"
-        Me.tsbStampa.ToolTipText = "Stampa"
-        '
-        'tsAcquisisci
-        '
-        Me.tsAcquisisci.Image = Global.PoliecoSoci.My.Resources.Resources.Database_Check_In_32_n_g
-        Me.tsAcquisisci.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.tsAcquisisci.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsAcquisisci.Margin = New System.Windows.Forms.Padding(20, 1, 0, 2)
-        Me.tsAcquisisci.Name = "tsAcquisisci"
-        Me.tsAcquisisci.Padding = New System.Windows.Forms.Padding(2)
-        Me.tsAcquisisci.Size = New System.Drawing.Size(211, 40)
-        Me.tsAcquisisci.Text = "Acquisisci allegati"
-        '
         'FElencoDichiarazioni
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(2255, 1122)
+        Me.ClientSize = New System.Drawing.Size(2039, 994)
         Me.Controls.Add(Me.pnlGrid)
         Me.Controls.Add(Me.pnlBottom)
         Me.Controls.Add(Me.pnlHeader)

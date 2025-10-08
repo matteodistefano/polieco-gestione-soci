@@ -29,10 +29,10 @@ Partial Class FElencoDOL
         Dim Label3 As System.Windows.Forms.Label
         Dim Label4 As System.Windows.Forms.Label
         Dim Label5 As System.Windows.Forms.Label
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FElencoDOL))
         Me.tsMain = New System.Windows.Forms.ToolStrip()
         Me.tsbNuova = New System.Windows.Forms.ToolStripButton()
@@ -44,6 +44,14 @@ Partial Class FElencoDOL
         Me.tsbAnalizza = New System.Windows.Forms.ToolStripButton()
         Me.tsbStampa = New System.Windows.Forms.ToolStripButton()
         Me.dgvElenco = New System.Windows.Forms.DataGridView()
+        Me.dgvcProtocollo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcData = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcAnno = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcScadRifPer = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcCategoria = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcSede = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcEsito = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvcStato = New System.Windows.Forms.DataGridViewImageColumn()
         Me.cmGrid = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.tsmiAnnulla = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
@@ -66,14 +74,6 @@ Partial Class FElencoDOL
         Me.ccAnno = New mdsUIControls.ucCheckedCombo()
         Me.mcStato = New mdsUIControls.MultiCheck(Me.components)
         Me.DataGridViewBooleanImageColumn1 = New mdsUIControls.DataGridViewBooleanImageColumn()
-        Me.dgvcProtocollo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcData = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcAnno = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcScadRifPer = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcCategoria = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcSede = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcEsito = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgvcStato = New System.Windows.Forms.DataGridViewImageColumn()
         CognomeNomeLabel = New System.Windows.Forms.Label()
         Label1 = New System.Windows.Forms.Label()
         Label2 = New System.Windows.Forms.Label()
@@ -154,9 +154,9 @@ Partial Class FElencoDOL
         Me.tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.tsMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.tsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNuova, Me.tsbModifica, Me.tsbElimina, Me.ToolStripSeparator1, Me.tsbChiudi, Me.tsbLoadFolder, Me.tsbAnalizza, Me.tsbStampa})
-        Me.tsMain.Location = New System.Drawing.Point(0, 1019)
+        Me.tsMain.Location = New System.Drawing.Point(0, 817)
         Me.tsMain.Name = "tsMain"
-        Me.tsMain.Size = New System.Drawing.Size(1764, 45)
+        Me.tsMain.Size = New System.Drawing.Size(1623, 45)
         Me.tsMain.TabIndex = 4
         Me.tsMain.Text = "ToolStrip1"
         '
@@ -242,8 +242,8 @@ Partial Class FElencoDOL
         Me.dgvElenco.AllowUserToAddRows = False
         Me.dgvElenco.AllowUserToDeleteRows = False
         Me.dgvElenco.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.dgvElenco.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.dgvElenco.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
         Me.dgvElenco.AutoGenerateColumns = False
         Me.dgvElenco.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgvElenco.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
@@ -253,14 +253,100 @@ Partial Class FElencoDOL
         Me.dgvElenco.DataSource = Me.bsData
         Me.dgvElenco.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvElenco.Location = New System.Drawing.Point(0, 192)
-        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.dgvElenco.Margin = New System.Windows.Forms.Padding(6)
         Me.dgvElenco.Name = "dgvElenco"
         Me.dgvElenco.ReadOnly = True
         Me.dgvElenco.RowHeadersVisible = False
         Me.dgvElenco.RowHeadersWidth = 51
         Me.dgvElenco.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvElenco.Size = New System.Drawing.Size(1764, 827)
+        Me.dgvElenco.Size = New System.Drawing.Size(1623, 625)
         Me.dgvElenco.TabIndex = 6
+        '
+        'dgvcProtocollo
+        '
+        Me.dgvcProtocollo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcProtocollo.DataPropertyName = "Protocollo"
+        Me.dgvcProtocollo.HeaderText = "Protocollo"
+        Me.dgvcProtocollo.MinimumWidth = 6
+        Me.dgvcProtocollo.Name = "dgvcProtocollo"
+        Me.dgvcProtocollo.ReadOnly = True
+        Me.dgvcProtocollo.Width = 180
+        '
+        'dgvcData
+        '
+        Me.dgvcData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcData.DataPropertyName = "DataCompilazione"
+        DataGridViewCellStyle6.Format = "d"
+        Me.dgvcData.DefaultCellStyle = DataGridViewCellStyle6
+        Me.dgvcData.HeaderText = "Data compilazione"
+        Me.dgvcData.MinimumWidth = 6
+        Me.dgvcData.Name = "dgvcData"
+        Me.dgvcData.ReadOnly = True
+        Me.dgvcData.Width = 210
+        '
+        'dgvcAnno
+        '
+        Me.dgvcAnno.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcAnno.DataPropertyName = "Anno"
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.dgvcAnno.DefaultCellStyle = DataGridViewCellStyle7
+        Me.dgvcAnno.HeaderText = "Anno"
+        Me.dgvcAnno.MinimumWidth = 6
+        Me.dgvcAnno.Name = "dgvcAnno"
+        Me.dgvcAnno.ReadOnly = True
+        Me.dgvcAnno.Width = 125
+        '
+        'dgvcScadRifPer
+        '
+        Me.dgvcScadRifPer.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcScadRifPer.DataPropertyName = "Periodo"
+        Me.dgvcScadRifPer.HeaderText = "Periodo"
+        Me.dgvcScadRifPer.MinimumWidth = 6
+        Me.dgvcScadRifPer.Name = "dgvcScadRifPer"
+        Me.dgvcScadRifPer.ReadOnly = True
+        Me.dgvcScadRifPer.Width = 90
+        '
+        'dgvcCategoria
+        '
+        Me.dgvcCategoria.DataPropertyName = "DichiarazioneRagioneSociale"
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        Me.dgvcCategoria.DefaultCellStyle = DataGridViewCellStyle8
+        Me.dgvcCategoria.FillWeight = 50.0!
+        Me.dgvcCategoria.HeaderText = "Azienda"
+        Me.dgvcCategoria.MinimumWidth = 6
+        Me.dgvcCategoria.Name = "dgvcCategoria"
+        Me.dgvcCategoria.ReadOnly = True
+        '
+        'dgvcSede
+        '
+        Me.dgvcSede.DataPropertyName = "DichiarazioneSedeLegale"
+        Me.dgvcSede.FillWeight = 50.0!
+        Me.dgvcSede.HeaderText = "Sede"
+        Me.dgvcSede.MinimumWidth = 6
+        Me.dgvcSede.Name = "dgvcSede"
+        Me.dgvcSede.ReadOnly = True
+        '
+        'dgvcEsito
+        '
+        Me.dgvcEsito.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcEsito.DataPropertyName = "EsitoAnalisi"
+        Me.dgvcEsito.HeaderText = "Esito"
+        Me.dgvcEsito.MinimumWidth = 6
+        Me.dgvcEsito.Name = "dgvcEsito"
+        Me.dgvcEsito.ReadOnly = True
+        Me.dgvcEsito.Width = 200
+        '
+        'dgvcStato
+        '
+        Me.dgvcStato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.dgvcStato.DataPropertyName = "Stato"
+        Me.dgvcStato.HeaderText = "Stato"
+        Me.dgvcStato.MinimumWidth = 6
+        Me.dgvcStato.Name = "dgvcStato"
+        Me.dgvcStato.ReadOnly = True
+        Me.dgvcStato.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvcStato.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.dgvcStato.Width = 70
         '
         'cmGrid
         '
@@ -322,7 +408,7 @@ Partial Class FElencoDOL
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1764, 192)
+        Me.Panel1.Size = New System.Drawing.Size(1623, 192)
         Me.Panel1.TabIndex = 7
         '
         'btnReset
@@ -330,8 +416,8 @@ Partial Class FElencoDOL
         Me.btnReset.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnReset.Image = Global.PoliecoSoci.My.Resources.Resources.Show_Grid_24_n_g
         Me.btnReset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnReset.Location = New System.Drawing.Point(1585, 87)
-        Me.btnReset.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnReset.Location = New System.Drawing.Point(1444, 87)
+        Me.btnReset.Margin = New System.Windows.Forms.Padding(6)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(160, 66)
         Me.btnReset.TabIndex = 38
@@ -343,8 +429,8 @@ Partial Class FElencoDOL
         Me.btnCerca.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnCerca.Image = Global.PoliecoSoci.My.Resources.Resources.Search_32_n_g
         Me.btnCerca.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCerca.Location = New System.Drawing.Point(1585, 14)
-        Me.btnCerca.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnCerca.Location = New System.Drawing.Point(1444, 14)
+        Me.btnCerca.Margin = New System.Windows.Forms.Padding(6)
         Me.btnCerca.Name = "btnCerca"
         Me.btnCerca.Size = New System.Drawing.Size(160, 62)
         Me.btnCerca.TabIndex = 37
@@ -353,7 +439,7 @@ Partial Class FElencoDOL
         '
         'chkStatoANN
         '
-        Me.chkStatoANN.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_16_n_g
+        Me.chkStatoANN.Image = Global.PoliecoSoci.My.Resources.Resources.Red_Delete_24_n_g
         Me.chkStatoANN.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.chkStatoANN.Location = New System.Drawing.Point(908, 134)
         Me.chkStatoANN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
@@ -365,7 +451,7 @@ Partial Class FElencoDOL
         '
         'chkStatoASS
         '
-        Me.chkStatoASS.Image = Global.PoliecoSoci.My.Resources.Resources.OK_16_n_g
+        Me.chkStatoASS.Image = Global.PoliecoSoci.My.Resources.Resources.OK_24_n_g
         Me.chkStatoASS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.chkStatoASS.Location = New System.Drawing.Point(908, 91)
         Me.chkStatoASS.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
@@ -377,7 +463,7 @@ Partial Class FElencoDOL
         '
         'chkStatoVAL
         '
-        Me.chkStatoVAL.Image = Global.PoliecoSoci.My.Resources.Resources.ANGEM_16
+        Me.chkStatoVAL.Image = Global.PoliecoSoci.My.Resources.Resources.ANGEM_32
         Me.chkStatoVAL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.chkStatoVAL.Location = New System.Drawing.Point(908, 48)
         Me.chkStatoVAL.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
@@ -389,7 +475,7 @@ Partial Class FElencoDOL
         '
         'chkStatoINS
         '
-        Me.chkStatoINS.Image = Global.PoliecoSoci.My.Resources.Resources.Help_Blue_16_n_g
+        Me.chkStatoINS.Image = CType(resources.GetObject("chkStatoINS.Image"), System.Drawing.Image)
         Me.chkStatoINS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.chkStatoINS.Location = New System.Drawing.Point(908, 2)
         Me.chkStatoINS.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
@@ -445,18 +531,18 @@ Partial Class FElencoDOL
         Me.ccAnno.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
         Me.ccAnno.Checked = False
         Me.ccAnno.CheckText = "Anno"
-        Me.ccAnno.CheckWidth = 96
+        Me.ccAnno.CheckWidth = 182
         Me.ccAnno.ComboText = ""
         Me.ccAnno.DataSource = Nothing
         Me.ccAnno.DisplayMember = ""
         Me.ccAnno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown
-        Me.ccAnno.Location = New System.Drawing.Point(38, 99)
+        Me.ccAnno.Location = New System.Drawing.Point(20, 99)
         Me.ccAnno.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.ccAnno.MaxDropDownItems = 8
         Me.ccAnno.Name = "ccAnno"
         Me.ccAnno.SelectedIndex = -1
         Me.ccAnno.SelectedValue = Nothing
-        Me.ccAnno.Size = New System.Drawing.Size(224, 39)
+        Me.ccAnno.Size = New System.Drawing.Size(326, 39)
         Me.ccAnno.TabIndex = 2
         Me.ccAnno.ValueFieldName = Nothing
         Me.ccAnno.ValueMember = ""
@@ -482,103 +568,17 @@ Partial Class FElencoDOL
         Me.DataGridViewBooleanImageColumn1.ValueTrue = "True"
         Me.DataGridViewBooleanImageColumn1.Width = 60
         '
-        'dgvcProtocollo
-        '
-        Me.dgvcProtocollo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcProtocollo.DataPropertyName = "Protocollo"
-        Me.dgvcProtocollo.HeaderText = "Protocollo"
-        Me.dgvcProtocollo.MinimumWidth = 6
-        Me.dgvcProtocollo.Name = "dgvcProtocollo"
-        Me.dgvcProtocollo.ReadOnly = True
-        Me.dgvcProtocollo.Width = 180
-        '
-        'dgvcData
-        '
-        Me.dgvcData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcData.DataPropertyName = "DataCompilazione"
-        DataGridViewCellStyle2.Format = "d"
-        Me.dgvcData.DefaultCellStyle = DataGridViewCellStyle2
-        Me.dgvcData.HeaderText = "Data compilazione"
-        Me.dgvcData.MinimumWidth = 6
-        Me.dgvcData.Name = "dgvcData"
-        Me.dgvcData.ReadOnly = True
-        Me.dgvcData.Width = 140
-        '
-        'dgvcAnno
-        '
-        Me.dgvcAnno.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcAnno.DataPropertyName = "Anno"
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.dgvcAnno.DefaultCellStyle = DataGridViewCellStyle3
-        Me.dgvcAnno.HeaderText = "Anno"
-        Me.dgvcAnno.MinimumWidth = 6
-        Me.dgvcAnno.Name = "dgvcAnno"
-        Me.dgvcAnno.ReadOnly = True
-        Me.dgvcAnno.Width = 125
-        '
-        'dgvcScadRifPer
-        '
-        Me.dgvcScadRifPer.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcScadRifPer.DataPropertyName = "Periodo"
-        Me.dgvcScadRifPer.HeaderText = "Periodo"
-        Me.dgvcScadRifPer.MinimumWidth = 6
-        Me.dgvcScadRifPer.Name = "dgvcScadRifPer"
-        Me.dgvcScadRifPer.ReadOnly = True
-        Me.dgvcScadRifPer.Width = 90
-        '
-        'dgvcCategoria
-        '
-        Me.dgvcCategoria.DataPropertyName = "DichiarazioneRagioneSociale"
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        Me.dgvcCategoria.DefaultCellStyle = DataGridViewCellStyle4
-        Me.dgvcCategoria.FillWeight = 50.0!
-        Me.dgvcCategoria.HeaderText = "Azienda"
-        Me.dgvcCategoria.MinimumWidth = 6
-        Me.dgvcCategoria.Name = "dgvcCategoria"
-        Me.dgvcCategoria.ReadOnly = True
-        '
-        'dgvcSede
-        '
-        Me.dgvcSede.DataPropertyName = "DichiarazioneSedeLegale"
-        Me.dgvcSede.FillWeight = 50.0!
-        Me.dgvcSede.HeaderText = "Sede"
-        Me.dgvcSede.MinimumWidth = 6
-        Me.dgvcSede.Name = "dgvcSede"
-        Me.dgvcSede.ReadOnly = True
-        '
-        'dgvcEsito
-        '
-        Me.dgvcEsito.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcEsito.DataPropertyName = "EsitoAnalisi"
-        Me.dgvcEsito.HeaderText = "Esito"
-        Me.dgvcEsito.MinimumWidth = 6
-        Me.dgvcEsito.Name = "dgvcEsito"
-        Me.dgvcEsito.ReadOnly = True
-        Me.dgvcEsito.Width = 200
-        '
-        'dgvcStato
-        '
-        Me.dgvcStato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.dgvcStato.DataPropertyName = "Stato"
-        Me.dgvcStato.HeaderText = "Stato"
-        Me.dgvcStato.MinimumWidth = 6
-        Me.dgvcStato.Name = "dgvcStato"
-        Me.dgvcStato.ReadOnly = True
-        Me.dgvcStato.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvcStato.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.dgvcStato.Width = 70
-        '
         'FElencoDOL
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1764, 1064)
+        Me.ClientSize = New System.Drawing.Size(1623, 862)
         Me.Controls.Add(Me.dgvElenco)
         Me.Controls.Add(Me.tsMain)
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "FElencoDOL"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Elenco dichiarazioni compilate on-line"
