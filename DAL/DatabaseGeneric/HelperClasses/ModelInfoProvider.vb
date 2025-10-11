@@ -351,6 +351,7 @@ Namespace DAL.HelperClasses
 			Me.AddFieldIndexEnumForElementName(GetType(ProdottoDichiaratoFieldIndex), "ProdottoDichiaratoEntity")
 			Me.AddElementFieldInfo("ProdottoDichiaratoEntity", "Descrizione", GetType( System.String), False, False, False, False,  CInt(ProdottoDichiaratoFieldIndex.Descrizione), 500, 0, 0)
 			Me.AddElementFieldInfo("ProdottoDichiaratoEntity", "Id", GetType( System.Int32), True, False, True, False,  CInt(ProdottoDichiaratoFieldIndex.Id), 0, 0, 10)
+			Me.AddElementFieldInfo("ProdottoDichiaratoEntity", "IdCategoria", GetType(Nullable(Of System.Int32)), False, False, False, True,  CInt(ProdottoDichiaratoFieldIndex.IdCategoria), 0, 0, 10)
 			Me.AddElementFieldInfo("ProdottoDichiaratoEntity", "IdDichiarazione", GetType( System.Int32), False, True, False, False,  CInt(ProdottoDichiaratoFieldIndex.IdDichiarazione), 0, 0, 10)
 			Me.AddElementFieldInfo("ProdottoDichiaratoEntity", "QtaRiciclato", GetType(Nullable(Of System.Decimal)), False, False, False, True,  CInt(ProdottoDichiaratoFieldIndex.QtaRiciclato), 0, 0, 18)
 			Me.AddElementFieldInfo("ProdottoDichiaratoEntity", "QtaVergine", GetType(Nullable(Of System.Decimal)), False, False, False, True,  CInt(ProdottoDichiaratoFieldIndex.QtaVergine), 0, 0, 18)

@@ -431,6 +431,15 @@ Public Class FAggiornaDB
         Az.RequiredAppVersion = "0.6.3.0"
         Controlli.Add(Az)
 
+        '********** VERSIONE 0.6.4.0 *******************
+
+        Az.Versione = "000000.55"
+        Az.Descrizione = "Adegumento risoluzione font"
+        Az.Routine = AddressOf RT00055_AddKeyProdotti
+        Az.RequiredAppVersion = "0.6.4.0"
+        Controlli.Add(Az)
+
+
     End Sub
 
     Protected Overrides Sub OnLeggiVersione(ByRef V As String)
@@ -1702,6 +1711,24 @@ Public Class FAggiornaDB
             Return False
         End Try
     End Function
+
+    Private Function RT00055_AddKeyProdotti(ByRef Msg As String) As Boolean
+        Dim Sql As String
+        Try
+            If Not EsisteCampo("ProdottoDichiarato", "IdCategoria") Then
+
+                Sql = "ALTER TABLE ProdottoDichiarato ADD IdCategoria INT"
+
+                SSHelper.ExecDbQuery(Sql)
+            End If
+
+            Return True
+        Catch ex As Exception
+            Msg = ex.Message
+            Return False
+        End Try
+    End Function
+
 
 #End Region
 

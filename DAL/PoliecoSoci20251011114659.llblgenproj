@@ -381,7 +381,6 @@
         <Fields>
           <Field Name="Descrizione" Type="string" MaxLength="500" />
           <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
-          <Field Name="IdCategoria" Type="int" IsOptional="true" Precision="10" />
           <Field Name="IdDichiarazione" Type="int" Precision="10" />
           <Field Name="QtaRiciclato" Type="decimal" IsOptional="true" Precision="18" />
           <Field Name="QtaVergine" Type="decimal" IsOptional="true" Precision="18" />
@@ -1058,7 +1057,7 @@
   <TargetDatabases>
     <TargetDatabase Type="2D18D138-1DD2-467E-86CC-4838250611AE" SyncSource="2">
       <ConnectionElements>
-        <ConnectionElement Name="ServerName" Value=".\SQLEXPRESS01" />
+        <ConnectionElement Name="ServerName" Value=".\ss2014" />
         <ConnectionElement Name="CatalogName" Value="master" />
         <ConnectionElement Name="UseWindowsAuthentication" Value="true" />
         <ConnectionElement Name="UserID" Value="" />
@@ -1071,7 +1070,7 @@
       <Catalogs>
         <Catalog Name="SociPolieco">
           <Schemas>
-            <Schema Name="Allegati" SyncSource="2" LastSyncWithDatabase="2025-10-11T09:48:20.6636231Z">
+            <Schema Name="Allegati" SyncSource="2" LastSyncWithDatabase="2025-10-01T18:02:44.2367982Z">
               <Tables>
                 <Table Name="Allegato">
                   <PkConstraintName Name="PK__Allegato__3214EC07BFEBDD1A" />
@@ -1141,7 +1140,7 @@
                 </View>
               </Views>
             </Schema>
-            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2025-10-11T09:48:20.8186229Z">
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2025-10-01T18:02:44.4437368Z">
               <Tables>
                 <Table Name="Attivita">
                   <PkConstraintName Name="PK__Attivita__151B244E" />
@@ -1398,7 +1397,6 @@
                     <Field Name="Descrizione" Ordinal="3" DbType="24" Length="500" />
                     <Field Name="QtaVergine" Ordinal="4" IsOptional="true" DbType="5" Precision="18" />
                     <Field Name="QtaRiciclato" Ordinal="5" IsOptional="true" DbType="5" Precision="18" />
-                    <Field Name="IdCategoria" Ordinal="6" IsOptional="true" DbType="8" Precision="10" />
                   </Fields>
                 </Table>
                 <Table Name="provincia">
@@ -1667,7 +1665,7 @@
                 </StoredProcedure>
               </StoredProcedures>
             </Schema>
-            <Schema Name="Lookup" SyncSource="2" LastSyncWithDatabase="2025-10-11T09:48:21.0193742Z">
+            <Schema Name="Lookup" SyncSource="2" LastSyncWithDatabase="2025-10-01T18:02:44.7308548Z">
               <Tables>
                 <Table Name="AliquotaIVA">
                   <PkConstraintName Name="PK__Aliquota__CFAD1C5160FC61CA" />
@@ -2416,7 +2414,6 @@
           <FieldMappings>
             <FieldMapping FieldName="Descrizione" TargetFieldName="Descrizione" />
             <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
-            <FieldMapping FieldName="IdCategoria" TargetFieldName="IdCategoria" />
             <FieldMapping FieldName="IdDichiarazione" TargetFieldName="IdDichiarazione" />
             <FieldMapping FieldName="QtaRiciclato" TargetFieldName="QtaRiciclato" />
             <FieldMapping FieldName="QtaVergine" TargetFieldName="QtaVergine" />

@@ -1084,6 +1084,12 @@ Namespace DAL.HelperClasses
 				Return ModelInfoProviderSingleton.GetInstance().CreateField2(ProdottoDichiaratoFieldIndex.Id)
 			End Get
 		End Property
+		''' <summary>Creates a new ProdottoDichiaratoEntity.IdCategoria field instance</summary>
+		Public Shared ReadOnly Property [IdCategoria] As EntityField2
+			Get 
+				Return ModelInfoProviderSingleton.GetInstance().CreateField2(ProdottoDichiaratoFieldIndex.IdCategoria)
+			End Get
+		End Property
 		''' <summary>Creates a new ProdottoDichiaratoEntity.IdDichiarazione field instance</summary>
 		Public Shared ReadOnly Property [IdDichiarazione] As EntityField2
 			Get 

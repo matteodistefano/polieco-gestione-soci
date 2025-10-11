@@ -347,12 +347,13 @@ Namespace DAL.DatabaseSpecific
 
 		''' <summary>Inits ProdottoDichiaratoEntity's mappings</summary>
 		Private Sub InitProdottoDichiaratoEntityMappings()
-			Me.AddElementMapping("ProdottoDichiaratoEntity", "SociPolieco", "dbo", "ProdottoDichiarato", 5, 0)
+			Me.AddElementMapping("ProdottoDichiaratoEntity", "SociPolieco", "dbo", "ProdottoDichiarato", 6, 0)
 			Me.AddElementFieldMapping("ProdottoDichiaratoEntity", "Descrizione", "Descrizione", False, "VarChar", 500, 0, 0, False, "", Nothing, GetType(System.String), 0)
 			Me.AddElementFieldMapping("ProdottoDichiaratoEntity", "Id", "Id", False, "Int", 0, 10, 0, True, "SCOPE_IDENTITY()", Nothing, GetType(System.Int32), 1)
-			Me.AddElementFieldMapping("ProdottoDichiaratoEntity", "IdDichiarazione", "IdDichiarazione", False, "Int", 0, 10, 0, False, "", Nothing, GetType(System.Int32), 2)
-			Me.AddElementFieldMapping("ProdottoDichiaratoEntity", "QtaRiciclato", "QtaRiciclato", True, "Decimal", 0, 18, 0, False, "", Nothing, GetType(System.Decimal), 3)
-			Me.AddElementFieldMapping("ProdottoDichiaratoEntity", "QtaVergine", "QtaVergine", True, "Decimal", 0, 18, 0, False, "", Nothing, GetType(System.Decimal), 4)
+			Me.AddElementFieldMapping("ProdottoDichiaratoEntity", "IdCategoria", "IdCategoria", True, "Int", 0, 10, 0, False, "", Nothing, GetType(System.Int32), 2)
+			Me.AddElementFieldMapping("ProdottoDichiaratoEntity", "IdDichiarazione", "IdDichiarazione", False, "Int", 0, 10, 0, False, "", Nothing, GetType(System.Int32), 3)
+			Me.AddElementFieldMapping("ProdottoDichiaratoEntity", "QtaRiciclato", "QtaRiciclato", True, "Decimal", 0, 18, 0, False, "", Nothing, GetType(System.Decimal), 4)
+			Me.AddElementFieldMapping("ProdottoDichiaratoEntity", "QtaVergine", "QtaVergine", True, "Decimal", 0, 18, 0, False, "", Nothing, GetType(System.Decimal), 5)
 		End Sub
 
 		''' <summary>Inits ProvinciaEntity's mappings</summary>

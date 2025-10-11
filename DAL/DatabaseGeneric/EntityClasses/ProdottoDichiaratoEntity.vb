@@ -181,6 +181,17 @@ Namespace DAL.EntityClasses
 			End Set
 		End Property
 
+		''' <summary>The IdCategoria property of the Entity ProdottoDichiarato<br/><br/></summary>
+		''' <remarks> Mapped on  table field: "ProdottoDichiarato"."IdCategoria".<br/>Table field type characteristics (type, precision, scale, length): Int, 10, 0, 0.<br/>Table field behavior characteristics (is nullable, is PK, is identity): True, False, False</remarks>
+		Public Overridable Property [IdCategoria]() As Nullable(Of System.Int32)
+			Get
+				Return CType(GetValue(CInt(ProdottoDichiaratoFieldIndex.IdCategoria), False), Nullable(Of System.Int32))
+			End Get
+			Set
+				SetValue(CInt(ProdottoDichiaratoFieldIndex.IdCategoria), value)
+			End Set
+		End Property
+
 		''' <summary>The IdDichiarazione property of the Entity ProdottoDichiarato<br/><br/></summary>
 		''' <remarks> Mapped on  table field: "ProdottoDichiarato"."IdDichiarazione".<br/>Table field type characteristics (type, precision, scale, length): Int, 10, 0, 0.<br/>Table field behavior characteristics (is nullable, is PK, is identity): False, False, False</remarks>
 		Public Overridable Property [IdDichiarazione]() As System.Int32
@@ -241,6 +252,7 @@ Namespace DAL
 	Public Enum ProdottoDichiaratoFieldIndex
 		[Descrizione]
 		[Id]
+		[IdCategoria]
 		[IdDichiarazione]
 		[QtaRiciclato]
 		[QtaVergine]
