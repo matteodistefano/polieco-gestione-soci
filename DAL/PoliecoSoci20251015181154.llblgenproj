@@ -1071,7 +1071,7 @@
       <Catalogs>
         <Catalog Name="SociPolieco">
           <Schemas>
-            <Schema Name="Allegati" SyncSource="2" LastSyncWithDatabase="2025-10-15T16:12:12.2520734Z">
+            <Schema Name="Allegati" SyncSource="2" LastSyncWithDatabase="2025-10-11T09:48:20.6636231Z">
               <Tables>
                 <Table Name="Allegato">
                   <PkConstraintName Name="PK__Allegato__3214EC07BFEBDD1A" />
@@ -1141,7 +1141,7 @@
                 </View>
               </Views>
             </Schema>
-            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2025-10-15T16:12:12.4140717Z">
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2025-10-11T09:48:20.8186229Z">
               <Tables>
                 <Table Name="Attivita">
                   <PkConstraintName Name="PK__Attivita__151B244E" />
@@ -1667,7 +1667,7 @@
                 </StoredProcedure>
               </StoredProcedures>
             </Schema>
-            <Schema Name="Lookup" SyncSource="2" LastSyncWithDatabase="2025-10-15T16:12:12.6437098Z">
+            <Schema Name="Lookup" SyncSource="2" LastSyncWithDatabase="2025-10-11T09:48:21.0193742Z">
               <Tables>
                 <Table Name="AliquotaIVA">
                   <PkConstraintName Name="PK__Aliquota__CFAD1C5160FC61CA" />

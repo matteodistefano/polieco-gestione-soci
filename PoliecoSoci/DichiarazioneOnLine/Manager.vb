@@ -372,6 +372,7 @@ Public Class Manager
                 For Each rwProd As Datasets.dsDichiarazione2019.ProdottoRow In ds.Prodotto.Rows
                     Dim pd As ProdottoDichiaratoEntity = dic.ElencoProdottiDichiarati.AddNew
                     pd.Descrizione = rwProd.Descrizione & ""
+                    pd.IdCategoria = rwProd.Id
                     pd.QtaVergine = CDec(mdsUtility.Dataset.IsNull(rwProd.QtaVergine, 0))
                     pd.QtaRiciclato = CDec(mdsUtility.Dataset.IsNull(rwProd.QtaRiciclato, 0))
                 Next
